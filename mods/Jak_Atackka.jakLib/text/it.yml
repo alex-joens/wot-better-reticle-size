@@ -1,0 +1,36 @@
+betterReticleSize.modname: Migliorata dimensione del mirino
+betterReticleSize.gunMarkerMinimumSize.title: Dimensione minima del mirino
+betterReticleSize.gunMarkerMinimumSize.description: {HEADER}Dimensione minima del mirino{/HEADER}{BODY}Limita la misura in cui è possibile restringere visibilmente il mirino. Se lo imposti su 0, la dimensione del mirino è sempre precisa, ma potrebbe essere più difficile da vedere.{/BODY}
+betterReticleSize.percentCorrection.title: Percentuale di correzione
+betterReticleSize.percentCorrection.description: {HEADER}Percentuale di correzione{/HEADER}{BODY}Di quanto correggere la dimensione del mirino. 0% è l'impostazione sovradimensionata predefinita del gioco, 100% è la dimensione corretta.{/BODY}
+betterReticleSize.showClientAndServerReticle.title: Abilita il reticolo client e server
+betterReticleSize.showClientAndServerReticle.description: {HEADER}Abilita reticolo client e server{/HEADER}{BODY}Mostra sia il reticolo client che quello server contemporaneamente. Il reticolo del client sembra più reattivo, ma il reticolo del server è più preciso perché tiene conto del ritardo.{/BODY}
+betterReticleSize.showServerSpgStrategicReticle.title: Reticolo client e server nella vista strategica dell'artiglieria
+betterReticleSize.showServerSpgStrategicReticle.description: {HEADER}Reticolo client e server nella visuale strategica dell'artiglieria{/HEADER}{BODY}L'attuale reticolo secondario dell'artiglieria sopraelevata è fastidiosamente brutto, quindi è disabilitato per impostazione predefinita.{/BODY}
+betterReticleSize.serverReticleAimingCircleShape.title: Cerchio di mira
+betterReticleSize.serverReticleAimingCircleShape.description: {HEADER}Cerchio di mira{/HEADER}{BODY}Il cerchio di mira per il reticolo del server. Puoi vedere come appaiono controllando il menu Impostazioni principale, facendo clic sulla scheda Reticolo e controllando le opzioni "Puntamento".{/BODY}
+betterReticleSize.serverReticleAimingCircleOpacity.title: Mirare all'opacità del cerchio
+betterReticleSize.serverReticleAimingCircleOpacity.description: {HEADER}Opacità del cerchio di mira{/HEADER}{BODY}Imposta l'opacità, ovvero la trasparenza, del cerchio di mira del server.{/BODY}
+betterReticleSize.serverReticleGunMarkerShape.title: Indicatore di pistola
+betterReticleSize.serverReticleGunMarkerShape.description: {HEADER}Indicatore pistola{/HEADER}{BODY}L'indicatore pistola per il reticolo del server. Puoi vedere come appaiono controllando il menu Impostazioni principale, facendo clic sulla scheda Reticolo e controllando le opzioni "Marcatore pistola".{/BODY}
+betterReticleSize.serverReticleGunMarkerOpacity.title: Opacità dell'indicatore della pistola
+betterReticleSize.serverReticleGunMarkerOpacity.description: {HEADER}Opacità dell'indicatore della pistola{/HEADER}{BODY}Imposta l'opacità, ovvero la trasparenza, dell'indicatore della pistola del server.{/BODY}
+
+betterBattleResults.modname: Migliori risultati di battaglia
+betterBattleResults.richTooltip.title: Descrizioni riepilogative più dettagliate dei risultati della battaglia
+betterBattleResults.richTooltip.description: {HEADER}Descrizioni riepilogative più dettagliate dei risultati della battaglia{/HEADER}{BODY}Mostra descrizioni riepilogative più dettagliate nella finestra Risultati della battaglia. Ad esempio, passando il mouse sopra il "Danno da assistenza" totale verranno visualizzati separatamente il danno totale rilevato e il monitoraggio del danno.{/BODY}
+betterBattleResults.tooltipOverride.assist.total: Danno totale causato dagli alleati ai veicoli nemici
+betterBattleResults.tooltipOverride.crits.total: Numero totale di colpi critici
+
+betterStyleSelection.modname: Migliore ordinamento degli stili
+betterStyleSelection.styleSortingEnabled.title: Correggi il raggruppamento di stili 2D e 3D
+betterStyleSelection.styleSortingEnabled.description: {HEADER}Correggi il raggruppamento di stili 2D e 3D{/HEADER}{BODY}Contrassegna tutti gli stili 3D e gli stili 2D specifici del veicolo come "Unici", in modo che siano più facili da trovare.{/BODY}
+
+jakLib.commonSettings: Impostazioni del pacchetto mod
+jakLib.modname: Notifica di accesso
+jakLib.language.title: Lingua
+jakLib.language.description: {HEADER}Lingua{/HEADER}{BODY}Imposta la lingua del pacchetto mod{/BODY}
+jakLib.loginNotificationEnabled.title: Notifica di accesso
+jakLib.loginNotificationEnabled.description: {HEADER}Notifica di accesso{/HEADER}{BODY}Attiva o disattiva una notifica dopo l'accesso che mostra quali mod sono in esecuzione.{/BODY}
+jakLib.errorNotificationEnabled.title: Notifica di errore
+jakLib.errorNotificationEnabled.description: {HEADER}Notifica di errore{/HEADER}{BODY}Attiva o disattiva una notifica dopo l'accesso che mostra quali mod non sono state caricate.{/BODY}

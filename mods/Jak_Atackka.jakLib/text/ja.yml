@@ -1,0 +1,36 @@
+betterReticleSize.modname: 十字線のサイズの改善
+betterReticleSize.gunMarkerMinimumSize.title: 十字線の最小サイズ
+betterReticleSize.gunMarkerMinimumSize.description: {HEADER}十字線の最小サイズ{/HEADER}{BODY}十字線がどの程度小さく縮小できるかを制限します。 これを 0 に設定すると、十字線のサイズは常に正確になりますが、見にくくなる可能性があります。{/BODY}
+betterReticleSize.percentCorrection.title: 補正率
+betterReticleSize.percentCorrection.description: {HEADER}補正率{/HEADER}{BODY}十字線のサイズをどの程度補正するか。 0% はゲームのデフォルトの特大設定で、100% が正しいサイズです。{/BODY}
+betterReticleSize.showClientAndServerReticle.title: クライアントとサーバーのレティクルを有効にする
+betterReticleSize.showClientAndServerReticle.description: {HEADER}クライアントとサーバーのレティクルを有効にする{/HEADER}{BODY}クライアントとサーバーの両方のレティクルを同時に表示します。 クライアント レティクルの方が応答性が高いように感じられますが、サーバー レティクルはラグを考慮してより正確です。{/BODY}
+betterReticleSize.showServerSpgStrategicReticle.title: 砲兵戦略ビューにおけるクライアントとサーバーのレティクル
+betterReticleSize.showServerSpgStrategicReticle.description: {HEADER}砲兵戦略ビューのクライアントとサーバーのレティクル{/HEADER}{BODY}現在の頭上砲兵のセカンダリ レティクルは気が散るほど醜いため、デフォルトでは無効になっています。{/BODY}
+betterReticleSize.serverReticleAimingCircleShape.title: 照準円
+betterReticleSize.serverReticleAimingCircleShape.description: {HEADER}照準円{/HEADER}{BODY}サーバー レティクルの照準円。 メインの設定メニューをチェックし、[レティクル] タブをクリックして、[照準] オプションをチェックすると、これらがどのように見えるかを確認できます。{/BODY}
+betterReticleSize.serverReticleAimingCircleOpacity.title: 照準円の不透明度
+betterReticleSize.serverReticleAimingCircleOpacity.description: {HEADER}照準円の不透明度{/HEADER}{BODY}サーバーの照準円の不透明度、別名透明度を設定します。{/BODY}
+betterReticleSize.serverReticleGunMarkerShape.title: ガンマーカー
+betterReticleSize.serverReticleGunMarkerShape.description: {HEADER}ガン マーカー{/HEADER}{BODY}サーバー レティクルのガン マーカー。 これらがどのようなものであるかを確認するには、メインの [設定] メニューを確認し、[レティクル] タブをクリックして、[ガン マーカー] オプションを確認します。{/BODY}
+betterReticleSize.serverReticleGunMarkerOpacity.title: ガンマーカーの不透明度
+betterReticleSize.serverReticleGunMarkerOpacity.description: {HEADER}ガン マーカーの不透明度{/HEADER}{BODY}サーバーのガン マーカーの不透明度、つまり透明度を設定します。{/BODY}
+
+betterBattleResults.modname: より良い戦闘結果
+betterBattleResults.richTooltip.title: 詳細な戦闘結果概要ツールチップ
+betterBattleResults.richTooltip.description: {HEADER}詳細な戦闘結果概要ツールチップ{/HEADER}{BODY}戦闘結果ウィンドウに詳細な概要ツールチップを表示します。 たとえば、「アシスト ダメージ」の合計にカーソルを合わせると、検出されたダメージの合計と追跡ダメージが個別に表示されます。{/BODY}
+betterBattleResults.tooltipOverride.assist.total: 味方が敵車両に与えた合計ダメージ
+betterBattleResults.tooltipOverride.crits.total: クリティカルヒットの総数
+
+betterStyleSelection.modname: より良いスタイルの並べ替え
+betterStyleSelection.styleSortingEnabled.title: 2D スタイルと 3D スタイルのグループ化を修正
+betterStyleSelection.styleSortingEnabled.description: {HEADER}2D スタイルと 3D スタイルのグループ化を修正{/HEADER}{BODY}すべての 3D スタイルと車両固有の 2D スタイルを「固有」としてマークし、見つけやすくします。{/BODY}
+
+jakLib.commonSettings: モッドパックの設定
+jakLib.modname: ログイン通知
+jakLib.language.title: 言語
+jakLib.language.description: {HEADER}言語{/HEADER}{BODY}モッドパックの言語を設定します{/BODY}
+jakLib.loginNotificationEnabled.title: ログイン通知
+jakLib.loginNotificationEnabled.description: {HEADER}ログイン通知{/HEADER}{BODY}ログイン後に実行中のモッドを示す通知を有効または無効にします。{/BODY}
+jakLib.errorNotificationEnabled.title: エラー通知
+jakLib.errorNotificationEnabled.description: {HEADER}エラー通知{/HEADER}{BODY}ログイン後に、どのモッドの読み込みに失敗したかを示す通知を有効または無効にします。{/BODY}

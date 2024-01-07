@@ -1,0 +1,36 @@
+betterReticleSize.modname: Parempi hiusristikon koko
+betterReticleSize.gunMarkerMinimumSize.title: Minimihiusristikko
+betterReticleSize.gunMarkerMinimumSize.description: {HEADER}Minimihiusristikko{/HEADER}{BODY}Rajoittaa, kuinka pieneksi hiusristikko saa näkyvästi kutistua. Jos asetat tämän arvoon 0, hiusristikon koko on aina tarkka, mutta sitä voi olla vaikea nähdä.{/BODY}
+betterReticleSize.percentCorrection.title: Korjausprosentti
+betterReticleSize.percentCorrection.description: {HEADER}Korjausprosentti{/HEADER}{BODY}Kuinka paljon hiusristikon kokoa korjataan. 0 % on pelin oletusarvoinen ylikokoasetus, 100 % on oikea koko.{/BODY}
+betterReticleSize.showClientAndServerReticle.title: Ota käyttöön asiakas- ja palvelinverkko
+betterReticleSize.showClientAndServerReticle.description: {HEADER}Ota asiakkaan ja palvelimen ristikko käyttöön{/HEADER}{BODY}Näytä sekä asiakas- että palvelinverkko samanaikaisesti. Asiakasristikko tuntuu reagoivammalta, mutta palvelinristikko on tarkempi, koska se ottaa huomioon viiveen.{/BODY}
+betterReticleSize.showServerSpgStrategicReticle.title: Asiakas- ja palvelinhiusristikko tykistöstrategiassa
+betterReticleSize.showServerSpgStrategicReticle.description: {HEADER}Asiakas- ja palvelinhiusristikko tykistöstrategisessa näkymässä{/HEADER}{BODY}Nykyinen yläpuolinen tykistön toissijainen ristikko on häiritsevän ruma, joten se on oletuksena pois käytöstä.{/BODY}
+betterReticleSize.serverReticleAimingCircleShape.title: Tähtäävä ympyrä
+betterReticleSize.serverReticleAimingCircleShape.description: {HEADER}Kohdistusympyrä{/HEADER}{BODY}Palvelinristikon tähtäysympyrä. Näet, miltä nämä näyttävät, tarkistamalla Asetukset-päävalikosta, klikkaamalla Hiusristikko-välilehteä ja valitsemalla Kohdistus-asetukset.{/BODY}
+betterReticleSize.serverReticleAimingCircleOpacity.title: Tavoitteena ympyrän läpinäkyvyys
+betterReticleSize.serverReticleAimingCircleOpacity.description: {HEADER}Tarkistusympyrän läpinäkyvyys{/HEADER}{BODY}Aseta palvelimen tähtäysympyrän läpinäkyvyys, eli läpinäkyvyys.{/BODY}
+betterReticleSize.serverReticleGunMarkerShape.title: Aseen merkki
+betterReticleSize.serverReticleGunMarkerShape.description: {HEADER}Asemerkki{/HEADER}{BODY}Palvelimen ristikon asemerkki. Näet, miltä nämä näyttävät, tarkistamalla Asetukset-päävalikosta, klikkaamalla Hiusristikko-välilehteä ja valitsemalla "Gun Marker" -vaihtoehdot.{/BODY}
+betterReticleSize.serverReticleGunMarkerOpacity.title: Asemerkin opasiteetti
+betterReticleSize.serverReticleGunMarkerOpacity.description: {HEADER}Asemerkin opasiteetti{/HEADER}{BODY}Aseta palvelimen asemerkin läpinäkyvyys.{/BODY}
+
+betterBattleResults.modname: Parempia taistelutuloksia
+betterBattleResults.richTooltip.title: Yksityiskohtaisemmat taistelutulosten yhteenvetotyökaluvinkit
+betterBattleResults.richTooltip.description: {HEADER}Yksityiskohtaisemmat taistelutulosten yhteenvetotyökaluvinkit{/HEADER}{BODY}Näytä yksityiskohtaisempia yhteenvetotyökaluvinkkejä Taistelutulokset-ikkunassa. Esimerkiksi, kun siirrät hiiren osoittimen "auttaa vahinkoa" -kokonaisvaurion päälle, näet havaitun kokonaisvahingon ja seurannan vahingot erikseen.{/BODY}
+betterBattleResults.tooltipOverride.assist.total: Liittolaisten vihollisen ajoneuvoille aiheuttamat kokonaisvahingot
+betterBattleResults.tooltipOverride.crits.total: Kriittisten osumien kokonaismäärä
+
+betterStyleSelection.modname: Parempi tyylilajittelu
+betterStyleSelection.styleSortingEnabled.title: Korjaa 2D- ja 3D-tyylien ryhmittely
+betterStyleSelection.styleSortingEnabled.description: {HEADER}Korjaa 2D- ja 3D-tyylien ryhmittely{/HEADER}{BODY}Merkitsee kaikki 3D-tyylit ja ajoneuvokohtaiset 2D-tyylit "ainutlaatuisiksi", jotta ne on helpompi löytää.{/BODY}
+
+jakLib.commonSettings: Modpackin asetukset
+jakLib.modname: Kirjautumisilmoitus
+jakLib.language.title: Kieli
+jakLib.language.description: {HEADER}Kieli{/HEADER}{BODY}Aseta modpack-kieli{/BODY}
+jakLib.loginNotificationEnabled.title: Kirjautumisilmoitus
+jakLib.loginNotificationEnabled.description: {HEADER}Kirjautumisilmoitus{/HEADER}{BODY}Ota käyttöön tai poista käytöstä kirjautumisen jälkeen ilmoitus, joka näyttää käynnissä olevat modit.{/BODY}
+jakLib.errorNotificationEnabled.title: Virheilmoitus
+jakLib.errorNotificationEnabled.description: {HEADER}Virheilmoitus{/HEADER}{BODY}Ota käyttöön tai poista käytöstä ilmoitus kirjautumisen jälkeen, joka näyttää, mitkä modit eivät latautuneet.{/BODY}

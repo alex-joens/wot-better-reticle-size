@@ -1,0 +1,36 @@
+betterReticleSize.modname: Mejor tamaño de punto de mira
+betterReticleSize.gunMarkerMinimumSize.title: Tamaño mínimo del punto de mira
+betterReticleSize.gunMarkerMinimumSize.description: {HEADER}Tamaño mínimo del punto de mira{/HEADER}{BODY}Limita qué tan pequeño se permite que el punto de mira se reduzca visiblemente. Si se establece en 0, el tamaño del punto de mira siempre será preciso, pero puede ser más difícil de ver.{/BODY}
+betterReticleSize.percentCorrection.title: Porcentaje de corrección
+betterReticleSize.percentCorrection.description: {HEADER}Porcentaje de corrección{/HEADER}{BODY}Cuánto corregir el tamaño de la cruz. 0% es la configuración de tamaño grande predeterminada del juego, 100% es el tamaño correcto.{/BODY}
+betterReticleSize.showClientAndServerReticle.title: Habilitar retícula de cliente y servidor
+betterReticleSize.showClientAndServerReticle.description: {HEADER}Habilitar la retícula del cliente y del servidor{/HEADER}{BODY}Muestra la retícula del cliente y del servidor al mismo tiempo. La retícula del cliente parece tener mejor respuesta, pero la retícula del servidor es más precisa porque tiene en cuenta el retraso.{/BODY}
+betterReticleSize.showServerSpgStrategicReticle.title: Retícula de cliente y servidor en vista estratégica de artillería.
+betterReticleSize.showServerSpgStrategicReticle.description: {HEADER}Retícula de cliente y servidor en vista estratégica de artillería{/HEADER}{BODY}La retícula secundaria de artillería aérea actual distrae demasiado y es fea, por lo que está inhabilitada de forma predeterminada.{/BODY}
+betterReticleSize.serverReticleAimingCircleShape.title: Círculo de puntería
+betterReticleSize.serverReticleAimingCircleShape.description: {HEADER}Círculo de puntería{/HEADER}{BODY}El círculo de puntería para la retícula del servidor. Puedes ver cómo se ven consultando el menú principal de Configuración, haciendo clic en la pestaña Retícula y marcando las opciones de "Apuntar".{/BODY}
+betterReticleSize.serverReticleAimingCircleOpacity.title: Opacidad del círculo de puntería
+betterReticleSize.serverReticleAimingCircleOpacity.description: {HEADER}Opacidad del círculo de puntería{/HEADER}{BODY}Establece la opacidad, también conocida como transparencia, del círculo de puntería del servidor.{/BODY}
+betterReticleSize.serverReticleGunMarkerShape.title: Marcador de pistola
+betterReticleSize.serverReticleGunMarkerShape.description: {HEADER}Marcador de pistola{/HEADER}{BODY}El marcador de pistola para la retícula del servidor. Puedes ver cómo se ven consultando el menú principal de Configuración, haciendo clic en la pestaña Retícula y marcando las opciones "Marcador de pistola".{/BODY}
+betterReticleSize.serverReticleGunMarkerOpacity.title: Opacidad del marcador de pistola
+betterReticleSize.serverReticleGunMarkerOpacity.description: {HEADER}Opacidad del marcador de pistola{/HEADER}{BODY}Establece la opacidad, también conocida como transparencia, del marcador de pistola del servidor.{/BODY}
+
+betterBattleResults.modname: Mejores resultados de batalla
+betterBattleResults.richTooltip.title: Información sobre herramientas de resumen de resultados de batalla más detallada
+betterBattleResults.richTooltip.description: {HEADER}Información sobre herramientas de resumen de resultados de batalla más detallada{/HEADER}{BODY}Muestra información sobre herramientas de resumen más detallada en la ventana de Resultados de batalla. Por ejemplo, al pasar el cursor sobre "Daño de asistencia" total, se mostrará el daño total detectado y el seguimiento de los daños por separado.{/BODY}
+betterBattleResults.tooltipOverride.assist.total: Daño total causado por los aliados a vehículos enemigos
+betterBattleResults.tooltipOverride.crits.total: Número total de golpes críticos
+
+betterStyleSelection.modname: Mejor clasificación de estilos
+betterStyleSelection.styleSortingEnabled.title: Corregir agrupación de estilos 2D y 3D
+betterStyleSelection.styleSortingEnabled.description: {HEADER}Corregir agrupación de estilos 2D y 3D{/HEADER}{BODY}Marca todos los estilos 3D y los estilos 2D específicos del vehículo como "Únicos" para que sean más fáciles de encontrar.{/BODY}
+
+jakLib.commonSettings: Configuración del paquete de modificaciones
+jakLib.modname: Notificación de inicio de sesión
+jakLib.language.title: Idioma
+jakLib.language.description: {HEADER}Idioma{/HEADER}{BODY}Establecer el idioma del modpack{/BODY}
+jakLib.loginNotificationEnabled.title: Notificación de inicio de sesión
+jakLib.loginNotificationEnabled.description: {HEADER}Notificación de inicio de sesión{/HEADER}{BODY}Habilita o inhabilita una notificación después de iniciar sesión que muestra qué mods se están ejecutando.{/BODY}
+jakLib.errorNotificationEnabled.title: Notificación de error
+jakLib.errorNotificationEnabled.description: {HEADER}Notificación de error{/HEADER}{BODY}Habilita o inhabilita una notificación después de iniciar sesión que muestra qué mods no se cargaron.{/BODY}

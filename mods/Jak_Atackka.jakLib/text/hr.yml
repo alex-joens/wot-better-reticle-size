@@ -1,0 +1,36 @@
+betterReticleSize.modname: Bolja veličina križića
+betterReticleSize.gunMarkerMinimumSize.title: Minimalna veličina križića
+betterReticleSize.gunMarkerMinimumSize.description: {HEADER}Minimalna veličina križića{/HEADER}{BODY}Ograničava koliko se malen križić smije vidljivo smanjiti. Postavljanje na 0 znači da je veličina križića uvijek točna, ali može biti teže vidljiva.{/BODY}
+betterReticleSize.percentCorrection.title: Postotak ispravka
+betterReticleSize.percentCorrection.description: {HEADER}Postotak ispravka{/HEADER}{BODY}Koliko ispraviti veličinu križića. 0% je zadana prevelika postavka igre, 100% je točna veličina.{/BODY}
+betterReticleSize.showClientAndServerReticle.title: Omogući končanicu klijenta i poslužitelja
+betterReticleSize.showClientAndServerReticle.description: {HEADER}Omogući končanicu klijenta i poslužitelja{/HEADER}{BODY}Istovremeno prikaži končanicu klijenta i poslužitelja. Čini se da klijentska končanica bolje reagira, ali poslužiteljska končanica je preciznija jer uzima u obzir kašnjenje.{/BODY}
+betterReticleSize.showServerSpgStrategicReticle.title: Končanica klijenta i poslužitelja u strateškom prikazu topništva
+betterReticleSize.showServerSpgStrategicReticle.description: {HEADER}Klijentska i poslužiteljska končanica u strateškom prikazu topništva{/HEADER}{BODY}Trenutačna sekundarna topnička končanica uznemirujuće je ružna, pa je prema zadanim postavkama onemogućena.{/BODY}
+betterReticleSize.serverReticleAimingCircleShape.title: Krug ciljanja
+betterReticleSize.serverReticleAimingCircleShape.description: {HEADER}Nišanski krug{/HEADER}{BODY}Nišanski krug za končanicu poslužitelja. Možete vidjeti kako to izgleda tako da provjerite glavni izbornik postavki, kliknete karticu Končanica i označite opcije "Ciljanje".{/BODY}
+betterReticleSize.serverReticleAimingCircleOpacity.title: Neprozirnost kruga ciljanja
+betterReticleSize.serverReticleAimingCircleOpacity.description: {HEADER}Neprozirnost kruga ciljanja{/HEADER}{BODY}Postavite neprozirnost, tj. prozirnost, kruga ciljanja poslužitelja.{/BODY}
+betterReticleSize.serverReticleGunMarkerShape.title: Marker za oružje
+betterReticleSize.serverReticleGunMarkerShape.description: {HEADER}Oznaka oružja{/HEADER}{BODY}Oznaka oružja za končanicu poslužitelja. Možete vidjeti kako to izgleda tako da provjerite glavni izbornik postavki, kliknete karticu Končanica i označite opcije "Marker oružja".{/BODY}
+betterReticleSize.serverReticleGunMarkerOpacity.title: Neprozirnost markera za oružje
+betterReticleSize.serverReticleGunMarkerOpacity.description: {HEADER}Neprozirnost markera pištolja{/HEADER}{BODY}Postavite neprozirnost, odnosno prozirnost, poslužiteljskog markera oružja.{/BODY}
+
+betterBattleResults.modname: Bolji rezultati borbe
+betterBattleResults.richTooltip.title: Detaljniji opisi sažetka rezultata bitke
+betterBattleResults.richTooltip.description: {HEADER}Detaljniji opisi sažetka rezultata bitke{/HEADER}{BODY}Prikažite detaljnije opise sažetka alata u prozoru rezultata bitke. Na primjer, ako zadržite pokazivač miša iznad ukupne "pomoći oštećenje" zasebno će se prikazati ukupna otkrivena šteta i šteta za praćenje.{/BODY}
+betterBattleResults.tooltipOverride.assist.total: Ukupna šteta koju su saveznici prouzročili neprijateljskim vozilima
+betterBattleResults.tooltipOverride.crits.total: Ukupan broj kritičnih pogodaka
+
+betterStyleSelection.modname: Bolje stilsko sortiranje
+betterStyleSelection.styleSortingEnabled.title: Popravite grupiranje 2D i 3D stilova
+betterStyleSelection.styleSortingEnabled.description: {HEADER}Popravite grupiranje 2D i 3D stilova{/HEADER}{BODY}Označava sve 3D stilove i 2D stilove specifične za vozila kao "Jedinstvene", tako da ih je lakše pronaći.{/BODY}
+
+jakLib.commonSettings: Modpack postavke
+jakLib.modname: Obavijest o prijavi
+jakLib.language.title: Jezik
+jakLib.language.description: {HEADER}Jezik{/HEADER}{BODY}Postavite jezik modpacka{/BODY}
+jakLib.loginNotificationEnabled.title: Obavijest o prijavi
+jakLib.loginNotificationEnabled.description: {HEADER}Obavijest o prijavi{/HEADER}{BODY}Omogućite ili onemogućite obavijest nakon prijave koja pokazuje koji su modovi pokrenuti.{/BODY}
+jakLib.errorNotificationEnabled.title: Obavijest o pogrešci
+jakLib.errorNotificationEnabled.description: {HEADER}Obavijest o pogrešci{/HEADER}{BODY}Omogućite ili onemogućite obavijest nakon prijave koja pokazuje koji modovi nisu uspjeli učitati.{/BODY}

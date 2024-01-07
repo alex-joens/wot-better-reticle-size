@@ -1,0 +1,36 @@
+betterReticleSize.modname: ขนาดครอสแฮร์ที่ดีกว่า
+betterReticleSize.gunMarkerMinimumSize.title: ขนาดเส้นเล็งขั้นต่ำ
+betterReticleSize.gunMarkerMinimumSize.description: {HEADER}ขนาดเส้นเล็งขั้นต่ำ{/HEADER}{BODY}จำกัดขนาดเส้นเล็งที่เล็กลงจนมองเห็นได้ การตั้งค่านี้เป็น 0 หมายความว่าขนาดเป้าเล็งจะแม่นยำเสมอ แต่อาจมองเห็นได้ยากขึ้น{/BODY}
+betterReticleSize.percentCorrection.title: เปอร์เซ็นต์การแก้ไข
+betterReticleSize.percentCorrection.description: {HEADER}เปอร์เซ็นต์การแก้ไข{/HEADER}{BODY}ต้องแก้ไขขนาดเป้าเล็งเท่าไร 0% คือการตั้งค่าขนาดใหญ่เริ่มต้นของเกม ส่วน 100% คือขนาดที่ถูกต้อง{/BODY}
+betterReticleSize.showClientAndServerReticle.title: เปิดใช้งานเส้นเล็งไคลเอนต์และเซิร์ฟเวอร์
+betterReticleSize.showClientAndServerReticle.description: {HEADER}เปิดใช้งานเส้นเล็งไคลเอนต์และเซิร์ฟเวอร์{/HEADER}{BODY}แสดงทั้งเส้นเล็งไคลเอนต์และเซิร์ฟเวอร์พร้อมกัน เส้นเล็งไคลเอนต์ให้ความรู้สึกตอบสนองมากกว่า แต่เส้นเล็งเซิร์ฟเวอร์แม่นยำกว่าเพราะทำให้เกิดความล่าช้า{/BODY}
+betterReticleSize.showServerSpgStrategicReticle.title: เส้นเล็งไคลเอนต์และเซิร์ฟเวอร์ในมุมมองเชิงกลยุทธ์ของปืนใหญ่
+betterReticleSize.showServerSpgStrategicReticle.description: {HEADER}เส้นเล็งไคลเอนต์และเซิร์ฟเวอร์ในมุมมองเชิงกลยุทธ์ของปืนใหญ่{/HEADER}{BODY}เส้นเล็งรองของปืนใหญ่เหนือศีรษะในปัจจุบันดูน่าเกลียดจนน่ารำคาญ ดังนั้นจึงถูกปิดใช้งานโดยค่าเริ่มต้น{/BODY}
+betterReticleSize.serverReticleAimingCircleShape.title: เล็งวงกลม
+betterReticleSize.serverReticleAimingCircleShape.description: {HEADER}วงกลมเล็ง{/HEADER}{BODY}วงกลมเล็งสำหรับเส้นเล็งเซิร์ฟเวอร์ คุณสามารถดูลักษณะเหล่านี้ได้โดยตรวจสอบเมนูการตั้งค่าหลัก คลิกแท็บ Reticle และเลือกตัวเลือก "การเล็ง"{/BODY}
+betterReticleSize.serverReticleAimingCircleOpacity.title: เล็งความทึบของวงกลม
+betterReticleSize.serverReticleAimingCircleOpacity.description: {HEADER}ความทึบของวงกลมเล็ง{/HEADER}{BODY}ตั้งค่าความทึบหรือที่เรียกว่าความโปร่งใสของเซิร์ฟเวอร์เล็งวงกลม{/BODY}
+betterReticleSize.serverReticleGunMarkerShape.title: เครื่องหมายปืน
+betterReticleSize.serverReticleGunMarkerShape.description: {HEADER}เครื่องหมายปืน{/HEADER}{BODY}เครื่องหมายปืนสำหรับเส้นเล็งเซิร์ฟเวอร์ คุณสามารถดูลักษณะเหล่านี้ได้โดยตรวจสอบเมนูการตั้งค่าหลัก คลิกแท็บ Reticle และเลือกตัวเลือก "เครื่องหมายปืน"{/BODY}
+betterReticleSize.serverReticleGunMarkerOpacity.title: ความทึบของเครื่องหมายปืน
+betterReticleSize.serverReticleGunMarkerOpacity.description: {HEADER}ความทึบของเครื่องหมายปืน{/HEADER}{BODY}ตั้งค่าความทึบหรือที่เรียกว่าความโปร่งใสของเครื่องหมายปืนเซิร์ฟเวอร์{/BODY}
+
+betterBattleResults.modname: ผลการต่อสู้ที่ดีขึ้น
+betterBattleResults.richTooltip.title: คำแนะนำเครื่องมือสรุปผลการรบโดยละเอียดเพิ่มเติม
+betterBattleResults.richTooltip.description: {HEADER}คำแนะนำเครื่องมือสรุปผลการรบโดยละเอียดเพิ่มเติม{/HEADER}{BODY}แสดงคำแนะนำเครื่องมือสรุปผลการรบโดยละเอียดเพิ่มเติมในหน้าต่างผลการรบ ตัวอย่างเช่น การวางเมาส์เหนือ "ความเสียหายจากการช่วยเหลือ" ทั้งหมดจะแสดงความเสียหายทั้งหมดที่ตรวจพบและการติดตามความเสียหายแยกกัน{/BODY}
+betterBattleResults.tooltipOverride.assist.total: ความเสียหายทั้งหมดที่เกิดจากพันธมิตรต่อรถถังศัตรู
+betterBattleResults.tooltipOverride.crits.total: จำนวนการโจมตีคริติคอลทั้งหมด
+
+betterStyleSelection.modname: การเรียงลำดับสไตล์ที่ดีขึ้น
+betterStyleSelection.styleSortingEnabled.title: แก้ไขการจัดกลุ่มสไตล์ 2 มิติและ 3 มิติ
+betterStyleSelection.styleSortingEnabled.description: {HEADER}แก้ไขการจัดกลุ่มสไตล์ 2 มิติและ 3 มิติ{/HEADER}{BODY}ทำเครื่องหมายสไตล์ 3 มิติและสไตล์ 2 มิติเฉพาะยานพาหนะเป็น "ไม่ซ้ำกัน" เพื่อให้ค้นหาได้ง่ายขึ้น{/BODY}
+
+jakLib.commonSettings: การตั้งค่าม็อดแพ็ก
+jakLib.modname: การแจ้งเตือนการเข้าสู่ระบบ
+jakLib.language.title: ภาษา
+jakLib.language.description: {HEADER}ภาษา{/HEADER}{BODY}ตั้งค่าภาษาม็อดแพ็ก{/BODY}
+jakLib.loginNotificationEnabled.title: การแจ้งเตือนการเข้าสู่ระบบ
+jakLib.loginNotificationEnabled.description: {HEADER}การแจ้งเตือนการเข้าสู่ระบบ{/HEADER}{BODY}เปิดหรือปิดการแจ้งเตือนหลังจากเข้าสู่ระบบซึ่งแสดงว่าม็อดใดกำลังทำงานอยู่{/BODY}
+jakLib.errorNotificationEnabled.title: การแจ้งเตือนข้อผิดพลาด
+jakLib.errorNotificationEnabled.description: {HEADER}การแจ้งเตือนข้อผิดพลาด{/HEADER}{BODY}เปิดหรือปิดการแจ้งเตือนหลังจากเข้าสู่ระบบซึ่งแสดงว่าม็อดตัวใดโหลดไม่สำเร็จ{/BODY}

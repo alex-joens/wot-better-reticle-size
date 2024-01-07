@@ -1,0 +1,36 @@
+betterReticleSize.modname: Лепшы памер прыцэльнай сеткі
+betterReticleSize.gunMarkerMinimumSize.title: Мінімальны памер прыцэльнай сеткі
+betterReticleSize.gunMarkerMinimumSize.description: {HEADER}Мінімальны памер прыцэльнай сеткі{/HEADER}{BODY}Абмяжоўвае, наколькі малая прыцэльная сетка можа бачна скарачацца. Усталяванне 0 азначае, што памер прыцэльнай сеткі заўсёды дакладны, але яго можа быць цяжэй убачыць.{/BODY}
+betterReticleSize.percentCorrection.title: Працэнт выпраўлення
+betterReticleSize.percentCorrection.description: {HEADER}Працэнт выпраўлення{/HEADER}{BODY}Колькі карэктаваць памер прыцэльнай сеткі. 0% - гэта налада павелічэння па змаўчанні ў гульні, 100% - правільны памер.{/BODY}
+betterReticleSize.showClientAndServerReticle.title: Уключыць прыцэльную сетку кліента і сервера
+betterReticleSize.showClientAndServerReticle.description: {HEADER}Уключыць кліенцкую і серверную сетку{/HEADER}{BODY}Адначасова паказваць кліентскую і серверную сетку. Прыцэльная сетка кліента больш хутка рэагуе, але прыцэльная сетка сервера больш дакладная, таму што яна ўлічвае затрымку.{/BODY}
+betterReticleSize.showServerSpgStrategicReticle.title: Прыцэльная сетка кліента і сервера ў артылерыйскім стратэгічным выглядзе
+betterReticleSize.showServerSpgStrategicReticle.description: {HEADER}Кліентская і серверная прыцэльная сетка ў стратэгічным праглядзе артылерыі{/HEADER}{BODY}Цяперашняя другасная прыцэльная сетка верхняй артылерыйскай зброі вельмі непрыгожая, таму яна адключана па змаўчанні.{/BODY}
+betterReticleSize.serverReticleAimingCircleShape.title: Прыцэльны круг
+betterReticleSize.serverReticleAimingCircleShape.description: {HEADER}Прыцэльны круг{/HEADER}{BODY}Прыцэльны круг для прыцэльнай сеткі сервера. Вы можаце ўбачыць, як яны выглядаюць, прагледзеўшы галоўнае меню налад, націснуўшы на ўкладку "Сетка" і адзначыўшы параметры "Прыцэльванне".{/BODY}
+betterReticleSize.serverReticleAimingCircleOpacity.title: Непразрыстасць круга прыцэльвання
+betterReticleSize.serverReticleAimingCircleOpacity.description: {HEADER}Непразрыстасць круга прыцэльвання{/HEADER}{BODY}Задаць непразрыстасць, або празрыстасць, круга прыцэльвання сервера.{/BODY}
+betterReticleSize.serverReticleGunMarkerShape.title: Маркер гарматы
+betterReticleSize.serverReticleGunMarkerShape.description: {HEADER}Маркер гарматы{/HEADER}{BODY}Маркер гарматы для прыцэльнай сеткі сервера. Вы можаце ўбачыць, як яны выглядаюць, прагледзеўшы галоўнае меню налад, націснуўшы на ўкладку «Сетка» і адзначыўшы параметры «Маркер стрэльбы».{/BODY}
+betterReticleSize.serverReticleGunMarkerOpacity.title: Непразрыстасць маркера стрэльбы
+betterReticleSize.serverReticleGunMarkerOpacity.description: {HEADER}Непразрыстасць маркера стрэльбы{/HEADER}{BODY}Задаць непразрыстасць, або празрыстасць, сервернага маркера стрэльбы.{/BODY}
+
+betterBattleResults.modname: Лепшыя вынікі бітвы
+betterBattleResults.richTooltip.title: Больш падрабязныя зводныя ўсплывальныя падказкі вынікаў бітвы
+betterBattleResults.richTooltip.description: {HEADER}Больш падрабязныя зводныя ўсплывальныя падказкі вынікаў бітвы{/HEADER}{BODY}Паказваць больш падрабязныя зводныя ўсплывальныя падказкі ў акне вынікаў бітвы. Напрыклад, пры навядзенні курсора мышы на агульны "Дапаможны ўрон" можна будзе паказаць агульны ўрон ад назірання і адсочвання асобна.{/BODY}
+betterBattleResults.tooltipOverride.assist.total: Агульны ўрон, нанесены саюзнікамі варожай тэхніцы
+betterBattleResults.tooltipOverride.crits.total: Агульная колькасць крытычных удараў
+
+betterStyleSelection.modname: Лепшае сартаванне па стылі
+betterStyleSelection.styleSortingEnabled.title: Выправіць групоўку 2D і 3D стыляў
+betterStyleSelection.styleSortingEnabled.description: {HEADER}Выпраўленне групоўкі 2D- і 3D-стыляў{/HEADER}{BODY}Пазначае ўсе 3D-стылі і 2D-стылі для аўтамабіляў як "Унікальныя", каб іх было прасцей знайсці.{/BODY}
+
+jakLib.commonSettings: Налады Modpack
+jakLib.modname: Апавяшчэнне аб уваходзе
+jakLib.language.title: мова
+jakLib.language.description: {HEADER}Мова{/HEADER}{BODY}Задаць мову пакета модаў{/BODY}
+jakLib.loginNotificationEnabled.title: Апавяшчэнне аб уваходзе
+jakLib.loginNotificationEnabled.description: {HEADER}Апавяшчэнне аб уваходзе{/HEADER}{BODY}Уключыць або выключыць апавяшчэнне пасля ўваходу, якое паказвае, якія моды запушчаны.{/BODY}
+jakLib.errorNotificationEnabled.title: Апавяшчэнне пра памылку
+jakLib.errorNotificationEnabled.description: {HEADER}Апавяшчэнне аб памылцы{/HEADER}{BODY}Уключыць або адключыць апавяшчэнне пасля ўваходу, якое паказвае, якія мадыфікацыі не ўдалося загрузіць.{/BODY}

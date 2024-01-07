@@ -1,0 +1,36 @@
+betterReticleSize.modname: Geresnis kryžmelio dydis
+betterReticleSize.gunMarkerMinimumSize.title: Mažiausias kryželio dydis
+betterReticleSize.gunMarkerMinimumSize.description: {HEADER}Mažiausias kryželio dydis{/HEADER}{BODY}Apriboja, kiek mažas kryželis gali akivaizdžiai susitraukti. Nustačius tai į 0, kryželio dydis visada yra tikslus, bet gali būti sunkiau jį pamatyti.{/BODY}
+betterReticleSize.percentCorrection.title: Pataisos procentas
+betterReticleSize.percentCorrection.description: {HEADER}Pataisos procentas{/HEADER}{BODY}Kiek koreguoti kryželio dydį. 0 % yra numatytasis žaidimo didelio dydžio nustatymas, 100 % yra tinkamas dydis.{/BODY}
+betterReticleSize.showClientAndServerReticle.title: Įgalinti kliento ir serverio tinklelį
+betterReticleSize.showClientAndServerReticle.description: {HEADER}Įgalinti kliento ir serverio tinklelį{/HEADER}{BODY}Rodyti kliento ir serverio tinklelį vienu metu. Kliento tinklelis reaguoja labiau, bet serverio tinklelis yra tikslesnis, nes atsižvelgia į vėlavimą.{/BODY}
+betterReticleSize.showServerSpgStrategicReticle.title: Kliento ir serverio tinklelis artilerijos strateginiame vaizde
+betterReticleSize.showServerSpgStrategicReticle.description: {HEADER}Kliento ir serverio tinklelis artilerijos strateginiame vaizde{/HEADER}{BODY}Dabartinis antrinis artilerijos tinklelis yra labai bjaurus, todėl pagal numatytuosius nustatymus išjungtas.{/BODY}
+betterReticleSize.serverReticleAimingCircleShape.title: Tikslinis ratas
+betterReticleSize.serverReticleAimingCircleShape.description: {HEADER}Taikymo ratas{/HEADER}{BODY}Serverio tinklelio nukreipimo ratas. Galite pamatyti, kaip jie atrodo, patikrinę pagrindinį nustatymų meniu, spustelėję skirtuką „Tinklelis“ ir pažymėję parinktis „Taikymas“.{/BODY}
+betterReticleSize.serverReticleAimingCircleOpacity.title: Tikslinis apskritimo neskaidrumas
+betterReticleSize.serverReticleAimingCircleOpacity.description: {HEADER}Taikymo apskritimo neskaidrumas{/HEADER}{BODY}Nustatykite serverio nukreipimo apskritimo neskaidrumą, dar žinomą kaip skaidrumas.{/BODY}
+betterReticleSize.serverReticleGunMarkerShape.title: Ginklų žymeklis
+betterReticleSize.serverReticleGunMarkerShape.description: {HEADER}Ginklo žymeklis{/HEADER}{BODY}Serverio tinklelio ginklo žymeklis. Galite pamatyti, kaip jie atrodo, patikrinę pagrindinį nustatymų meniu, spustelėję skirtuką „Tinklelis“ ir pažymėję parinktis „Gun Marker“.{/BODY}
+betterReticleSize.serverReticleGunMarkerOpacity.title: Pistoleto žymeklio neskaidrumas
+betterReticleSize.serverReticleGunMarkerOpacity.description: {HEADER}Pistoleto žymeklio neskaidrumas{/HEADER}{BODY}Nustatykite serverio ginklo žymeklio neskaidrumą, dar žinomą kaip skaidrumas.{/BODY}
+
+betterBattleResults.modname: Geresni mūšio rezultatai
+betterBattleResults.richTooltip.title: Išsamesni mūšio rezultatų suvestinės patarimai
+betterBattleResults.richTooltip.description: {HEADER}Išsamesni mūšio rezultatų suvestinės patarimai{/HEADER}{BODY}Rodyti išsamesnius mūšio rezultatų suvestinės patarimus lange Mūšio rezultatai. Pavyzdžiui, užvedus pelės žymeklį virš bendros „Pagalbinės žalos“ vertės, atskirai bus rodoma visa aptikta žala ir stebėjimas.{/BODY}
+betterBattleResults.tooltipOverride.assist.total: Bendra sąjungininkų padaryta žala priešo transporto priemonėms
+betterBattleResults.tooltipOverride.crits.total: Bendras kritinių įvykių skaičius
+
+betterStyleSelection.modname: Geresnis stiliaus rūšiavimas
+betterStyleSelection.styleSortingEnabled.title: Pataisyti 2D ir 3D stilių grupavimą
+betterStyleSelection.styleSortingEnabled.description: {HEADER}Pataisyti 2D ir 3D stilių grupavimą{/HEADER}{BODY}Visi 3D stiliai ir konkrečiai transporto priemonei būdingi 2D stiliai pažymimi kaip „unikalūs“, kad būtų lengviau juos rasti.{/BODY}
+
+jakLib.commonSettings: Modpack nustatymai
+jakLib.modname: Prisijungimo pranešimas
+jakLib.language.title: Kalba
+jakLib.language.description: {HEADER}Kalba{/HEADER}{BODY}Nustatyti modifikavimo paketo kalbą{/BODY}
+jakLib.loginNotificationEnabled.title: Prisijungimo pranešimas
+jakLib.loginNotificationEnabled.description: {HEADER}Prisijungimo pranešimas{/HEADER}{BODY}Prisijungę įjunkite arba išjunkite pranešimą, rodantį, kurios modifikacijos veikia.{/BODY}
+jakLib.errorNotificationEnabled.title: Pranešimas apie klaidą
+jakLib.errorNotificationEnabled.description: {HEADER}Pranešimas apie klaidą{/HEADER}{BODY}Prisijungę įjunkite arba išjunkite pranešimą, rodantį, kurių modifikacijų nepavyko įkelti.{/BODY}

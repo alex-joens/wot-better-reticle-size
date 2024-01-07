@@ -1,0 +1,36 @@
+betterReticleSize.modname: Ukuran Crosshair Lebih Baik
+betterReticleSize.gunMarkerMinimumSize.title: Ukuran crosshair minimum
+betterReticleSize.gunMarkerMinimumSize.description: {HEADER}Ukuran crosshair minimum{/HEADER}{BODY}Membatasi seberapa kecil crosshair yang terlihat dapat menyusut. Menyetelnya ke 0 berarti ukuran garis bidik selalu akurat, namun mungkin lebih sulit untuk dilihat.{/BODY}
+betterReticleSize.percentCorrection.title: Persentase koreksi
+betterReticleSize.percentCorrection.description: {HEADER}Persentase koreksi{/HEADER}{BODY}Berapa banyak ukuran bidik yang harus dikoreksi. 0% adalah setelan ukuran besar default game, 100% adalah ukuran yang benar.{/BODY}
+betterReticleSize.showClientAndServerReticle.title: Aktifkan reticle klien dan server
+betterReticleSize.showClientAndServerReticle.description: {HEADER}Aktifkan reticle klien dan server{/HEADER}{BODY}Tampilkan reticle klien dan server secara bersamaan. Reticle klien terasa lebih responsif, namun reticle server lebih akurat karena memperhitungkan kelambatan.{/BODY}
+betterReticleSize.showServerSpgStrategicReticle.title: Reticle klien dan server dalam tampilan strategis artileri
+betterReticleSize.showServerSpgStrategicReticle.description: {HEADER}Reticle klien dan server dalam tampilan strategis artileri{/HEADER}{BODY}Reticle sekunder artileri overhead saat ini sangat jelek, sehingga dinonaktifkan secara default.{/BODY}
+betterReticleSize.serverReticleAimingCircleShape.title: Lingkaran bidik
+betterReticleSize.serverReticleAimingCircleShape.description: {HEADER}Lingkaran bidik{/HEADER}{BODY}Lingkaran bidik untuk reticle server. Anda dapat melihat tampilannya dengan memeriksa menu Setelan utama, mengklik tab Reticle, dan mencentang opsi "Membidik".{/BODY}
+betterReticleSize.serverReticleAimingCircleOpacity.title: Opasitas lingkaran bidik
+betterReticleSize.serverReticleAimingCircleOpacity.description: {HEADER}Opasitas lingkaran bidik{/HEADER}{BODY}Setel opacity alias transparansi lingkaran bidik server.{/BODY}
+betterReticleSize.serverReticleGunMarkerShape.title: Penanda senjata
+betterReticleSize.serverReticleGunMarkerShape.description: {HEADER}Penanda senjata{/HEADER}{BODY}Penanda senjata untuk reticle server. Anda dapat melihat tampilannya dengan memeriksa menu Setelan utama, mengklik tab Reticle, dan mencentang opsi "Gun Marker".{/BODY}
+betterReticleSize.serverReticleGunMarkerOpacity.title: Opasitas penanda senjata
+betterReticleSize.serverReticleGunMarkerOpacity.description: {HEADER}Opasitas penanda senjata{/HEADER}{BODY}Setel opasitas alias transparansi penanda senjata di server.{/BODY}
+
+betterBattleResults.modname: Hasil Pertempuran Lebih Baik
+betterBattleResults.richTooltip.title: Tooltip ringkasan Hasil Pertempuran yang lebih detail
+betterBattleResults.richTooltip.description: {HEADER}Tooltip ringkasan Hasil Pertempuran yang lebih detail{/HEADER}{BODY}Tampilkan tooltip ringkasan yang lebih detail di jendela Hasil Pertempuran. Misalnya, mengarahkan kursor ke total "Assist Damage" akan menampilkan total kerusakan yang terdeteksi dan pelacakan kerusakan secara terpisah.{/BODY}
+betterBattleResults.tooltipOverride.assist.total: Total kerusakan yang ditimbulkan sekutu pada kendaraan musuh
+betterBattleResults.tooltipOverride.crits.total: Jumlah total serangan kritis
+
+betterStyleSelection.modname: Penyortiran Gaya Lebih Baik
+betterStyleSelection.styleSortingEnabled.title: Memperbaiki pengelompokan gaya 2D dan 3D
+betterStyleSelection.styleSortingEnabled.description: {HEADER}Memperbaiki pengelompokan gaya 2D dan 3D{/HEADER}{BODY}Menandai semua gaya 3D dan gaya 2D khusus kendaraan sebagai "Unik", sehingga lebih mudah ditemukan.{/BODY}
+
+jakLib.commonSettings: Pengaturan modpack
+jakLib.modname: Notifikasi masuk
+jakLib.language.title: Bahasa
+jakLib.language.description: {HEADER}Bahasa{/HEADER}{BODY}Setel bahasa modpack{/BODY}
+jakLib.loginNotificationEnabled.title: Notifikasi masuk
+jakLib.loginNotificationEnabled.description: {HEADER}Notifikasi masuk{/HEADER}{BODY}Aktifkan atau nonaktifkan notifikasi setelah login yang menunjukkan mod mana yang sedang berjalan.{/BODY}
+jakLib.errorNotificationEnabled.title: Notifikasi kesalahan
+jakLib.errorNotificationEnabled.description: {HEADER}Notifikasi kesalahan{/HEADER}{BODY}Aktifkan atau nonaktifkan notifikasi setelah login yang menunjukkan mod mana yang gagal dimuat.{/BODY}

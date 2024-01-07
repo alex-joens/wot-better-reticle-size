@@ -1,0 +1,36 @@
+betterReticleSize.modname: Кращий розмір перехрестя
+betterReticleSize.gunMarkerMinimumSize.title: Мінімальний розмір перехрестя
+betterReticleSize.gunMarkerMinimumSize.description: {HEADER}Мінімальний розмір перехрестя{/HEADER}{BODY}Обмежує видиме зменшення перехрестя. Якщо встановити значення 0, розмір перехрестя завжди точний, але його може бути важче побачити.{/BODY}
+betterReticleSize.percentCorrection.title: Відсоток виправлення
+betterReticleSize.percentCorrection.description: {HEADER}Відсоток виправлення{/HEADER}{BODY}Наскільки виправити розмір перехрестя. 0% — це налаштування великого розміру за замовчуванням у грі, 100% — це правильний розмір.{/BODY}
+betterReticleSize.showClientAndServerReticle.title: Увімкнути сітку клієнта та сервера
+betterReticleSize.showClientAndServerReticle.description: {HEADER}Увімкнути клієнтську та серверну сітку візиру{/HEADER}{BODY}Показувати клієнтську та серверну сітку візиру одночасно. Клієнтська прицільна сітка швидше реагує, але серверна прицільна сітка точніша, оскільки враховує затримку.{/BODY}
+betterReticleSize.showServerSpgStrategicReticle.title: Прицільна сітка клієнта та сервера в артилерійському стратегічному вигляді
+betterReticleSize.showServerSpgStrategicReticle.description: {HEADER}Клієнтська та серверна прицільна сітка в стратегічному поданні артилерії{/HEADER}{BODY}Поточна допоміжна артилерійська прицільна сітка надзвичайно потворна, тому її вимкнено за умовчанням.{/BODY}
+betterReticleSize.serverReticleAimingCircleShape.title: Прицільний круг
+betterReticleSize.serverReticleAimingCircleShape.description: {HEADER}Прицільне коло{/HEADER}{BODY}Прицільне коло для серверної сітки. Щоб побачити, як вони виглядають, перейдіть у головне меню налаштувань, клацніть вкладку «Сітка» та виберіть параметри «Прицілювання».{/BODY}
+betterReticleSize.serverReticleAimingCircleOpacity.title: Непрозорість кола прицілювання
+betterReticleSize.serverReticleAimingCircleOpacity.description: {HEADER}Непрозорість прицільного кола{/HEADER}{BODY}Установіть непрозорість, або прозорість, прицільного кола сервера.{/BODY}
+betterReticleSize.serverReticleGunMarkerShape.title: Маркер гармати
+betterReticleSize.serverReticleGunMarkerShape.description: {HEADER}Маркер гармати{/HEADER}{BODY}Маркер гармати для прицільної сітки сервера. Ви можете побачити, як вони виглядають, перейшовши в головне меню налаштувань, натиснувши вкладку «Сітка» та позначивши параметри «Маркер зброї».{/BODY}
+betterReticleSize.serverReticleGunMarkerOpacity.title: Непрозорість маркера зброї
+betterReticleSize.serverReticleGunMarkerOpacity.description: {HEADER}Непрозорість маркера зброї{/HEADER}{BODY}Установіть непрозорість, або прозорість, маркера зброї сервера.{/BODY}
+
+betterBattleResults.modname: Кращі результати битв
+betterBattleResults.richTooltip.title: Більш докладні підсумкові підказки щодо результатів битви
+betterBattleResults.richTooltip.description: {HEADER}Більш докладні підсумкові підказки щодо результатів битви{/HEADER}{BODY}Показати докладніші підсумкові підказки у вікні «Результати битви». Наприклад, якщо навести курсор на загальний «Допоміжний збиток», відобразиться окремо загальний виявлений збиток і збиток, що відстежується.{/BODY}
+betterBattleResults.tooltipOverride.assist.total: Загальний збиток, завданий союзниками ворожій техніці
+betterBattleResults.tooltipOverride.crits.total: Загальна кількість критичних ударів
+
+betterStyleSelection.modname: Краще сортування за стилем
+betterStyleSelection.styleSortingEnabled.title: Виправити групування 2D- і 3D-стилів
+betterStyleSelection.styleSortingEnabled.description: {HEADER}Виправити групування 2D- і 3D-стилів{/HEADER}{BODY}Позначає всі 3D-стилі та 2D-стилі, що стосуються транспортних засобів, як "Унікальні", щоб їх було легше знайти.{/BODY}
+
+jakLib.commonSettings: Налаштування пакета мод
+jakLib.modname: Сповіщення про вхід
+jakLib.language.title: Мова
+jakLib.language.description: {HEADER}Мова{/HEADER}{BODY}Установити мову пакета модів{/BODY}
+jakLib.loginNotificationEnabled.title: Сповіщення про вхід
+jakLib.loginNotificationEnabled.description: {HEADER}Сповіщення про вхід{/HEADER}{BODY}Увімкніть або вимкніть сповіщення після входу, яке показує, які модифікації запущено.{/BODY}
+jakLib.errorNotificationEnabled.title: Сповіщення про помилку
+jakLib.errorNotificationEnabled.description: {HEADER}Сповіщення про помилку{/HEADER}{BODY}Увімкніть або вимкніть сповіщення після входу, яке показує, які моди не вдалося завантажити.{/BODY}

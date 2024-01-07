@@ -1,0 +1,36 @@
+betterReticleSize.modname: 더 나은 십자선 크기
+betterReticleSize.gunMarkerMinimumSize.title: 최소 십자선 크기
+betterReticleSize.gunMarkerMinimumSize.description: {HEADER}최소 십자선 크기{/HEADER}{BODY}십자선이 시각적으로 축소될 수 있는 크기를 제한합니다. 0으로 설정하면 십자선 크기가 항상 정확하지만 보기가 더 어려울 수 있습니다.{/BODY}
+betterReticleSize.percentCorrection.title: 수정 비율
+betterReticleSize.percentCorrection.description: {HEADER}수정 비율{/HEADER}{BODY}십자선 크기를 수정하는 정도입니다. 0%는 게임의 기본 대형 설정이고 100%는 올바른 크기입니다.{/BODY}
+betterReticleSize.showClientAndServerReticle.title: 클라이언트 및 서버 레티클 활성화
+betterReticleSize.showClientAndServerReticle.description: {HEADER}클라이언트 및 서버 레티클 활성화{/HEADER}{BODY}클라이언트와 서버 레티클을 동시에 표시합니다. 클라이언트 레티클은 반응성이 더 빠르지만 서버 레티클은 지연을 고려하기 때문에 더 정확합니다.{/BODY}
+betterReticleSize.showServerSpgStrategicReticle.title: 포병 전략 관점의 클라이언트 및 서버 조준선
+betterReticleSize.showServerSpgStrategicReticle.description: {HEADER}포병 전략 관점의 클라이언트 및 서버 조준선{/HEADER}{BODY}현재 머리 위 포병 보조 조준선은 주의가 산만해지기 때문에 기본적으로 비활성화되어 있습니다.{/BODY}
+betterReticleSize.serverReticleAimingCircleShape.title: 조준원
+betterReticleSize.serverReticleAimingCircleShape.description: {HEADER}조준원{/HEADER}{BODY}서버 조준선의 조준원입니다. 기본 설정 메뉴를 확인하고 조준선 탭을 클릭한 다음 '조준' 옵션을 확인하면 이러한 모습을 확인할 수 있습니다.{/BODY}
+betterReticleSize.serverReticleAimingCircleOpacity.title: 조준원 불투명도
+betterReticleSize.serverReticleAimingCircleOpacity.description: {HEADER}조준원 불투명도{/HEADER}{BODY}서버 조준원의 불투명도, 즉 투명도를 설정합니다.{/BODY}
+betterReticleSize.serverReticleGunMarkerShape.title: 총 마커
+betterReticleSize.serverReticleGunMarkerShape.description: {HEADER}총 마커{/HEADER}{BODY}서버 조준선의 총 마커입니다. 기본 설정 메뉴를 확인하고 조준선 탭을 클릭한 다음 '총 마커' 옵션을 확인하면 이러한 모습을 확인할 수 있습니다.{/BODY}
+betterReticleSize.serverReticleGunMarkerOpacity.title: 총 마커 불투명도
+betterReticleSize.serverReticleGunMarkerOpacity.description: {HEADER}총 마커 불투명도{/HEADER}{BODY}서버 총 마커의 불투명도, 즉 투명도를 설정합니다.{/BODY}
+
+betterBattleResults.modname: 더 나은 전투 결과
+betterBattleResults.richTooltip.title: 더 자세한 전투 결과 요약 툴팁
+betterBattleResults.richTooltip.description: {HEADER}더 자세한 전투 결과 요약 툴팁{/HEADER}{BODY}전투 결과 창에 더 자세한 요약 툴팁을 표시합니다. 예를 들어 총 '지원 피해' 위로 마우스를 가져가면 감지된 총 피해와 추적 피해가 별도로 표시됩니다.{/BODY}
+betterBattleResults.tooltipOverride.assist.total: 아군이 적 차량에 입힌 총 피해
+betterBattleResults.tooltipOverride.crits.total: 총 크리티컬 히트 수
+
+betterStyleSelection.modname: 더 나은 스타일 정렬
+betterStyleSelection.styleSortingEnabled.title: 2D 및 3D 스타일 그룹화 수정
+betterStyleSelection.styleSortingEnabled.description: {HEADER}2D 및 3D 스타일 그룹화 수정{/HEADER}{BODY}모든 3D 스타일과 차량별 2D 스타일을 '고유'로 표시하여 쉽게 찾을 수 있도록 합니다.{/BODY}
+
+jakLib.commonSettings: 모드팩 설정
+jakLib.modname: 로그인 알림
+jakLib.language.title: 언어
+jakLib.language.description: {HEADER}언어{/HEADER}{BODY}모드팩 언어 설정{/BODY}
+jakLib.loginNotificationEnabled.title: 로그인 알림
+jakLib.loginNotificationEnabled.description: {HEADER}로그인 알림{/HEADER}{BODY}로그인 후 실행 중인 모드를 보여주는 알림을 활성화 또는 비활성화합니다.{/BODY}
+jakLib.errorNotificationEnabled.title: 오류 알림
+jakLib.errorNotificationEnabled.description: {HEADER}오류 알림{/HEADER}{BODY}로그인 후 로드에 실패한 모드를 보여주는 알림을 활성화 또는 비활성화합니다.{/BODY}

@@ -1,0 +1,36 @@
+betterReticleSize.modname: Bedre hårkorsstørrelse
+betterReticleSize.gunMarkerMinimumSize.title: Minimum hårkorsstørrelse
+betterReticleSize.gunMarkerMinimumSize.description: {HEADER}Minimum hårkorsstørrelse{/HEADER}{BODY}Begrænser, hvor lille trådkorset synligt må krympe. Hvis du indstiller dette til 0, betyder det, at trådkorsstørrelsen altid er nøjagtig, men det kan være sværere at se.{/BODY}
+betterReticleSize.percentCorrection.title: Korrektionsprocent
+betterReticleSize.percentCorrection.description: {HEADER}Korrektionsprocent{/HEADER}{BODY}Hvor meget skal trådkorset korrigeres. 0 % er spillets standardindstilling for overstørrelse, 100 % er den korrekte størrelse.{/BODY}
+betterReticleSize.showClientAndServerReticle.title: Aktiver klient- og servertrådkors
+betterReticleSize.showClientAndServerReticle.description: {HEADER}Aktivér klient- og serverkorset{/HEADER}{BODY}Vis både klient- og serverkorset på samme tid. Klientkorset føles mere responsivt, men serverkorset er mere præcist, fordi det tager højde for forsinkelse.{/BODY}
+betterReticleSize.showServerSpgStrategicReticle.title: Klient- og serverkors i artilleristrategisk visning
+betterReticleSize.showServerSpgStrategicReticle.description: {HEADER}Klient- og serverkorset i artilleristrategisk visning{/HEADER}{BODY}Det aktuelle sekundære sigtemiddel for artilleri er distraherende grimt, så det er deaktiveret som standard.{/BODY}
+betterReticleSize.serverReticleAimingCircleShape.title: Sigtecirkel
+betterReticleSize.serverReticleAimingCircleShape.description: {HEADER}Sigtecirkel{/HEADER}{BODY}Sigtecirklen for serverkorset. Du kan se, hvordan disse ser ud ved at tjekke hovedmenuen Indstillinger, klikke på fanen sigtemiddel og markere mulighederne for "Sigte".{/BODY}
+betterReticleSize.serverReticleAimingCircleOpacity.title: Sigtecirkelopacitet
+betterReticleSize.serverReticleAimingCircleOpacity.description: {HEADER}Aiming circle opacitet{/HEADER}{BODY}Indstil opaciteten, også kendt som gennemsigtigheden, for serverens sigtecirkel.{/BODY}
+betterReticleSize.serverReticleGunMarkerShape.title: Pistol markør
+betterReticleSize.serverReticleGunMarkerShape.description: {HEADER}Pistoolmarkør{/HEADER}{BODY}Pistormarkøren til serverkorset. Du kan se, hvordan disse ser ud, ved at tjekke hovedmenuen Indstillinger, klikke på fanen sigtemiddel og markere mulighederne for "Gun Marker".{/BODY}
+betterReticleSize.serverReticleGunMarkerOpacity.title: Pistolmarkøropacitet
+betterReticleSize.serverReticleGunMarkerOpacity.description: {HEADER}Opacitet for pistolmarkør{/HEADER}{BODY}Indstil opaciteten, også kendt som gennemsigtigheden, for serverpistolmarkøren.{/BODY}
+
+betterBattleResults.modname: Bedre kampresultater
+betterBattleResults.richTooltip.title: Mere detaljerede værktøjstip til kampresultater
+betterBattleResults.richTooltip.description: {HEADER}Mere detaljerede værktøjstip til kampresultater{/HEADER}{BODY}Vis mere detaljerede oversigtsværktøjstip i vinduet Kampresultater. Hvis du f.eks. holder musemarkøren over den samlede "Assisterende skade", vises den samlede registrerede skade og sporingsskader separat.{/BODY}
+betterBattleResults.tooltipOverride.assist.total: Total skade forårsaget af allierede på fjendens køretøjer
+betterBattleResults.tooltipOverride.crits.total: Samlet antal kritiske hits
+
+betterStyleSelection.modname: Bedre stilsortering
+betterStyleSelection.styleSortingEnabled.title: Ret gruppering af 2D- og 3D-stile
+betterStyleSelection.styleSortingEnabled.description: {HEADER}Ret gruppering af 2D- og 3D-stile{/HEADER}{BODY}Markerer alle 3D-stile og køretøjsspecifikke 2D-stile som "Unikke", så de er nemmere at finde.{/BODY}
+
+jakLib.commonSettings: Modpack indstillinger
+jakLib.modname: Login notifikation
+jakLib.language.title: Sprog
+jakLib.language.description: {HEADER}Sprog{/HEADER}{BODY}Indstil modpack-sproget{/BODY}
+jakLib.loginNotificationEnabled.title: Login notifikation
+jakLib.loginNotificationEnabled.description: {HEADER}Loginnotifikation{/HEADER}{BODY}Aktiver eller deaktiver en notifikation efter login, der viser, hvilke mods der kører.{/BODY}
+jakLib.errorNotificationEnabled.title: Fejlnotifikation
+jakLib.errorNotificationEnabled.description: {HEADER}Fejlnotifikation{/HEADER}{BODY}Aktiver eller deaktiver en notifikation efter login, der viser, hvilke mods der ikke kunne indlæses.{/BODY}

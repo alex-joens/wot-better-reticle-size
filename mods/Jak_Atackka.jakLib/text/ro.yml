@@ -1,0 +1,36 @@
+betterReticleSize.modname: Dimensiune mai bună a reticulatului
+betterReticleSize.gunMarkerMinimumSize.title: Dimensiunea minimă a reticulei
+betterReticleSize.gunMarkerMinimumSize.description: {HEADER}Dimensiunea minimă a reticulei{/HEADER}{BODY}Limitează cât de mică este vizibil permisă micșorarea reticulei. Setarea la 0 înseamnă că dimensiunea reticulatului este întotdeauna exactă, dar poate fi mai greu de văzut.{/BODY}
+betterReticleSize.percentCorrection.title: Procent de corecție
+betterReticleSize.percentCorrection.description: {HEADER}Procent de corecție{/HEADER}{BODY}Cât de mult trebuie corectat dimensiunea încrucișării. 0% este setarea implicită a jocului supradimensionat, 100% este dimensiunea corectă.{/BODY}
+betterReticleSize.showClientAndServerReticle.title: Activați reticulul client și server
+betterReticleSize.showClientAndServerReticle.description: {HEADER}Activați reticulul client și server{/HEADER}{BODY}Afișați reticulul client și server în același timp. Reticula clientului se simte mai receptivă, dar reticulul serverului este mai precis, deoarece ține cont de decalajul.{/BODY}
+betterReticleSize.showServerSpgStrategicReticle.title: Reticula client și server în vedere strategică de artilerie
+betterReticleSize.showServerSpgStrategicReticle.description: {HEADER}Reticulul client și server în vizualizarea strategică a artileriei{/HEADER}{BODY}Reticulul secundar al artileriei aeriene actuale este extrem de urât, așa că este dezactivat în mod prestabilit.{/BODY}
+betterReticleSize.serverReticleAimingCircleShape.title: Cercul de țintire
+betterReticleSize.serverReticleAimingCircleShape.description: {HEADER}Cercul de vizare{/HEADER}{BODY}Cercul de vizare pentru reticulul serverului. Puteți vedea cum arată acestea verificând meniul principal Setări, făcând clic pe fila Reticulă și bifând opțiunile „Țintire”.{/BODY}
+betterReticleSize.serverReticleAimingCircleOpacity.title: Opacitatea cercului de vizare
+betterReticleSize.serverReticleAimingCircleOpacity.description: {HEADER}Opacitatea cercului de vizare{/HEADER}{BODY}Setați opacitatea, adică transparența, a cercului de vizare a serverului.{/BODY}
+betterReticleSize.serverReticleGunMarkerShape.title: Marker pentru pistol
+betterReticleSize.serverReticleGunMarkerShape.description: {HEADER}Marcator pentru pistol{/HEADER}{BODY}Marcatorul pentru pistol pentru reticulul serverului. Puteți vedea cum arată acestea verificând meniul principal Setări, făcând clic pe fila Reticulă și bifând opțiunile „Marcator pistol”.{/BODY}
+betterReticleSize.serverReticleGunMarkerOpacity.title: Opacitatea markerului pistolului
+betterReticleSize.serverReticleGunMarkerOpacity.description: {HEADER}Opacitatea markerului de pistol{/HEADER}{BODY}Setați opacitatea, adică transparența, a marcatorului de pistol server.{/BODY}
+
+betterBattleResults.modname: Rezultate mai bune de luptă
+betterBattleResults.richTooltip.title: Sfaturi instrumente rezumative mai detaliate pentru Rezultatele luptei
+betterBattleResults.richTooltip.description: {HEADER}Sfaturi instrumente rezumative mai detaliate pentru Rezultatele luptei{/HEADER}{BODY}Afișați sfaturi explicative rezumative mai detaliate în fereastra Rezultatele luptei. De exemplu, trecerea cu mouse-ul peste „Daune de asistare” totală va afișa separat daunele totale detectate și daune de urmărire.{/BODY}
+betterBattleResults.tooltipOverride.assist.total: Daune totale cauzate de aliați vehiculelor inamice
+betterBattleResults.tooltipOverride.crits.total: Numărul total de lovituri critice
+
+betterStyleSelection.modname: O mai bună sortare a stilurilor
+betterStyleSelection.styleSortingEnabled.title: Corectați gruparea stilurilor 2D și 3D
+betterStyleSelection.styleSortingEnabled.description: {HEADER}Corectați gruparea stilurilor 2D și 3D{/HEADER}{BODY}Marchează toate stilurile 3D și stilurile 2D specifice vehiculului ca „Unice”, astfel încât să fie mai ușor de găsit.{/BODY}
+
+jakLib.commonSettings: Setări Modpack
+jakLib.modname: Notificare de conectare
+jakLib.language.title: Limba
+jakLib.language.description: {HEADER}Limba{/HEADER}{BODY}Setați limba modpack-ului{/BODY}
+jakLib.loginNotificationEnabled.title: Notificare de conectare
+jakLib.loginNotificationEnabled.description: {HEADER}Notificare de conectare{/HEADER}{BODY}Activați sau dezactivați o notificare după conectare care arată ce moduri rulează.{/BODY}
+jakLib.errorNotificationEnabled.title: Notificare de eroare
+jakLib.errorNotificationEnabled.description: {HEADER}Notificare de eroare{/HEADER}{BODY}Activați sau dezactivați o notificare după conectare care arată ce moduri nu s-au încărcat.{/BODY}

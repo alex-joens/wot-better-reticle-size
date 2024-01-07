@@ -1,0 +1,37 @@
+betterReticleSize.modname: Καλύτερο μέγεθος χιαστί
+betterReticleSize.gunMarkerMinimumSize.title: Ελάχιστο μέγεθος σταυρόνης
+betterReticleSize.gunMarkerMinimumSize.description: {HEADER}Ελάχιστο μέγεθος σταυρόνης{/HEADER}{BODY}Περιορίζει το μέγεθος του σταυρού που επιτρέπεται να συρρικνωθεί ορατά. Η ρύθμιση αυτού στο 0 σημαίνει ότι το μέγεθος σταυρόνημα είναι πάντα ακριβές, αλλά μπορεί να είναι πιο δύσκολο να το δεις.{/BODY}
+betterReticleSize.percentCorrection.title: Ποσοστό διόρθωσης
+betterReticleSize.percentCorrection.description: {HEADER}Ποσοστό διόρθωσης{/HEADER}{BODY}Πόσο πρέπει να διορθωθεί το μέγεθος σταυρόνημα. Το 0% είναι η προεπιλεγμένη υπερμεγέθη ρύθμιση του παιχνιδιού, το 100% είναι το σωστό μέγεθος.{/BODY}
+betterReticleSize.showClientAndServerReticle.title: Ενεργοποίηση δικτύου πελάτη και διακομιστή
+betterReticleSize.showClientAndServerReticle.description: {HEADER}Ενεργοποίηση δικτυώματος πελάτη και διακομιστή{/HEADER}{BODY}Εμφάνιση τόσο του δικτύου πελάτη όσο και του δικτύου διακομιστή ταυτόχρονα. Το πλέγμα πελάτη έχει μεγαλύτερη απόκριση, αλλά το πλέγμα διακομιστή είναι πιο ακριβές επειδή αντιπροσωπεύει την καθυστέρηση.{/BODY}
+betterReticleSize.showServerSpgStrategicReticle.title: Δίκτυο πελάτη και διακομιστή σε στρατηγική άποψη πυροβολικού
+betterReticleSize.showServerSpgStrategicReticle.description: {HEADER}Πελάτης και διακομιστής σε στρατηγική προβολή πυροβολικού{/HEADER}{BODY}Το τρέχον δευτερεύον πλέγμα πυροβολικού είναι εξαιρετικά άσχημο, επομένως είναι απενεργοποιημένο από προεπιλογή.{/BODY}
+betterReticleSize.serverReticleAimingCircleShape.title: Κύκλος στόχευσης
+betterReticleSize.serverReticleAimingCircleShape.description: {HEADER}Κύκλος στόχευσης{/HEADER}{BODY}Ο κύκλος στόχευσης για το πλέγμα διακομιστή. Μπορείτε να δείτε πώς φαίνονται ελέγχοντας το κύριο μενού Ρυθμίσεις, κάνοντας κλικ στην καρτέλα Reticle και ελέγχοντας τις επιλογές "Στόχευση".{/BODY}
+betterReticleSize.serverReticleAimingCircleOpacity.title: Αδιαφάνεια του κύκλου στόχευσης
+betterReticleSize.serverReticleAimingCircleOpacity.description: {HEADER}Αδιαφάνεια κύκλου στόχευσης{/HEADER}{BODY}Ορίστε την αδιαφάνεια, γνωστή και ως διαφάνεια, του κύκλου στόχευσης διακομιστή.{/BODY}
+betterReticleSize.serverReticleGunMarkerShape.title: Μαρκαδόρος όπλου
+betterReticleSize.serverReticleGunMarkerShape.description: {HEADER}Μαρκαδόρος όπλου{/HEADER}{BODY}Ο δείκτης όπλου για το πλέγμα διακομιστή. Μπορείτε να δείτε πώς φαίνονται ελέγχοντας το κύριο μενού Ρυθμίσεις, κάνοντας κλικ στην καρτέλα Reticle και ελέγχοντας τις επιλογές "Μαρκαδόρος όπλου".{/BODY}
+betterReticleSize.serverReticleGunMarkerOpacity.title: Αδιαφάνεια δείκτη όπλου
+betterReticleSize.serverReticleGunMarkerOpacity.description: Αδιαφάνεια δείκτη όπλου
+{HEADER}Αδιαφάνεια δείκτη όπλου{/HEADER}{BODY}Ρυθμίστε την αδιαφάνεια, γνωστή και ως τη διαφάνεια, του δείκτη πιστολιού διακομιστή.{/BODY}
+
+betterBattleResults.modname: Καλύτερα αποτελέσματα μάχης
+betterBattleResults.richTooltip.title: Πιο λεπτομερείς συμβουλές εργαλείων σύνοψης αποτελεσμάτων μάχης
+betterBattleResults.richTooltip.description: {HEADER}Πιο λεπτομερείς συμβουλές εργαλείων σύνοψης αποτελεσμάτων μάχης{/HEADER}{BODY}Εμφάνιση λεπτομερέστερων συμβουλών σύνοψης εργαλείων στο παράθυρο αποτελέσματα μάχης. Για παράδειγμα, αν τοποθετήσετε το δείκτη του ποντικιού πάνω από τη συνολική "Ζημιά υποβοήθησης" θα εμφανιστεί η συνολική ζημιά που εντοπίστηκε και η ζημιά παρακολούθησης χωριστά.{/BODY}
+betterBattleResults.tooltipOverride.assist.total: Συνολική ζημιά που προκλήθηκε από συμμάχους σε εχθρικά οχήματα
+betterBattleResults.tooltipOverride.crits.total: Συνολικός αριθμός κρίσιμων επισκέψεων
+
+betterStyleSelection.modname: Καλύτερη ταξινόμηση στυλ
+betterStyleSelection.styleSortingEnabled.title: Διόρθωση ομαδοποίησης στυλ 2D και 3D
+betterStyleSelection.styleSortingEnabled.description: {HEADER}Διόρθωση ομαδοποίησης στυλ 2D και 3D{/HEADER}{BODY}Επισημαίνει όλα τα τρισδιάστατα στυλ και τα στυλ 2D για συγκεκριμένα οχήματα ως "Μοναδικά", ώστε να είναι πιο εύκολο να τα βρείτε.{/BODY}
+
+jakLib.commonSettings: Ρυθμίσεις Modpack
+jakLib.modname: Ειδοποίηση σύνδεσης
+jakLib.language.title: Γλώσσα
+jakLib.language.description: {HEADER}Γλώσσα{/HEADER}{BODY}Ρύθμιση της γλώσσας του modpack{/BODY}
+jakLib.loginNotificationEnabled.title: Ειδοποίηση σύνδεσης
+jakLib.loginNotificationEnabled.description: {HEADER}Ειδοποίηση σύνδεσης{/HEADER}{BODY}Ενεργοποιήστε ή απενεργοποιήστε μια ειδοποίηση μετά τη σύνδεση που δείχνει ποια mod εκτελούνται.{/BODY}
+jakLib.errorNotificationEnabled.title: Ειδοποίηση σφάλματος
+jakLib.errorNotificationEnabled.description: {HEADER}Ειδοποίηση σφάλματος{/HEADER}{BODY}Ενεργοποιήστε ή απενεργοποιήστε μια ειδοποίηση μετά τη σύνδεση που δείχνει ποια mods απέτυχαν να φορτωθούν.{/BODY}

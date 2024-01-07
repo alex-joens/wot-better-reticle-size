@@ -1,0 +1,36 @@
+betterReticleSize.modname: Betere draadkruisgrootte
+betterReticleSize.gunMarkerMinimumSize.title: Minimale draadkruisgrootte
+betterReticleSize.gunMarkerMinimumSize.description: {HEADER}Minimale draadkruisgrootte{/HEADER}{BODY}Beperkt hoe klein het draadkruis zichtbaar mag krimpen. Als je dit op 0 zet, is de draadkruisgrootte altijd nauwkeurig, maar is deze wellicht moeilijker te zien.{/BODY}
+betterReticleSize.percentCorrection.title: Correctiepercentage
+betterReticleSize.percentCorrection.description: {HEADER}Correctiepercentage{/HEADER}{BODY}Hoeveel moet de draadkruisgrootte worden gecorrigeerd. 0% is de standaard instelling voor extra groot formaat van de game, 100% is de juiste grootte.{/BODY}
+betterReticleSize.showClientAndServerReticle.title: Schakel het client- en serverdradenkruis in
+betterReticleSize.showClientAndServerReticle.description: {HEADER}Client- en serverdraden inschakelen{/HEADER}{BODY}Toon zowel het client- als het serverdradenkruis tegelijkertijd. Het clientdradenkruis voelt responsiever aan, maar het serverdradenkruis is nauwkeuriger omdat het rekening houdt met vertraging.{/BODY}
+betterReticleSize.showServerSpgStrategicReticle.title: Client- en serverdradenkruis in strategische artillerieweergave
+betterReticleSize.showServerSpgStrategicReticle.description: {HEADER}Client- en serverdradenkruis in strategische artillerieweergave{/HEADER}{BODY}Het huidige secundaire dradenkruis van de bovengrondse artillerie is afleidend lelijk en staat daarom standaard uitgeschakeld.{/BODY}
+betterReticleSize.serverReticleAimingCircleShape.title: Richtcirkel
+betterReticleSize.serverReticleAimingCircleShape.description: {HEADER}Richtcirkel{/HEADER}{BODY}De richtcirkel voor het dradenkruis van de server. Je kunt zien hoe deze eruit zien door in het hoofdmenu Instellingen te klikken, op het tabblad Richtkruis te klikken en de opties voor Richten aan te vinken.{/BODY}
+betterReticleSize.serverReticleAimingCircleOpacity.title: Dekking van de cirkel
+betterReticleSize.serverReticleAimingCircleOpacity.description: {HEADER}Dekking van de richtcirkel{/HEADER}{BODY}Stel de dekking, oftewel de transparantie, in van de richtcirkel van de server.{/BODY}
+betterReticleSize.serverReticleGunMarkerShape.title: Pistoolmarkering
+betterReticleSize.serverReticleGunMarkerShape.description: {HEADER}Geweermarkering{/HEADER}{BODY}De wapenmarkering voor het dradenkruis van de server. Je kunt zien hoe deze eruit zien door in het hoofdmenu Instellingen te klikken, op het tabblad Richtkruis te klikken en de opties voor 'Geweermarkering' aan te vinken.{/BODY}
+betterReticleSize.serverReticleGunMarkerOpacity.title: Dekking van pistoolmarkering
+betterReticleSize.serverReticleGunMarkerOpacity.description: {HEADER}Dekking van wapenmarkering{/HEADER}{BODY}Stel de dekking, oftewel de transparantie, in van de serverpistoolmarkering.{/BODY}
+
+betterBattleResults.modname: Betere gevechtsresultaten
+betterBattleResults.richTooltip.title: Meer gedetailleerde tooltips met samenvatting van gevechtsresultaten
+betterBattleResults.richTooltip.description: {HEADER}Meer gedetailleerde tooltips met samenvatting van gevechtsresultaten{/HEADER}{BODY}Toon meer gedetailleerde samenvattingstooltips in het venster Gevechtsresultaten. Als u bijvoorbeeld met de muis over het totaal 'schade helpen' beweegt, wordt de totaal gedetecteerde schade weergegeven en wordt de schade afzonderlijk bijgehouden.{/BODY}
+betterBattleResults.tooltipOverride.assist.total: Totale schade veroorzaakt door bondgenoten aan vijandelijke voertuigen
+betterBattleResults.tooltipOverride.crits.total: Totaal aantal kritieke treffers
+
+betterStyleSelection.modname: Betere stijlsortering
+betterStyleSelection.styleSortingEnabled.title: Groepering van 2D- en 3D-stijlen opgelost
+betterStyleSelection.styleSortingEnabled.description: {HEADER}Groepering van 2D- en 3D-stijlen opgelost{/HEADER}{BODY}Markeert alle 3D-stijlen en voertuigspecifieke 2D-stijlen als 'Uniek', zodat ze gemakkelijker te vinden zijn.{/BODY}
+
+jakLib.commonSettings: Modpack-instellingen
+jakLib.modname: Inlogmelding
+jakLib.language.title: Taal
+jakLib.language.description: {HEADER}Taal{/HEADER}{BODY}De modpack-taal instellen{/BODY}
+jakLib.loginNotificationEnabled.title: Inlogmelding
+jakLib.loginNotificationEnabled.description: {HEADER}Inlogmelding{/HEADER}{BODY}Schakel na het inloggen een melding in of uit waarin wordt aangegeven welke mods actief zijn.{/BODY}
+jakLib.errorNotificationEnabled.title: Foutmelding
+jakLib.errorNotificationEnabled.description: {HEADER}Foutmelding{/HEADER}{BODY}Schakel na het inloggen een melding in of uit waarin wordt aangegeven welke mods niet kunnen worden geladen.{/BODY}

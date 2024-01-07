@@ -1,0 +1,36 @@
+betterReticleSize.modname: Pontos célkereszt méret
+betterReticleSize.gunMarkerMinimumSize.title: Minimális célkereszt méret
+betterReticleSize.gunMarkerMinimumSize.description: {HEADER}Minimális célkereszt méret{/HEADER}{BODY}Korlátozza, hogy a szálkereszt milyen kicsire zsugorodik láthatóan. Ha ezt 0-ra állítja, akkor a szálkereszt mérete mindig pontos, de előfordulhat, hogy nehezebb lesz látni.{/BODY}
+betterReticleSize.percentCorrection.title: Korrekciós érték
+betterReticleSize.percentCorrection.description: {HEADER}Korrekciós érték{/HEADER}{BODY}Mennyire legyen beállítva a célkereszt méretét. A 0% a játék alapértemezett beállítása, a 100% pedig a valós méret.{/BODY}
+betterReticleSize.showClientAndServerReticle.title: Engedélyezze a kliens és a szerver hálóját
+betterReticleSize.showClientAndServerReticle.description: {HEADER}Kliens- és szerverhálózat engedélyezése{/HEADER}{BODY}A kliens és a kiszolgáló hálójának egyidejű megjelenítése. A kliens irányzék jobban reagál, de a kiszolgáló irányzéke pontosabb, mert késést számol.{/BODY}
+betterReticleSize.showServerSpgStrategicReticle.title: Kliens és szerver irányzék tüzérségi stratégiai nézetben
+betterReticleSize.showServerSpgStrategicReticle.description: {HEADER}Kliens- és szerverirányító tüzérségi stratégiai nézetben{/HEADER}{BODY}A jelenlegi felső tüzérségi másodlagos irányzék zavaróan csúnya, ezért alapértelmezés szerint le van tiltva.{/BODY}
+betterReticleSize.serverReticleAimingCircleShape.title: Célzó kör
+betterReticleSize.serverReticleAimingCircleShape.description: {HEADER}Célzókör{/HEADER}{BODY}A kiszolgáló irányzékának célzóköre. Megtekintheti, hogyan néznek ki ezek, ha megnézi a fő Beállítások menüt, rákattint a Reticle fülre, és bejelöli a „Célzás” opciókat.{/BODY}
+betterReticleSize.serverReticleAimingCircleOpacity.title: Célzó kör átlátszatlansága
+betterReticleSize.serverReticleAimingCircleOpacity.description: {HEADER}Célzó kör átlátszatlansága{/HEADER}{BODY}Állítsa be a szerver célzókörének átlátszatlanságát, azaz az átlátszóságot.{/BODY}
+betterReticleSize.serverReticleGunMarkerShape.title: Fegyverjelző
+betterReticleSize.serverReticleGunMarkerShape.description: {HEADER}Pisztolyjelző{/HEADER}{BODY}A kiszolgáló irányzékának fegyverjelzője. Megtekintheti, hogyan néznek ki ezek, ha megnézi a fő Beállítások menüt, rákattint a Reticle fülre, és bejelöli a „Gun Marker” opciókat.{/BODY}
+betterReticleSize.serverReticleGunMarkerOpacity.title: Fegyverjelző átlátszatlansága
+betterReticleSize.serverReticleGunMarkerOpacity.description: {HEADER}Pisztolyjelző átlátszatlansága{/HEADER}{BODY}Állítsa be a kiszolgáló fegyverjelölőjének átlátszatlanságát, azaz az átlátszóságot.{/BODY}
+
+betterBattleResults.modname: Jobb csataeredmény
+betterBattleResults.richTooltip.title: Részletesebb csateredmény segéd
+betterBattleResults.richTooltip.description: {HEADER}Részletesebb csateredmény segéd{/HEADER}{BODY}Részletesebb összefoglalása a csatában szerzett felderítési sebzésnek. Például, ha a kurzort az "Sebzés felderítéssel" fölé viszi, akkor a felderítési és a megsemmisült lánctalpért járó felderítési sebzés külön-külön mutatja.{/BODY}
+betterBattleResults.tooltipOverride.assist.total: A szövetségesek által az ellenséges járművekben okozott teljes kár
+betterBattleResults.tooltipOverride.crits.total: A kritikus találatok teljes száma
+
+betterStyleSelection.modname: Jobb stílus szerinti rendezés
+betterStyleSelection.styleSortingEnabled.title: A 2D és 3D stílusok csoportosításának javítása
+betterStyleSelection.styleSortingEnabled.description: {HEADER}A 2D és 3D stílusok csoportosításának javítása{/HEADER}{BODY}Az összes 3D stílust és járműspecifikus 2D stílust „Egyediként” jelöli meg, így könnyebben megtalálhatóak.{/BODY}
+
+jakLib.commonSettings: Modpack beállítások
+jakLib.modname: Bejelentkezési értesítés
+jakLib.language.title: Nyelv
+jakLib.language.description: {HEADER}Nyelv{/HEADER}{BODY}A modpack nyelv beállítása{/BODY}
+jakLib.loginNotificationEnabled.title: Bejelentkezési értesítés
+jakLib.loginNotificationEnabled.description: {HEADER}Bejelentkezési értesítés{/HEADER}{BODY}Engedélyezze vagy tiltsa le az értesítést bejelentkezés után, amely megmutatja, hogy mely modok futnak.{/BODY}
+jakLib.errorNotificationEnabled.title: Hibaértesítés
+jakLib.errorNotificationEnabled.description: {HEADER}Hibaértesítés{/HEADER}{BODY}Engedélyezze vagy tiltsa le az értesítést a bejelentkezés után, amely megmutatja, hogy mely modok betöltése nem sikerült.{/BODY}

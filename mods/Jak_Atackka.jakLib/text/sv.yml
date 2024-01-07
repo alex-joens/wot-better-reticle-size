@@ -1,0 +1,36 @@
+betterReticleSize.modname: Bättre hårkorsstorlek
+betterReticleSize.gunMarkerMinimumSize.title: Minsta hårkorsstorlek
+betterReticleSize.gunMarkerMinimumSize.description: {HEADER}Minsta hårkorsstorlek{/HEADER}{BODY}Begränsar hur litet hårkorset synligt tillåts krympa. Om du ställer in detta till 0 betyder det att hårkorsstorleken alltid är korrekt, men det kan vara svårare att se.{/BODY}
+betterReticleSize.percentCorrection.title: Korrigeringsprocent
+betterReticleSize.percentCorrection.description: {HEADER}Korrigeringsprocent{/HEADER}{BODY}Hur mycket ska du korrigera hårkorsstorleken. 0 % är spelets standardinställning för överdimensionering, 100 % är rätt storlek.{/BODY}
+betterReticleSize.showClientAndServerReticle.title: Omogoči namerilni križ odjemalca in strežnika
+betterReticleSize.showClientAndServerReticle.description: {HEADER}Omogoči namerilni križ odjemalca in strežnika{/HEADER}{BODY}Hkrati prikaži namerilni križ odjemalca in strežnika. Odjemalski namerilni križ se zdi bolj odziven, vendar je strežniški namerilni križ bolj natančen, ker upošteva zamik.{/BODY}
+betterReticleSize.showServerSpgStrategicReticle.title: Namerilni križ odjemalca in strežnika v topniškem strateškem pogledu
+betterReticleSize.showServerSpgStrategicReticle.description: {HEADER}Namerilni križ odjemalca in strežnika v strateškem pogledu topništva{/HEADER}{BODY}Trenutni sekundarni namerilni križ nadzemnega topništva je moteče grd, zato je privzeto onemogočen.{/BODY}
+betterReticleSize.serverReticleAimingCircleShape.title: Ciljni krog
+betterReticleSize.serverReticleAimingCircleShape.description: {HEADER}Cirni krog{/HEADER}{BODY}Cirni krog za namerilni križ strežnika. Kako izgledajo, si lahko ogledate tako, da preverite glavni meni z nastavitvami, kliknete zavihek Namerilni križ in označite možnosti »Ciljanje«.{/BODY}
+betterReticleSize.serverReticleAimingCircleOpacity.title: Neprosojnost ciljnega kroga
+betterReticleSize.serverReticleAimingCircleOpacity.description: {HEADER}Neprosojnost ciljnega kroga{/HEADER}{BODY}Nastavite motnost, imenovano tudi prosojnost, ciljnega kroga strežnika.{/BODY}
+betterReticleSize.serverReticleGunMarkerShape.title: Marker pištole
+betterReticleSize.serverReticleGunMarkerShape.description: {HEADER}Oznaka pištole{/HEADER}{BODY}Oznaka pištole za namerilni križ strežnika. Kako izgledajo, si lahko ogledate tako, da preverite glavni meni z nastavitvami, kliknete zavihek Namerilni križ in preverite možnosti »Označevalnik orožja«.{/BODY}
+betterReticleSize.serverReticleGunMarkerOpacity.title: Motnost označevalca pištole
+betterReticleSize.serverReticleGunMarkerOpacity.description: {HEADER}Prosojnost označevalca orožja{/HEADER}{BODY}Nastavite motnost, imenovano tudi prosojnost, strežniškega označevalca orožja.{/BODY}
+
+betterBattleResults.modname: Bättre kampresultat
+betterBattleResults.richTooltip.title: Mer detaljerade verktygstips för kampresultatsammanfattningar
+betterBattleResults.richTooltip.description: {HEADER}Mer detaljerade verktygstips för kampresultatsammanfattningar{/HEADER}{BODY}Visa mer detaljerade sammanfattningsverktygstips i fönstret för kampresultat. Om du till exempel håller muspekaren över den totala "Assisterande skadan" visas den totala upptäckta skadan och spårningsskador separat.{/BODY}
+betterBattleResults.tooltipOverride.assist.total: Total skada orsakad av allierade på fiendens fordon
+betterBattleResults.tooltipOverride.crits.total: Totalt antal kritiska träffar
+
+betterStyleSelection.modname: Bättre stilsortering
+betterStyleSelection.styleSortingEnabled.title: Åtgärda gruppering av 2D- och 3D-stilar
+betterStyleSelection.styleSortingEnabled.description: {HEADER}Åtgärda gruppering av 2D- och 3D-stilar{/HEADER}{BODY}Markerar alla 3D-stilar och fordonsspecifika 2D-stilar som "Unika", så att de är lättare att hitta.{/BODY}
+
+jakLib.commonSettings: Modpack-inställningar
+jakLib.modname: Inloggningsmeddelande
+jakLib.language.title: Språk
+jakLib.language.description: {HEADER}Språk{/HEADER}{BODY}Ställ in modpackspråket{/BODY}
+jakLib.loginNotificationEnabled.title: Inloggningsmeddelande
+jakLib.loginNotificationEnabled.description: {HEADER}Inloggningsmeddelande{/HEADER}{BODY}Aktivera eller inaktivera en avisering efter inloggning som visar vilka moddar som körs.{/BODY}
+jakLib.errorNotificationEnabled.title: Felmeddelande
+jakLib.errorNotificationEnabled.description: {HEADER}Felmeddelande{/HEADER}{BODY}Aktivera eller inaktivera en avisering efter inloggning som visar vilka mods som inte kunde laddas.{/BODY}

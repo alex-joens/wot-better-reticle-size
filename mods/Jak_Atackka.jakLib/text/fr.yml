@@ -1,0 +1,36 @@
+betterReticleSize.modname: Meilleure taille de réticule
+betterReticleSize.gunMarkerMinimumSize.title: Taille minimale du réticule
+betterReticleSize.gunMarkerMinimumSize.description: {HEADER}Taille minimale du réticule{/HEADER}{BODY}Limite la taille visible du réticule. Si vous définissez cette valeur sur 0, la taille du réticule est toujours précise, mais elle peut être plus difficile à voir.{/BODY}
+betterReticleSize.percentCorrection.title: Pourcentage de correction
+betterReticleSize.percentCorrection.description: {HEADER}Pourcentage de correction{/HEADER}{BODY}Dans quelle mesure corriger la taille du réticule. 0 % est le paramètre de taille surdimensionnée par défaut du jeu, 100 % est la taille correcte.{/BODY}
+betterReticleSize.showClientAndServerReticle.title: Activer le réticule client et serveur
+betterReticleSize.showClientAndServerReticle.description: {HEADER}Activer le réticule client et serveur{/HEADER}{BODY}Afficher le réticule client et serveur en même temps. Le réticule client semble plus réactif, mais le réticule serveur est plus précis, car il tient compte du décalage.{/BODY}
+betterReticleSize.showServerSpgStrategicReticle.title: Réticule client et serveur dans la vue stratégique de l'artillerie
+betterReticleSize.showServerSpgStrategicReticle.description: {HEADER}Réticule client et serveur dans la vue stratégique de l'artillerie{/HEADER}{BODY}Le réticule secondaire actuel de l'artillerie aérienne est extrêmement laid, il est donc désactivé par défaut.{/BODY}
+betterReticleSize.serverReticleAimingCircleShape.title: Cercle de visée
+betterReticleSize.serverReticleAimingCircleShape.description: {HEADER}Cercle de visée{/HEADER}{BODY}Le cercle de visée du réticule du serveur. Vous pouvez voir à quoi cela ressemble en consultant le menu principal des paramètres, en cliquant sur l'onglet Réticule et en cochant les options "Visée".{/BODY}
+betterReticleSize.serverReticleAimingCircleOpacity.title: Opacité du cercle de visée
+betterReticleSize.serverReticleAimingCircleOpacity.description: {HEADER}Opacité du cercle de visée{/HEADER}{BODY}Définissez l'opacité, c'est-à-dire la transparence, du cercle de visée du serveur.{/BODY}
+betterReticleSize.serverReticleGunMarkerShape.title: Marqueur d'arme à feu
+betterReticleSize.serverReticleGunMarkerShape.description: {HEADER}Marqueur d'arme{/HEADER}{BODY}Le marqueur d'arme pour le réticule du serveur. Vous pouvez voir à quoi cela ressemble en consultant le menu principal des paramètres, en cliquant sur l'onglet Réticule et en cochant les options "Marqueur d'arme".{/BODY}
+betterReticleSize.serverReticleGunMarkerOpacity.title: Opacité du marqueur d'arme à feu
+betterReticleSize.serverReticleGunMarkerOpacity.description: {HEADER}Opacité du marqueur d'arme à feu{/HEADER}{BODY}Définissez l'opacité, c'est-à-dire la transparence, du marqueur d'arme du serveur.{/BODY}
+
+betterBattleResults.modname: De meilleurs résultats de bataille
+betterBattleResults.richTooltip.title: Info-bulles récapitulatives des résultats de bataille plus détaillées
+betterBattleResults.richTooltip.description: {HEADER}Info-bulles récapitulatives des résultats de bataille plus détaillées{/HEADER}{BODY}Afficher des info-bulles récapitulatives plus détaillées dans la fenêtre Résultats de la bataille. Par exemple, en survolant le total des "Dégâts d'assistance", le total des dégâts détectés et le suivi des dégâts s'afficheront séparément.{/BODY}
+betterBattleResults.tooltipOverride.assist.total: Dégâts totaux causés par les alliés aux véhicules ennemis
+betterBattleResults.tooltipOverride.crits.total: Nombre total de coups critiques
+
+betterStyleSelection.modname: Meilleur tri des styles
+betterStyleSelection.styleSortingEnabled.title: Correction du regroupement des styles 2D et 3D
+betterStyleSelection.styleSortingEnabled.description: {HEADER}Correction du regroupement des styles 2D et 3D{/HEADER}{BODY}Marque tous les styles 3D et les styles 2D spécifiques au véhicule comme "Uniques", afin qu'ils soient plus faciles à trouver.{/BODY}
+
+jakLib.commonSettings: Paramètres du pack de modules
+jakLib.modname: Notification de connexion
+jakLib.language.title: Langue
+jakLib.language.description: {HEADER}Langue{/HEADER}{BODY}Définir la langue du modpack{/BODY}
+jakLib.loginNotificationEnabled.title: Notification de connexion
+jakLib.loginNotificationEnabled.description: {HEADER}Notification de connexion{/HEADER}{BODY}Activez ou désactivez une notification après la connexion indiquant quels mods sont en cours d'exécution.{/BODY}
+jakLib.errorNotificationEnabled.title: Notification d'erreur
+jakLib.errorNotificationEnabled.description: {HEADER}Notification d'erreur{/HEADER}{BODY}Activez ou désactivez une notification après la connexion indiquant les mods qui n'ont pas pu être chargés.{/BODY}

@@ -1,0 +1,36 @@
+betterReticleSize.modname: По-добър размер на прицелната мрежа
+betterReticleSize.gunMarkerMinimumSize.title: Минимален размер на визира
+betterReticleSize.gunMarkerMinimumSize.description: {HEADER}Минимален размер на визира{/HEADER}{BODY}Ограничава колко малък може видимо да се свие визирът. Задаването на това на 0 означава, че размерът на кръста винаги е точен, но може да е по-трудно да се види.{/BODY}
+betterReticleSize.percentCorrection.title: Процент на корекция
+betterReticleSize.percentCorrection.description: {HEADER}Процент на корекция{/HEADER}{BODY}Колко да коригирате размера на мерника. 0% е настройката за голям размер по подразбиране на играта, 100% е правилният размер.{/BODY}
+betterReticleSize.showClientAndServerReticle.title: Активиране на клиентска и сървърна мрежа
+betterReticleSize.showClientAndServerReticle.description: {HEADER}Активиране на визира на клиента и сървъра{/HEADER}{BODY}Показване на визира на клиента и сървъра едновременно. Клиентският визир изглежда по-отзивчив, но сървърният визир е по-точен, защото отчита забавянето.{/BODY}
+betterReticleSize.showServerSpgStrategicReticle.title: Клиентски и сървърен прицел в артилерийски стратегически изглед
+betterReticleSize.showServerSpgStrategicReticle.description: {HEADER}Визир на клиент и сървър в стратегически артилерийски изглед{/HEADER}{BODY}Текущият вторичен визир на надземната артилерия е разсейващо грозен, така че е деактивиран по подразбиране.{/BODY}
+betterReticleSize.serverReticleAimingCircleShape.title: Прицелен кръг
+betterReticleSize.serverReticleAimingCircleShape.description: {HEADER}Прицелен кръг{/HEADER}{BODY}Прицелният кръг за сървърната мрежа. Можете да видите как изглеждат те, като проверите главното меню с настройки, щракнете върху раздела Решетка и изберете опциите „Прицелване“.{/BODY}
+betterReticleSize.serverReticleAimingCircleOpacity.title: Непрозрачност на прицелния кръг
+betterReticleSize.serverReticleAimingCircleOpacity.description: {HEADER}Непрозрачност на прицелния кръг{/HEADER}{BODY}Задайте непрозрачността, известна още като прозрачност, на прицелния кръг на сървъра.{/BODY}
+betterReticleSize.serverReticleGunMarkerShape.title: Маркер за пистолет
+betterReticleSize.serverReticleGunMarkerShape.description: {HEADER}Маркер за оръжие{/HEADER}{BODY}Маркер за оръжие за мрежата на сървъра. Можете да видите как изглеждат те, като проверите главното меню с настройки, щракнете върху раздела „Решетка“ и изберете опциите „Маркер за пистолет“.{/BODY}
+betterReticleSize.serverReticleGunMarkerOpacity.title: Непрозрачност на маркера за пистолет
+betterReticleSize.serverReticleGunMarkerOpacity.description: {HEADER}Непрозрачност на маркера за пистолет{/HEADER}{BODY}Задайте непрозрачността, известна още като прозрачност, на сървърния маркер за пистолет.{/BODY}
+
+betterBattleResults.modname: По-добри резултати от битката
+betterBattleResults.richTooltip.title: По-подробни обобщени подсказки за резултатите от битката
+betterBattleResults.richTooltip.description: {HEADER}По-подробни обобщени подсказки за резултатите от битката{/HEADER}{BODY}Показване на по-подробни обобщени подсказки в прозореца с резултати от битката. Например, задържането на курсора на мишката над общата „Помощна щета“ ще покаже поотделно общата щета при забелязване и щета при проследяване.{/BODY}
+betterBattleResults.tooltipOverride.assist.total: Общи щети, причинени от съюзници на вражески превозни средства
+betterBattleResults.tooltipOverride.crits.total: Общ брой критични удари
+
+betterStyleSelection.modname: По-добро сортиране по стил
+betterStyleSelection.styleSortingEnabled.title: Коригирайте групирането на 2D и 3D стилове
+betterStyleSelection.styleSortingEnabled.description: {HEADER}Коригиране на групирането на 2D и 3D стилове{/HEADER}{BODY}Маркира всички 3D стилове и специфични за автомобила 2D стилове като „Уникални“, така че да се намират по-лесно.{/BODY}
+
+jakLib.commonSettings: Настройки на Modpack
+jakLib.modname: Известие за влизане
+jakLib.language.title: Език
+jakLib.language.description: {HEADER}Език{/HEADER}{BODY}Задаване на езика на modpack{/BODY}
+jakLib.loginNotificationEnabled.title: Известие за влизане
+jakLib.loginNotificationEnabled.description: {HEADER}Известие при влизане{/HEADER}{BODY}Активиране или деактивиране на известие след влизане, което показва кои модификации се изпълняват.{/BODY}
+jakLib.errorNotificationEnabled.title: Известие за грешка
+jakLib.errorNotificationEnabled.description: {HEADER}Известие за грешка{/HEADER}{BODY}Активиране или деактивиране на известие след влизане, което показва кои модификации не са успели да се заредят.{/BODY}

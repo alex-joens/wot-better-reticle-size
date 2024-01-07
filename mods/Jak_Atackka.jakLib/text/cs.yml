@@ -1,0 +1,36 @@
+betterReticleSize.modname: Lepší velikost zaměřovacího kříže
+betterReticleSize.gunMarkerMinimumSize.title: Minimální velikost nitkového kříže
+betterReticleSize.gunMarkerMinimumSize.description: {HEADER}Minimální velikost nitkového kříže{/HEADER}{BODY}Omezuje, jak malý nitkový kříž se může viditelně zmenšit. Nastavení na 0 znamená, že velikost nitkového kříže je vždy přesná, ale může být hůře viditelná.{/BODY}
+betterReticleSize.percentCorrection.title: Procento opravy
+betterReticleSize.percentCorrection.description: {HEADER}Procento opravy{/HEADER}{BODY}Kolik opravit velikost nitkového kříže. 0 % je výchozí nastavení nadměrné velikosti hry, 100 % je správná velikost.{/BODY}
+betterReticleSize.showClientAndServerReticle.title: Povolit zaměřovač klienta a serveru
+betterReticleSize.showClientAndServerReticle.description: {HEADER}Povolit zaměřovač klienta a serveru{/HEADER}{BODY}Zobrazovat současně zaměřovač klienta i serveru. Zaměřovač klienta je citlivější, ale zaměřovač serveru je přesnější, protože zohledňuje zpoždění.{/BODY}
+betterReticleSize.showServerSpgStrategicReticle.title: Klientský a serverový záměrný kříž v dělostřeleckém strategickém pohledu
+betterReticleSize.showServerSpgStrategicReticle.description: {HEADER}Klientský a serverový záměrný kříž ve strategickém pohledu dělostřelectva{/HEADER}{BODY}Aktuální sekundární zaměřovač horního dělostřelectva je rušivě ošklivý, takže je ve výchozím nastavení zakázán.{/BODY}
+betterReticleSize.serverReticleAimingCircleShape.title: Zaměřovací kruh
+betterReticleSize.serverReticleAimingCircleShape.description: {HEADER}Zaměřovací kruh{/HEADER}{BODY}Zaměřovací kruh pro zaměřovač serveru. Jak vypadají, můžete vidět v hlavní nabídce Nastavení, kliknutím na kartu Zaměřovací kříž a zaškrtnutím možností „Míření“.{/BODY}
+betterReticleSize.serverReticleAimingCircleOpacity.title: Neprůhlednost zaměřovacího kruhu
+betterReticleSize.serverReticleAimingCircleOpacity.description: {HEADER}Neprůhlednost zaměřovacího kruhu{/HEADER}{BODY}Nastavte neprůhlednost, neboli průhlednost, zaměřovacího kruhu serveru.{/BODY}
+betterReticleSize.serverReticleGunMarkerShape.title: Značka zbraně
+betterReticleSize.serverReticleGunMarkerShape.description: {HEADER}Značka zbraně{/HEADER}{BODY}Značka zbraně pro zaměřovač serveru. Jak vypadají, můžete vidět v hlavní nabídce Nastavení, kliknutím na kartu Zaměřovací kříž a zaškrtnutím možností „Značkovač zbraní“.{/BODY}
+betterReticleSize.serverReticleGunMarkerOpacity.title: Neprůhlednost značky zbraně
+betterReticleSize.serverReticleGunMarkerOpacity.description: {HEADER}Opacita značky pistole{/HEADER}{BODY}Nastavte neprůhlednost, neboli průhlednost, značky serverové zbraně.{/BODY}
+
+betterBattleResults.modname: Lepší výsledky bitvy
+betterBattleResults.richTooltip.title: Podrobnější popisky souhrnu výsledků bitvy
+betterBattleResults.richTooltip.description: {HEADER}Podrobnější popisky souhrnu výsledků bitvy{/HEADER}{BODY}V okně Výsledky bitvy zobrazit podrobnější souhrnné popisy. Pokud například umístíte kurzor myši na celkovou hodnotu „napomáhat poškození“, zobrazí se celkové poškození při sledování a poškození při sledování zvlášť.{/BODY}
+betterBattleResults.tooltipOverride.assist.total: Celkové poškození způsobené spojenci nepřátelským vozidlům
+betterBattleResults.tooltipOverride.crits.total: Celkový počet kritických zásahů
+
+betterStyleSelection.modname: Lepší stylové třídění
+betterStyleSelection.styleSortingEnabled.title: Opravit seskupování 2D a 3D stylů
+betterStyleSelection.styleSortingEnabled.description: {HEADER}Opravit seskupování 2D a 3D stylů{/HEADER}{BODY}Všechny 3D styly a 2D styly specifické pro vozidla jsou označeny jako „Unikátní“, takže je snáze najdete.{/BODY}
+
+jakLib.commonSettings: Nastavení Modpacku
+jakLib.modname: Oznámení o přihlášení
+jakLib.language.title: Jazyk
+jakLib.language.description: {HEADER}Jazyk{/HEADER}{BODY}Nastavení jazyka modpacku{/BODY}
+jakLib.loginNotificationEnabled.title: Oznámení o přihlášení
+jakLib.loginNotificationEnabled.description: {HEADER}Oznámení o přihlášení{/HEADER}{BODY}Po přihlášení můžete povolit nebo zakázat upozornění, které ukazuje, které mody jsou spuštěny.{/BODY}
+jakLib.errorNotificationEnabled.title: Oznámení o chybě
+jakLib.errorNotificationEnabled.description: {HEADER}Oznámení o chybě{/HEADER}{BODY}Po přihlášení povolte nebo zakažte upozornění, které ukazuje, které mody se nepodařilo načíst.{/BODY}

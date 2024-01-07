@@ -1,0 +1,36 @@
+betterReticleSize.modname: Боља крстаста величина
+betterReticleSize.gunMarkerMinimumSize.title: Минимална величина укрштенице
+betterReticleSize.gunMarkerMinimumSize.description: {HEADER}Минимална величина укрштенице{/HEADER}{BODY}Ограничава колико је малом нишану дозвољено видљиво да се скупи. Подешавање на 0 значи да је величина крста увек тачна, али је можда теже видети.{/BODY}
+betterReticleSize.percentCorrection.title: Проценат исправке
+betterReticleSize.percentCorrection.description: {HEADER}Проценат исправке{/HEADER}{BODY}Колико треба исправити величину крстића. 0% је подразумевана поставка превелике величине игре, 100% је тачна величина.{/BODY}
+betterReticleSize.showClientAndServerReticle.title: Омогући клијент и сервер кончаницу
+betterReticleSize.showClientAndServerReticle.description: {HEADER}Омогући циљну мрежу клијента и сервера{/HEADER}{BODY}Прикажи истовремено и клијент и сервер. Осећа се да клијентска кончаница боље реагује, али серверска је прецизнија јер узима у обзир заостајање.{/BODY}
+betterReticleSize.showServerSpgStrategicReticle.title: Коначна мрежа клијента и сервера у артиљеријском стратешком погледу
+betterReticleSize.showServerSpgStrategicReticle.description: {HEADER}Клијентска и серверска кончаница у артиљеријском стратешком приказу{/HEADER}{BODY}Тренутна секундарна циљна мрежа изнад главе је ометајуће ружна, па је подразумевано онемогућена.{/BODY}
+betterReticleSize.serverReticleAimingCircleShape.title: Циљани круг
+betterReticleSize.serverReticleAimingCircleShape.description: {HEADER}Круг циљања{/HEADER}{BODY}Круг циљања за циљну мрежу сервера. Можете да видите како ово изгледа тако што ћете проверити главни мени Подешавања, кликнути на картицу Ретицле и проверити опције „Циљање“.{/BODY}
+betterReticleSize.serverReticleAimingCircleOpacity.title: Непрозирност круга циља
+betterReticleSize.serverReticleAimingCircleOpacity.description: {HEADER}Непрозирност круга циљања{/HEADER}{BODY}Подесите непрозирност, односно прозирност, круга циљања сервера.{/BODY}
+betterReticleSize.serverReticleGunMarkerShape.title: Маркер за оружје
+betterReticleSize.serverReticleGunMarkerShape.description: {HEADER}Маркер оружја{/HEADER}{BODY}Означивач пиштоља за кончаницу сервера. Можете да видите како ово изгледа тако што ћете проверити главни мени Подешавања, кликнути на картицу Ретицле и проверити опције „Маркер оружја“.{/BODY}
+betterReticleSize.serverReticleGunMarkerOpacity.title: Непрозирност маркера пиштоља
+betterReticleSize.serverReticleGunMarkerOpacity.description: {HEADER}Непрозирност маркера оружја{/HEADER}{BODY}Подесите непрозирност, односно прозирност, обележивача пиштоља сервера.{/BODY}
+
+betterBattleResults.modname: Бољи резултати битке
+betterBattleResults.richTooltip.title: Детаљнији резиме резултата битке
+betterBattleResults.richTooltip.description: {HEADER}Детаљнији резиме резултата битке{/HEADER}{BODY}Прикажи детаљније описе резимеа у прозору са резултатима битке. На пример, ако пређете показивач миша изнад укупне „Помоћне штете“, приказаће се укупна откривена штета и оштећење које пратите одвојено.{/BODY}
+betterBattleResults.tooltipOverride.assist.total: Укупна штета коју су савезници нанели непријатељским возилима
+betterBattleResults.tooltipOverride.crits.total: Укупан број критичних погодака
+
+betterStyleSelection.modname: Боље сортирање стилова
+betterStyleSelection.styleSortingEnabled.title: Поправи груписање 2Д и 3Д стилова
+betterStyleSelection.styleSortingEnabled.description: {HEADER}Поправи груписање 2Д и 3Д стилова{/HEADER}{BODY}Означава све 3Д стилове и 2Д стилове специфичне за возило као „Јединствене“, па их је лакше пронаћи.{/BODY}
+
+jakLib.commonSettings: Модпацк подешавања
+jakLib.modname: Обавештење за пријаву
+jakLib.language.title: Језик
+jakLib.language.description: {HEADER}Језик{/HEADER}{BODY}Подесите језик пакета модификација{/BODY}
+jakLib.loginNotificationEnabled.title: Обавештење за пријаву
+jakLib.loginNotificationEnabled.description: {HEADER}Обавештење о пријави{/HEADER}{BODY}Омогућите или онемогућите обавештење након пријављивања које показује који су модови покренути.{/BODY}
+jakLib.errorNotificationEnabled.title: Обавештење о грешци
+jakLib.errorNotificationEnabled.description: {HEADER}Обавештење о грешци{/HEADER}{BODY}Омогућите или онемогућите обавештење након пријављивања које показује који модови нису успели да се учитају.{/BODY}

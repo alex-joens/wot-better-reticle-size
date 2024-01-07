@@ -1,0 +1,36 @@
+betterReticleSize.modname: Daha İyi Artı Göstergesi Boyutu
+betterReticleSize.gunMarkerMinimumSize.title: Minimum artı işareti boyutu
+betterReticleSize.gunMarkerMinimumSize.description: {HEADER}Minimum artı işareti boyutu{/HEADER}{BODY}Artı işaretinin görünür şekilde küçültülmesine izin verilen küçülme miktarını sınırlar. Bunu 0'a ayarlamak artı işareti boyutunun her zaman doğru olduğu anlamına gelir ancak görülmesi daha zor olabilir.{/BODY}
+betterReticleSize.percentCorrection.title: Düzeltme yüzdesi
+betterReticleSize.percentCorrection.description: {HEADER}Düzeltme yüzdesi{/HEADER}{BODY}Artı boyutunun ne kadar düzeltileceği. Oyunun varsayılan büyük boyut ayarı %0, doğru boyut ise %100'dür.{/BODY}
+betterReticleSize.showClientAndServerReticle.title: İstemci ve sunucu retikülünü etkinleştir
+betterReticleSize.showClientAndServerReticle.description: {HEADER}İstemci ve sunucu retikülünü etkinleştirin{/HEADER}{BODY}Hem istemci hem de sunucu retikülünü aynı anda gösterin. İstemci ağı daha hızlı tepki veriyor ancak sunucu ağı gecikmeyi hesaba kattığı için daha doğru sonuç veriyor.{/BODY}
+betterReticleSize.showServerSpgStrategicReticle.title: Topçu stratejik görünümünde istemci ve sunucu ağı
+betterReticleSize.showServerSpgStrategicReticle.description: {HEADER}Topçu stratejik görünümünde istemci ve sunucu nişangahı{/HEADER}{BODY}Mevcut havai topçu ikincil nişangahı dikkat dağıtıcı derecede çirkin olduğundan varsayılan olarak devre dışıdır.{/BODY}
+betterReticleSize.serverReticleAimingCircleShape.title: Nişan alma çemberi
+betterReticleSize.serverReticleAimingCircleShape.description: {HEADER}Hedefleme çemberi{/HEADER}{BODY}Sunucu nişangahının hedefleme çemberi. Ana Ayarlar menüsünü kontrol edip, Nişangah sekmesini tıklayıp "Hedefleme" seçeneklerini işaretleyerek bunların neye benzediğini görebilirsiniz.{/BODY}
+betterReticleSize.serverReticleAimingCircleOpacity.title: Çember opaklığını hedefleme
+betterReticleSize.serverReticleAimingCircleOpacity.description: {HEADER}Hedefleme çemberi opaklığı{/HEADER}{BODY}Sunucu hedefleme çemberinin opaklığını, diğer bir deyişle şeffaflığını ayarlayın.{/BODY}
+betterReticleSize.serverReticleGunMarkerShape.title: Silah işaretleyici
+betterReticleSize.serverReticleGunMarkerShape.description: {HEADER}Silah işaretçisi{/HEADER}{BODY}Sunucu nişangahı için silah işaretçisi. Ana Ayarlar menüsünü kontrol edip, Nişangah sekmesini tıklayıp "Silah İşaretleyici" seçeneklerini kontrol ederek bunların neye benzediğini görebilirsiniz.{/BODY}
+betterReticleSize.serverReticleGunMarkerOpacity.title: Silah işaretleyici opaklığı
+betterReticleSize.serverReticleGunMarkerOpacity.description: {HEADER}Silah işareti opaklığı{/HEADER}{BODY}Sunucu silahı işaretinin opaklığını, diğer bir deyişle şeffaflığını ayarlayın.{/BODY}
+
+betterBattleResults.modname: Daha İyi Savaş Sonuçları
+betterBattleResults.richTooltip.title: Daha ayrıntılı Savaş Sonuçları özeti araç ipuçları
+betterBattleResults.richTooltip.description: {HEADER}Daha ayrıntılı Savaş Sonuçları özeti araç ipuçları{/HEADER}{BODY}Savaş Sonuçları penceresinde daha ayrıntılı özet araç ipuçlarını gösterin. Örneğin, toplam "Destek Hasarı"nın üzerine geldiğinizde, tespit edilen toplam hasar ve takip hasarı ayrı ayrı gösterilir.{/BODY}
+betterBattleResults.tooltipOverride.assist.total: Müttefiklerin düşman araçlarına verdiği toplam hasar
+betterBattleResults.tooltipOverride.crits.total: Toplam kritik vuruş sayısı
+
+betterStyleSelection.modname: Daha İyi Stil Sıralaması
+betterStyleSelection.styleSortingEnabled.title: 2D ve 3D stillerin gruplandırılmasını düzeltin
+betterStyleSelection.styleSortingEnabled.description: {HEADER}2D ve 3D stillerin gruplandırılmasını düzeltin{/HEADER}{BODY}Tüm 3D stilleri ve araca özel 2D stilleri "Benzersiz" olarak işaretler, böylece daha kolay bulunabilirler.{/BODY}
+
+jakLib.commonSettings: Mod paketi ayarları
+jakLib.modname: Giriş bildirimi
+jakLib.language.title: Dil
+jakLib.language.description: {HEADER}Dil{/HEADER}{BODY}Mod paketi dilini ayarlayın{/BODY}
+jakLib.loginNotificationEnabled.title: Giriş bildirimi
+jakLib.loginNotificationEnabled.description: {HEADER}Giriş bildirimi{/HEADER}{BODY}Giriş yaptıktan sonra hangi modların çalıştığını gösteren bir bildirimi etkinleştirin veya devre dışı bırakın.{/BODY}
+jakLib.errorNotificationEnabled.title: Hata bildirimi
+jakLib.errorNotificationEnabled.description: {HEADER}Hata bildirimi{/HEADER}{BODY}Giriş yaptıktan sonra hangi modların yüklenemediğini gösteren bildirimi etkinleştirin veya devre dışı bırakın.{/BODY}

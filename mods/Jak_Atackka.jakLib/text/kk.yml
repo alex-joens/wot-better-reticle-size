@@ -1,0 +1,36 @@
+betterReticleSize.modname: Жақсырақ крест өлшемі
+betterReticleSize.gunMarkerMinimumSize.title: Ең төменгі қиғаш сызық өлшемі
+betterReticleSize.gunMarkerMinimumSize.description: {HEADER}Ең төменгі қиғаш сызық өлшемі{/HEADER}{BODY}Айқас сызығының көрінетіндей кішірейуіне рұқсат етілетін шағынды шектейді. Мұны 0-ге қою қиғаш сызық өлшемі әрқашан дәл екенін білдіреді, бірақ оны көру қиынырақ болуы мүмкін.{/BODY}
+betterReticleSize.percentCorrection.title: Түзету пайызы
+betterReticleSize.percentCorrection.description: {HEADER}Түзету пайызы{/HEADER}{BODY}Айқас сызығының өлшемін түзету керек. 0% — ойынның әдепкі өлшемді параметрі, 100% — дұрыс өлшем.{/BODY}
+betterReticleSize.showClientAndServerReticle.title: Клиент пен сервер торын қосыңыз
+betterReticleSize.showClientAndServerReticle.description: {HEADER}Клиент пен сервер торын қосу{/HEADER}{BODY}Клиент пен сервер торын бір уақытта көрсету. Клиент торы тезірек жауап береді, бірақ сервер торы дәлірек, себебі ол кешіктіреді.{/BODY}
+betterReticleSize.showServerSpgStrategicReticle.title: Артиллериялық стратегиялық көріністегі клиент пен сервер торы
+betterReticleSize.showServerSpgStrategicReticle.description: {HEADER}Артиллериялық стратегиялық көріністегі клиент пен сервер торы{/HEADER}{BODY}Ағымдағы әуе артиллериясының қосымша торы алаңдататындай ұсқынсыз, сондықтан ол әдепкі бойынша өшірілген.{/BODY}
+betterReticleSize.serverReticleAimingCircleShape.title: Мақсат қою шеңбері
+betterReticleSize.serverReticleAimingCircleShape.description: {HEADER}Негізу шеңбері{/HEADER}{BODY}Сервер торының көздеу шеңбері. Негізгі "Параметрлер" мәзірін тексеріп, "Ретикул" қойындысын басу және "Нысандау" опцияларын тексеру арқылы олардың қалай көрінетінін көруге болады.{/BODY}
+betterReticleSize.serverReticleAimingCircleOpacity.title: Мақсатты шеңбердің мөлдірлігі
+betterReticleSize.serverReticleAimingCircleOpacity.description: {HEADER}Мөлдірлік шеңберінің мөлдірлігі{/HEADER}{BODY}Сервер көздеу шеңберінің мөлдірлігін, яғни мөлдірлігін орнатыңыз.{/BODY}
+betterReticleSize.serverReticleGunMarkerShape.title: Мылтық маркер
+betterReticleSize.serverReticleGunMarkerShape.description: {HEADER}Мылтық маркер{/HEADER}{BODY}Сервер торына арналған қару маркері. Негізгі Параметрлер мәзірін тексеру, Тор қойындысын басу және "Мылтық маркері" опцияларын тексеру арқылы олардың қалай көрінетінін көруге болады.{/BODY}
+betterReticleSize.serverReticleGunMarkerOpacity.title: Мылтық маркерінің мөлдірлігі
+betterReticleSize.serverReticleGunMarkerOpacity.description: {HEADER}Мылтық маркерінің мөлдірлігі{/HEADER}{BODY}Сервер тапаншасының мөлдірлігін, яғни мөлдірлігін орнатыңыз.{/BODY}
+
+betterBattleResults.modname: Жақсырақ шайқас нәтижелері
+betterBattleResults.richTooltip.title: Толығырақ шайқас нәтижелерінің жиынтық кеңестері
+betterBattleResults.richTooltip.description: {HEADER}Толығырақ шайқас нәтижелерінің жиынтық кеңестері{/HEADER}{BODY}Шайқас нәтижелері терезесінде егжей-тегжейлі жиынтық кеңестерді көрсетіңіз. Мысалы, меңзерді жалпы "Көмекші залалдың" үстіне апарсаңыз, жалпы анықталған залал мен бақылау зақымдары бөлек көрсетіледі.{/BODY}
+betterBattleResults.tooltipOverride.assist.total: Одақтастардың қарсылас көліктеріне келтірген жалпы зияны
+betterBattleResults.tooltipOverride.crits.total: Сыни соққылардың жалпы саны
+
+betterStyleSelection.modname: Жақсырақ стильді сұрыптау
+betterStyleSelection.styleSortingEnabled.title: 2D және 3D стильдерінің топтастырылуын түзетіңіз
+betterStyleSelection.styleSortingEnabled.description: {HEADER}2D және 3D стильдерінің топтастырылуын түзетіңіз{/HEADER}{BODY}Барлық 3D мәнерлері мен көлікке арналған 2D мәнерлерін "Бірегей" деп белгілейді, сондықтан оларды табу оңайырақ.{/BODY}
+
+jakLib.commonSettings: Modpack параметрлері
+jakLib.modname: Жүйеге кіру туралы хабарландыру
+jakLib.language.title: Тіл
+jakLib.language.description: {HEADER}Тіл{/HEADER}{BODY}Модпакет тілін орнату{/BODY}
+jakLib.loginNotificationEnabled.title: Жүйеге кіру туралы хабарландыру
+jakLib.loginNotificationEnabled.description: {HEADER}Кіру туралы хабарландыру{/HEADER}{BODY}Жүйеге кіргеннен кейін қандай модтердің жұмыс істеп тұрғанын көрсететін хабарландыруды қосыңыз немесе өшіріңіз.{/BODY}
+jakLib.errorNotificationEnabled.title: Қате туралы хабарландыру
+jakLib.errorNotificationEnabled.description: {HEADER}Қате туралы хабарландыру{/HEADER}{BODY}Жүйеге кіргеннен кейін қандай модтердің жүктелмегенін көрсететін хабарландыруды қосыңыз немесе өшіріңіз.{/BODY}
