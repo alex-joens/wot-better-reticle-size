@@ -1,61 +1,60 @@
-# uncompyle6 version 3.5.0
-# Python bytecode 2.7 (62211)
-# Decompiled from: Python 3.7.2 (default, Dec 29 2018, 06:19:36) 
-# [GCC 7.3.0]
-# Embedded file name: .\betterReticleSize-src\scripts\client\gui\mods\jakLibrary\lang.py
-# Compiled at: 2023-12-31 16:54:01
 from .util import parseLangFields
 from collections import OrderedDict
 from constants import DEFAULT_LANGUAGE
 from debug_utils import LOG_ERROR
 from helpers import getClientLanguage
+
+# Based on code written by Poliroid
+
 LANGUAGE_CODES = ('be', 'bg', 'cs', 'da', 'de', 'el', 'en', 'es', 'es_ar', 'et', 'fi',
                   'fr', 'hr', 'hu', 'id', 'it', 'ja', 'kk', 'ko', 'lt', 'lv', 'nl',
                   'no', 'pl', 'pt', 'pt_br', 'ro', 'ru', 'sr', 'sv', 'th', 'tr',
                   'uk', 'vi', 'zh_cn', 'zh_sg', 'zh_tw')
 LANGUAGE_CODE_TO_LANGUAGE_NAME = OrderedDict([
- ('bg', 'Български'),
- ('be', 'Беларуск'),
- ('cs', 'Čeština'),
- ('da', 'Dansk'),
- ('de', 'Deutsch'),
- ('el', 'Ελληνικά'),
- ('en', 'English'),
- ('es', 'Español'),
- ('es_ar', 'Español (América Latina)'),
- ('et', 'Eesti'),
- ('fi', 'Suomi'),
- ('fr', 'Français'),
- ('hr', 'Hrvatski'),
- ('hu', 'Magyar'),
- ('id', 'Indonesia'),
- ('it', 'Italiano'),
- ('ja', '日本語'),
- ('kk', 'Қазақ тілі'),
- ('ko', '한국인'),
- ('lt', 'Lietuvių'),
- ('lv', 'Latviešu'),
- ('nl', 'Nederlands'),
- ('no', 'Norsk'),
- ('pl', 'Polski'),
- ('pt', 'Português (EU)'),
- ('pt_br', 'Português (BR)'),
- ('ro', 'Română'),
- ('ru', 'Русский'),
- ('sr', 'Srpski'),
- ('sv', 'Svenska'),
- ('th', 'ไทย'),
- ('tr', 'Türkçe'),
- ('uk', 'Українська'),
- ('vi', 'Tiếng Việt'),
- ('zh_cn', '简体中文'),
- ('zh_sg', '简体中文（新加坡）'),
- ('zh_tw', '繁体中文')])
+    ('bg', 'Български'),
+    ('be', 'Беларуск'),
+    ('cs', 'Čeština'),
+    ('da', 'Dansk'),
+    ('de', 'Deutsch'),
+    ('el', 'Ελληνικά'),
+    ('en', 'English'),
+    ('es', 'Español'),
+    ('es_ar', 'Español (América Latina)'),
+    ('et', 'Eesti'),
+    ('fi', 'Suomi'),
+    ('fr', 'Français'),
+    ('hr', 'Hrvatski'),
+    ('hu', 'Magyar'),
+    ('id', 'Indonesia'),
+    ('it', 'Italiano'),
+    ('ja', '日本語'),
+    ('kk', 'Қазақ тілі'),
+    ('ko', '한국인'),
+    ('lt', 'Lietuvių'),
+    ('lv', 'Latviešu'),
+    ('nl', 'Nederlands'),
+    ('no', 'Norsk'),
+    ('pl', 'Polski'),
+    ('pt', 'Português (EU)'),
+    ('pt_br', 'Português (BR)'),
+    ('ro', 'Română'),
+    ('ru', 'Русский'),
+    ('sr', 'Srpski'),
+    ('sv', 'Svenska'),
+    ('th', 'ไทย'),
+    ('tr', 'Türkçe'),
+    ('uk', 'Українська'),
+    ('vi', 'Tiếng Việt'),
+    ('zh_cn', '简体中文'),
+    ('zh_sg', '简体中文（新加坡）'),
+    ('zh_tw', '繁体中文')
+])
 LANGUAGE_FILE_PATH = 'mods/Jak_Atackka.jakLib/text/%s.yml'
 DEFAULT_UI_LANGUAGE = 'en'
 _LANGUAGE = {}
 _LANGUAGES = {}
 __all__ = ('getDefaultModLanguage', 'l10n', 'l10nOrNone', 'setLanguage')
+
 for langCode in LANGUAGE_CODES:
     _LANGUAGES[langCode] = parseLangFields(LANGUAGE_FILE_PATH % langCode)
 

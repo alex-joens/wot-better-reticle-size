@@ -1,8 +1,3 @@
-# uncompyle6 version 3.9.0
-# Python bytecode version base 2.7 (62211)
-# Decompiled from: Python 2.7.18 (v2.7.18:8d21aa21f2, Apr 20 2020, 13:25:05) [MSC v.1500 64 bit (AMD64)]
-# Embedded file name: .\betterReticleSize-src\scripts\client\gui\mods\betterBattleResults\tooltip_builders.py
-# Compiled at: 2023-12-31 00:48:38
 from strings import *
 from .classes import BuildTooltipData, CustomEfficiencyTooltipData
 import json
@@ -91,4 +86,3 @@ def _buildTooltip(values, tooltipType):
     linkage = TOOLTIPS_CONSTANTS.FINAL_STSTS_UI
     serialized = json.dumps({'data': data, 'linkage': linkage})
     return '~' + serialized
-# okay decompiling C:\dev\wot-mods\betterReticleSize-src\scripts\client\gui\mods\betterBattleResults\tooltip_builders.pyc

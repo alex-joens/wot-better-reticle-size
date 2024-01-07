@@ -1,8 +1,3 @@
-# uncompyle6 version 3.9.0
-# Python bytecode version base 2.7 (62211)
-# Decompiled from: Python 2.7.18 (v2.7.18:8d21aa21f2, Apr 20 2020, 13:25:05) [MSC v.1500 64 bit (AMD64)]
-# Embedded file name: .\betterReticleSize-src\scripts\client\gui\mods\safeloader\decorators.py
-# Compiled at: 2023-12-31 00:52:24
 from .constants import MOD_SAFELOAD_STATUS, SAFEOVERRIDE_ATTRIBUTE_NAME
 from .loader import addLibrary, getLibrary, notifyOfSafeloadingStatus, register
 from .override import overrideIsSuccessful, resetOverride
@@ -138,4 +133,3 @@ def _notifyFailure(modModule):
         modName = modModule.__name__
     LOG_ERROR('[SAFELOADER] Unable to initialize ' + modName)
     notifyOfSafeloadingStatus(modModule, MOD_SAFELOAD_STATUS.Failure)
-# okay decompiling C:\dev\wot-mods\betterReticleSize-src\scripts\client\gui\mods\safeloader\decorators.pyc

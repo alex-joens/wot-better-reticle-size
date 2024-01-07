@@ -5,6 +5,7 @@ from .jakLibrary import JakLib
 from .jakLibrary.config_parameters import ConfigParameter, ConfigSection, ParameterSettings
 from .jakLibrary.config_validators import isBool, isNumberBetween
 from .safeloader.decorators import SafeInit, SafeOverride
+
 import AvatarInputHandler, aih_constants, BattleReplay, BigWorld, Math, VehicleGunRotator
 from aih_constants import CTRL_MODE_NAME, GUN_MARKER_FLAG, GUN_MARKER_TYPE
 from constants import AIMING_MODE, ARENA_PERIOD, SERVER_TICK_LENGTH
@@ -35,132 +36,134 @@ class State:
         }
         self.enableSpgStrategicReticle = False
 
-
 STATE = State()
-_RETICLE_CONFIG = ConfigSection('reticle', [
-    ConfigParameter(
-        'gunMarkerMinimumSize',
-        isNumberBetween(0, 32),
-        0,
-        ParameterSettings(
-            1,
-            {
-                'type': 'Slider',
-                'text': 'betterReticleSize.gunMarkerMinimumSize.title', 
-                'minimum': 0, 
-                'maximum': 32, 
-                'snapInterval': 1, 
-                'format': '{{value}}px', 
-                'tooltip': 'betterReticleSize.gunMarkerMinimumSize.description'
-            }
+
+_RETICLE_CONFIG = ConfigSection(
+    'reticle', [
+        ConfigParameter(
+            'gunMarkerMinimumSize',
+            isNumberBetween(0, 32),
+            0,
+            ParameterSettings(
+                1,
+                {
+                    'type': 'Slider',
+                    'text': 'betterReticleSize.gunMarkerMinimumSize.title', 
+                    'minimum': 0, 
+                    'maximum': 32, 
+                    'snapInterval': 1, 
+                    'format': '{{value}}px', 
+                    'tooltip': 'betterReticleSize.gunMarkerMinimumSize.description'
+                }
+            )
+        ),
+        ConfigParameter(
+            'percentCorrection',
+            isNumberBetween(0, 100), 
+            100, 
+            ParameterSettings(
+                1, 
+                {
+                    'type': 'Slider', 
+                    'text': 'betterReticleSize.percentCorrection.title', 
+                    'minimum': 0, 
+                    'maximum': 100, 
+                    'snapInterval': 1, 
+                    'format': '{{value}}%', 
+                    'tooltip': 'betterReticleSize.percentCorrection.description'
+                }
+            )
+        ),
+        ConfigParameter(
+            'showClientAndServerReticle', 
+            isBool, 
+            True, 
+            ParameterSettings(
+                2, 
+                {
+                    'type': 'CheckBox', 
+                    'text': 'betterReticleSize.showClientAndServerReticle.title', 
+                    'tooltip': 'betterReticleSize.showClientAndServerReticle.description'
+                }
+            )
+        ),
+        ConfigParameter(
+            'showServerSpgStrategicReticle', 
+            isBool, 
+            False, 
+            ParameterSettings(
+                2, 
+                {
+                    'type': 'CheckBox', 
+                    'text': 'betterReticleSize.showServerSpgStrategicReticle.title', 
+                    'tooltip': 'betterReticleSize.showServerSpgStrategicReticle.description'
+                }
+            )
+        ),
+        ConfigParameter(
+            'serverReticleAimingCircleShape', 
+            isNumberBetween(0, 2), 
+            0, 
+            ParameterSettings(
+                2, 
+                {
+                    'type': 'Dropdown', 
+                    'text': 'betterReticleSize.serverReticleAimingCircleShape.title', 
+                    'tooltip': 'betterReticleSize.serverReticleAimingCircleShape.description', 
+                    'options': map((lambda option: {'label': option}), CUSTOM_AIMING_CIRCLE_SHAPE_OPTIONS)
+                }
+            )
+        ),
+        ConfigParameter(
+            'serverReticleAimingCircleOpacity', 
+            isNumberBetween(0, 100), 
+            50, 
+            ParameterSettings(
+                2,
+                {
+                    'type': 'Slider', 
+                    'text': 'betterReticleSize.serverReticleAimingCircleOpacity.title', 
+                    'minimum': 0, 
+                    'maximum': 100, 
+                    'snapInterval': 1, 
+                    'format': '{{value}}%', 
+                    'tooltip': 'betterReticleSize.serverReticleAimingCircleOpacity.description'
+                }
+            )
+        ),
+        ConfigParameter(
+            'serverReticleGunMarkerShape', 
+            isNumberBetween(0, 5), 
+            0, 
+            ParameterSettings(
+                2, 
+                {
+                    'type': 'Dropdown', 
+                    'text': 'betterReticleSize.serverReticleGunMarkerShape.title', 
+                    'tooltip': 'betterReticleSize.serverReticleGunMarkerShape.description', 
+                    'options': map((lambda option: {'label': option}), CUSTOM_CROSSHAIR_SHAPE_OPTIONS)
+                }
+            )
+        ),
+        ConfigParameter(
+            'serverReticleGunMarkerOpacity', 
+            isNumberBetween(0, 100), 
+            50, 
+            ParameterSettings(
+                2, 
+                {
+                    'type': 'Slider', 
+                    'text': 'betterReticleSize.serverReticleGunMarkerOpacity.title', 
+                    'minimum': 0, 
+                    'maximum': 100, 
+                    'snapInterval': 1, 
+                    'format': '{{value}}%', 
+                    'tooltip': 'betterReticleSize.serverReticleGunMarkerOpacity.description'
+                }
+            )
         )
-    ),
-    ConfigParameter(
-        'percentCorrection',
-        isNumberBetween(0, 100), 
-        100, 
-        ParameterSettings(
-            1, 
-            {
-                'type': 'Slider', 
-                'text': 'betterReticleSize.percentCorrection.title', 
-                'minimum': 0, 
-                'maximum': 100, 
-                'snapInterval': 1, 
-                'format': '{{value}}%', 
-                'tooltip': 'betterReticleSize.percentCorrection.description'
-            }
-        )
-    ),
-    ConfigParameter(
-        'showClientAndServerReticle', 
-        isBool, 
-        True, 
-        ParameterSettings(
-            2, 
-            {
-                'type': 'CheckBox', 
-                'text': 'betterReticleSize.showClientAndServerReticle.title', 
-                'tooltip': 'betterReticleSize.showClientAndServerReticle.description'
-            }
-        )
-    ),
-    ConfigParameter(
-        'showServerSpgStrategicReticle', 
-        isBool, 
-        False, 
-        ParameterSettings(
-            2, 
-            {
-                'type': 'CheckBox', 
-                'text': 'betterReticleSize.showServerSpgStrategicReticle.title', 
-                'tooltip': 'betterReticleSize.showServerSpgStrategicReticle.description'
-            }
-        )
-    ),
-    ConfigParameter(
-        'serverReticleAimingCircleShape', 
-        isNumberBetween(0, 2), 
-        0, 
-        ParameterSettings(
-            2, 
-            {
-                'type': 'Dropdown', 
-                'text': 'betterReticleSize.serverReticleAimingCircleShape.title', 
-                'tooltip': 'betterReticleSize.serverReticleAimingCircleShape.description', 
-                'options': map((lambda option: {'label': option}), CUSTOM_AIMING_CIRCLE_SHAPE_OPTIONS)
-            }
-        )
-    ),
-    ConfigParameter(
-        'serverReticleAimingCircleOpacity', 
-        isNumberBetween(0, 100), 
-        50, 
-        ParameterSettings(
-            2,
-            {
-                'type': 'Slider', 
-                'text': 'betterReticleSize.serverReticleAimingCircleOpacity.title', 
-                'minimum': 0, 
-                'maximum': 100, 
-                'snapInterval': 1, 
-                'format': '{{value}}%', 
-                'tooltip': 'betterReticleSize.serverReticleAimingCircleOpacity.description'
-            }
-        )
-    ),
-    ConfigParameter(
-        'serverReticleGunMarkerShape', 
-        isNumberBetween(0, 5), 
-        0, 
-        ParameterSettings(
-            2, 
-            {
-                'type': 'Dropdown', 
-                'text': 'betterReticleSize.serverReticleGunMarkerShape.title', 
-                'tooltip': 'betterReticleSize.serverReticleGunMarkerShape.description', 
-                'options': map((lambda option: {'label': option}), CUSTOM_CROSSHAIR_SHAPE_OPTIONS)
-            }
-        )
-    ),
-    ConfigParameter(
-        'serverReticleGunMarkerOpacity', 
-        isNumberBetween(0, 100), 
-        50, 
-        ParameterSettings(
-            2, 
-            {
-                'type': 'Slider', 
-                'text': 'betterReticleSize.serverReticleGunMarkerOpacity.title', 
-                'minimum': 0, 
-                'maximum': 100, 
-                'snapInterval': 1, 
-                'format': '{{value}}%', 
-                'tooltip': 'betterReticleSize.serverReticleGunMarkerOpacity.description'
-            }
-        )
-    )
-], __mod_name_key__, 'betterReticleSize', True)
+    ], __mod_name_key__, 'betterReticleSize', True
+)
 
 @SafeOverride(AvatarInputHandler.AvatarInputHandler, 'updateClientGunMarker')
 def new_AvatarInputHandler_updateClientGunMarker(_, self, pos, direction, size, relaxTime, collData):

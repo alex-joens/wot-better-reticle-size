@@ -1,8 +1,3 @@
-# uncompyle6 version 3.9.0
-# Python bytecode version base 2.7 (62211)
-# Decompiled from: Python 2.7.18 (v2.7.18:8d21aa21f2, Apr 20 2020, 13:25:05) [MSC v.1500 64 bit (AMD64)]
-# Embedded file name: .\betterReticleSize-src\scripts\client\gui\mods\betterReticleSize\customServerCrosshair.py
-# Compiled at: 2023-12-31 00:49:23
 from . import CUSTOM_ARCADE_GUN_MARKER_NAME, CUSTOM_SNIPER_GUN_MARKER_NAME, CUSTOM_DUAL_GUN_ARCADE_MARKER_NAME, CUSTOM_DUAL_GUN_SNIPER_MARKER_NAME, CUSTOM_SPG_MARKER_NAME
 from .customCrosshairContainer import CustomCrosshairContainer
 from aih_constants import GUN_MARKER_TYPE
@@ -66,4 +61,3 @@ def _overrideComponents(components, markersInfo, vehiclesInfo, enableSpgStrategi
 
 def GetCustomServerCrosshair(customSettings, enableSpgStrategicReticle):
     return CustomCrosshairContainer(_createComponents, _overrideComponents, customSettings, enableSpgStrategicReticle)
-# okay decompiling C:\dev\wot-mods\betterReticleSize-src\scripts\client\gui\mods\betterReticleSize\customServerCrosshair.pyc

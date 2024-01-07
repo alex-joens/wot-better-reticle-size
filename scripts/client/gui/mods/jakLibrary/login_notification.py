@@ -1,8 +1,3 @@
-# uncompyle6 version 3.9.0
-# Python bytecode version base 2.7 (62211)
-# Decompiled from: Python 2.7.18 (v2.7.18:8d21aa21f2, Apr 20 2020, 13:25:05) [MSC v.1500 64 bit (AMD64)]
-# Embedded file name: .\betterReticleSize-src\scripts\client\gui\mods\jakLibrary\login_notification.py
-# Compiled at: 2023-12-31 00:51:55
 from .lang import l10n
 from ..safeloader.constants import MOD_SAFELOAD_STATUS
 from ..safeloader.decorators import ModLibrary
@@ -85,4 +80,3 @@ def _joinMods(modList, ifNone, suffixIfOne, suffixIfMultiple):
             return formattedModList[0] + suffixIfOne
         maybeOxford = ' and ' if len(formattedModList) == 2 else ', and '
         return (', ').join(formattedModList[:-1]) + maybeOxford + formattedModList[-1] + suffixIfMultiple
-# okay decompiling C:\dev\wot-mods\betterReticleSize-src\scripts\client\gui\mods\jakLibrary\login_notification.pyc

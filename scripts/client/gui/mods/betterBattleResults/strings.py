@@ -1,13 +1,9 @@
-# uncompyle6 version 3.9.0
-# Python bytecode version base 2.7 (62211)
-# Decompiled from: Python 2.7.18 (v2.7.18:8d21aa21f2, Apr 20 2020, 13:25:05) [MSC v.1500 64 bit (AMD64)]
-# Embedded file name: .\betterReticleSize-src\scripts\client\gui\mods\betterBattleResults\strings.py
-# Compiled at: 2023-12-31 00:48:20
 from ..jakLibrary.lang import l10nOrNone
 from gui.battle_results.components import style
 from gui.Scaleform.genConsts.BATTLE_EFFICIENCY_TYPES import BATTLE_EFFICIENCY_TYPES
 from gui.Scaleform.locale.BATTLE_RESULTS import BATTLE_RESULTS
 from helpers import i18n
+
 _L10N_PREFIX = 'betterBattleResults.tooltipOverride.'
 _ASSIST_PART1 = 'assist.part1'
 _ASSIST_PART2 = 'assist.part2'
@@ -24,27 +20,36 @@ _STUN_PART1 = 'stun.part1'
 _STUN_PART2 = 'stun.part2'
 _STUN_PART3 = 'stun.part3'
 strings = {}
-battleEfficiencyTypeToLabels = {BATTLE_EFFICIENCY_TYPES.ARMOR: [
-                                 _BLOCKED_PART1,
-                                 _BLOCKED_PART2,
-                                 _BLOCKED_PART3], 
-   BATTLE_EFFICIENCY_TYPES.CRITS: [
-                                 _CRITS_TOTAL], 
-   BATTLE_EFFICIENCY_TYPES.DAMAGE: [
-                                  _DAMAGE_PART1,
-                                  _DAMAGE_PART2], 
-   BATTLE_EFFICIENCY_TYPES.DETECTION: [
-                                     _SPOTTED_TOTAL], 
-   BATTLE_EFFICIENCY_TYPES.DESTRUCTION: [
-                                       _DESTROYED_TOTAL], 
-   BATTLE_EFFICIENCY_TYPES.ASSIST: [
-                                  _ASSIST_PART1,
-                                  _ASSIST_PART2,
-                                  _ASSIST_TOTAL], 
-   BATTLE_EFFICIENCY_TYPES.ASSIST_STUN: [
-                                       _STUN_PART1,
-                                       _STUN_PART2,
-                                       _STUN_PART3]}
+battleEfficiencyTypeToLabels = {
+    BATTLE_EFFICIENCY_TYPES.ARMOR: [
+        _BLOCKED_PART1,
+        _BLOCKED_PART2,
+        _BLOCKED_PART3
+    ], 
+    BATTLE_EFFICIENCY_TYPES.CRITS: [
+        _CRITS_TOTAL
+    ], 
+    BATTLE_EFFICIENCY_TYPES.DAMAGE: [
+        _DAMAGE_PART1,
+        _DAMAGE_PART2
+    ], 
+    BATTLE_EFFICIENCY_TYPES.DETECTION: [
+        _SPOTTED_TOTAL
+    ], 
+    BATTLE_EFFICIENCY_TYPES.DESTRUCTION: [
+       _DESTROYED_TOTAL
+    ], 
+    BATTLE_EFFICIENCY_TYPES.ASSIST: [
+        _ASSIST_PART1,
+        _ASSIST_PART2,
+        _ASSIST_TOTAL
+    ], 
+    BATTLE_EFFICIENCY_TYPES.ASSIST_STUN: [
+        _STUN_PART1,
+        _STUN_PART2,
+        _STUN_PART3
+    ]
+}
 
 def loadStrings():
     tooltipParamsStyle = style.getTooltipParamsStyle()
@@ -63,6 +68,7 @@ def loadStrings():
     strings[_STUN_PART1] = i18n.makeString(BATTLE_RESULTS.COMMON_TOOLTIP_STUN_PART1, vals=tooltipParamsStyle)
     strings[_STUN_PART2] = i18n.makeString(BATTLE_RESULTS.COMMON_TOOLTIP_STUN_PART2)
     strings[_STUN_PART3] = i18n.makeString(BATTLE_RESULTS.COMMON_TOOLTIP_STUN_PART3, vals=tooltipParamsStyleSeconds)
+
     for key in strings:
         override = l10nOrNone(_L10N_PREFIX + key)
         if override is not None:
@@ -74,6 +80,3 @@ def loadStrings():
                     strings[key] = override + ' ' + style.getTooltipParamsStyle(BATTLE_RESULTS.COMMON_TOOLTIP_PARAMS_VAL_SECONDS)
                 else:
                     strings[key] = override
-
-    return
-# okay decompiling C:\dev\wot-mods\betterReticleSize-src\scripts\client\gui\mods\betterBattleResults\strings.pyc

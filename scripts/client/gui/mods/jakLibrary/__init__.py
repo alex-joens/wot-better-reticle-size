@@ -1,8 +1,3 @@
-# uncompyle6 version 3.9.0
-# Python bytecode version base 2.7 (62211)
-# Decompiled from: Python 2.7.18 (v2.7.18:8d21aa21f2, Apr 20 2020, 13:25:05) [MSC v.1500 64 bit (AMD64)]
-# Embedded file name: .\betterReticleSize-src\scripts\client\gui\mods\jakLibrary\__init__.py
-# Compiled at: 2023-12-31 00:49:43
 from .config_parameters import ConfigParameter, ConfigSection, ParameterSettings
 from .config_reader import ConfigReader
 from .config_validators import isBool
@@ -16,15 +11,55 @@ def isLanguageCode(value):
     return value is not None and value in LANGUAGE_CODE_TO_LANGUAGE_NAME.keys()
 
 
-_COMMON_CONFIG = ConfigSection('common', [
- ConfigParameter('language', isLanguageCode, getDefaultModLanguage(), ParameterSettings(1, {'type': 'Dropdown', 'text': 'jakLib.language.title', 
-    'tooltip': 'jakLib.language.description', 
-    'options': map((lambda langName: {'label': langName}), LANGUAGE_CODE_TO_LANGUAGE_NAME.values())}))], 'jakLib.commonSettings', 'jakLib')
-_LOGIN_NOTIFICATION_CONFIG = ConfigSection('common', [
- ConfigParameter('loginNotificationEnabled', isBool, False, ParameterSettings(1, {'type': 'CheckBox', 'text': 'jakLib.loginNotificationEnabled.title', 
-    'tooltip': 'jakLib.loginNotificationEnabled.description'})),
- ConfigParameter('errorNotificationEnabled', isBool, True, ParameterSettings(1, {'type': 'CheckBox', 'text': 'jakLib.errorNotificationEnabled.title', 
-    'tooltip': 'jakLib.errorNotificationEnabled.description'}))], 'jakLib.modname', 'loginNotification', False, True)
+_COMMON_CONFIG = ConfigSection(
+    'common', [
+        ConfigParameter(
+            'language', 
+            isLanguageCode, 
+            getDefaultModLanguage(), 
+            ParameterSettings(
+                1, 
+                {
+                    'type': 'Dropdown', 
+                    'text': 'jakLib.language.title', 
+                    'tooltip': 'jakLib.language.description', 
+                    'options': map((lambda langName: {'label': langName}), LANGUAGE_CODE_TO_LANGUAGE_NAME.values())
+                }
+            )
+        )
+    ], 'jakLib.commonSettings', 'jakLib'
+)
+
+_LOGIN_NOTIFICATION_CONFIG = ConfigSection(
+    'common', [
+        ConfigParameter(
+            'loginNotificationEnabled', 
+            isBool, 
+            False, 
+            ParameterSettings(
+                1, 
+                {
+                    'type': 'CheckBox', 
+                    'text': 'jakLib.loginNotificationEnabled.title', 
+                    'tooltip': 'jakLib.loginNotificationEnabled.description'
+                }
+            )
+        ),
+        ConfigParameter(
+            'errorNotificationEnabled', 
+            isBool, 
+            True, 
+            ParameterSettings(
+                1, 
+                {
+                    'type': 'CheckBox', 
+                    'text': 'jakLib.errorNotificationEnabled.title', 
+                    'tooltip': 'jakLib.errorNotificationEnabled.description'
+                }
+            )
+        )
+    ], 'jakLib.modname', 'loginNotification', False, True
+)
 _MOD_LINKAGE = 'JakLib'
 
 def _buildCallback(configSectionName, origCallback):
@@ -84,7 +119,6 @@ class JakLib(object):
                 rootTemplate['column2'].extend(template['column2'])
 
             return rootTemplate
-            return
 
     def _modSettingsChangedCallback(self, linkage, newSettings):
         if linkage == _MOD_LINKAGE:
@@ -104,4 +138,3 @@ class JakLib(object):
         _COMMON_CONFIG.parameters[0].setInitialValue(newSettings.language)
         setLanguage(newSettings.language)
         self._refreshModSettings()
-# okay decompiling C:\dev\wot-mods\betterReticleSize-src\scripts\client\gui\mods\jakLibrary\__init__.pyc
