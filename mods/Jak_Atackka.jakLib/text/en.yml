@@ -3,8 +3,8 @@ betterReticleSize.gunMarkerMinimumSize.title: Minimum reticle size
 betterReticleSize.gunMarkerMinimumSize.description: {HEADER}Minimum reticle size{/HEADER}{BODY}Limits how small the reticle is visibly allowed to shrink. Setting this to 0 means the reticle size is always accurate, but it may be harder to see.{/BODY}
 betterReticleSize.percentCorrection.title: Correction percentage
 betterReticleSize.percentCorrection.description: {HEADER}Correction percentage{/HEADER}{BODY}How much to correct the reticle size. 0% is the game's default oversized setting, 100% is the correct size.{/BODY}
-betterReticleSize.showClientAndServerReticle.title: Enable client and server reticle
-betterReticleSize.showClientAndServerReticle.description: {HEADER}Enable client and server reticle{/HEADER}{BODY}Show both the client and the server reticle at the same time. The client reticle feels more responsive, but the server reticle is more accurate because it accounts for lag.{/BODY}
+betterReticleSize.showClientAndServerReticle.title: Show both client and server reticle
+betterReticleSize.showClientAndServerReticle.description: {HEADER}Show both client and server reticle{/HEADER}{BODY}Show both the client and the server reticle at the same time. The client reticle feels more responsive, but the server reticle is more accurate because it accounts for lag.{/BODY}
 betterReticleSize.showServerSpgStrategicReticle.title: Client and server reticle in SPG strategic view
 betterReticleSize.showServerSpgStrategicReticle.description: {HEADER}Client and server reticle in SPG strategic view{/HEADER}{BODY}The current overhead SPG secondary reticle is distractingly ugly, so it is disabled by default.{/BODY}
 betterReticleSize.serverReticleAimingCircleShape.title: Aiming circle

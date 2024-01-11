@@ -102,7 +102,7 @@ _RETICLE_CONFIG = ConfigSection(
         ),
         ConfigParameter(
             'serverReticleAimingCircleShape', 
-            isNumberBetween(0, 2), 
+            isNumberBetween(0, len(CUSTOM_AIMING_CIRCLE_SHAPE_OPTIONS) - 1), 
             0, 
             ParameterSettings(
                 2, 
@@ -133,7 +133,7 @@ _RETICLE_CONFIG = ConfigSection(
         ),
         ConfigParameter(
             'serverReticleGunMarkerShape', 
-            isNumberBetween(0, 5), 
+            isNumberBetween(0, len(CUSTOM_CROSSHAIR_SHAPE_OPTIONS) - 1), 
             0, 
             ParameterSettings(
                 2, 
