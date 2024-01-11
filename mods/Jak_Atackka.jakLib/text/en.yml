@@ -3,18 +3,18 @@ betterReticleSize.gunMarkerMinimumSize.title: Minimum reticle size
 betterReticleSize.gunMarkerMinimumSize.description: {HEADER}Minimum reticle size{/HEADER}{BODY}Limits how small the reticle is visibly allowed to shrink. Setting this to 0 means the reticle size is always accurate, but it may be harder to see.{/BODY}
 betterReticleSize.percentCorrection.title: Correction percentage
 betterReticleSize.percentCorrection.description: {HEADER}Correction percentage{/HEADER}{BODY}How much to correct the reticle size. 0% is the game's default oversized setting, 100% is the correct size.{/BODY}
-betterReticleSize.showClientAndServerReticle.title: Show both client and server reticle
-betterReticleSize.showClientAndServerReticle.description: {HEADER}Show both client and server reticle{/HEADER}{BODY}Show both the client and the server reticle at the same time. The client reticle feels more responsive, but the server reticle is more accurate because it accounts for lag.{/BODY}
-betterReticleSize.showServerSpgStrategicReticle.title: Client and server reticle in SPG strategic view
-betterReticleSize.showServerSpgStrategicReticle.description: {HEADER}Client and server reticle in SPG strategic view{/HEADER}{BODY}The current overhead SPG secondary reticle is distractingly ugly, so it is disabled by default.{/BODY}
-betterReticleSize.serverReticleAimingCircleShape.title: Aiming circle
-betterReticleSize.serverReticleAimingCircleShape.description: {HEADER}Aiming circle{/HEADER}{BODY}The aiming circle for the server reticle. You can see what these look like by checking the main Settings menu, clicking on the Reticle tab, and checking the "Aiming" options.{/BODY}
-betterReticleSize.serverReticleAimingCircleOpacity.title: Aiming circle opacity
-betterReticleSize.serverReticleAimingCircleOpacity.description: {HEADER}Aiming circle opacity{/HEADER}{BODY}Set the opacity, aka the transparency, of the server aiming circle.{/BODY}
-betterReticleSize.serverReticleGunMarkerShape.title: Gun marker
-betterReticleSize.serverReticleGunMarkerShape.description: {HEADER}Gun marker{/HEADER}{BODY}The gun marker for the server reticle. You can see what these look like by checking the main Settings menu, clicking on the Reticle tab, and checking the "Gun Marker" options.{/BODY}
-betterReticleSize.serverReticleGunMarkerOpacity.title: Gun marker opacity
-betterReticleSize.serverReticleGunMarkerOpacity.description: {HEADER}Gun marker opacity{/HEADER}{BODY}Set the opacity, aka the transparency, of the server gun marker.{/BODY}
+betterReticleSize.showClientAndServerReticle.title: Show both client and server reticles
+betterReticleSize.showClientAndServerReticle.description: {HEADER}Show both the client and server reticles{/HEADER}{BODY}NOTE: This will automatically enable the "Server reticle" setting, but this only affects the second reticle.{/BODY}
+betterReticleSize.showServerSpgStrategicReticle.title: Show client and server reticles in SPG overhead view
+betterReticleSize.showServerSpgStrategicReticle.description: {HEADER}Client and server reticle in SPG overhead view{/HEADER}{BODY}The current overhead SPG secondary reticle is distractingly ugly, so it is disabled by default.{/BODY}
+betterReticleSize.serverReticleAimingCircleShape.title: Server reticle aiming circle
+betterReticleSize.serverReticleAimingCircleShape.description: {HEADER}Server reticle aiming circle{/HEADER}{BODY}The aiming circle for the server reticle. You can see what these look like by checking the main Settings menu, clicking on the Reticle tab, and checking the "Aiming" options.{/BODY}
+betterReticleSize.serverReticleAimingCircleOpacity.title: Opacity
+betterReticleSize.serverReticleAimingCircleOpacity.description: {HEADER}Server reticle aiming circle opacity{/HEADER}{BODY}Set the opacity, aka the transparency, of the server aiming circle.{/BODY}
+betterReticleSize.serverReticleGunMarkerShape.title: Server reticle gun marker
+betterReticleSize.serverReticleGunMarkerShape.description: {HEADER}Server reticle gun marker{/HEADER}{BODY}The gun marker for the server reticle. You can see what these look like by checking the main Settings menu, clicking on the Reticle tab, and checking the "Gun Marker" options.{/BODY}
+betterReticleSize.serverReticleGunMarkerOpacity.title: Opacity
+betterReticleSize.serverReticleGunMarkerOpacity.description: {HEADER}Server reticle gun marker{/HEADER}{BODY}Set the opacity, aka the transparency, of the server gun marker.{/BODY}
 
 betterBattleResults.modname: Better Battle Results
 betterBattleResults.richTooltip.title: More detailed Battle Results summary tooltips
