@@ -75,9 +75,9 @@ _RETICLE_CONFIG = ConfigSection(
             )
         ),
         ConfigParameter(
-            'showClientAndServerReticle', 
+            'showClientAndServerReticle_2', 
             isBool, 
-            True, 
+            False, 
             ParameterSettings(
                 2, 
                 {
@@ -337,7 +337,7 @@ def onModSettingsChanged(updatedConfig):
         aih_constants.GUN_MARKER_MIN_SIZE = updatedConfig.gunMarkerMinimumSize
         correctionFactor = updatedConfig.percentCorrection / 100
         STATE.reticleScaleFactor = CORRECT_RETICLE_SCALE_FACTOR * correctionFactor + (DEFAULT_RETICLE_SCALE_FACTOR - correctionFactor)
-        STATE.showClientAndServerReticle = updatedConfig.showClientAndServerReticle
+        STATE.showClientAndServerReticle = updatedConfig.showClientAndServerReticle_2
     if STATE.showClientAndServerReticle is True:
         gm_factory._GUN_MARKER_LINKAGES = CUSTOM_GUN_MARKER_LINKAGES
     else:
