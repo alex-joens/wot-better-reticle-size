@@ -3,18 +3,18 @@ betterReticleSize.gunMarkerMinimumSize.title: Minimální velikost nitkového k�
 betterReticleSize.gunMarkerMinimumSize.description: Omezuje, jak malý nitkový kříž se může viditelně zmenšit. Nastavení na 0 znamená, že velikost nitkového kříže je vždy přesná, ale může být hůře viditelná.
 betterReticleSize.percentCorrection.title: Procento opravy
 betterReticleSize.percentCorrection.description: Kolik opravit velikost nitkového kříže. 0 % je výchozí nastavení nadměrné velikosti hry, 100 % je správná velikost.
-betterReticleSize.showClientAndServerReticle.title: Povolit zaměřovač klienta a serveru
-betterReticleSize.showClientAndServerReticle.description: Zobrazovat současně zaměřovač klienta i serveru. Zaměřovač klienta je citlivější, ale zaměřovač serveru je přesnější, protože zohledňuje zpoždění.
-betterReticleSize.showServerSpgStrategicReticle.title: Klientský a serverový záměrný kříž v dělostřeleckém strategickém pohledu
-betterReticleSize.showServerSpgStrategicReticle.description: Aktuální sekundární zaměřovač horního dělostřelectva je rušivě ošklivý, takže je ve výchozím nastavení zakázán.
-betterReticleSize.serverReticleAimingCircleShape.title: Zaměřovací kruh
-betterReticleSize.serverReticleAimingCircleShape.description: Zaměřovací kruh pro zaměřovač serveru. Jak vypadají, můžete vidět v hlavní nabídce Nastavení, kliknutím na kartu Zaměřovací kříž a zaškrtnutím možností „Míření“.
-betterReticleSize.serverReticleAimingCircleOpacity.title: Neprůhlednost zaměřovacího kruhu
+betterReticleSize.showClientAndServerReticle.title: [BETA] Zobrazit zaměřovací kříže klienta i serveru
+betterReticleSize.showClientAndServerReticle.description: POZNÁMKA: Tím se automaticky povolí nastavení "Zaměřovač serveru", ale to ovlivní pouze druhý záměrný kříž.
+betterReticleSize.showServerSpgStrategicReticle.title: Zobrazit klientské a serverové nitkové kříže v horním pohledu SPG
+betterReticleSize.showServerSpgStrategicReticle.description: Aktuální režijní sekundární zaměřovač SPG je rušivě ošklivý, takže je ve výchozím nastavení zakázán.
+betterReticleSize.serverReticleAimingCircleShape.title: Zaměřovací kruh serveru
+betterReticleSize.serverReticleAimingCircleShape.description: Zaměřovací kruh pro nitkový kříž serveru. Můžete se podívat, jak vypadají, když se podíváte na hlavní nabídku Nastavení, kliknete na záložku Reticle a zaškrtnete možnosti "Míření".
+betterReticleSize.serverReticleAimingCircleOpacity.title: Neprůhlednost
 betterReticleSize.serverReticleAimingCircleOpacity.description: Nastavte neprůhlednost, neboli průhlednost, zaměřovacího kruhu serveru.
-betterReticleSize.serverReticleGunMarkerShape.title: Značka zbraně
-betterReticleSize.serverReticleGunMarkerShape.description: Značka zbraně pro zaměřovač serveru. Jak vypadají, můžete vidět v hlavní nabídce Nastavení, kliknutím na kartu Zaměřovací kříž a zaškrtnutím možností „Značkovač zbraní“.
-betterReticleSize.serverReticleGunMarkerOpacity.title: Neprůhlednost značky zbraně
-betterReticleSize.serverReticleGunMarkerOpacity.description: Nastavte neprůhlednost, neboli průhlednost, značky serverové zbraně.
+betterReticleSize.serverReticleGunMarkerShape.title: Serverový značkovač zaměřovací pistole
+betterReticleSize.serverReticleGunMarkerShape.description: Značka zbraně pro nitkový kříž serveru. Jak vypadají, můžete vidět v hlavní nabídce Nastavení, kliknutím na záložku Zaměřovač a zaškrtnutím možností „Značkovač zbraní“.
+betterReticleSize.serverReticleGunMarkerOpacity.title: Neprůhlednost
+betterReticleSize.serverReticleGunMarkerOpacity.description: Nastavte neprůhlednost, neboli průhlednost, značky serverové pistole.
 
 betterBattleResults.modname: Lepší výsledky bitvy
 betterBattleResults.richTooltip.title: Podrobnější popisky souhrnu výsledků bitvy

@@ -3,18 +3,18 @@ betterReticleSize.gunMarkerMinimumSize.title: Minimale draadkruisgrootte
 betterReticleSize.gunMarkerMinimumSize.description: Beperkt hoe klein het draadkruis zichtbaar mag krimpen. Als je dit op 0 zet, is de draadkruisgrootte altijd nauwkeurig, maar is deze wellicht moeilijker te zien.
 betterReticleSize.percentCorrection.title: Correctiepercentage
 betterReticleSize.percentCorrection.description: Hoeveel moet de draadkruisgrootte worden gecorrigeerd. 0% is de standaard instelling voor extra groot formaat van de game, 100% is de juiste grootte.
-betterReticleSize.showClientAndServerReticle.title: Schakel het client- en serverdradenkruis in
-betterReticleSize.showClientAndServerReticle.description: Toon zowel het client- als het serverdradenkruis tegelijkertijd. Het clientdradenkruis voelt responsiever aan, maar het serverdradenkruis is nauwkeuriger omdat het rekening houdt met vertraging.
-betterReticleSize.showServerSpgStrategicReticle.title: Client- en serverdradenkruis in strategische artillerieweergave
-betterReticleSize.showServerSpgStrategicReticle.description: Het huidige secundaire dradenkruis van de bovengrondse artillerie is afleidend lelijk en staat daarom standaard uitgeschakeld.
-betterReticleSize.serverReticleAimingCircleShape.title: Richtcirkel
-betterReticleSize.serverReticleAimingCircleShape.description: De richtcirkel voor het dradenkruis van de server. Je kunt zien hoe deze eruit zien door in het hoofdmenu Instellingen te klikken, op het tabblad Richtkruis te klikken en de opties voor Richten aan te vinken.
-betterReticleSize.serverReticleAimingCircleOpacity.title: Dekking van de cirkel
-betterReticleSize.serverReticleAimingCircleOpacity.description: Stel de dekking, oftewel de transparantie, in van de richtcirkel van de server.
-betterReticleSize.serverReticleGunMarkerShape.title: Pistoolmarkering
-betterReticleSize.serverReticleGunMarkerShape.description: De wapenmarkering voor het dradenkruis van de server. Je kunt zien hoe deze eruit zien door in het hoofdmenu Instellingen te klikken, op het tabblad Richtkruis te klikken en de opties voor 'Geweermarkering' aan te vinken.
-betterReticleSize.serverReticleGunMarkerOpacity.title: Dekking van pistoolmarkering
-betterReticleSize.serverReticleGunMarkerOpacity.description: Stel de dekking, oftewel de transparantie, in van de serverpistoolmarkering.
+betterReticleSize.showClientAndServerReticle.title: [BÈTA] Toon zowel client- als serverdraden
+betterReticleSize.showClientAndServerReticle.description: OPMERKING: Hierdoor wordt automatisch de instelling "Serverdradenkruis" ingeschakeld, maar dit heeft alleen invloed op het tweede dradenkruis.
+betterReticleSize.showServerSpgStrategicReticle.title: Toon client- en serverdraden in SPG-bovenaanzicht
+betterReticleSize.showServerSpgStrategicReticle.description: Het huidige secundaire SPG-dradenkruis is afleidend lelijk en is daarom standaard uitgeschakeld.
+betterReticleSize.serverReticleAimingCircleShape.title: Richtcirkel van het serverdradenkruis
+betterReticleSize.serverReticleAimingCircleShape.description: De richtcirkel voor het dradenkruis van de server. Je kunt zien hoe deze eruit zien door het hoofdmenu Instellingen te raadplegen, op het tabblad Richtkruis te klikken en de opties voor Richten aan te vinken.
+betterReticleSize.serverReticleAimingCircleOpacity.title: Dekking
+betterReticleSize.serverReticleAimingCircleOpacity.description: Stel de dekking, oftewel de transparantie, van de richtcirkel van de server in.
+betterReticleSize.serverReticleGunMarkerShape.title: Server richtkruispistoolmarkering
+betterReticleSize.serverReticleGunMarkerShape.description: De pistoolmarkering voor het dradenkruis van de server. Je kunt zien hoe deze eruit zien door het hoofdmenu Instellingen te raadplegen, op het tabblad Dradenkruis te klikken en de opties voor "Gun Marker" aan te vinken.
+betterReticleSize.serverReticleGunMarkerOpacity.title: Dekking
+betterReticleSize.serverReticleGunMarkerOpacity.description: Stel de dekking, oftewel de transparantie, van de serverpistoolmarkering in.
 
 betterBattleResults.modname: Betere gevechtsresultaten
 betterBattleResults.richTooltip.title: Meer gedetailleerde tooltips met samenvatting van gevechtsresultaten

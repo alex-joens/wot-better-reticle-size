@@ -3,17 +3,17 @@ betterReticleSize.gunMarkerMinimumSize.title: Minimālais šķērsgriezuma izmē
 betterReticleSize.gunMarkerMinimumSize.description: Ierobežo to, cik mazam šķērsenim ir atļauts redzami sarukt. Ja iestatāt šo vērtību uz 0, tas nozīmē, ka matu krustiņa izmērs vienmēr ir precīzs, taču to var būt grūtāk saskatīt.
 betterReticleSize.percentCorrection.title: Korekcija procentos
 betterReticleSize.percentCorrection.description: Cik daudz koriģēt matu krusta izmēru. 0% ir spēles noklusējuma lielizmēra iestatījums, 100% ir pareizais izmērs.
-betterReticleSize.showClientAndServerReticle.title: Iespējot klienta un servera tīklu
-betterReticleSize.showClientAndServerReticle.description: Rādīt gan klienta, gan servera tīklojumu vienlaikus. Klienta tīklojums jūtas daudz atsaucīgāks, taču servera tīklojums ir precīzāks, jo tas ņem vērā aizkavi.
-betterReticleSize.showServerSpgStrategicReticle.title: Klienta un servera tīklojums artilērijas stratēģiskajā skatījumā
-betterReticleSize.showServerSpgStrategicReticle.description: Pašreizējais augšējais artilērijas sekundārais tīklojums ir traucējoši neglīts, tāpēc pēc noklusējuma tas ir atspējots.
-betterReticleSize.serverReticleAimingCircleShape.title: Mērķēšanas aplis
-betterReticleSize.serverReticleAimingCircleShape.description: Servera tīkla mērķēšanas aplis. Varat redzēt, kā tie izskatās, pārbaudot galveno izvēlni Iestatījumi, noklikšķinot uz cilnes Reticle un atzīmējot opcijas “Mērķēšana”.
-betterReticleSize.serverReticleAimingCircleOpacity.title: Mērķēšanas apļa necaurredzamība
+betterReticleSize.showClientAndServerReticle.title: [BETA] Rādīt gan klienta, gan servera tīklus
+betterReticleSize.showClientAndServerReticle.description: PIEZĪME. Tas automātiski iespējos iestatījumu "Server reticle", taču tas ietekmēs tikai otro tīklu.
+betterReticleSize.showServerSpgStrategicReticle.title: Rādīt klienta un servera tīklus SPG augšējā skatā
+betterReticleSize.showServerSpgStrategicReticle.description: Pašreizējais SPG sekundārais tīklojums ir traucējoši neglīts, tāpēc pēc noklusējuma tas ir atspējots.
+betterReticleSize.serverReticleAimingCircleShape.title: Servera tīkliņa mērķēšanas aplis
+betterReticleSize.serverReticleAimingCircleShape.description: Servera tīkla mērķēšanas aplis. Jūs varat redzēt, kā tie izskatās, pārbaudot galveno izvēlni Iestatījumi, noklikšķinot uz cilnes Reticle un atzīmējot opcijas "Mērķēšana".
+betterReticleSize.serverReticleAimingCircleOpacity.title: Necaurredzamība
 betterReticleSize.serverReticleAimingCircleOpacity.description: Iestatiet servera mērķa apļa necaurredzamību jeb caurspīdīgumu.
-betterReticleSize.serverReticleGunMarkerShape.title: Ieroču marķieris
-betterReticleSize.serverReticleGunMarkerShape.description: Ieroču marķieris servera tīkliņam. Varat redzēt, kā tie izskatās, pārbaudot galveno izvēlni Iestatījumi, noklikšķinot uz cilnes Reticle un atzīmējot opcijas “Ieroču marķieris”.
-betterReticleSize.serverReticleGunMarkerOpacity.title: Pistoles marķiera necaurredzamība
+betterReticleSize.serverReticleGunMarkerShape.title: Servera tīklveida pistoles marķieris
+betterReticleSize.serverReticleGunMarkerShape.description: Ieroču marķieris servera tīkliņam. Jūs varat redzēt, kā tie izskatās, pārbaudot galveno iestatījumu izvēlni, noklikšķinot uz cilnes Reticle un atzīmējot opcijas "Ieroču marķieris".
+betterReticleSize.serverReticleGunMarkerOpacity.title: Necaurredzamība
 betterReticleSize.serverReticleGunMarkerOpacity.description: Iestatiet servera pistoles marķiera necaurredzamību jeb caurspīdīgumu.
 
 betterBattleResults.modname: Labāki kaujas rezultāti

@@ -3,18 +3,18 @@ betterReticleSize.gunMarkerMinimumSize.title: 最小十字線尺寸
 betterReticleSize.gunMarkerMinimumSize.description: 限制十字線明顯收縮的大小。 將其設為 0 表示十字線尺寸始終準確，但可能更難看到。
 betterReticleSize.percentCorrection.title: 校正百分比
 betterReticleSize.percentCorrection.description: 十字線尺寸的校正量。 0% 是遊戲的預設超大設置，100% 是正確尺寸。
-betterReticleSize.showClientAndServerReticle.title: 啟用客戶端和伺服器十字線
-betterReticleSize.showClientAndServerReticle.description: 同時顯示客戶端和伺服器標線。 客戶端十字線感覺回應更快，但伺服器十字線更準確，因為它考慮了延遲。
-betterReticleSize.showServerSpgStrategicReticle.title: 砲兵戰略視圖中的客戶端和伺服器標線
-betterReticleSize.showServerSpgStrategicReticle.description: 目前的高架火砲輔助十字線非常醜陋，因此預設為停用。
-betterReticleSize.serverReticleAimingCircleShape.title: 瞄準圈
-betterReticleSize.serverReticleAimingCircleShape.description: 伺服器十字線的瞄準圈。 您可以透過檢查主「設定」選單、點擊「標線」標籤並檢查「瞄準」選項來查看它們的外觀。
-betterReticleSize.serverReticleAimingCircleOpacity.title: 瞄準圈不透明度
+betterReticleSize.showClientAndServerReticle.title: [測試版] 顯示客戶端和伺服器標線
+betterReticleSize.showClientAndServerReticle.description: 注意：這將自動啟用“伺服器十字線”設置，但這只會影響第二個十字線。
+betterReticleSize.showServerSpgStrategicReticle.title: 在 SPG 俯視圖中顯示用戶端和伺服器十字線
+betterReticleSize.showServerSpgStrategicReticle.description: 目前的頭頂 SPG 輔助十字線非常醜陋，因此預設會停用它。
+betterReticleSize.serverReticleAimingCircleShape.title: 伺服器十字線瞄準圈
+betterReticleSize.serverReticleAimingCircleShape.description: 伺服器十字線的瞄準圈。 您可以透過檢查主「設定」選單，點擊「十字線」選項卡，然後檢查「瞄準」選項來查看它們的外觀。
+betterReticleSize.serverReticleAimingCircleOpacity.title: 不透明度
 betterReticleSize.serverReticleAimingCircleOpacity.description: 設定伺服器瞄準圈的不透明度，也稱為透明度。
-betterReticleSize.serverReticleGunMarkerShape.title: 槍標記
-betterReticleSize.serverReticleGunMarkerShape.description: 伺服器十字線的槍標記。 您可以透過檢查主「設定」選單、點擊「標線」標籤並檢查「槍標記」選項來查看它們的外觀。
-betterReticleSize.serverReticleGunMarkerOpacity.title: 槍標記不透明度
-betterReticleSize.serverReticleGunMarkerOpacity.description: 設定伺服器槍枝標記的不透明度，也稱為透明度。
+betterReticleSize.serverReticleGunMarkerShape.title: 伺服器標線槍標記
+betterReticleSize.serverReticleGunMarkerShape.description: 伺服器十字線的槍標記。 您可以透過檢查主「設定」選單，點擊「十字線」選項卡，然後檢查「槍標記」選項來查看它們的外觀。
+betterReticleSize.serverReticleGunMarkerOpacity.title: 不透明度
+betterReticleSize.serverReticleGunMarkerOpacity.description: 設定伺服器槍標記的不透明度，也稱為透明度。
 
 betterBattleResults.modname: 更好的戰鬥結果
 betterBattleResults.richTooltip.title: 更詳細的戰鬥結果摘要工具提示

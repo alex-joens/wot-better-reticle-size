@@ -3,18 +3,18 @@ betterReticleSize.gunMarkerMinimumSize.title: Мінімальны памер п
 betterReticleSize.gunMarkerMinimumSize.description: Абмяжоўвае, наколькі малая прыцэльная сетка можа бачна скарачацца. Усталяванне 0 азначае, што памер прыцэльнай сеткі заўсёды дакладны, але яго можа быць цяжэй убачыць.
 betterReticleSize.percentCorrection.title: Працэнт выпраўлення
 betterReticleSize.percentCorrection.description: Колькі карэктаваць памер прыцэльнай сеткі. 0% - гэта налада павелічэння па змаўчанні ў гульні, 100% - правільны памер.
-betterReticleSize.showClientAndServerReticle.title: Уключыць прыцэльную сетку кліента і сервера
-betterReticleSize.showClientAndServerReticle.description: Адначасова паказваць кліентскую і серверную сетку. Прыцэльная сетка кліента больш хутка рэагуе, але прыцэльная сетка сервера больш дакладная, таму што яна ўлічвае затрымку.
-betterReticleSize.showServerSpgStrategicReticle.title: Прыцэльная сетка кліента і сервера ў артылерыйскім стратэгічным выглядзе
-betterReticleSize.showServerSpgStrategicReticle.description: Цяперашняя другасная прыцэльная сетка верхняй артылерыйскай зброі вельмі непрыгожая, таму яна адключана па змаўчанні.
-betterReticleSize.serverReticleAimingCircleShape.title: Прыцэльны круг
-betterReticleSize.serverReticleAimingCircleShape.description: Прыцэльны круг для прыцэльнай сеткі сервера. Вы можаце ўбачыць, як яны выглядаюць, прагледзеўшы галоўнае меню налад, націснуўшы на ўкладку "Сетка" і адзначыўшы параметры "Прыцэльванне".
-betterReticleSize.serverReticleAimingCircleOpacity.title: Непразрыстасць круга прыцэльвання
-betterReticleSize.serverReticleAimingCircleOpacity.description: Задаць непразрыстасць, або празрыстасць, круга прыцэльвання сервера.
-betterReticleSize.serverReticleGunMarkerShape.title: Маркер гарматы
-betterReticleSize.serverReticleGunMarkerShape.description: Маркер гарматы для прыцэльнай сеткі сервера. Вы можаце ўбачыць, як яны выглядаюць, прагледзеўшы галоўнае меню налад, націснуўшы на ўкладку «Сетка» і адзначыўшы параметры «Маркер стрэльбы».
-betterReticleSize.serverReticleGunMarkerOpacity.title: Непразрыстасць маркера стрэльбы
-betterReticleSize.serverReticleGunMarkerOpacity.description: Задаць непразрыстасць, або празрыстасць, сервернага маркера стрэльбы.
+betterReticleSize.showClientAndServerReticle.title: [БЭТА] Паказваць кліенцкія і серверныя сеткі
+betterReticleSize.showClientAndServerReticle.description: УВАГА: гэта аўтаматычна ўключыць наладу «Серверная сетка», але гэта ўплывае толькі на другую прыцэльную сетку.
+betterReticleSize.showServerSpgStrategicReticle.title: Паказваць прыцэльныя сеткі кліента і сервера ў выглядзе зверху SPG
+betterReticleSize.showServerSpgStrategicReticle.description: Цяперашняя другасная прыцэльная сетка SPG над галавой адцягвае ўвагу, таму па змаўчанні яна адключана.
+betterReticleSize.serverReticleAimingCircleShape.title: Серверная прыцэльная сетка
+betterReticleSize.serverReticleAimingCircleShape.description: Прыцэльны круг для сервернай прыцэльнай сеткі. Вы можаце ўбачыць, як яны выглядаюць, зайшоўшы ў галоўнае меню налад, націснуўшы на ўкладку «Сетка» і адзначыўшы опцыі «Прыцэльванне».
+betterReticleSize.serverReticleAimingCircleOpacity.title: Непразрыстасць
+betterReticleSize.serverReticleAimingCircleOpacity.description: Усталюйце непразрыстасць, яна ж празрыстасць, круга прыцэльвання сервера.
+betterReticleSize.serverReticleGunMarkerShape.title: Маркер пісталета прыцэльнай сеткі сервера
+betterReticleSize.serverReticleGunMarkerShape.description: Маркер пісталета для сервера прыцэльнай сеткі. Вы можаце ўбачыць, як яны выглядаюць, прагледзеўшы галоўнае меню налад, націснуўшы на ўкладку «Сетка» і адзначыўшы параметры «Маркер стрэльбы».
+betterReticleSize.serverReticleGunMarkerOpacity.title: Непразрыстасць
+betterReticleSize.serverReticleGunMarkerOpacity.description: Усталюйце непразрыстасць, яна ж празрыстасць, маркера стрэльбы сервера.
 
 betterBattleResults.modname: Лепшыя вынікі бітвы
 betterBattleResults.richTooltip.title: Больш падрабязныя зводныя ўсплывальныя падказкі вынікаў бітвы

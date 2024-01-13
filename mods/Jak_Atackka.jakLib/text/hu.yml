@@ -3,18 +3,18 @@ betterReticleSize.gunMarkerMinimumSize.title: Minimális célkereszt méret
 betterReticleSize.gunMarkerMinimumSize.description: Korlátozza, hogy a szálkereszt milyen kicsire zsugorodik láthatóan. Ha ezt 0-ra állítja, akkor a szálkereszt mérete mindig pontos, de előfordulhat, hogy nehezebb lesz látni.
 betterReticleSize.percentCorrection.title: Korrekciós érték
 betterReticleSize.percentCorrection.description: Mennyire legyen beállítva a célkereszt méretét. A 0% a játék alapértemezett beállítása, a 100% pedig a valós méret.
-betterReticleSize.showClientAndServerReticle.title: Engedélyezze a kliens és a szerver hálóját
-betterReticleSize.showClientAndServerReticle.description: A kliens és a kiszolgáló hálójának egyidejű megjelenítése. A kliens irányzék jobban reagál, de a kiszolgáló irányzéke pontosabb, mert késést számol.
-betterReticleSize.showServerSpgStrategicReticle.title: Kliens és szerver irányzék tüzérségi stratégiai nézetben
-betterReticleSize.showServerSpgStrategicReticle.description: A jelenlegi felső tüzérségi másodlagos irányzék zavaróan csúnya, ezért alapértelmezés szerint le van tiltva.
-betterReticleSize.serverReticleAimingCircleShape.title: Célzó kör
-betterReticleSize.serverReticleAimingCircleShape.description: A kiszolgáló irányzékának célzóköre. Megtekintheti, hogyan néznek ki ezek, ha megnézi a fő Beállítások menüt, rákattint a Reticle fülre, és bejelöli a „Célzás” opciókat.
-betterReticleSize.serverReticleAimingCircleOpacity.title: Célzó kör átlátszatlansága
-betterReticleSize.serverReticleAimingCircleOpacity.description: Állítsa be a szerver célzókörének átlátszatlanságát, azaz az átlátszóságot.
-betterReticleSize.serverReticleGunMarkerShape.title: Fegyverjelző
-betterReticleSize.serverReticleGunMarkerShape.description: A kiszolgáló irányzékának fegyverjelzője. Megtekintheti, hogyan néznek ki ezek, ha megnézi a fő Beállítások menüt, rákattint a Reticle fülre, és bejelöli a „Gun Marker” opciókat.
-betterReticleSize.serverReticleGunMarkerOpacity.title: Fegyverjelző átlátszatlansága
-betterReticleSize.serverReticleGunMarkerOpacity.description: Állítsa be a kiszolgáló fegyverjelölőjének átlátszatlanságát, azaz az átlátszóságot.
+betterReticleSize.showClientAndServerReticle.title: [BÉTA] A kliens és a kiszolgáló hálózatának megjelenítése
+betterReticleSize.showClientAndServerReticle.description: MEGJEGYZÉS: Ez automatikusan engedélyezi a "Server reticle" beállítást, de ez csak a második hálót érinti.
+betterReticleSize.showServerSpgStrategicReticle.title: A kliens és a szerver irányvonalainak megjelenítése az SPG felülnézetben
+betterReticleSize.showServerSpgStrategicReticle.description: A jelenlegi overhead SPG másodlagos irányzéka zavaróan csúnya, ezért alapértelmezés szerint le van tiltva.
+betterReticleSize.serverReticleAimingCircleShape.title: Szerver irányzéka célzó kör
+betterReticleSize.serverReticleAimingCircleShape.description: A kiszolgáló irányzékának célzóköre. Megtekintheti, hogyan néznek ki ezek, ha megnézi a fő Beállítások menüt, kattintson a Reticle fülre, és bejelöli a "Célzás" opciókat.
+betterReticleSize.serverReticleAimingCircleOpacity.title: Átlátszatlanság
+betterReticleSize.serverReticleAimingCircleOpacity.description: Állítsa be a kiszolgáló célzókör átlátszatlanságát, más néven átlátszóságát.
+betterReticleSize.serverReticleGunMarkerShape.title: Szerver irányzékos fegyverjelölő
+betterReticleSize.serverReticleGunMarkerShape.description: A kiszolgáló irányzékának fegyverjelzője. Megtekintheti, hogyan néznek ki ezek, ha megnézi a fő Beállítások menüt, kattintson a Reticle fülre, és bejelöli a "Gun Marker" opciókat.
+betterReticleSize.serverReticleGunMarkerOpacity.title: Átlátszatlanság
+betterReticleSize.serverReticleGunMarkerOpacity.description: Állítsa be a kiszolgálópisztolyjelző átlátszatlanságát, más néven átlátszóságát.
 
 betterBattleResults.modname: Jobb csataeredmény
 betterBattleResults.richTooltip.title: Részletesebb csateredmény segéd

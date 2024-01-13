@@ -3,18 +3,18 @@ betterReticleSize.gunMarkerMinimumSize.title: Kích thước hình chữ thập 
 betterReticleSize.gunMarkerMinimumSize.description: Giới hạn mức độ nhỏ được phép thu nhỏ rõ ràng của hình chữ thập. Đặt giá trị này thành 0 nghĩa là kích thước tâm ngắm luôn chính xác nhưng có thể khó nhìn hơn.
 betterReticleSize.percentCorrection.title: Phần trăm chỉnh sửa
 betterReticleSize.percentCorrection.description: Cần chỉnh sửa kích thước tâm chữ thập bao nhiêu. 0% là cài đặt kích thước quá khổ mặc định của trò chơi, 100% là kích thước chính xác.
-betterReticleSize.showClientAndServerReticle.title: Kích hoạt ô kẻ ô máy khách và máy chủ
-betterReticleSize.showClientAndServerReticle.description: Hiển thị cả ô kẻ ô máy khách và kẻ ô máy chủ cùng một lúc. Kẻ ô của máy khách có cảm giác phản hồi nhanh hơn, nhưng kẻ ô của máy chủ chính xác hơn vì nó gây ra độ trễ.
-betterReticleSize.showServerSpgStrategicReticle.title: Kẻ ô máy khách và máy chủ trong chế độ xem chiến lược pháo binh
-betterReticleSize.showServerSpgStrategicReticle.description: Kính ngắm phụ pháo binh trên cao hiện tại xấu đến mức gây mất tập trung nên bị tắt theo mặc định.
-betterReticleSize.serverReticleAimingCircleShape.title: Vòng tròn nhắm
-betterReticleSize.serverReticleAimingCircleShape.description: Vòng ngắm dành cho tâm ngắm của máy chủ. Bạn có thể xem những thứ này trông như thế nào bằng cách kiểm tra menu Cài đặt chính, nhấp vào tab Kẻ ô và kiểm tra các tùy chọn "Nhắm".
-betterReticleSize.serverReticleAimingCircleOpacity.title: Độ mờ của vòng tròn nhắm mục tiêu
-betterReticleSize.serverReticleAimingCircleOpacity.description: Đặt độ mờ, hay còn gọi là độ trong suốt của vòng tròn nhắm mục tiêu của máy chủ.
-betterReticleSize.serverReticleGunMarkerShape.title: Điểm đánh dấu súng
-betterReticleSize.serverReticleGunMarkerShape.description: Điểm đánh dấu súng dành cho tâm ngắm của máy chủ. Bạn có thể xem những thứ này trông như thế nào bằng cách kiểm tra menu Cài đặt chính, nhấp vào tab Kẻ ô và chọn tùy chọn "Dấu súng".
-betterReticleSize.serverReticleGunMarkerOpacity.title: Độ mờ của điểm đánh dấu súng
-betterReticleSize.serverReticleGunMarkerOpacity.description: Đặt độ mờ, hay còn gọi là độ trong suốt của điểm đánh dấu súng máy chủ.
+betterReticleSize.showClientAndServerReticle.title: [THỬ NGHIỆM] Hiển thị cả ô lưới máy khách và máy chủ
+betterReticleSize.showClientAndServerReticle.description: LƯU Ý: Thao tác này sẽ tự động bật cài đặt "Kính ngắm máy chủ", nhưng điều này chỉ ảnh hưởng đến ô kẻ ô thứ hai.
+betterReticleSize.showServerSpgStrategicReticle.title: Hiển thị ô kẻ ô máy khách và máy chủ ở chế độ xem trên cao SPG
+betterReticleSize.showServerSpgStrategicReticle.description: Kẻ ô thứ cấp SPG trên cao hiện tại xấu đến mức gây mất tập trung, vì vậy nó bị tắt theo mặc định.
+betterReticleSize.serverReticleAimingCircleShape.title: Vòng tròn nhắm mục tiêu của máy chủ
+betterReticleSize.serverReticleAimingCircleShape.description: Vòng tròn nhắm cho kẻ ô máy chủ. Bạn có thể xem những thứ này trông như thế nào bằng cách kiểm tra menu Cài đặt chính, nhấp vào tab Kẻ ô và kiểm tra các tùy chọn "Nhắm".
+betterReticleSize.serverReticleAimingCircleOpacity.title: Độ mờ
+betterReticleSize.serverReticleAimingCircleOpacity.description: Đặt độ mờ, hay còn gọi là độ trong suốt, của vòng tròn nhắm mục tiêu của máy chủ.
+betterReticleSize.serverReticleGunMarkerShape.title: Điểm đánh dấu súng ngắm của máy chủ
+betterReticleSize.serverReticleGunMarkerShape.description: Điểm đánh dấu súng cho tâm ngắm máy chủ. Bạn có thể xem chúng trông như thế nào bằng cách kiểm tra menu Cài đặt chính, nhấp vào tab Kẻ ô và chọn tùy chọn "Gun Marker".
+betterReticleSize.serverReticleGunMarkerOpacity.title: Độ mờ
+betterReticleSize.serverReticleGunMarkerOpacity.description: Đặt độ mờ, hay còn gọi là độ trong suốt, của điểm đánh dấu súng máy chủ.
 
 betterBattleResults.modname: Kết quả trận chiến tốt hơn
 betterBattleResults.richTooltip.title: Các chú giải công cụ tóm tắt Kết quả Trận chiến chi tiết hơn

@@ -3,18 +3,18 @@ betterReticleSize.gunMarkerMinimumSize.title: Minimihiusristikko
 betterReticleSize.gunMarkerMinimumSize.description: Rajoittaa, kuinka pieneksi hiusristikko saa näkyvästi kutistua. Jos asetat tämän arvoon 0, hiusristikon koko on aina tarkka, mutta sitä voi olla vaikea nähdä.
 betterReticleSize.percentCorrection.title: Korjausprosentti
 betterReticleSize.percentCorrection.description: Kuinka paljon hiusristikon kokoa korjataan. 0 % on pelin oletusarvoinen ylikokoasetus, 100 % on oikea koko.
-betterReticleSize.showClientAndServerReticle.title: Ota käyttöön asiakas- ja palvelinverkko
-betterReticleSize.showClientAndServerReticle.description: Näytä sekä asiakas- että palvelinverkko samanaikaisesti. Asiakasristikko tuntuu reagoivammalta, mutta palvelinristikko on tarkempi, koska se ottaa huomioon viiveen.
-betterReticleSize.showServerSpgStrategicReticle.title: Asiakas- ja palvelinhiusristikko tykistöstrategiassa
-betterReticleSize.showServerSpgStrategicReticle.description: Nykyinen yläpuolinen tykistön toissijainen ristikko on häiritsevän ruma, joten se on oletuksena pois käytöstä.
-betterReticleSize.serverReticleAimingCircleShape.title: Tähtäävä ympyrä
-betterReticleSize.serverReticleAimingCircleShape.description: Palvelinristikon tähtäysympyrä. Näet, miltä nämä näyttävät, tarkistamalla Asetukset-päävalikosta, klikkaamalla Hiusristikko-välilehteä ja valitsemalla Kohdistus-asetukset.
-betterReticleSize.serverReticleAimingCircleOpacity.title: Tavoitteena ympyrän läpinäkyvyys
+betterReticleSize.showClientAndServerReticle.title: [BEETA] Näytä sekä asiakas- että palvelinverkko
+betterReticleSize.showClientAndServerReticle.description: HUOMAUTUS: Tämä ottaa automaattisesti käyttöön "Palvelinristikko"-asetuksen, mutta tämä vaikuttaa vain toiseen ristikkoon.
+betterReticleSize.showServerSpgStrategicReticle.title: Näytä asiakas- ja palvelinverkko SPG-näkymässä
+betterReticleSize.showServerSpgStrategicReticle.description: Nykyinen yläpuolella oleva SPG:n toissijainen hiusristikko on häiritsevän ruma, joten se on oletuksena poistettu käytöstä.
+betterReticleSize.serverReticleAimingCircleShape.title: Palvelimen ristikon tähtäysympyrä
+betterReticleSize.serverReticleAimingCircleShape.description: Palvelinristikon tähtäysympyrä. Näet miltä nämä näyttävät tarkistamalla Asetukset-päävalikosta, napsauttamalla Reticle-välilehteä ja tarkistamalla "Aiming"-vaihtoehdot.
+betterReticleSize.serverReticleAimingCircleOpacity.title: Peittävyys
 betterReticleSize.serverReticleAimingCircleOpacity.description: Aseta palvelimen tähtäysympyrän läpinäkyvyys, eli läpinäkyvyys.
-betterReticleSize.serverReticleGunMarkerShape.title: Aseen merkki
-betterReticleSize.serverReticleGunMarkerShape.description: Palvelimen ristikon asemerkki. Näet, miltä nämä näyttävät, tarkistamalla Asetukset-päävalikosta, klikkaamalla Hiusristikko-välilehteä ja valitsemalla "Gun Marker" -vaihtoehdot.
-betterReticleSize.serverReticleGunMarkerOpacity.title: Asemerkin opasiteetti
-betterReticleSize.serverReticleGunMarkerOpacity.description: Aseta palvelimen asemerkin läpinäkyvyys.
+betterReticleSize.serverReticleGunMarkerShape.title: Palvelimen ristikkoasemerkki
+betterReticleSize.serverReticleGunMarkerShape.description: Asemerkki palvelinhiusristikkoa varten. Voit nähdä, miltä nämä näyttävät tarkistamalla Asetukset-päävalikosta, napsauttamalla Reticle-välilehteä ja tarkistamalla "Gun Marker" -vaihtoehdot.
+betterReticleSize.serverReticleGunMarkerOpacity.title: Peittävyys
+betterReticleSize.serverReticleGunMarkerOpacity.description: Aseta palvelinpistoolimerkin peittävyys, eli läpinäkyvyys.
 
 betterBattleResults.modname: Parempia taistelutuloksia
 betterBattleResults.richTooltip.title: Yksityiskohtaisemmat taistelutulosten yhteenvetotyökaluvinkit

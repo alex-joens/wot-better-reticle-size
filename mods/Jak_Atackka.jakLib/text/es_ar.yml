@@ -3,17 +3,17 @@ betterReticleSize.gunMarkerMinimumSize.title: Tamaño mínimo del punto de mira
 betterReticleSize.gunMarkerMinimumSize.description: Limita qué tan pequeño se permite que el punto de mira se reduzca visiblemente. Si se establece en 0, el tamaño del punto de mira siempre será preciso, pero puede ser más difícil de ver.
 betterReticleSize.percentCorrection.title: Porcentaje de corrección
 betterReticleSize.percentCorrection.description: Cuánto corregir el tamaño de la cruz. 0% es la configuración de tamaño grande predeterminada del juego, 100% es el tamaño correcto.
-betterReticleSize.showClientAndServerReticle.title: Habilitar retícula de cliente y servidor
-betterReticleSize.showClientAndServerReticle.description: Muestra la retícula del cliente y del servidor al mismo tiempo. La retícula del cliente parece tener mejor respuesta, pero la retícula del servidor es más precisa porque tiene en cuenta el retraso.
-betterReticleSize.showServerSpgStrategicReticle.title: Retícula de cliente y servidor en vista estratégica de artillería.
-betterReticleSize.showServerSpgStrategicReticle.description: La retícula secundaria de artillería aérea actual distrae demasiado y es fea, por lo que está inhabilitada de forma predeterminada.
-betterReticleSize.serverReticleAimingCircleShape.title: Círculo de puntería
-betterReticleSize.serverReticleAimingCircleShape.description: El círculo de puntería para la retícula del servidor. Puedes ver cómo se ven consultando el menú principal de Configuración, haciendo clic en la pestaña Retícula y marcando las opciones de "Apuntar".
-betterReticleSize.serverReticleAimingCircleOpacity.title: Opacidad del círculo de puntería
+betterReticleSize.showClientAndServerReticle.title: [BETA] Mostrar las retículas del cliente y del servidor
+betterReticleSize.showClientAndServerReticle.description: NOTA: Esto habilitará automáticamente la configuración "Retícula del servidor", pero esto solo afecta a la segunda retícula.
+betterReticleSize.showServerSpgStrategicReticle.title: Mostrar las retículas del cliente y del servidor en la vista aérea de SPG
+betterReticleSize.showServerSpgStrategicReticle.description: La retícula secundaria actual del SPG aéreo distrae la atención, por lo que está desactivada de forma predeterminada.
+betterReticleSize.serverReticleAimingCircleShape.title: Círculo de puntería de la retícula del servidor
+betterReticleSize.serverReticleAimingCircleShape.description: El círculo de puntería para la retícula del servidor. Puede ver cómo se ven consultando el menú principal de Configuración, haciendo clic en la pestaña Retícula y marcando las opciones de "Apuntar".
+betterReticleSize.serverReticleAimingCircleOpacity.title: Opacidad
 betterReticleSize.serverReticleAimingCircleOpacity.description: Establece la opacidad, también conocida como transparencia, del círculo de puntería del servidor.
-betterReticleSize.serverReticleGunMarkerShape.title: Marcador de pistola
-betterReticleSize.serverReticleGunMarkerShape.description: El marcador de pistola para la retícula del servidor. Puedes ver cómo se ven consultando el menú principal de Configuración, haciendo clic en la pestaña Retícula y marcando las opciones "Marcador de pistola".
-betterReticleSize.serverReticleGunMarkerOpacity.title: Opacidad del marcador de pistola
+betterReticleSize.serverReticleGunMarkerShape.title: Marcador de pistola de retícula del servidor
+betterReticleSize.serverReticleGunMarkerShape.description: El marcador de pistola para la retícula del servidor. Puede ver cómo se ven consultando el menú principal de Configuración, haciendo clic en la pestaña Retícula y marcando las opciones de "Marcador de pistola".
+betterReticleSize.serverReticleGunMarkerOpacity.title: Opacidad
 betterReticleSize.serverReticleGunMarkerOpacity.description: Establece la opacidad, también conocida como transparencia, del marcador de pistola del servidor.
 
 betterBattleResults.modname: Mejores resultados de batalla

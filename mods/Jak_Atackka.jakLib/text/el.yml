@@ -3,18 +3,18 @@ betterReticleSize.gunMarkerMinimumSize.title: Ελάχιστο μέγεθος σ
 betterReticleSize.gunMarkerMinimumSize.description: Περιορίζει το μέγεθος του σταυρού που επιτρέπεται να συρρικνωθεί ορατά. Η ρύθμιση αυτού στο 0 σημαίνει ότι το μέγεθος σταυρόνημα είναι πάντα ακριβές, αλλά μπορεί να είναι πιο δύσκολο να το δεις.
 betterReticleSize.percentCorrection.title: Ποσοστό διόρθωσης
 betterReticleSize.percentCorrection.description: Πόσο πρέπει να διορθωθεί το μέγεθος σταυρόνημα. Το 0% είναι η προεπιλεγμένη υπερμεγέθη ρύθμιση του παιχνιδιού, το 100% είναι το σωστό μέγεθος.
-betterReticleSize.showClientAndServerReticle.title: Ενεργοποίηση δικτύου πελάτη και διακομιστή
-betterReticleSize.showClientAndServerReticle.description: Εμφάνιση τόσο του δικτύου πελάτη όσο και του δικτύου διακομιστή ταυτόχρονα. Το πλέγμα πελάτη έχει μεγαλύτερη απόκριση, αλλά το πλέγμα διακομιστή είναι πιο ακριβές επειδή αντιπροσωπεύει την καθυστέρηση.
-betterReticleSize.showServerSpgStrategicReticle.title: Δίκτυο πελάτη και διακομιστή σε στρατηγική άποψη πυροβολικού
-betterReticleSize.showServerSpgStrategicReticle.description: Το τρέχον δευτερεύον πλέγμα πυροβολικού είναι εξαιρετικά άσχημο, επομένως είναι απενεργοποιημένο από προεπιλογή.
-betterReticleSize.serverReticleAimingCircleShape.title: Κύκλος στόχευσης
-betterReticleSize.serverReticleAimingCircleShape.description: Ο κύκλος στόχευσης για το πλέγμα διακομιστή. Μπορείτε να δείτε πώς φαίνονται ελέγχοντας το κύριο μενού Ρυθμίσεις, κάνοντας κλικ στην καρτέλα Reticle και ελέγχοντας τις επιλογές "Στόχευση".
-betterReticleSize.serverReticleAimingCircleOpacity.title: Αδιαφάνεια του κύκλου στόχευσης
-betterReticleSize.serverReticleAimingCircleOpacity.description: Ορίστε την αδιαφάνεια, γνωστή και ως διαφάνεια, του κύκλου στόχευσης διακομιστή.
-betterReticleSize.serverReticleGunMarkerShape.title: Μαρκαδόρος όπλου
-betterReticleSize.serverReticleGunMarkerShape.description: Ο δείκτης όπλου για το πλέγμα διακομιστή. Μπορείτε να δείτε πώς φαίνονται ελέγχοντας το κύριο μενού Ρυθμίσεις, κάνοντας κλικ στην καρτέλα Reticle και ελέγχοντας τις επιλογές "Μαρκαδόρος όπλου".
-betterReticleSize.serverReticleGunMarkerOpacity.title: Αδιαφάνεια δείκτη όπλου
-betterReticleSize.serverReticleGunMarkerOpacity.description: Ρυθμίστε την αδιαφάνεια, γνωστή και ως τη διαφάνεια, του δείκτη πιστολιού διακομιστή.
+betterReticleSize.showClientAndServerReticle.title: [ΒΗΤΑ] Εμφάνιση δικτυωμάτων πελάτη και διακομιστή
+betterReticleSize.showClientAndServerReticle.description: ΣΗΜΕΙΩΣΗ: Αυτό θα ενεργοποιήσει αυτόματα τη ρύθμιση "Server reticle", αλλά αυτό επηρεάζει μόνο το δεύτερο reticle.
+betterReticleSize.showServerSpgStrategicReticle.title: Εμφάνιση δικτυωμάτων πελάτη και διακομιστή σε γενική προβολή SPG
+betterReticleSize.showServerSpgStrategicReticle.description: Το τρέχον δευτερεύον πλέγμα SPG είναι εξαιρετικά άσχημο, επομένως είναι απενεργοποιημένο από προεπιλογή.
+betterReticleSize.serverReticleAimingCircleShape.title: Κύκλος στόχευσης δικτυώματος διακομιστή
+betterReticleSize.serverReticleAimingCircleShape.description: Ο κύκλος στόχευσης για το δίκτυο του διακομιστή. Μπορείτε να δείτε πώς φαίνονται ελέγχοντας το κύριο μενού Ρυθμίσεις, κάνοντας κλικ στην καρτέλα Reticle και ελέγχοντας τις επιλογές "Στόχευση".
+betterReticleSize.serverReticleAimingCircleOpacity.title: Αδιαφάνεια
+betterReticleSize.serverReticleAimingCircleOpacity.description: Ρυθμίστε την αδιαφάνεια, γνωστή και ως διαφάνεια, του κύκλου στόχευσης του διακομιστή.
+betterReticleSize.serverReticleGunMarkerShape.title: Μαρκαδόρος πυροβόλου όπλου διακομιστή
+betterReticleSize.serverReticleGunMarkerShape.description: Ο δείκτης όπλου για το πλέγμα διακομιστή. Μπορείτε να δείτε πώς φαίνονται ελέγχοντας το κύριο μενού Ρυθμίσεις, κάνοντας κλικ στην καρτέλα Reticle και ελέγχοντας τις επιλογές "Gun Marker".
+betterReticleSize.serverReticleGunMarkerOpacity.title: Αδιαφάνεια
+betterReticleSize.serverReticleGunMarkerOpacity.description: Ρυθμίστε την αδιαφάνεια, γνωστή και ως διαφάνεια, του δείκτη πιστολιού διακομιστή.
 
 betterBattleResults.modname: Καλύτερα αποτελέσματα μάχης
 betterBattleResults.richTooltip.title: Πιο λεπτομερείς συμβουλές εργαλείων σύνοψης αποτελεσμάτων μάχης

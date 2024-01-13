@@ -3,18 +3,18 @@ betterReticleSize.gunMarkerMinimumSize.title: Mindestgröße des Fadenkreuzes
 betterReticleSize.gunMarkerMinimumSize.description: Begrenzt, wie klein das Fadenkreuz sichtbar verkleinert werden darf. Wenn Sie diesen Wert auf 0 setzen, ist die Fadenkreuzgröße immer genau, aber möglicherweise schwerer zu erkennen.
 betterReticleSize.percentCorrection.title: Korrekturprozentsatz
 betterReticleSize.percentCorrection.description: Um wie viel die Fadenkreuzgröße korrigiert werden soll. 0 % ist die Standardeinstellung des Spiels für Übergröße, 100 % ist die richtige Größe.
-betterReticleSize.showClientAndServerReticle.title: Client- und Server-Retikel aktivieren
-betterReticleSize.showClientAndServerReticle.description: Zeigt sowohl das Client- als auch das Server-Fadenkreuz gleichzeitig an. Das Client-Fadenkreuz fühlt sich reaktionsschneller an, aber das Server-Fadenkreuz ist genauer, weil es Verzögerungen berücksichtigt.
-betterReticleSize.showServerSpgStrategicReticle.title: Client- und Server-Absehen in der strategischen Sicht der Artillerie
-betterReticleSize.showServerSpgStrategicReticle.description: Das aktuelle sekundäre Artillerie-Absehen über Kopf ist irritierend hässlich und daher standardmäßig deaktiviert.
-betterReticleSize.serverReticleAimingCircleShape.title: Zielkreis
+betterReticleSize.showClientAndServerReticle.title: [BETA] Zeigt sowohl Client- als auch Server-Absehen an
+betterReticleSize.showClientAndServerReticle.description: HINWEIS: Dadurch wird automatisch die Einstellung „Server-Absehen“ aktiviert, dies betrifft jedoch nur das zweite Absehen.
+betterReticleSize.showServerSpgStrategicReticle.title: Client- und Serverabsehen in der Selbstfahrlafetten-Draufsicht anzeigen
+betterReticleSize.showServerSpgStrategicReticle.description: Das aktuelle Sekundärabsehen der selbstfahrenden Selbstfahrlafette ist auffallend hässlich und daher standardmäßig deaktiviert.
+betterReticleSize.serverReticleAimingCircleShape.title: Zielkreis des Server-Fadenkreuzes
 betterReticleSize.serverReticleAimingCircleShape.description: Der Zielkreis für das Server-Fadenkreuz. Sie können sehen, wie diese aussehen, indem Sie im Hauptmenü „Einstellungen“ auf die Registerkarte „Absehen“ klicken und die Optionen „Zielen“ aktivieren.
-betterReticleSize.serverReticleAimingCircleOpacity.title: Deckkraft des Zielkreises
-betterReticleSize.serverReticleAimingCircleOpacity.description: Legen Sie die Deckkraft, auch Transparenz genannt, des Server-Zielkreises fest.
-betterReticleSize.serverReticleGunMarkerShape.title: Waffenmarker
-betterReticleSize.serverReticleGunMarkerShape.description: Die Waffenmarkierung für das Server-Fadenkreuz. Sie können sehen, wie diese aussehen, indem Sie im Hauptmenü „Einstellungen“ auf die Registerkarte „Absehen“ klicken und die Optionen „Waffenmarkierung“ aktivieren.
-betterReticleSize.serverReticleGunMarkerOpacity.title: Deckkraft der Waffenmarkierung
-betterReticleSize.serverReticleGunMarkerOpacity.description: Legen Sie die Deckkraft, also die Transparenz, der Server-Waffenmarkierung fest.
+betterReticleSize.serverReticleAimingCircleOpacity.title: Opazität
+betterReticleSize.serverReticleAimingCircleOpacity.description: Legen Sie die Deckkraft bzw. Transparenz des Server-Zielkreises fest.
+betterReticleSize.serverReticleGunMarkerShape.title: Server-Fadenkreuz-Waffenmarkierung
+betterReticleSize.serverReticleGunMarkerShape.description: Der Waffenmarker für das Server-Fadenkreuz. Sie können sehen, wie diese aussehen, indem Sie im Hauptmenü „Einstellungen“ auf die Registerkarte „Absehen“ klicken und die Optionen „Waffenmarkierung“ aktivieren.
+betterReticleSize.serverReticleGunMarkerOpacity.title: Opazität
+betterReticleSize.serverReticleGunMarkerOpacity.description: Legen Sie die Deckkraft bzw. Transparenz der Server-Waffenmarkierung fest.
 
 betterBattleResults.modname: Bessere Schlachtergebnisse
 betterBattleResults.richTooltip.title: Detailliertere Kurzinfos zu den Kampfergebnissen

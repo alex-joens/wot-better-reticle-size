@@ -3,17 +3,17 @@ betterReticleSize.gunMarkerMinimumSize.title: Dimensiunea minimă a reticulei
 betterReticleSize.gunMarkerMinimumSize.description: Limitează cât de mică este vizibil permisă micșorarea reticulei. Setarea la 0 înseamnă că dimensiunea reticulatului este întotdeauna exactă, dar poate fi mai greu de văzut.
 betterReticleSize.percentCorrection.title: Procent de corecție
 betterReticleSize.percentCorrection.description: Cât de mult trebuie corectat dimensiunea încrucișării. 0% este setarea implicită a jocului supradimensionat, 100% este dimensiunea corectă.
-betterReticleSize.showClientAndServerReticle.title: Activați reticulul client și server
-betterReticleSize.showClientAndServerReticle.description: Afișați reticulul client și server în același timp. Reticula clientului se simte mai receptivă, dar reticulul serverului este mai precis, deoarece ține cont de decalajul.
-betterReticleSize.showServerSpgStrategicReticle.title: Reticula client și server în vedere strategică de artilerie
-betterReticleSize.showServerSpgStrategicReticle.description: Reticulul secundar al artileriei aeriene actuale este extrem de urât, așa că este dezactivat în mod prestabilit.
-betterReticleSize.serverReticleAimingCircleShape.title: Cercul de țintire
-betterReticleSize.serverReticleAimingCircleShape.description: Cercul de vizare pentru reticulul serverului. Puteți vedea cum arată acestea verificând meniul principal Setări, făcând clic pe fila Reticulă și bifând opțiunile „Țintire”.
-betterReticleSize.serverReticleAimingCircleOpacity.title: Opacitatea cercului de vizare
-betterReticleSize.serverReticleAimingCircleOpacity.description: Setați opacitatea, adică transparența, a cercului de vizare a serverului.
-betterReticleSize.serverReticleGunMarkerShape.title: Marker pentru pistol
-betterReticleSize.serverReticleGunMarkerShape.description: Marcatorul pentru pistol pentru reticulul serverului. Puteți vedea cum arată acestea verificând meniul principal Setări, făcând clic pe fila Reticulă și bifând opțiunile „Marcator pistol”.
-betterReticleSize.serverReticleGunMarkerOpacity.title: Opacitatea markerului pistolului
+betterReticleSize.showClientAndServerReticle.title: [BETA] Afișează atât reticulele client, cât și cele ale serverului
+betterReticleSize.showClientAndServerReticle.description: NOTĂ: Aceasta va activa automat setarea „Reticulul serverului”, dar aceasta afectează doar al doilea reticul.
+betterReticleSize.showServerSpgStrategicReticle.title: Afișați reticulele client și server în vizualizarea de deasupra SPG
+betterReticleSize.showServerSpgStrategicReticle.description: Reticulul secundar SPG de deasupra capului actual este extrem de urât, deci este dezactivat implicit.
+betterReticleSize.serverReticleAimingCircleShape.title: Cercul de vizare a reticulului serverului
+betterReticleSize.serverReticleAimingCircleShape.description: Cercul de țintire pentru reticulul serverului. Puteți vedea cum arată acestea verificând meniul principal Setări, făcând clic pe fila Reticulă și bifând opțiunile „Țintire”.
+betterReticleSize.serverReticleAimingCircleOpacity.title: Opacitate
+betterReticleSize.serverReticleAimingCircleOpacity.description: Setați opacitatea, adică transparența, a cercului de țintire a serverului.
+betterReticleSize.serverReticleGunMarkerShape.title: Marker pentru pistol pentru reticulă server
+betterReticleSize.serverReticleGunMarkerShape.description: Marcatorul pistolului pentru reticulul serverului. Puteți vedea cum arată acestea verificând meniul principal Setări, făcând clic pe fila Reticulă și bifând opțiunile „Marcator pistol”.
+betterReticleSize.serverReticleGunMarkerOpacity.title: Opacitate
 betterReticleSize.serverReticleGunMarkerOpacity.description: Setați opacitatea, adică transparența, a marcatorului de pistol server.
 
 betterBattleResults.modname: Rezultate mai bune de luptă

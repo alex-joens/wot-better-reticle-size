@@ -3,18 +3,18 @@ betterReticleSize.gunMarkerMinimumSize.title: Saristiku minimaalne suurus
 betterReticleSize.gunMarkerMinimumSize.description: iirab, kui väikeseks on lubatud juukserist silmnähtavalt kahaneda. Kui määrate selle väärtusele 0, siis juukseristi suurus on alati täpne, kuid seda võib olla raskem näha.
 betterReticleSize.percentCorrection.title: Parandusprotsent
 betterReticleSize.percentCorrection.description: Kui palju juukseristi suurust parandada. 0% on mängu vaikesuuruse seadistus, 100% on õige suurus.
-betterReticleSize.showClientAndServerReticle.title: Luba kliendi- ja serverivõrk
-betterReticleSize.showClientAndServerReticle.description: Kuva korraga nii kliendi kui ka serveri võrk. Kliendivõrk reageerib paremini, kuid serverivõrk on täpsem, kuna see võtab arvesse viivitust.
-betterReticleSize.showServerSpgStrategicReticle.title: Kliendi ja serveri võrk suurtükiväe strateegilises vaates
-betterReticleSize.showServerSpgStrategicReticle.description: Praegune õhuliini suurtükiväe sekundaarne võrk on häirivalt inetu, seega on see vaikimisi keelatud.
-betterReticleSize.serverReticleAimingCircleShape.title: Sihtimisring
-betterReticleSize.serverReticleAimingCircleShape.description: Serveri sihiku ring. Näete, kuidas need välja näevad, kui kontrollite põhimenüüd Seaded, klõpsate vahekaardil Võrk ja märkige valikud „Sihtimine”.
-betterReticleSize.serverReticleAimingCircleOpacity.title: Sihtringi läbipaistmatus
-betterReticleSize.serverReticleAimingCircleOpacity.description: Määrake serveri sihtimisringi läbipaistmatus (ehk läbipaistvus).
-betterReticleSize.serverReticleGunMarkerShape.title: Relva marker
-betterReticleSize.serverReticleGunMarkerShape.description: Püssitähis serverivõrku jaoks. Näete, kuidas need välja näevad, kui kontrollite peamenüüst Seaded, klõpsate vahekaardil Võrk ja märkige valikud „Püssimarker”.
-betterReticleSize.serverReticleGunMarkerOpacity.title: Püstoli markeri läbipaistmatus
-betterReticleSize.serverReticleGunMarkerOpacity.description: Seadistage serveri relvamarkeri läbipaistmatus ehk läbipaistvus.
+betterReticleSize.showClientAndServerReticle.title: [BEETA] Kuva nii kliendi kui ka serveri võrgustik
+betterReticleSize.showClientAndServerReticle.description: MÄRKUS. See lubab automaatselt sätte "Server reticle", kuid see mõjutab ainult teist võrku.
+betterReticleSize.showServerSpgStrategicReticle.title: Kuva kliendi ja serveri võrk SPG üldvaates
+betterReticleSize.showServerSpgStrategicReticle.description: Praegune õhuliini SPG sekundaarne võrk on häirivalt inetu, seega on see vaikimisi keelatud.
+betterReticleSize.serverReticleAimingCircleShape.title: Serverivõrkude sihtimisring
+betterReticleSize.serverReticleAimingCircleShape.description: Serverivõrgu sihtimisring. Näete, kuidas need välja näevad, kui kontrollite põhimenüüd Seaded, klõpsate vahekaarti Reticle ja märkige valikud "Sihtimine".
+betterReticleSize.serverReticleAimingCircleOpacity.title: Läbipaistmatus
+betterReticleSize.serverReticleAimingCircleOpacity.description: Määrake serveri sihtimisringi läbipaistmatus ehk läbipaistvus.
+betterReticleSize.serverReticleGunMarkerShape.title: Serveri võrkrelva marker
+betterReticleSize.serverReticleGunMarkerShape.description: Püssimarker serverivõrku jaoks. Näete, kuidas need välja näevad, kui kontrollite põhimenüüd Seaded, klõpsate vahekaardil Reticle ja kontrollite suvandeid "Püssimarker".
+betterReticleSize.serverReticleGunMarkerOpacity.title: Läbipaistmatus
+betterReticleSize.serverReticleGunMarkerOpacity.description: Määrake serveripüstoli markeri läbipaistmatus ehk läbipaistvus.
 
 betterBattleResults.modname: Paremad lahingutulemused
 betterBattleResults.richTooltip.title: Üksikasjalikumad lahingutulemuste kokkuvõtte tööriistanäpunäited

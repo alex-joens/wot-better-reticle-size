@@ -3,17 +3,17 @@ betterReticleSize.gunMarkerMinimumSize.title: Mažiausias kryželio dydis
 betterReticleSize.gunMarkerMinimumSize.description: Apriboja, kiek mažas kryželis gali akivaizdžiai susitraukti. Nustačius tai į 0, kryželio dydis visada yra tikslus, bet gali būti sunkiau jį pamatyti.
 betterReticleSize.percentCorrection.title: Pataisos procentas
 betterReticleSize.percentCorrection.description: Kiek koreguoti kryželio dydį. 0 % yra numatytasis žaidimo didelio dydžio nustatymas, 100 % yra tinkamas dydis.
-betterReticleSize.showClientAndServerReticle.title: Įgalinti kliento ir serverio tinklelį
-betterReticleSize.showClientAndServerReticle.description: Rodyti kliento ir serverio tinklelį vienu metu. Kliento tinklelis reaguoja labiau, bet serverio tinklelis yra tikslesnis, nes atsižvelgia į vėlavimą.
-betterReticleSize.showServerSpgStrategicReticle.title: Kliento ir serverio tinklelis artilerijos strateginiame vaizde
-betterReticleSize.showServerSpgStrategicReticle.description: Dabartinis antrinis artilerijos tinklelis yra labai bjaurus, todėl pagal numatytuosius nustatymus išjungtas.
-betterReticleSize.serverReticleAimingCircleShape.title: Tikslinis ratas
-betterReticleSize.serverReticleAimingCircleShape.description: Serverio tinklelio nukreipimo ratas. Galite pamatyti, kaip jie atrodo, patikrinę pagrindinį nustatymų meniu, spustelėję skirtuką „Tinklelis“ ir pažymėję parinktis „Taikymas“.
-betterReticleSize.serverReticleAimingCircleOpacity.title: Tikslinis apskritimo neskaidrumas
+betterReticleSize.showClientAndServerReticle.title: [BETA] Rodyti kliento ir serverio tinklelius
+betterReticleSize.showClientAndServerReticle.description: PASTABA: tai automatiškai įjungs nustatymą „Serverio tinklelis“, tačiau tai paveiks tik antrąjį tinklelį.
+betterReticleSize.showServerSpgStrategicReticle.title: Rodyti kliento ir serverio tinklelius SPG viršutiniame vaizde
+betterReticleSize.showServerSpgStrategicReticle.description: Dabartinis viršutinis SPG antrinis tinklelis yra bjaurus, todėl pagal numatytuosius nustatymus jis išjungtas.
+betterReticleSize.serverReticleAimingCircleShape.title: Serverio tinklelio taikymo ratas
+betterReticleSize.serverReticleAimingCircleShape.description: Serverio tinklelio nukreipimo ratas. Galite pamatyti, kaip jie atrodo, patikrinę pagrindinį meniu „Nustatymai“, spustelėję skirtuką „Tinklelis“ ir pažymėję parinktis „Taikymas“.
+betterReticleSize.serverReticleAimingCircleOpacity.title: Neskaidrumas
 betterReticleSize.serverReticleAimingCircleOpacity.description: Nustatykite serverio nukreipimo apskritimo neskaidrumą, dar žinomą kaip skaidrumas.
-betterReticleSize.serverReticleGunMarkerShape.title: Ginklų žymeklis
-betterReticleSize.serverReticleGunMarkerShape.description: Serverio tinklelio ginklo žymeklis. Galite pamatyti, kaip jie atrodo, patikrinę pagrindinį nustatymų meniu, spustelėję skirtuką „Tinklelis“ ir pažymėję parinktis „Gun Marker“.
-betterReticleSize.serverReticleGunMarkerOpacity.title: Pistoleto žymeklio neskaidrumas
+betterReticleSize.serverReticleGunMarkerShape.title: Serverio tinklinio ginklo žymeklis
+betterReticleSize.serverReticleGunMarkerShape.description: Pistoleto žymeklis serverio tinkleliui. Galite pamatyti, kaip jie atrodo, patikrinę pagrindinį nustatymų meniu, spustelėję skirtuką Tinklelis ir pažymėję parinktis „Gun Marker“.
+betterReticleSize.serverReticleGunMarkerOpacity.title: Neskaidrumas
 betterReticleSize.serverReticleGunMarkerOpacity.description: Nustatykite serverio ginklo žymeklio neskaidrumą, dar žinomą kaip skaidrumas.
 
 betterBattleResults.modname: Geresni mūšio rezultatai

@@ -3,18 +3,18 @@ betterReticleSize.gunMarkerMinimumSize.title: Minimum artı işareti boyutu
 betterReticleSize.gunMarkerMinimumSize.description: Artı işaretinin görünür şekilde küçültülmesine izin verilen küçülme miktarını sınırlar. Bunu 0'a ayarlamak artı işareti boyutunun her zaman doğru olduğu anlamına gelir ancak görülmesi daha zor olabilir.
 betterReticleSize.percentCorrection.title: Düzeltme yüzdesi
 betterReticleSize.percentCorrection.description: Artı boyutunun ne kadar düzeltileceği. Oyunun varsayılan büyük boyut ayarı %0, doğru boyut ise %100'dür.
-betterReticleSize.showClientAndServerReticle.title: İstemci ve sunucu retikülünü etkinleştir
-betterReticleSize.showClientAndServerReticle.description: Hem istemci hem de sunucu retikülünü aynı anda gösterin. İstemci ağı daha hızlı tepki veriyor ancak sunucu ağı gecikmeyi hesaba kattığı için daha doğru sonuç veriyor.
-betterReticleSize.showServerSpgStrategicReticle.title: Topçu stratejik görünümünde istemci ve sunucu ağı
-betterReticleSize.showServerSpgStrategicReticle.description: Mevcut havai topçu ikincil nişangahı dikkat dağıtıcı derecede çirkin olduğundan varsayılan olarak devre dışıdır.
-betterReticleSize.serverReticleAimingCircleShape.title: Nişan alma çemberi
-betterReticleSize.serverReticleAimingCircleShape.description: Sunucu nişangahının hedefleme çemberi. Ana Ayarlar menüsünü kontrol edip, Nişangah sekmesini tıklayıp "Hedefleme" seçeneklerini işaretleyerek bunların neye benzediğini görebilirsiniz.
-betterReticleSize.serverReticleAimingCircleOpacity.title: Çember opaklığını hedefleme
+betterReticleSize.showClientAndServerReticle.title: [BETA] Hem istemci hem de sunucu retiküllerini göster
+betterReticleSize.showClientAndServerReticle.description: NOT: Bu, "Sunucu ağı" ayarını otomatik olarak etkinleştirir, ancak bu yalnızca ikinci ağı etkiler.
+betterReticleSize.showServerSpgStrategicReticle.title: İstemci ve sunucu retiküllerini SPG genel görünümünde göster
+betterReticleSize.showServerSpgStrategicReticle.description: Mevcut KMT ikincil nişangahı dikkat dağıtıcı derecede çirkin olduğundan varsayılan olarak devre dışıdır.
+betterReticleSize.serverReticleAimingCircleShape.title: Sunucu retikülü hedefleme çemberi
+betterReticleSize.serverReticleAimingCircleShape.description: Sunucunun nişangahı için nişan alma çemberi. Ana Ayarlar menüsünü kontrol edip, Nişangah sekmesine tıklayarak ve "Hedefleme" seçeneklerini işaretleyerek bunların neye benzediğini görebilirsiniz.
+betterReticleSize.serverReticleAimingCircleOpacity.title: Opaklık
 betterReticleSize.serverReticleAimingCircleOpacity.description: Sunucu hedefleme çemberinin opaklığını, diğer bir deyişle şeffaflığını ayarlayın.
-betterReticleSize.serverReticleGunMarkerShape.title: Silah işaretleyici
-betterReticleSize.serverReticleGunMarkerShape.description: Sunucu nişangahı için silah işaretçisi. Ana Ayarlar menüsünü kontrol edip, Nişangah sekmesini tıklayıp "Silah İşaretleyici" seçeneklerini kontrol ederek bunların neye benzediğini görebilirsiniz.
-betterReticleSize.serverReticleGunMarkerOpacity.title: Silah işaretleyici opaklığı
-betterReticleSize.serverReticleGunMarkerOpacity.description: Sunucu silahı işaretinin opaklığını, diğer bir deyişle şeffaflığını ayarlayın.
+betterReticleSize.serverReticleGunMarkerShape.title: Sunucu retikül tabancası işaretçisi
+betterReticleSize.serverReticleGunMarkerShape.description: Sunucu nişangahı için silah işareti. Ana Ayarlar menüsünü kontrol edip, Nişangâh sekmesine tıklayarak ve "Silah İşaretleyicisi" seçeneklerini kontrol ederek bunların neye benzediğini görebilirsiniz.
+betterReticleSize.serverReticleGunMarkerOpacity.title: Opaklık
+betterReticleSize.serverReticleGunMarkerOpacity.description: Sunucu silahı işaretçisinin opaklığını, diğer bir deyişle şeffaflığını ayarlayın.
 
 betterBattleResults.modname: Daha İyi Savaş Sonuçları
 betterBattleResults.richTooltip.title: Daha ayrıntılı Savaş Sonuçları özeti araç ipuçları

@@ -3,18 +3,18 @@ betterReticleSize.gunMarkerMinimumSize.title: Minimalna veličina križića
 betterReticleSize.gunMarkerMinimumSize.description: Ograničava koliko se malen križić smije vidljivo smanjiti. Postavljanje na 0 znači da je veličina križića uvijek točna, ali može biti teže vidljiva.
 betterReticleSize.percentCorrection.title: Postotak ispravka
 betterReticleSize.percentCorrection.description: Koliko ispraviti veličinu križića. 0% je zadana prevelika postavka igre, 100% je točna veličina.
-betterReticleSize.showClientAndServerReticle.title: Omogući končanicu klijenta i poslužitelja
-betterReticleSize.showClientAndServerReticle.description: Istovremeno prikaži končanicu klijenta i poslužitelja. Čini se da klijentska končanica bolje reagira, ali poslužiteljska končanica je preciznija jer uzima u obzir kašnjenje.
-betterReticleSize.showServerSpgStrategicReticle.title: Končanica klijenta i poslužitelja u strateškom prikazu topništva
-betterReticleSize.showServerSpgStrategicReticle.description: Trenutačna sekundarna topnička končanica uznemirujuće je ružna, pa je prema zadanim postavkama onemogućena.
-betterReticleSize.serverReticleAimingCircleShape.title: Krug ciljanja
-betterReticleSize.serverReticleAimingCircleShape.description: Nišanski krug za končanicu poslužitelja. Možete vidjeti kako to izgleda tako da provjerite glavni izbornik postavki, kliknete karticu Končanica i označite opcije "Ciljanje".
-betterReticleSize.serverReticleAimingCircleOpacity.title: Neprozirnost kruga ciljanja
+betterReticleSize.showClientAndServerReticle.title: [BETA] Prikaži končanice klijenta i poslužitelja
+betterReticleSize.showClientAndServerReticle.description: NAPOMENA: Ovo će automatski omogućiti postavku "Končanica poslužitelja", ali to utječe samo na drugu končanicu.
+betterReticleSize.showServerSpgStrategicReticle.title: Prikaži končanice klijenta i poslužitelja u SPG prikazu iznad glave
+betterReticleSize.showServerSpgStrategicReticle.description: Trenutačna SPG sekundarna končanica iznad glave je zbunjujuće ružna, pa je prema zadanim postavkama onemogućena.
+betterReticleSize.serverReticleAimingCircleShape.title: Krug za ciljanje končanice poslužitelja
+betterReticleSize.serverReticleAimingCircleShape.description: Ciljanski krug za končanicu poslužitelja. Možete vidjeti kako to izgleda tako da provjerite glavni izbornik postavki, kliknete na karticu Končanica i označite opcije "Ciljanje".
+betterReticleSize.serverReticleAimingCircleOpacity.title: Neprozirnost
 betterReticleSize.serverReticleAimingCircleOpacity.description: Postavite neprozirnost, tj. prozirnost, kruga ciljanja poslužitelja.
-betterReticleSize.serverReticleGunMarkerShape.title: Marker za oružje
-betterReticleSize.serverReticleGunMarkerShape.description: Oznaka oružja za končanicu poslužitelja. Možete vidjeti kako to izgleda tako da provjerite glavni izbornik postavki, kliknete karticu Končanica i označite opcije "Marker oružja".
-betterReticleSize.serverReticleGunMarkerOpacity.title: Neprozirnost markera za oružje
-betterReticleSize.serverReticleGunMarkerOpacity.description: Postavite neprozirnost, odnosno prozirnost, poslužiteljskog markera oružja.
+betterReticleSize.serverReticleGunMarkerShape.title: Končanica poslužitelja marker pištolja
+betterReticleSize.serverReticleGunMarkerShape.description: Marker pištolja za končanicu poslužitelja. Možete vidjeti kako to izgleda tako da provjerite glavni izbornik postavki, kliknete na karticu Končanica i označite opcije "Gun Marker".
+betterReticleSize.serverReticleGunMarkerOpacity.title: Neprozirnost
+betterReticleSize.serverReticleGunMarkerOpacity.description: Postavite neprozirnost, tj. prozirnost, markera pištolja poslužitelja.
 
 betterBattleResults.modname: Bolji rezultati borbe
 betterBattleResults.richTooltip.title: Detaljniji opisi sažetka rezultata bitke

@@ -3,18 +3,18 @@ betterReticleSize.gunMarkerMinimumSize.title: Ukuran crosshair minimum
 betterReticleSize.gunMarkerMinimumSize.description: Membatasi seberapa kecil crosshair yang terlihat dapat menyusut. Menyetelnya ke 0 berarti ukuran garis bidik selalu akurat, namun mungkin lebih sulit untuk dilihat.
 betterReticleSize.percentCorrection.title: Persentase koreksi
 betterReticleSize.percentCorrection.description: Berapa banyak ukuran bidik yang harus dikoreksi. 0% adalah setelan ukuran besar default game, 100% adalah ukuran yang benar.
-betterReticleSize.showClientAndServerReticle.title: Aktifkan reticle klien dan server
-betterReticleSize.showClientAndServerReticle.description: Tampilkan reticle klien dan server secara bersamaan. Reticle klien terasa lebih responsif, namun reticle server lebih akurat karena memperhitungkan kelambatan.
-betterReticleSize.showServerSpgStrategicReticle.title: Reticle klien dan server dalam tampilan strategis artileri
-betterReticleSize.showServerSpgStrategicReticle.description: Reticle sekunder artileri overhead saat ini sangat jelek, sehingga dinonaktifkan secara default.
-betterReticleSize.serverReticleAimingCircleShape.title: Lingkaran bidik
-betterReticleSize.serverReticleAimingCircleShape.description: Lingkaran bidik untuk reticle server. Anda dapat melihat tampilannya dengan memeriksa menu Setelan utama, mengklik tab Reticle, dan mencentang opsi "Membidik".
-betterReticleSize.serverReticleAimingCircleOpacity.title: Opasitas lingkaran bidik
-betterReticleSize.serverReticleAimingCircleOpacity.description: Setel opacity alias transparansi lingkaran bidik server.
-betterReticleSize.serverReticleGunMarkerShape.title: Penanda senjata
-betterReticleSize.serverReticleGunMarkerShape.description: Penanda senjata untuk reticle server. Anda dapat melihat tampilannya dengan memeriksa menu Setelan utama, mengklik tab Reticle, dan mencentang opsi "Gun Marker".
-betterReticleSize.serverReticleGunMarkerOpacity.title: Opasitas penanda senjata
-betterReticleSize.serverReticleGunMarkerOpacity.description: Setel opasitas alias transparansi penanda senjata di server.
+betterReticleSize.showClientAndServerReticle.title: [BETA] Tampilkan reticle klien dan server
+betterReticleSize.showClientAndServerReticle.description: CATATAN: Ini secara otomatis akan mengaktifkan pengaturan "Server reticle", tetapi ini hanya mempengaruhi reticle kedua.
+betterReticleSize.showServerSpgStrategicReticle.title: Tampilkan reticle klien dan server dalam tampilan overhead SPG
+betterReticleSize.showServerSpgStrategicReticle.description: Reticle sekunder SPG overhead saat ini sangat jelek, sehingga dinonaktifkan secara default.
+betterReticleSize.serverReticleAimingCircleShape.title: Lingkaran bidik reticle server
+betterReticleSize.serverReticleAimingCircleShape.description: Lingkaran bidik untuk reticle server. Anda dapat melihat tampilannya dengan memeriksa menu Pengaturan utama, mengklik tab Reticle, dan memeriksa opsi "Membidik".
+betterReticleSize.serverReticleAimingCircleOpacity.title: Kegelapan
+betterReticleSize.serverReticleAimingCircleOpacity.description: Atur opacity alias transparansi lingkaran bidik server.
+betterReticleSize.serverReticleGunMarkerShape.title: Penanda senjata reticle server
+betterReticleSize.serverReticleGunMarkerShape.description: Penanda senjata untuk reticle server. Anda dapat melihat tampilannya dengan memeriksa menu Pengaturan utama, mengklik tab Reticle, dan memeriksa opsi "Gun Marker".
+betterReticleSize.serverReticleGunMarkerOpacity.title: Kegelapan
+betterReticleSize.serverReticleGunMarkerOpacity.description: Atur opacity alias transparansi penanda senjata server.
 
 betterBattleResults.modname: Hasil Pertempuran Lebih Baik
 betterBattleResults.richTooltip.title: Tooltip ringkasan Hasil Pertempuran yang lebih detail

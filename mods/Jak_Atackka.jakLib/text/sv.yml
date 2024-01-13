@@ -3,18 +3,18 @@ betterReticleSize.gunMarkerMinimumSize.title: Minsta hårkorsstorlek
 betterReticleSize.gunMarkerMinimumSize.description: Begränsar hur litet hårkorset synligt tillåts krympa. Om du ställer in detta till 0 betyder det att hårkorsstorleken alltid är korrekt, men det kan vara svårare att se.
 betterReticleSize.percentCorrection.title: Korrigeringsprocent
 betterReticleSize.percentCorrection.description: Hur mycket ska du korrigera hårkorsstorleken. 0 % är spelets standardinställning för överdimensionering, 100 % är rätt storlek.
-betterReticleSize.showClientAndServerReticle.title: Omogoči namerilni križ odjemalca in strežnika
-betterReticleSize.showClientAndServerReticle.description: Hkrati prikaži namerilni križ odjemalca in strežnika. Odjemalski namerilni križ se zdi bolj odziven, vendar je strežniški namerilni križ bolj natančen, ker upošteva zamik.
-betterReticleSize.showServerSpgStrategicReticle.title: Namerilni križ odjemalca in strežnika v topniškem strateškem pogledu
-betterReticleSize.showServerSpgStrategicReticle.description: Trenutni sekundarni namerilni križ nadzemnega topništva je moteče grd, zato je privzeto onemogočen.
-betterReticleSize.serverReticleAimingCircleShape.title: Ciljni krog
-betterReticleSize.serverReticleAimingCircleShape.description: Cirni krog za namerilni križ strežnika. Kako izgledajo, si lahko ogledate tako, da preverite glavni meni z nastavitvami, kliknete zavihek Namerilni križ in označite možnosti »Ciljanje«.
-betterReticleSize.serverReticleAimingCircleOpacity.title: Neprosojnost ciljnega kroga
-betterReticleSize.serverReticleAimingCircleOpacity.description: Nastavite motnost, imenovano tudi prosojnost, ciljnega kroga strežnika.
-betterReticleSize.serverReticleGunMarkerShape.title: Marker pištole
-betterReticleSize.serverReticleGunMarkerShape.description: Oznaka pištole za namerilni križ strežnika. Kako izgledajo, si lahko ogledate tako, da preverite glavni meni z nastavitvami, kliknete zavihek Namerilni križ in preverite možnosti »Označevalnik orožja«.
-betterReticleSize.serverReticleGunMarkerOpacity.title: Motnost označevalca pištole
-betterReticleSize.serverReticleGunMarkerOpacity.description: Nastavite motnost, imenovano tudi prosojnost, strežniškega označevalca orožja.
+betterReticleSize.showClientAndServerReticle.title: [BETA] Pokaži namerilni križ odjemalca in strežnika
+betterReticleSize.showClientAndServerReticle.description: OPOMBA: To bo samodejno omogočilo nastavitev "Namerilni križ strežnika", vendar to vpliva samo na drugi križ.
+betterReticleSize.showServerSpgStrategicReticle.title: Prikaži namerilne križe odjemalca in strežnika v pogledu od zgoraj SPG
+betterReticleSize.showServerSpgStrategicReticle.description: Trenutni nadzemni sekundarni namerilni križ SPG je moteče grd, zato je privzeto onemogočen.
+betterReticleSize.serverReticleAimingCircleShape.title: Merilni krog strežnika
+betterReticleSize.serverReticleAimingCircleShape.description: Ciljni krog za namerilni križ strežnika. Kako izgledajo, si lahko ogledate tako, da preverite glavni meni Nastavitve, kliknete zavihek Namerilni križ in označite možnosti »Ciljanje«.
+betterReticleSize.serverReticleAimingCircleOpacity.title: Motnost
+betterReticleSize.serverReticleAimingCircleOpacity.description: Nastavite motnost ali prosojnost ciljnega kroga strežnika.
+betterReticleSize.serverReticleGunMarkerShape.title: Oznaka strelnega križa strežnika
+betterReticleSize.serverReticleGunMarkerShape.description: Marker pištole za namerilni križ strežnika. Kako izgledajo, si lahko ogledate tako, da preverite glavni meni z nastavitvami, kliknete zavihek Namerilni križ in preverite možnosti »Označevalnik pištole«.
+betterReticleSize.serverReticleGunMarkerOpacity.title: Motnost
+betterReticleSize.serverReticleGunMarkerOpacity.description: Nastavite motnost ali prosojnost označevalca pištole strežnika.
 
 betterBattleResults.modname: Bättre kampresultat
 betterBattleResults.richTooltip.title: Mer detaljerade verktygstips för kampresultatsammanfattningar

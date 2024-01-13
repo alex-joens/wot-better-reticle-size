@@ -3,17 +3,17 @@ betterReticleSize.gunMarkerMinimumSize.title: Minimum hårkorsstørrelse
 betterReticleSize.gunMarkerMinimumSize.description: Begrænser, hvor lille trådkorset synligt må krympe. Hvis du indstiller dette til 0, betyder det, at trådkorsstørrelsen altid er nøjagtig, men det kan være sværere at se.
 betterReticleSize.percentCorrection.title: Korrektionsprocent
 betterReticleSize.percentCorrection.description: Hvor meget skal trådkorset korrigeres. 0 % er spillets standardindstilling for overstørrelse, 100 % er den korrekte størrelse.
-betterReticleSize.showClientAndServerReticle.title: Aktiver klient- og servertrådkors
-betterReticleSize.showClientAndServerReticle.description: Vis både klient- og serverkorset på samme tid. Klientkorset føles mere responsivt, men serverkorset er mere præcist, fordi det tager højde for forsinkelse.
-betterReticleSize.showServerSpgStrategicReticle.title: Klient- og serverkors i artilleristrategisk visning
-betterReticleSize.showServerSpgStrategicReticle.description: Det aktuelle sekundære sigtemiddel for artilleri er distraherende grimt, så det er deaktiveret som standard.
-betterReticleSize.serverReticleAimingCircleShape.title: Sigtecirkel
-betterReticleSize.serverReticleAimingCircleShape.description: Sigtecirklen for serverkorset. Du kan se, hvordan disse ser ud ved at tjekke hovedmenuen Indstillinger, klikke på fanen sigtemiddel og markere mulighederne for "Sigte".
-betterReticleSize.serverReticleAimingCircleOpacity.title: Sigtecirkelopacitet
-betterReticleSize.serverReticleAimingCircleOpacity.description: Indstil opaciteten, også kendt som gennemsigtigheden, for serverens sigtecirkel.
-betterReticleSize.serverReticleGunMarkerShape.title: Pistol markør
-betterReticleSize.serverReticleGunMarkerShape.description: Pistormarkøren til serverkorset. Du kan se, hvordan disse ser ud, ved at tjekke hovedmenuen Indstillinger, klikke på fanen sigtemiddel og markere mulighederne for "Gun Marker".
-betterReticleSize.serverReticleGunMarkerOpacity.title: Pistolmarkøropacitet
+betterReticleSize.showClientAndServerReticle.title: [BETA] Vis både klient- og servertrådkors
+betterReticleSize.showClientAndServerReticle.description: BEMÆRK: Dette vil automatisk aktivere indstillingen "Server sigtemiddel", men dette påvirker kun det andet sigtemiddel.
+betterReticleSize.showServerSpgStrategicReticle.title: Vis klient- og servertråde i SPG-overheadvisning
+betterReticleSize.showServerSpgStrategicReticle.description: Det nuværende overhead-SPG sekundære sigtemiddel er distraherende grimt, så det er deaktiveret som standard.
+betterReticleSize.serverReticleAimingCircleShape.title: Sigtecirkel for serverkors
+betterReticleSize.serverReticleAimingCircleShape.description: Sigtecirklen for serverkorset. Du kan se, hvordan disse ser ud ved at kontrollere hovedmenuen Indstillinger, klikke på fanen Sigtemiddel og kontrollere "Sigte"-indstillingerne.
+betterReticleSize.serverReticleAimingCircleOpacity.title: Gennemsigtighed
+betterReticleSize.serverReticleAimingCircleOpacity.description: Indstil opaciteten, også kendt som gennemsigtigheden, af serverens sigtecirkel.
+betterReticleSize.serverReticleGunMarkerShape.title: Server sigtekors pistol markør
+betterReticleSize.serverReticleGunMarkerShape.description: Pistolmarkøren til serverkorset. Du kan se, hvordan disse ser ud, ved at kontrollere hovedmenuen Indstillinger, klikke på fanen Sigtråd og kontrollere mulighederne for "Gun Marker".
+betterReticleSize.serverReticleGunMarkerOpacity.title: Gennemsigtighed
 betterReticleSize.serverReticleGunMarkerOpacity.description: Indstil opaciteten, også kendt som gennemsigtigheden, for serverpistolmarkøren.
 
 betterBattleResults.modname: Bedre kampresultater

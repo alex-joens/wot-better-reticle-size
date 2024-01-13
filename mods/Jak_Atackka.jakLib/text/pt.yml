@@ -3,18 +3,18 @@ betterReticleSize.gunMarkerMinimumSize.title: Tamanho mínimo da mira
 betterReticleSize.gunMarkerMinimumSize.description: Limita o quanto a mira pode diminuir visivelmente. Definir esse valor como 0 significa que o tamanho da mira será sempre preciso, mas pode ser mais difícil de ver.
 betterReticleSize.percentCorrection.title: Porcentagem de correção
 betterReticleSize.percentCorrection.description: Quanto corrigir o tamanho da mira. 0% é a configuração padrão de tamanho grande do jogo, 100% é o tamanho correto.
-betterReticleSize.showClientAndServerReticle.title: Habilitar retícula de cliente e servidor
-betterReticleSize.showClientAndServerReticle.description: Mostra a retícula do cliente e do servidor ao mesmo tempo. A retícula do cliente parece mais responsiva, mas a retícula do servidor é mais precisa porque leva em conta o atraso.
-betterReticleSize.showServerSpgStrategicReticle.title: Retículo cliente e servidor na visão estratégica da artilharia
-betterReticleSize.showServerSpgStrategicReticle.description: O atual retículo secundário da artilharia suspensa é muito feio, por isso está desativado por padrão.
-betterReticleSize.serverReticleAimingCircleShape.title: Círculo de mira
-betterReticleSize.serverReticleAimingCircleShape.description: O círculo de mira do retículo do servidor. Você pode ver como eles se parecem verificando o menu principal de Configurações, clicando na guia Retículo e marcando as opções de "Mira".
-betterReticleSize.serverReticleAimingCircleOpacity.title: Visando a opacidade do círculo
+betterReticleSize.showClientAndServerReticle.title: [BETA] Mostrar retículos de cliente e servidor
+betterReticleSize.showClientAndServerReticle.description: NOTA: Isso ativará automaticamente a configuração "Retícula do servidor", mas afetará apenas a segunda retícula.
+betterReticleSize.showServerSpgStrategicReticle.title: Mostrar retículos de cliente e servidor na visão aérea do SPG
+betterReticleSize.showServerSpgStrategicReticle.description: O atual retículo secundário do SPG suspenso é perturbadoramente feio, por isso está desativado por padrão.
+betterReticleSize.serverReticleAimingCircleShape.title: Círculo de mira do retículo do servidor
+betterReticleSize.serverReticleAimingCircleShape.description: O círculo de mira do retículo do servidor. Você pode ver como são verificando o menu principal de Configurações, clicando na guia Retículo e marcando as opções de "Mira".
+betterReticleSize.serverReticleAimingCircleOpacity.title: Opacidade
 betterReticleSize.serverReticleAimingCircleOpacity.description: Defina a opacidade, também conhecida como transparência, do círculo de mira do servidor.
-betterReticleSize.serverReticleGunMarkerShape.title: Marcador de arma
-betterReticleSize.serverReticleGunMarkerShape.description: O marcador de arma para o retículo do servidor. Você pode ver como eles são verificando o menu principal de configurações, clicando na guia Retículo e marcando as opções "Marcador de arma".
-betterReticleSize.serverReticleGunMarkerOpacity.title: Opacidade do marcador de arma
-betterReticleSize.serverReticleGunMarkerOpacity.description: Defina a opacidade, também conhecida como transparência, do marcador de arma do servidor.
+betterReticleSize.serverReticleGunMarkerShape.title: Marcador de arma de retículo de servidor
+betterReticleSize.serverReticleGunMarkerShape.description: O marcador de arma para o retículo do servidor. Você pode ver como são verificando o menu principal de Configurações, clicando na guia Retículo e marcando as opções "Marcador de arma".
+betterReticleSize.serverReticleGunMarkerOpacity.title: Opacidade
+betterReticleSize.serverReticleGunMarkerOpacity.description: Defina a opacidade, também conhecida como transparência, do marcador da arma do servidor.
 
 betterBattleResults.modname: Melhores resultados de batalha
 betterBattleResults.richTooltip.title: Dicas de resumo mais detalhadas dos resultados da batalha

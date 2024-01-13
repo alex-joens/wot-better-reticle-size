@@ -3,18 +3,18 @@ betterReticleSize.gunMarkerMinimumSize.title: Dimensione minima del mirino
 betterReticleSize.gunMarkerMinimumSize.description: Limita la misura in cui è possibile restringere visibilmente il mirino. Se lo imposti su 0, la dimensione del mirino è sempre precisa, ma potrebbe essere più difficile da vedere.
 betterReticleSize.percentCorrection.title: Percentuale di correzione
 betterReticleSize.percentCorrection.description: Di quanto correggere la dimensione del mirino. 0% è l'impostazione sovradimensionata predefinita del gioco, 100% è la dimensione corretta.
-betterReticleSize.showClientAndServerReticle.title: Abilita il reticolo client e server
-betterReticleSize.showClientAndServerReticle.description: Mostra sia il reticolo client che quello server contemporaneamente. Il reticolo del client sembra più reattivo, ma il reticolo del server è più preciso perché tiene conto del ritardo.
-betterReticleSize.showServerSpgStrategicReticle.title: Reticolo client e server nella vista strategica dell'artiglieria
-betterReticleSize.showServerSpgStrategicReticle.description: L'attuale reticolo secondario dell'artiglieria sopraelevata è fastidiosamente brutto, quindi è disabilitato per impostazione predefinita.
-betterReticleSize.serverReticleAimingCircleShape.title: Cerchio di mira
+betterReticleSize.showClientAndServerReticle.title: [BETA] Mostra i reticoli sia del client che del server
+betterReticleSize.showClientAndServerReticle.description: NOTA: Ciò abiliterà automaticamente l'impostazione "Reticolo server", ma influirà solo sul secondo reticolo.
+betterReticleSize.showServerSpgStrategicReticle.title: Mostra i reticoli del client e del server nella vista dall'alto dell'SPG
+betterReticleSize.showServerSpgStrategicReticle.description: L'attuale reticolo secondario dell'SPG in alto è fastidiosamente brutto, quindi è disabilitato per impostazione predefinita.
+betterReticleSize.serverReticleAimingCircleShape.title: Cerchio di mira del reticolo del server
 betterReticleSize.serverReticleAimingCircleShape.description: Il cerchio di mira per il reticolo del server. Puoi vedere come appaiono controllando il menu Impostazioni principale, facendo clic sulla scheda Reticolo e controllando le opzioni "Puntamento".
-betterReticleSize.serverReticleAimingCircleOpacity.title: Mirare all'opacità del cerchio
+betterReticleSize.serverReticleAimingCircleOpacity.title: Opacità
 betterReticleSize.serverReticleAimingCircleOpacity.description: Imposta l'opacità, ovvero la trasparenza, del cerchio di mira del server.
-betterReticleSize.serverReticleGunMarkerShape.title: Indicatore di pistola
-betterReticleSize.serverReticleGunMarkerShape.description: L'indicatore pistola per il reticolo del server. Puoi vedere come appaiono controllando il menu Impostazioni principale, facendo clic sulla scheda Reticolo e controllando le opzioni "Marcatore pistola".
-betterReticleSize.serverReticleGunMarkerOpacity.title: Opacità dell'indicatore della pistola
-betterReticleSize.serverReticleGunMarkerOpacity.description: Imposta l'opacità, ovvero la trasparenza, dell'indicatore della pistola del server.
+betterReticleSize.serverReticleGunMarkerShape.title: Indicatore pistola reticolo server
+betterReticleSize.serverReticleGunMarkerShape.description: L'indicatore della pistola per il reticolo del server. Puoi vedere come appaiono controllando il menu Impostazioni principale, facendo clic sulla scheda Reticolo e controllando le opzioni "Marcatore pistola".
+betterReticleSize.serverReticleGunMarkerOpacity.title: Opacità
+betterReticleSize.serverReticleGunMarkerOpacity.description: Imposta l'opacità, ovvero la trasparenza, del marcatore della pistola del server.
 
 betterBattleResults.modname: Migliori risultati di battaglia
 betterBattleResults.richTooltip.title: Descrizioni riepilogative più dettagliate dei risultati della battaglia

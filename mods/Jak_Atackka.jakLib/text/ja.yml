@@ -3,18 +3,18 @@ betterReticleSize.gunMarkerMinimumSize.title: 十字線の最小サイズ
 betterReticleSize.gunMarkerMinimumSize.description: 十字線がどの程度小さく縮小できるかを制限します。 これを 0 に設定すると、十字線のサイズは常に正確になりますが、見にくくなる可能性があります。
 betterReticleSize.percentCorrection.title: 補正率
 betterReticleSize.percentCorrection.description: 十字線のサイズをどの程度補正するか。 0% はゲームのデフォルトの特大設定で、100% が正しいサイズです。
-betterReticleSize.showClientAndServerReticle.title: クライアントとサーバーのレティクルを有効にする
-betterReticleSize.showClientAndServerReticle.description: クライアントとサーバーの両方のレティクルを同時に表示します。 クライアント レティクルの方が応答性が高いように感じられますが、サーバー レティクルはラグを考慮してより正確です。
-betterReticleSize.showServerSpgStrategicReticle.title: 砲兵戦略ビューにおけるクライアントとサーバーのレティクル
-betterReticleSize.showServerSpgStrategicReticle.description: 現在の頭上砲兵のセカンダリ レティクルは気が散るほど醜いため、デフォルトでは無効になっています。
-betterReticleSize.serverReticleAimingCircleShape.title: 照準円
-betterReticleSize.serverReticleAimingCircleShape.description: サーバー レティクルの照準円。 メインの設定メニューをチェックし、[レティクル] タブをクリックして、[照準] オプションをチェックすると、これらがどのように見えるかを確認できます。
-betterReticleSize.serverReticleAimingCircleOpacity.title: 照準円の不透明度
-betterReticleSize.serverReticleAimingCircleOpacity.description: サーバーの照準円の不透明度、別名透明度を設定します。
-betterReticleSize.serverReticleGunMarkerShape.title: ガンマーカー
-betterReticleSize.serverReticleGunMarkerShape.description: サーバー レティクルのガン マーカー。 これらがどのようなものであるかを確認するには、メインの [設定] メニューを確認し、[レティクル] タブをクリックして、[ガン マーカー] オプションを確認します。
-betterReticleSize.serverReticleGunMarkerOpacity.title: ガンマーカーの不透明度
-betterReticleSize.serverReticleGunMarkerOpacity.description: サーバーのガン マーカーの不透明度、つまり透明度を設定します。
+betterReticleSize.showClientAndServerReticle.title: [ベータ] クライアントとサーバーの両方のレティクルを表示する
+betterReticleSize.showClientAndServerReticle.description: 注: これにより、「サーバー レティクル」設定が自動的に有効になりますが、これは 2 番目のレティクルにのみ影響します。
+betterReticleSize.showServerSpgStrategicReticle.title: SPG オーバーヘッド ビューでクライアントとサーバーのレチクルを表示
+betterReticleSize.showServerSpgStrategicReticle.description: 現在のオーバーヘッド自走砲のセカンダリ レティクルは気が散るほど醜いため、デフォルトでは無効になっています。
+betterReticleSize.serverReticleAimingCircleShape.title: サーバーレチクル照準円
+betterReticleSize.serverReticleAimingCircleShape.description: サーバーレティクルの照準円。 メインの設定メニューをチェックし、レティクルタブをクリックし、「照準」オプションをチェックすることで、これらがどのように見えるかを確認できます。
+betterReticleSize.serverReticleAimingCircleOpacity.title: 不透明度
+betterReticleSize.serverReticleAimingCircleOpacity.description: サーバー照準円の不透明度、別名透明度を設定します。
+betterReticleSize.serverReticleGunMarkerShape.title: サーバーレチクルガンマーカー
+betterReticleSize.serverReticleGunMarkerShape.description: サーバーレティクルのガンマーカー。 これらがどのようなものであるかを確認するには、メインの設定メニューを確認し、「レティクル」タブをクリックし、「ガン マーカー」オプションを確認します。
+betterReticleSize.serverReticleGunMarkerOpacity.title: 不透明度
+betterReticleSize.serverReticleGunMarkerOpacity.description: サーバーガンマーカーの不透明度、つまり透明度を設定します。
 
 betterBattleResults.modname: より良い戦闘結果
 betterBattleResults.richTooltip.title: 詳細な戦闘結果概要ツールチップ
