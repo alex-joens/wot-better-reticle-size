@@ -1,36 +1,36 @@
 betterReticleSize.modname: 更好的十字线尺寸
 betterReticleSize.gunMarkerMinimumSize.title: 最小十字准线尺寸
-betterReticleSize.gunMarkerMinimumSize.description: {HEADER}最小十字准线尺寸{/HEADER}{BODY}限制十字准线明显缩小的大小。 将其设置为 0 意味着十字线尺寸始终准确，但可能更难看到。{/BODY}
+betterReticleSize.gunMarkerMinimumSize.description: 限制十字准线明显缩小的大小。 将其设置为 0 意味着十字线尺寸始终准确，但可能更难看到。
 betterReticleSize.percentCorrection.title: 校正百分比
-betterReticleSize.percentCorrection.description: {HEADER}校正百分比{/HEADER}{BODY}十字线尺寸的校正量。 0% 是游戏的默认超大设置，100% 是正确尺寸。{/BODY}
+betterReticleSize.percentCorrection.description: 十字线尺寸的校正量。 0% 是游戏的默认超大设置，100% 是正确尺寸。
 betterReticleSize.showClientAndServerReticle.title: 启用客户端和服务器十字线
-betterReticleSize.showClientAndServerReticle.description: {HEADER}启用客户端和服务器标线{/HEADER}{BODY}同时显示客户端和服务器标线。 客户端十字线感觉响应更快，但服务器十字线更准确，因为它考虑了延迟。{/BODY}
+betterReticleSize.showClientAndServerReticle.description: 同时显示客户端和服务器标线。 客户端十字线感觉响应更快，但服务器十字线更准确，因为它考虑了延迟。
 betterReticleSize.showServerSpgStrategicReticle.title: 炮兵战略视图中的客户端和服务器标线
-betterReticleSize.showServerSpgStrategicReticle.description: {HEADER}炮兵战略视图中的客户端和服务器十字线{/HEADER}{BODY}当前的开销 SPG 辅助十字线非常难看，因此默认情况下处于禁用状态。{/BODY}
+betterReticleSize.showServerSpgStrategicReticle.description: 当前的开销 SPG 辅助十字线非常难看，因此默认情况下处于禁用状态。
 betterReticleSize.serverReticleAimingCircleShape.title: 瞄准圈
-betterReticleSize.serverReticleAimingCircleShape.description: {HEADER}瞄准圈{/HEADER}{BODY}服务器十字线的瞄准圈。 您可以通过检查主“设置”菜单、点击“标线”选项卡并检查“瞄准”选项来查看它们的外观。{/BODY}
+betterReticleSize.serverReticleAimingCircleShape.description: 服务器十字线的瞄准圈。 您可以通过检查主“设置”菜单、点击“标线”选项卡并检查“瞄准”选项来查看它们的外观。
 betterReticleSize.serverReticleAimingCircleOpacity.title: 瞄准圈不透明度
-betterReticleSize.serverReticleAimingCircleOpacity.description: {HEADER}瞄准圈不透明度{/HEADER}{BODY}设置服务器瞄准圈的不透明度，也称为透明度。{/BODY}
+betterReticleSize.serverReticleAimingCircleOpacity.description: 设置服务器瞄准圈的不透明度，也称为透明度。
 betterReticleSize.serverReticleGunMarkerShape.title: 枪标记
-betterReticleSize.serverReticleGunMarkerShape.description: {HEADER}枪标记{/HEADER}{BODY}服务器十字线的枪标记。 您可以通过检查主“设置”菜单、点击“标线”选项卡并检查“枪标记”选项来查看它们的外观。{/BODY}
+betterReticleSize.serverReticleGunMarkerShape.description: 服务器十字线的枪标记。 您可以通过检查主“设置”菜单、点击“标线”选项卡并检查“枪标记”选项来查看它们的外观。
 betterReticleSize.serverReticleGunMarkerOpacity.title: 枪标记不透明度
-betterReticleSize.serverReticleGunMarkerOpacity.description: {HEADER}枪支标记不透明度{/HEADER}{BODY}设置服务器枪支标记的不透明度，也称为透明度。{/BODY}
+betterReticleSize.serverReticleGunMarkerOpacity.description: 设置服务器枪支标记的不透明度，也称为透明度。
 
 betterBattleResults.modname: 更好的战斗结果
 betterBattleResults.richTooltip.title: 更详细的战斗结果摘要工具提示
-betterBattleResults.richTooltip.description: {HEADER}更详细的战斗结果摘要工具提示{/HEADER}{BODY}在“战斗结果”窗口中显示更详细的摘要工具提示。 例如，将鼠标悬停在“辅助伤害”总额上将分别显示检测到的总伤害和跟踪伤害。{/BODY}
+betterBattleResults.richTooltip.description: 在“战斗结果”窗口中显示更详细的摘要工具提示。 例如，将鼠标悬停在“辅助伤害”总额上将分别显示检测到的总伤害和跟踪伤害。
 betterBattleResults.tooltipOverride.assist.total: 盟友对敌方车辆造成的总伤害
 betterBattleResults.tooltipOverride.crits.total: 暴击总数
 
 betterStyleSelection.modname: 更好的风格排序
 betterStyleSelection.styleSortingEnabled.title: 修复了 2D 和 3D 样式的分组
-betterStyleSelection.styleSortingEnabled.description: {HEADER}修复了 2D 和 3D 样式的分组{/HEADER}{BODY}将所有 3D 样式和车辆特定的 2D 样式标记为“唯一”，以便更容易找到。{/BODY}
+betterStyleSelection.styleSortingEnabled.description: 将所有 3D 样式和车辆特定的 2D 样式标记为“唯一”，以便更容易找到。
 
 jakLib.commonSettings: 模组包设置
 jakLib.modname: 登录通知
 jakLib.language.title: 语言
-jakLib.language.description: {HEADER}语言{/HEADER}{BODY}设置模组包语言{/BODY}
+jakLib.language.description: 设置模组包语言
 jakLib.loginNotificationEnabled.title: 登录通知
-jakLib.loginNotificationEnabled.description: {HEADER}登录通知{/HEADER}{BODY}登录后启用或停用显示哪些模组正在运行的通知。{/BODY}
+jakLib.loginNotificationEnabled.description: 登录后启用或停用显示哪些模组正在运行的通知。
 jakLib.errorNotificationEnabled.title: 错误通知
-jakLib.errorNotificationEnabled.description: {HEADER}错误通知{/HEADER}{BODY}登录后启用或停用显示哪些模组加载失败的通知。{/BODY}
+jakLib.errorNotificationEnabled.description: 登录后启用或停用显示哪些模组加载失败的通知。

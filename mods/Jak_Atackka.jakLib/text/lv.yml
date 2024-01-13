@@ -1,36 +1,36 @@
 betterReticleSize.modname: Labāks Crosshair izmērs
 betterReticleSize.gunMarkerMinimumSize.title: Minimālais šķērsgriezuma izmērs
-betterReticleSize.gunMarkerMinimumSize.description: {HEADER}Minimālais šķērsgriezuma izmērs{/HEADER}{BODY}Ierobežo to, cik mazam šķērsenim ir atļauts redzami sarukt. Ja iestatāt šo vērtību uz 0, tas nozīmē, ka matu krustiņa izmērs vienmēr ir precīzs, taču to var būt grūtāk saskatīt.{/BODY}
+betterReticleSize.gunMarkerMinimumSize.description: Ierobežo to, cik mazam šķērsenim ir atļauts redzami sarukt. Ja iestatāt šo vērtību uz 0, tas nozīmē, ka matu krustiņa izmērs vienmēr ir precīzs, taču to var būt grūtāk saskatīt.
 betterReticleSize.percentCorrection.title: Korekcija procentos
-betterReticleSize.percentCorrection.description: {HEADER}Korekcija procentos{/HEADER}{BODY}Cik daudz koriģēt matu krusta izmēru. 0% ir spēles noklusējuma lielizmēra iestatījums, 100% ir pareizais izmērs.{/BODY}
+betterReticleSize.percentCorrection.description: Cik daudz koriģēt matu krusta izmēru. 0% ir spēles noklusējuma lielizmēra iestatījums, 100% ir pareizais izmērs.
 betterReticleSize.showClientAndServerReticle.title: Iespējot klienta un servera tīklu
-betterReticleSize.showClientAndServerReticle.description: {HEADER}Iespējot klienta un servera tīklu{/HEADER}{BODY}Rādīt gan klienta, gan servera tīklojumu vienlaikus. Klienta tīklojums jūtas daudz atsaucīgāks, taču servera tīklojums ir precīzāks, jo tas ņem vērā aizkavi.{/BODY}
+betterReticleSize.showClientAndServerReticle.description: Rādīt gan klienta, gan servera tīklojumu vienlaikus. Klienta tīklojums jūtas daudz atsaucīgāks, taču servera tīklojums ir precīzāks, jo tas ņem vērā aizkavi.
 betterReticleSize.showServerSpgStrategicReticle.title: Klienta un servera tīklojums artilērijas stratēģiskajā skatījumā
-betterReticleSize.showServerSpgStrategicReticle.description: {HEADER}Klienta un servera tīklojums artilērijas stratēģiskajā skatījumā{/HEADER}{BODY}Pašreizējais augšējais artilērijas sekundārais tīklojums ir traucējoši neglīts, tāpēc pēc noklusējuma tas ir atspējots.{/BODY}
+betterReticleSize.showServerSpgStrategicReticle.description: Pašreizējais augšējais artilērijas sekundārais tīklojums ir traucējoši neglīts, tāpēc pēc noklusējuma tas ir atspējots.
 betterReticleSize.serverReticleAimingCircleShape.title: Mērķēšanas aplis
-betterReticleSize.serverReticleAimingCircleShape.description: {HEADER}Mērķēšanas aplis{/HEADER}{BODY}Servera tīkla mērķēšanas aplis. Varat redzēt, kā tie izskatās, pārbaudot galveno izvēlni Iestatījumi, noklikšķinot uz cilnes Reticle un atzīmējot opcijas “Mērķēšana”.{/BODY}
+betterReticleSize.serverReticleAimingCircleShape.description: Servera tīkla mērķēšanas aplis. Varat redzēt, kā tie izskatās, pārbaudot galveno izvēlni Iestatījumi, noklikšķinot uz cilnes Reticle un atzīmējot opcijas “Mērķēšana”.
 betterReticleSize.serverReticleAimingCircleOpacity.title: Mērķēšanas apļa necaurredzamība
-betterReticleSize.serverReticleAimingCircleOpacity.description: {HEADER}Mērķēšanas apļa necaurredzamība{/HEADER}{BODY}Iestatiet servera mērķa apļa necaurredzamību jeb caurspīdīgumu.{/BODY}
+betterReticleSize.serverReticleAimingCircleOpacity.description: Iestatiet servera mērķa apļa necaurredzamību jeb caurspīdīgumu.
 betterReticleSize.serverReticleGunMarkerShape.title: Ieroču marķieris
-betterReticleSize.serverReticleGunMarkerShape.description: {HEADER}Ieroču marķieris{/HEADER}{BODY}Ieroču marķieris servera tīkliņam. Varat redzēt, kā tie izskatās, pārbaudot galveno izvēlni Iestatījumi, noklikšķinot uz cilnes Reticle un atzīmējot opcijas “Ieroču marķieris”.{/BODY}
+betterReticleSize.serverReticleGunMarkerShape.description: Ieroču marķieris servera tīkliņam. Varat redzēt, kā tie izskatās, pārbaudot galveno izvēlni Iestatījumi, noklikšķinot uz cilnes Reticle un atzīmējot opcijas “Ieroču marķieris”.
 betterReticleSize.serverReticleGunMarkerOpacity.title: Pistoles marķiera necaurredzamība
-betterReticleSize.serverReticleGunMarkerOpacity.description: {HEADER}Ieroču marķiera necaurredzamība{/HEADER}{BODY}Iestatiet servera pistoles marķiera necaurredzamību jeb caurspīdīgumu.{/BODY}
+betterReticleSize.serverReticleGunMarkerOpacity.description: Iestatiet servera pistoles marķiera necaurredzamību jeb caurspīdīgumu.
 
 betterBattleResults.modname: Labāki kaujas rezultāti
 betterBattleResults.richTooltip.title: Detalizētāki kaujas rezultātu kopsavilkuma rīka padomi
-betterBattleResults.richTooltip.description: {HEADER}Detalizētāki kaujas rezultātu kopsavilkuma rīka padomi{/HEADER}{BODY}Rādīt detalizētākus kopsavilkuma rīka padomus kaujas rezultātu logā. Piemēram, virzot kursoru virs kopējā “palīdzēt bojājumiem”, tiks atsevišķi parādīts kopējais konstatētais bojājums un izsekošana.{/BODY}
+betterBattleResults.richTooltip.description: Rādīt detalizētākus kopsavilkuma rīka padomus kaujas rezultātu logā. Piemēram, virzot kursoru virs kopējā “palīdzēt bojājumiem”, tiks atsevišķi parādīts kopējais konstatētais bojājums un izsekošana.
 betterBattleResults.tooltipOverride.assist.total: Kopējie sabiedroto nodarītie zaudējumi ienaidnieka transportlīdzekļiem
 betterBattleResults.tooltipOverride.crits.total: Kopējais kritisko trāpījumu skaits
 
 betterStyleSelection.modname: Labāka stila šķirošana
 betterStyleSelection.styleSortingEnabled.title: Labot 2D un 3D stilu grupēšanu
-betterStyleSelection.styleSortingEnabled.description: {HEADER}Labot 2D un 3D stilu grupēšanu{/HEADER}{BODY}Visi 3D stili un transportlīdzekļiem raksturīgie 2D stili tiek atzīmēti kā “Unikāli”, lai tos būtu vieglāk atrast.{/BODY}
+betterStyleSelection.styleSortingEnabled.description: Visi 3D stili un transportlīdzekļiem raksturīgie 2D stili tiek atzīmēti kā “Unikāli”, lai tos būtu vieglāk atrast.
 
 jakLib.commonSettings: Modpack iestatījumi
 jakLib.modname: Pieteikšanās paziņojums
 jakLib.language.title: Valoda
-jakLib.language.description: {HEADER}Valoda{/HEADER}{BODY}Iestatiet modpack valodu{/BODY}
+jakLib.language.description: Iestatiet modpack valodu
 jakLib.loginNotificationEnabled.title: Pieteikšanās paziņojums
-jakLib.loginNotificationEnabled.description: {HEADER}Pieteikšanās paziņojums{/HEADER}{BODY}Iespējojiet vai atspējojiet paziņojumu pēc pieteikšanās, kas parāda, kuras modifikācijas darbojas.{/BODY}
+jakLib.loginNotificationEnabled.description: Iespējojiet vai atspējojiet paziņojumu pēc pieteikšanās, kas parāda, kuras modifikācijas darbojas.
 jakLib.errorNotificationEnabled.title: Kļūdas paziņojums
-jakLib.errorNotificationEnabled.description: {HEADER}Paziņojums par kļūdu{/HEADER}{BODY}Iespējojiet vai atspējojiet paziņojumu pēc pieteikšanās, kas parāda, kuras modifikācijas neizdevās ielādēt.{/BODY}
+jakLib.errorNotificationEnabled.description: Iespējojiet vai atspējojiet paziņojumu pēc pieteikšanās, kas parāda, kuras modifikācijas neizdevās ielādēt.

@@ -89,5 +89,7 @@ class ParameterSettings:
         for localizedKey in ['text', 'tooltip']:
             if template.get(localizedKey, None) is not None:
                 template[localizedKey] = l10n(template[localizedKey])
+        if 'text' in template and 'tooltip' in template:
+            template['tooltip'] = '{HEADER}' + template['text'] + '{/HEADER}{BODY}' + template['tooltip'] + '{/BODY}'
 
         return template

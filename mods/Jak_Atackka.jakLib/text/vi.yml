@@ -1,36 +1,36 @@
 betterReticleSize.modname: Kích thước tâm ngắm tốt hơn
 betterReticleSize.gunMarkerMinimumSize.title: Kích thước hình chữ thập tối thiểu
-betterReticleSize.gunMarkerMinimumSize.description: {HEADER}Kích thước hình chữ thập tối thiểu{/HEADER}{BODY}Giới hạn mức độ nhỏ được phép thu nhỏ rõ ràng của hình chữ thập. Đặt giá trị này thành 0 nghĩa là kích thước tâm ngắm luôn chính xác nhưng có thể khó nhìn hơn.{/BODY}
+betterReticleSize.gunMarkerMinimumSize.description: Giới hạn mức độ nhỏ được phép thu nhỏ rõ ràng của hình chữ thập. Đặt giá trị này thành 0 nghĩa là kích thước tâm ngắm luôn chính xác nhưng có thể khó nhìn hơn.
 betterReticleSize.percentCorrection.title: Phần trăm chỉnh sửa
-betterReticleSize.percentCorrection.description: {HEADER}Phần trăm chỉnh sửa{/HEADER}{BODY}Cần chỉnh sửa kích thước tâm chữ thập bao nhiêu. 0% là cài đặt kích thước quá khổ mặc định của trò chơi, 100% là kích thước chính xác.{/BODY}
+betterReticleSize.percentCorrection.description: Cần chỉnh sửa kích thước tâm chữ thập bao nhiêu. 0% là cài đặt kích thước quá khổ mặc định của trò chơi, 100% là kích thước chính xác.
 betterReticleSize.showClientAndServerReticle.title: Kích hoạt ô kẻ ô máy khách và máy chủ
-betterReticleSize.showClientAndServerReticle.description: {HEADER}Bật ô kẻ ô máy khách và máy chủ{/HEADER}{BODY}Hiển thị cả ô kẻ ô máy khách và kẻ ô máy chủ cùng một lúc. Kẻ ô của máy khách có cảm giác phản hồi nhanh hơn, nhưng kẻ ô của máy chủ chính xác hơn vì nó gây ra độ trễ.{/BODY}
+betterReticleSize.showClientAndServerReticle.description: Hiển thị cả ô kẻ ô máy khách và kẻ ô máy chủ cùng một lúc. Kẻ ô của máy khách có cảm giác phản hồi nhanh hơn, nhưng kẻ ô của máy chủ chính xác hơn vì nó gây ra độ trễ.
 betterReticleSize.showServerSpgStrategicReticle.title: Kẻ ô máy khách và máy chủ trong chế độ xem chiến lược pháo binh
-betterReticleSize.showServerSpgStrategicReticle.description: {HEADER}Kính ngắm phụ của máy khách và máy chủ trong chế độ xem chiến lược pháo binh{/HEADER}{BODY}Kính ngắm phụ pháo binh trên cao hiện tại xấu đến mức gây mất tập trung nên bị tắt theo mặc định.{/BODY}
+betterReticleSize.showServerSpgStrategicReticle.description: Kính ngắm phụ pháo binh trên cao hiện tại xấu đến mức gây mất tập trung nên bị tắt theo mặc định.
 betterReticleSize.serverReticleAimingCircleShape.title: Vòng tròn nhắm
-betterReticleSize.serverReticleAimingCircleShape.description: {HEADER}Vòng ngắm{/HEADER}{BODY}Vòng ngắm dành cho tâm ngắm của máy chủ. Bạn có thể xem những thứ này trông như thế nào bằng cách kiểm tra menu Cài đặt chính, nhấp vào tab Kẻ ô và kiểm tra các tùy chọn "Nhắm".{/BODY}
+betterReticleSize.serverReticleAimingCircleShape.description: Vòng ngắm dành cho tâm ngắm của máy chủ. Bạn có thể xem những thứ này trông như thế nào bằng cách kiểm tra menu Cài đặt chính, nhấp vào tab Kẻ ô và kiểm tra các tùy chọn "Nhắm".
 betterReticleSize.serverReticleAimingCircleOpacity.title: Độ mờ của vòng tròn nhắm mục tiêu
-betterReticleSize.serverReticleAimingCircleOpacity.description: {HEADER}Độ mờ của vòng tròn nhắm mục tiêu{/HEADER}{BODY}Đặt độ mờ, hay còn gọi là độ trong suốt của vòng tròn nhắm mục tiêu của máy chủ.{/BODY}
+betterReticleSize.serverReticleAimingCircleOpacity.description: Đặt độ mờ, hay còn gọi là độ trong suốt của vòng tròn nhắm mục tiêu của máy chủ.
 betterReticleSize.serverReticleGunMarkerShape.title: Điểm đánh dấu súng
-betterReticleSize.serverReticleGunMarkerShape.description: {HEADER}Điểm đánh dấu súng{/HEADER}{BODY}Điểm đánh dấu súng dành cho tâm ngắm của máy chủ. Bạn có thể xem những thứ này trông như thế nào bằng cách kiểm tra menu Cài đặt chính, nhấp vào tab Kẻ ô và chọn tùy chọn "Dấu súng".{/BODY}
+betterReticleSize.serverReticleGunMarkerShape.description: Điểm đánh dấu súng dành cho tâm ngắm của máy chủ. Bạn có thể xem những thứ này trông như thế nào bằng cách kiểm tra menu Cài đặt chính, nhấp vào tab Kẻ ô và chọn tùy chọn "Dấu súng".
 betterReticleSize.serverReticleGunMarkerOpacity.title: Độ mờ của điểm đánh dấu súng
-betterReticleSize.serverReticleGunMarkerOpacity.description: {HEADER}Độ mờ của điểm đánh dấu súng{/HEADER}{BODY}Đặt độ mờ, hay còn gọi là độ trong suốt của điểm đánh dấu súng máy chủ.{/BODY}
+betterReticleSize.serverReticleGunMarkerOpacity.description: Đặt độ mờ, hay còn gọi là độ trong suốt của điểm đánh dấu súng máy chủ.
 
 betterBattleResults.modname: Kết quả trận chiến tốt hơn
 betterBattleResults.richTooltip.title: Các chú giải công cụ tóm tắt Kết quả Trận chiến chi tiết hơn
-betterBattleResults.richTooltip.description: {HEADER}Các chú giải công cụ tóm tắt Kết quả Trận chiến chi tiết hơn{/HEADER}{BODY}Hiển thị các chú giải công cụ tóm tắt chi tiết hơn trong cửa sổ Kết quả Trận chiến. Ví dụ: khi di chuột qua tổng "Sát thương hỗ trợ" sẽ hiển thị riêng tổng số thiệt hại được phát hiện và theo dõi thiệt hại.{/BODY}
+betterBattleResults.richTooltip.description: Hiển thị các chú giải công cụ tóm tắt chi tiết hơn trong cửa sổ Kết quả Trận chiến. Ví dụ: khi di chuột qua tổng "Sát thương hỗ trợ" sẽ hiển thị riêng tổng số thiệt hại được phát hiện và theo dõi thiệt hại.
 betterBattleResults.tooltipOverride.assist.total: Tổng thiệt hại do đồng minh gây ra cho xe địch
 betterBattleResults.tooltipOverride.crits.total: Tổng số đòn chí mạng
 
 betterStyleSelection.modname: Sắp xếp phong cách tốt hơn
 betterStyleSelection.styleSortingEnabled.title: Sửa lỗi nhóm các kiểu 2D và 3D
-betterStyleSelection.styleSortingEnabled.description: {HEADER}Sửa lỗi nhóm các kiểu 2D và 3D{/HEADER}{BODY}Đánh dấu tất cả các kiểu 3D và kiểu 2D dành riêng cho xe là "Duy nhất" để dễ tìm hơn.{/BODY}
+betterStyleSelection.styleSortingEnabled.description: Đánh dấu tất cả các kiểu 3D và kiểu 2D dành riêng cho xe là "Duy nhất" để dễ tìm hơn.
 
 jakLib.commonSettings: Cài đặt modpack
 jakLib.modname: Thông báo đăng nhập
 jakLib.language.title: Ngôn ngữ
-jakLib.language.description: {HEADER}Ngôn ngữ{/HEADER}{BODY}Đặt ngôn ngữ của modpack{/BODY}
+jakLib.language.description: Đặt ngôn ngữ của modpack
 jakLib.loginNotificationEnabled.title: Thông báo đăng nhập
-jakLib.loginNotificationEnabled.description: {HEADER}Thông báo đăng nhập{/HEADER}{BODY}Bật hoặc tắt thông báo sau khi đăng nhập cho biết mod nào đang chạy.{/BODY}
+jakLib.loginNotificationEnabled.description: Bật hoặc tắt thông báo sau khi đăng nhập cho biết mod nào đang chạy.
 jakLib.errorNotificationEnabled.title: Thông báo lỗi
-jakLib.errorNotificationEnabled.description: {HEADER}Thông báo lỗi{/HEADER}{BODY}Bật hoặc tắt thông báo sau khi đăng nhập cho biết bản mod nào không tải được.{/BODY}
+jakLib.errorNotificationEnabled.description: Bật hoặc tắt thông báo sau khi đăng nhập cho biết bản mod nào không tải được.

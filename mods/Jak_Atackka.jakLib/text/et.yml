@@ -1,36 +1,36 @@
 betterReticleSize.modname: Parem ristiku suurus
 betterReticleSize.gunMarkerMinimumSize.title: Saristiku minimaalne suurus
-betterReticleSize.gunMarkerMinimumSize.description: {HEADER}Saristiku minimaalne suurus{/HEADER}{BODY}Piirab, kui väikeseks on lubatud juukserist silmnähtavalt kahaneda. Kui määrate selle väärtusele 0, siis juukseristi suurus on alati täpne, kuid seda võib olla raskem näha.{/BODY}
+betterReticleSize.gunMarkerMinimumSize.description: iirab, kui väikeseks on lubatud juukserist silmnähtavalt kahaneda. Kui määrate selle väärtusele 0, siis juukseristi suurus on alati täpne, kuid seda võib olla raskem näha.
 betterReticleSize.percentCorrection.title: Parandusprotsent
-betterReticleSize.percentCorrection.description: {HEADER}Parandusprotsent{/HEADER}{BODY}Kui palju juukseristi suurust parandada. 0% on mängu vaikesuuruse seadistus, 100% on õige suurus.{/BODY}
+betterReticleSize.percentCorrection.description: Kui palju juukseristi suurust parandada. 0% on mängu vaikesuuruse seadistus, 100% on õige suurus.
 betterReticleSize.showClientAndServerReticle.title: Luba kliendi- ja serverivõrk
-betterReticleSize.showClientAndServerReticle.description: {HEADER}Luba kliendi- ja serverivõrk{/HEADER}{BODY}Kuva korraga nii kliendi kui ka serveri võrk. Kliendivõrk reageerib paremini, kuid serverivõrk on täpsem, kuna see võtab arvesse viivitust.{/BODY}
+betterReticleSize.showClientAndServerReticle.description: Kuva korraga nii kliendi kui ka serveri võrk. Kliendivõrk reageerib paremini, kuid serverivõrk on täpsem, kuna see võtab arvesse viivitust.
 betterReticleSize.showServerSpgStrategicReticle.title: Kliendi ja serveri võrk suurtükiväe strateegilises vaates
-betterReticleSize.showServerSpgStrategicReticle.description: {HEADER}Kliendi ja serveri võrk suurtükiväe strateegilises vaates{/HEADER}{BODY}Praegune õhuliini suurtükiväe sekundaarne võrk on häirivalt inetu, seega on see vaikimisi keelatud.{/BODY}
+betterReticleSize.showServerSpgStrategicReticle.description: Praegune õhuliini suurtükiväe sekundaarne võrk on häirivalt inetu, seega on see vaikimisi keelatud.
 betterReticleSize.serverReticleAimingCircleShape.title: Sihtimisring
-betterReticleSize.serverReticleAimingCircleShape.description: {HEADER}Sihtlusring{/HEADER}{BODY}Serveri sihiku ring. Näete, kuidas need välja näevad, kui kontrollite põhimenüüd Seaded, klõpsate vahekaardil Võrk ja märkige valikud „Sihtimine”.{/BODY}
+betterReticleSize.serverReticleAimingCircleShape.description: Serveri sihiku ring. Näete, kuidas need välja näevad, kui kontrollite põhimenüüd Seaded, klõpsate vahekaardil Võrk ja märkige valikud „Sihtimine”.
 betterReticleSize.serverReticleAimingCircleOpacity.title: Sihtringi läbipaistmatus
-betterReticleSize.serverReticleAimingCircleOpacity.description: {HEADER}Sihtimisringi läbipaistmatus{/HEADER}{BODY}Määrake serveri sihtimisringi läbipaistmatus (ehk läbipaistvus).{/BODY}
+betterReticleSize.serverReticleAimingCircleOpacity.description: Määrake serveri sihtimisringi läbipaistmatus (ehk läbipaistvus).
 betterReticleSize.serverReticleGunMarkerShape.title: Relva marker
-betterReticleSize.serverReticleGunMarkerShape.description: {HEADER}Püssitähis{/HEADER}{BODY}Püssitähis serverivõrku jaoks. Näete, kuidas need välja näevad, kui kontrollite peamenüüst Seaded, klõpsate vahekaardil Võrk ja märkige valikud „Püssimarker”.{/BODY}
+betterReticleSize.serverReticleGunMarkerShape.description: Püssitähis serverivõrku jaoks. Näete, kuidas need välja näevad, kui kontrollite peamenüüst Seaded, klõpsate vahekaardil Võrk ja märkige valikud „Püssimarker”.
 betterReticleSize.serverReticleGunMarkerOpacity.title: Püstoli markeri läbipaistmatus
-betterReticleSize.serverReticleGunMarkerOpacity.description: {HEADER}Püstolimarkeri läbipaistmatus{/HEADER}{BODY}Seadistage serveri relvamarkeri läbipaistmatus ehk läbipaistvus.{/BODY}
+betterReticleSize.serverReticleGunMarkerOpacity.description: Seadistage serveri relvamarkeri läbipaistmatus ehk läbipaistvus.
 
 betterBattleResults.modname: Paremad lahingutulemused
 betterBattleResults.richTooltip.title: Üksikasjalikumad lahingutulemuste kokkuvõtte tööriistanäpunäited
-betterBattleResults.richTooltip.description: {HEADER}Üksikasjalikumad lahingutulemuste kokkuvõtte tööriistanäpunäited{/HEADER}{BODY}Kuva lahingutulemuste aknas üksikasjalikumad kokkuvõtte tööriistavihjed. Näiteks kui hõljute kursorit „abistada kahju” kogusumma kohal, kuvatakse eraldi kahjustuste kogusumma ja jälgimiskahjustused.{/BODY}
+betterBattleResults.richTooltip.description: Kuva lahingutulemuste aknas üksikasjalikumad kokkuvõtte tööriistavihjed. Näiteks kui hõljute kursorit „abistada kahju” kogusumma kohal, kuvatakse eraldi kahjustuste kogusumma ja jälgimiskahjustused.
 betterBattleResults.tooltipOverride.assist.total: Liitlaste poolt vaenlase sõidukitele tekitatud kogukahju
 betterBattleResults.tooltipOverride.crits.total: Kriitiliste tabamuste koguarv
 
 betterStyleSelection.modname: Parem stiilide sorteerimine
 betterStyleSelection.styleSortingEnabled.title: 2D- ja 3D-stiilide rühmituse parandamine
-betterStyleSelection.styleSortingEnabled.description: {HEADER}2D- ja 3D-stiilide rühmituse parandamine{/HEADER}{BODY}Märgib kõik 3D-stiilid ja sõidukispetsiifilised 2D-stiilid kui „Unikaalsed”, et neid oleks lihtsam leida.{/BODY}
+betterStyleSelection.styleSortingEnabled.description: Märgib kõik 3D-stiilid ja sõidukispetsiifilised 2D-stiilid kui „Unikaalsed”, et neid oleks lihtsam leida.
 
 jakLib.commonSettings: Modpacki seaded
 jakLib.modname: Sisselogimisteade
 jakLib.language.title: Keel
-jakLib.language.description: {HEADER}Keel{/HEADER}{BODY}Muudadepaketi keele määramine{/BODY}
+jakLib.language.description: Muudadepaketi keele määramine
 jakLib.loginNotificationEnabled.title: Sisselogimisteade
-jakLib.loginNotificationEnabled.description: {HEADER}Sisselogimisteade{/HEADER}{BODY}Lubage või keelake pärast sisselogimist märguanne, mis näitab, millised modifikatsioonid töötavad.{/BODY}
+jakLib.loginNotificationEnabled.description: Lubage või keelake pärast sisselogimist märguanne, mis näitab, millised modifikatsioonid töötavad.
 jakLib.errorNotificationEnabled.title: Veateade
-jakLib.errorNotificationEnabled.description: {HEADER}Veateade{/HEADER}{BODY}Lubage või keelake pärast sisselogimist teatis, mis näitab, milliste modifikatsioonide laadimine ebaõnnestus.{/BODY}
+jakLib.errorNotificationEnabled.description: Lubage või keelake pärast sisselogimist teatis, mis näitab, milliste modifikatsioonide laadimine ebaõnnestus.

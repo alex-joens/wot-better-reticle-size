@@ -1,36 +1,36 @@
 betterReticleSize.modname: Bessere Fadenkreuzgröße
 betterReticleSize.gunMarkerMinimumSize.title: Mindestgröße des Fadenkreuzes
-betterReticleSize.gunMarkerMinimumSize.description: {HEADER}Mindestgröße des Fadenkreuzes{/HEADER}{BODY}Begrenzt, wie klein das Fadenkreuz sichtbar verkleinert werden darf. Wenn Sie diesen Wert auf 0 setzen, ist die Fadenkreuzgröße immer genau, aber möglicherweise schwerer zu erkennen.{/BODY}
+betterReticleSize.gunMarkerMinimumSize.description: Begrenzt, wie klein das Fadenkreuz sichtbar verkleinert werden darf. Wenn Sie diesen Wert auf 0 setzen, ist die Fadenkreuzgröße immer genau, aber möglicherweise schwerer zu erkennen.
 betterReticleSize.percentCorrection.title: Korrekturprozentsatz
-betterReticleSize.percentCorrection.description: {HEADER}Korrekturprozentsatz{/HEADER}{BODY}Um wie viel die Fadenkreuzgröße korrigiert werden soll. 0 % ist die Standardeinstellung des Spiels für Übergröße, 100 % ist die richtige Größe.{/BODY}
+betterReticleSize.percentCorrection.description: Um wie viel die Fadenkreuzgröße korrigiert werden soll. 0 % ist die Standardeinstellung des Spiels für Übergröße, 100 % ist die richtige Größe.
 betterReticleSize.showClientAndServerReticle.title: Client- und Server-Retikel aktivieren
-betterReticleSize.showClientAndServerReticle.description: {HEADER}Client- und Server-Fadenkreuz aktivieren{/HEADER}{BODY}Zeigt sowohl das Client- als auch das Server-Fadenkreuz gleichzeitig an. Das Client-Fadenkreuz fühlt sich reaktionsschneller an, aber das Server-Fadenkreuz ist genauer, weil es Verzögerungen berücksichtigt.{/BODY}
+betterReticleSize.showClientAndServerReticle.description: Zeigt sowohl das Client- als auch das Server-Fadenkreuz gleichzeitig an. Das Client-Fadenkreuz fühlt sich reaktionsschneller an, aber das Server-Fadenkreuz ist genauer, weil es Verzögerungen berücksichtigt.
 betterReticleSize.showServerSpgStrategicReticle.title: Client- und Server-Absehen in der strategischen Sicht der Artillerie
-betterReticleSize.showServerSpgStrategicReticle.description: {HEADER}Client- und Server-Fadenkreuz in der strategischen Artillerie-Ansicht{/HEADER}{BODY}Das aktuelle sekundäre Artillerie-Absehen über Kopf ist irritierend hässlich und daher standardmäßig deaktiviert.{/BODY}
+betterReticleSize.showServerSpgStrategicReticle.description: Das aktuelle sekundäre Artillerie-Absehen über Kopf ist irritierend hässlich und daher standardmäßig deaktiviert.
 betterReticleSize.serverReticleAimingCircleShape.title: Zielkreis
-betterReticleSize.serverReticleAimingCircleShape.description: {HEADER}Zielkreis{/HEADER}{BODY}Der Zielkreis für das Server-Fadenkreuz. Sie können sehen, wie diese aussehen, indem Sie im Hauptmenü „Einstellungen“ auf die Registerkarte „Absehen“ klicken und die Optionen „Zielen“ aktivieren.{/BODY}
+betterReticleSize.serverReticleAimingCircleShape.description: Der Zielkreis für das Server-Fadenkreuz. Sie können sehen, wie diese aussehen, indem Sie im Hauptmenü „Einstellungen“ auf die Registerkarte „Absehen“ klicken und die Optionen „Zielen“ aktivieren.
 betterReticleSize.serverReticleAimingCircleOpacity.title: Deckkraft des Zielkreises
-betterReticleSize.serverReticleAimingCircleOpacity.description: {HEADER}Zielkreis-Deckkraft{/HEADER}{BODY}Legen Sie die Deckkraft, auch Transparenz genannt, des Server-Zielkreises fest.{/BODY}
+betterReticleSize.serverReticleAimingCircleOpacity.description: Legen Sie die Deckkraft, auch Transparenz genannt, des Server-Zielkreises fest.
 betterReticleSize.serverReticleGunMarkerShape.title: Waffenmarker
-betterReticleSize.serverReticleGunMarkerShape.description: {HEADER}Waffenmarkierung{/HEADER}{BODY}Die Waffenmarkierung für das Server-Fadenkreuz. Sie können sehen, wie diese aussehen, indem Sie im Hauptmenü „Einstellungen“ auf die Registerkarte „Absehen“ klicken und die Optionen „Waffenmarkierung“ aktivieren.{/BODY}
+betterReticleSize.serverReticleGunMarkerShape.description: Die Waffenmarkierung für das Server-Fadenkreuz. Sie können sehen, wie diese aussehen, indem Sie im Hauptmenü „Einstellungen“ auf die Registerkarte „Absehen“ klicken und die Optionen „Waffenmarkierung“ aktivieren.
 betterReticleSize.serverReticleGunMarkerOpacity.title: Deckkraft der Waffenmarkierung
-betterReticleSize.serverReticleGunMarkerOpacity.description: {HEADER}Deckkraft der Waffenmarkierung{/HEADER}{BODY}Legen Sie die Deckkraft, also die Transparenz, der Server-Waffenmarkierung fest.{/BODY}
+betterReticleSize.serverReticleGunMarkerOpacity.description: Legen Sie die Deckkraft, also die Transparenz, der Server-Waffenmarkierung fest.
 
 betterBattleResults.modname: Bessere Schlachtergebnisse
 betterBattleResults.richTooltip.title: Detailliertere Kurzinfos zu den Kampfergebnissen
-betterBattleResults.richTooltip.description: {HEADER}Detailliertere Kurzinfos zu den Kampfergebnissen{/HEADER}{BODY}Zeigen Sie ausführlichere zusammenfassende Kurzinfos im Fenster „Schlachtergebnisse“ an. Wenn Sie beispielsweise mit der Maus über den gesamten „Schaden unterstützen“ fahren, werden der gesamte Aufklärungsschaden und der Verfolgungsschaden separat angezeigt.{/BODY}
+betterBattleResults.richTooltip.description: Zeigen Sie ausführlichere zusammenfassende Kurzinfos im Fenster „Schlachtergebnisse“ an. Wenn Sie beispielsweise mit der Maus über den gesamten „Schaden unterstützen“ fahren, werden der gesamte Aufklärungsschaden und der Verfolgungsschaden separat angezeigt.
 betterBattleResults.tooltipOverride.assist.total: Gesamtschaden, den Verbündete feindlichen Fahrzeugen zufügen
 betterBattleResults.tooltipOverride.crits.total: Gesamtzahl der kritischen Treffer
 
 betterStyleSelection.modname: Bessere Stilsortierung
 betterStyleSelection.styleSortingEnabled.title: Gruppierung von 2D- und 3D-Stilen korrigieren
-betterStyleSelection.styleSortingEnabled.description: {HEADER}Gruppierung von 2D- und 3D-Stilen korrigieren{/HEADER}{BODY}Markiert alle 3D-Stile und fahrzeugspezifischen 2D-Stile als „Einzigartig“, damit sie leichter zu finden sind.{/BODY}
+betterStyleSelection.styleSortingEnabled.description: Markiert alle 3D-Stile und fahrzeugspezifischen 2D-Stile als „Einzigartig“, damit sie leichter zu finden sind.
 
 jakLib.commonSettings: Modpack-Einstellungen
 jakLib.modname: Anmeldebenachrichtigung
 jakLib.language.title: Sprache
-jakLib.language.description: {HEADER}Sprache{/HEADER}{BODY}Legen Sie die Modpack-Sprache fest{/BODY}
+jakLib.language.description: Legen Sie die Modpack-Sprache fest
 jakLib.loginNotificationEnabled.title: Anmeldebenachrichtigung
-jakLib.loginNotificationEnabled.description: {HEADER}Anmeldebenachrichtigung{/HEADER}{BODY}Aktivieren oder deaktivieren Sie eine Benachrichtigung nach der Anmeldung, die anzeigt, welche Mods ausgeführt werden.{/BODY}
+jakLib.loginNotificationEnabled.description: Aktivieren oder deaktivieren Sie eine Benachrichtigung nach der Anmeldung, die anzeigt, welche Mods ausgeführt werden.
 jakLib.errorNotificationEnabled.title: Fehlerbenachrichtigung
-jakLib.errorNotificationEnabled.description: {HEADER}Fehlerbenachrichtigung{/HEADER}{BODY}Aktivieren oder deaktivieren Sie eine Benachrichtigung nach dem Anmelden, die anzeigt, welche Mods nicht geladen werden konnten.{/BODY}
+jakLib.errorNotificationEnabled.description: Aktivieren oder deaktivieren Sie eine Benachrichtigung nach dem Anmelden, die anzeigt, welche Mods nicht geladen werden konnten.

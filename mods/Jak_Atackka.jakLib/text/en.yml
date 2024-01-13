@@ -1,36 +1,36 @@
 betterReticleSize.modname: Better Reticle Size
 betterReticleSize.gunMarkerMinimumSize.title: Minimum reticle size
-betterReticleSize.gunMarkerMinimumSize.description: {HEADER}Minimum reticle size{/HEADER}{BODY}Limits how small the reticle is visibly allowed to shrink. Setting this to 0 means the reticle size is always accurate, but it may be harder to see.{/BODY}
+betterReticleSize.gunMarkerMinimumSize.description: Limits how small the reticle is visibly allowed to shrink. Setting this to 0 means the reticle size is always accurate, but it may be harder to see.
 betterReticleSize.percentCorrection.title: Correction percentage
-betterReticleSize.percentCorrection.description: {HEADER}Correction percentage{/HEADER}{BODY}How much to correct the reticle size. 0% is the game's default oversized setting, 100% is the correct size.{/BODY}
+betterReticleSize.percentCorrection.description: How much to correct the reticle size. 0% is the game's default oversized setting, 100% is the correct size.
 betterReticleSize.showClientAndServerReticle.title: [BETA] Show both client and server reticles
-betterReticleSize.showClientAndServerReticle.description: {HEADER}[BETA] Show both the client and server reticles{/HEADER}{BODY}NOTE: This will automatically enable the "Server reticle" setting, but this only affects the second reticle.{/BODY}
+betterReticleSize.showClientAndServerReticle.description: NOTE: This will automatically enable the "Server reticle" setting, but this only affects the second reticle.
 betterReticleSize.showServerSpgStrategicReticle.title: Show client and server reticles in SPG overhead view
-betterReticleSize.showServerSpgStrategicReticle.description: {HEADER}Client and server reticle in SPG overhead view{/HEADER}{BODY}The current overhead SPG secondary reticle is distractingly ugly, so it is disabled by default.{/BODY}
+betterReticleSize.showServerSpgStrategicReticle.description: The current overhead SPG secondary reticle is distractingly ugly, so it is disabled by default.
 betterReticleSize.serverReticleAimingCircleShape.title: Server reticle aiming circle
-betterReticleSize.serverReticleAimingCircleShape.description: {HEADER}Server reticle aiming circle{/HEADER}{BODY}The aiming circle for the server reticle. You can see what these look like by checking the main Settings menu, clicking on the Reticle tab, and checking the "Aiming" options.{/BODY}
+betterReticleSize.serverReticleAimingCircleShape.description: The aiming circle for the server reticle. You can see what these look like by checking the main Settings menu, clicking on the Reticle tab, and checking the "Aiming" options.
 betterReticleSize.serverReticleAimingCircleOpacity.title: Opacity
-betterReticleSize.serverReticleAimingCircleOpacity.description: {HEADER}Server reticle aiming circle opacity{/HEADER}{BODY}Set the opacity, aka the transparency, of the server aiming circle.{/BODY}
+betterReticleSize.serverReticleAimingCircleOpacity.description: Set the opacity, aka the transparency, of the server aiming circle.
 betterReticleSize.serverReticleGunMarkerShape.title: Server reticle gun marker
-betterReticleSize.serverReticleGunMarkerShape.description: {HEADER}Server reticle gun marker{/HEADER}{BODY}The gun marker for the server reticle. You can see what these look like by checking the main Settings menu, clicking on the Reticle tab, and checking the "Gun Marker" options.{/BODY}
+betterReticleSize.serverReticleGunMarkerShape.description: The gun marker for the server reticle. You can see what these look like by checking the main Settings menu, clicking on the Reticle tab, and checking the "Gun Marker" options.
 betterReticleSize.serverReticleGunMarkerOpacity.title: Opacity
-betterReticleSize.serverReticleGunMarkerOpacity.description: {HEADER}Server reticle gun marker{/HEADER}{BODY}Set the opacity, aka the transparency, of the server gun marker.{/BODY}
+betterReticleSize.serverReticleGunMarkerOpacity.description: Set the opacity, aka the transparency, of the server gun marker.
 
 betterBattleResults.modname: Better Battle Results
 betterBattleResults.richTooltip.title: More detailed Battle Results summary tooltips
-betterBattleResults.richTooltip.description: {HEADER}More detailed Battle Results summary tooltips{/HEADER}{BODY}Show more detailed summary tooltips in the Battle Results window. For example, hovering over the total "Assist Damage" will show the total spotting damage and tracking damage separately.{/BODY}
+betterBattleResults.richTooltip.description: Show more detailed summary tooltips in the Battle Results window. For example, hovering over the total "Assist Damage" will show the total spotting damage and tracking damage separately.
 betterBattleResults.tooltipOverride.assist.total: Total damage caused by allies to enemy vehicles
 betterBattleResults.tooltipOverride.crits.total: Total number of critical hits
 
 betterStyleSelection.modname: Better Style Sorting
 betterStyleSelection.styleSortingEnabled.title: Fix grouping of 2D and 3D styles by marking them "Unique"
-betterStyleSelection.styleSortingEnabled.description: {HEADER}Fix grouping of 2D and 3D styles{/HEADER}{BODY}Categorizes all 3D styles and vehicle-specific 2D styles as "Unique", so they are easier to find.{/BODY}
+betterStyleSelection.styleSortingEnabled.description: Categorizes all 3D styles and vehicle-specific 2D styles as "Unique", so they are easier to find.
 
 jakLib.commonSettings: Modpack settings
 jakLib.modname: Login notification
 jakLib.language.title: Language
-jakLib.language.description: {HEADER}Language{/HEADER}{BODY}Set the modpack language{/BODY}
+jakLib.language.description: Set the modpack language.
 jakLib.loginNotificationEnabled.title: Login notification
-jakLib.loginNotificationEnabled.description: {HEADER}Login notification{/HEADER}{BODY}Enable or disable a notification after logging in that shows which mods are running.{/BODY}
+jakLib.loginNotificationEnabled.description: Enable or disable a notification after logging in that shows which mods are running.
 jakLib.errorNotificationEnabled.title: Error notification
-jakLib.errorNotificationEnabled.description: {HEADER}Error notification{/HEADER}{BODY}Enable or disable a notification after logging in that shows which mods failed to load.{/BODY}
+jakLib.errorNotificationEnabled.description: Enable or disable a notification after logging in that shows which mods failed to load.

@@ -1,36 +1,36 @@
 betterReticleSize.modname: Лучший размер прицела
 betterReticleSize.gunMarkerMinimumSize.title: Минимальный размер перекрестия
-betterReticleSize.gunMarkerMinimumSize.description: {HEADER}Минимальный размер перекрестия{/HEADER}{BODY}Ограничивает то, насколько маленькое перекрестие может визуально уменьшаться. Если для этого параметра установлено значение 0, размер перекрестия всегда будет точным, но его будет труднее увидеть.{/BODY}
+betterReticleSize.gunMarkerMinimumSize.description: Ограничивает то, насколько маленькое перекрестие может визуально уменьшаться. Если для этого параметра установлено значение 0, размер перекрестия всегда будет точным, но его будет труднее увидеть.
 betterReticleSize.percentCorrection.title: Процент коррекции
-betterReticleSize.percentCorrection.description: {HEADER}Процент коррекции{/HEADER}{BODY}На сколько корректировать размер перекрестия. 0 % – это стандартный размер игры, 100 % – правильный размер.{/BODY}
+betterReticleSize.percentCorrection.description: На сколько корректировать размер перекрестия. 0 % – это стандартный размер игры, 100 % – правильный размер.
 betterReticleSize.showClientAndServerReticle.title: Включить сетку клиента и сервера
-betterReticleSize.showClientAndServerReticle.description: {HEADER}Включить сетку клиента и сервера.{/HEADER}{BODY}Показывать одновременно и клиентскую, и серверную сетку. Клиентская сетка кажется более отзывчивой, но серверная сетка более точная, поскольку учитывает задержку.{/BODY}
+betterReticleSize.showClientAndServerReticle.description: Показывать одновременно и клиентскую, и серверную сетку. Клиентская сетка кажется более отзывчивой, но серверная сетка более точная, поскольку учитывает задержку.
 betterReticleSize.showServerSpgStrategicReticle.title: Клиентская и серверная сетка в стратегическом ракурсе артиллерии
-betterReticleSize.showServerSpgStrategicReticle.description: {HEADER}Клиентская и серверная прицельная марка в стратегическом обзоре артиллерии{/HEADER}{BODY}Текущая вторичная прицельная марка артиллерийской установки отвлекающе уродлива, поэтому по умолчанию она отключена.{/BODY}
+betterReticleSize.showServerSpgStrategicReticle.description: Текущая вторичная прицельная марка артиллерийской установки отвлекающе уродлива, поэтому по умолчанию она отключена.
 betterReticleSize.serverReticleAimingCircleShape.title: Прицельный круг
-betterReticleSize.serverReticleAimingCircleShape.description: {HEADER}Круг прицеливания{/HEADER}{BODY}Круг прицеливания серверной сетки. Вы можете увидеть, как они выглядят, зайдя в главное меню настроек, перейдя на вкладку «Сетка» и отметив параметры «Прицеливание».{/BODY}
+betterReticleSize.serverReticleAimingCircleShape.description: Круг прицеливания серверной сетки. Вы можете увидеть, как они выглядят, зайдя в главное меню настроек, перейдя на вкладку «Сетка» и отметив параметры «Прицеливание».
 betterReticleSize.serverReticleAimingCircleOpacity.title: Непрозрачность круга прицеливания
-betterReticleSize.serverReticleAimingCircleOpacity.description: {HEADER}Непрозрачность круга прицеливания{/HEADER}{BODY}Установите непрозрачность (или прозрачность) круга прицеливания сервера.{/BODY}
+betterReticleSize.serverReticleAimingCircleOpacity.description: Установите непрозрачность (или прозрачность) круга прицеливания сервера.
 betterReticleSize.serverReticleGunMarkerShape.title: Маркер пистолета
-betterReticleSize.serverReticleGunMarkerShape.description: {HEADER}Маркер оружия{/HEADER}{BODY}Маркер оружия для серверной сетки. Вы можете увидеть, как они выглядят, зайдя в главное меню настроек, перейдя на вкладку «Сетка» и отметив параметры «Маркер оружия».{/BODY}
+betterReticleSize.serverReticleGunMarkerShape.description: Маркер оружия для серверной сетки. Вы можете увидеть, как они выглядят, зайдя в главное меню настроек, перейдя на вкладку «Сетка» и отметив параметры «Маркер оружия».
 betterReticleSize.serverReticleGunMarkerOpacity.title: Непрозрачность маркера пистолета
-betterReticleSize.serverReticleGunMarkerOpacity.description: {HEADER}Непрозрачность маркера оружия{/HEADER}{BODY}Установите непрозрачность, то есть прозрачность, маркера оружия на сервере.{/BODY}
+betterReticleSize.serverReticleGunMarkerOpacity.description: Установите непрозрачность, то есть прозрачность, маркера оружия на сервере.
 
 betterBattleResults.modname: Лучшие результаты боя
 betterBattleResults.richTooltip.title: Более подробные подсказки по итогам боя.
-betterBattleResults.richTooltip.description: {HEADER}Более подробные подсказки по итогам боя.{/HEADER}{BODY}Показ более подробных подсказок в окне "Результаты боя". Например, при наведении курсора на общий «Вспомогательный урон» будет показан общий обнаруженный урон и отдельно отслеживаемый урон.{/BODY}
+betterBattleResults.richTooltip.description: Показ более подробных подсказок в окне "Результаты боя". Например, при наведении курсора на общий «Вспомогательный урон» будет показан общий обнаруженный урон и отдельно отслеживаемый урон.
 betterBattleResults.tooltipOverride.assist.total: Суммарный урон, нанесенный союзниками технике противника
 betterBattleResults.tooltipOverride.crits.total: Общее количество критических ударов
 
 betterStyleSelection.modname: Лучшая сортировка стилей
 betterStyleSelection.styleSortingEnabled.title: Исправить группировку 2D- и 3D-стилей.
-betterStyleSelection.styleSortingEnabled.description: {HEADER}Исправить группировку 2D- и 3D-стилей.{/HEADER}{BODY}Все 3D-стили и 2D-стили для конкретного автомобиля помечаются как «уникальные», чтобы их было легче найти.{/BODY}
+betterStyleSelection.styleSortingEnabled.description: Все 3D-стили и 2D-стили для конкретного автомобиля помечаются как «уникальные», чтобы их было легче найти.
 
 jakLib.commonSettings: Настройки модпака
 jakLib.modname: Уведомление о входе
 jakLib.language.title: Язык
-jakLib.language.description: {HEADER}Язык{/HEADER}{BODY}Установите язык модпака{/BODY}
+jakLib.language.description: Установите язык модпака
 jakLib.loginNotificationEnabled.title: Уведомление о входе
-jakLib.loginNotificationEnabled.description: {HEADER}Уведомление о входе{/HEADER}{BODY}Включите или отключите уведомление после входа в систему, показывающее, какие моды запущены.{/BODY}
+jakLib.loginNotificationEnabled.description: Включите или отключите уведомление после входа в систему, показывающее, какие моды запущены.
 jakLib.errorNotificationEnabled.title: Уведомление об ошибке
-jakLib.errorNotificationEnabled.description: {HEADER}Уведомление об ошибке{/HEADER}{BODY}Включите или отключите уведомление после входа в систему, показывающее, какие моды не удалось загрузить.{/BODY}
+jakLib.errorNotificationEnabled.description: Включите или отключите уведомление после входа в систему, показывающее, какие моды не удалось загрузить.

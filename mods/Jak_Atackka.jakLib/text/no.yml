@@ -1,36 +1,36 @@
 betterReticleSize.modname: Bedre trådkorsstørrelse
 betterReticleSize.gunMarkerMinimumSize.title: Minste trådkorsstørrelse
-betterReticleSize.gunMarkerMinimumSize.description: {HEADER}Minste trådkorsstørrelse{/HEADER}{BODY}Begrenser hvor lite trådkorset synlig får krympe. Hvis du setter dette til 0, betyr det at trådkorset alltid er nøyaktig, men det kan være vanskeligere å se.{/BODY}
+betterReticleSize.gunMarkerMinimumSize.description: Begrenser hvor lite trådkorset synlig får krympe. Hvis du setter dette til 0, betyr det at trådkorset alltid er nøyaktig, men det kan være vanskeligere å se.
 betterReticleSize.percentCorrection.title: Korreksjonsprosent
-betterReticleSize.percentCorrection.description: {HEADER}Korreksjonsprosent{/HEADER}{BODY}Hvor mye skal du korrigere trådkorset. 0 % er spillets standard overdimensjonerte innstilling, 100 % er riktig størrelse.{/BODY}
+betterReticleSize.percentCorrection.description: Hvor mye skal du korrigere trådkorset. 0 % er spillets standard overdimensjonerte innstilling, 100 % er riktig størrelse.
 betterReticleSize.showClientAndServerReticle.title: Aktiver klient- og server-retikkel
-betterReticleSize.showClientAndServerReticle.description: {HEADER}Aktiver klient- og server-retikkel{/HEADER}{BODY}Vis både klient- og tjener-retikkel samtidig. Klientkorset føles mer responsivt, men tjenerkorset er mer nøyaktig fordi det tar hensyn til etterslep.{/BODY}
+betterReticleSize.showClientAndServerReticle.description: Vis både klient- og tjener-retikkel samtidig. Klientkorset føles mer responsivt, men tjenerkorset er mer nøyaktig fordi det tar hensyn til etterslep.
 betterReticleSize.showServerSpgStrategicReticle.title: Klient- og serverkors i artilleristrategisk syn
-betterReticleSize.showServerSpgStrategicReticle.description: {HEADER}Klient- og tjenerkors i artilleristrategisk visning{/HEADER}{BODY}Den nåværende sekundære artillerikorset er distraherende stygt, så det er deaktivert som standard.{/BODY}
+betterReticleSize.showServerSpgStrategicReticle.description: Den nåværende sekundære artillerikorset er distraherende stygt, så det er deaktivert som standard.
 betterReticleSize.serverReticleAimingCircleShape.title: Siktesirkel
-betterReticleSize.serverReticleAimingCircleShape.description: {HEADER}Siktesirkel{/HEADER}{BODY}Siktesirkelen for tjenerkorset. Du kan se hvordan disse ser ut ved å sjekke hovedmenyen Innstillinger, klikke på Reticle-fanen og merke av for «Aiming»-alternativene.{/BODY}
+betterReticleSize.serverReticleAimingCircleShape.description: Siktesirkelen for tjenerkorset. Du kan se hvordan disse ser ut ved å sjekke hovedmenyen Innstillinger, klikke på Reticle-fanen og merke av for «Aiming»-alternativene.
 betterReticleSize.serverReticleAimingCircleOpacity.title: Siktsirkelopasitet
-betterReticleSize.serverReticleAimingCircleOpacity.description: {HEADER}Opasitet for siktesirkel{/HEADER}{BODY}Angi opasiteten, også kjent som gjennomsiktigheten, for siktesirkelen for tjeneren.{/BODY}
+betterReticleSize.serverReticleAimingCircleOpacity.description: Angi opasiteten, også kjent som gjennomsiktigheten, for siktesirkelen for tjeneren.
 betterReticleSize.serverReticleGunMarkerShape.title: Pistolmarkør
-betterReticleSize.serverReticleGunMarkerShape.description: {HEADER}Våpenmarkør{/HEADER}{BODY}Våpenmarkøren for tjenerkorset. Du kan se hvordan disse ser ut ved å sjekke hovedinnstillingsmenyen, klikke på trådkors-fanen og merke av for «Pistermarkør»-alternativene.{/BODY}
+betterReticleSize.serverReticleGunMarkerShape.description: Våpenmarkøren for tjenerkorset. Du kan se hvordan disse ser ut ved å sjekke hovedinnstillingsmenyen, klikke på trådkors-fanen og merke av for «Pistermarkør»-alternativene.
 betterReticleSize.serverReticleGunMarkerOpacity.title: Opasitet for våpenmarkør
-betterReticleSize.serverReticleGunMarkerOpacity.description: {HEADER}Opasitet for våpenmarkør{/HEADER}{BODY}Angi opasiteten, også kjent som gjennomsiktigheten, til serverpistolmarkøren.{/BODY}
+betterReticleSize.serverReticleGunMarkerOpacity.description: Angi opasiteten, også kjent som gjennomsiktigheten, til serverpistolmarkøren.
 
 betterBattleResults.modname: Bedre kampresultater
 betterBattleResults.richTooltip.title: Mer detaljerte verktøytips for kampresultater
-betterBattleResults.richTooltip.description: {HEADER}Mer detaljerte verktøytips for kampresultater{/HEADER}{BODY}Vis mer detaljerte sammendragsverktøytips i kampresultatvinduet. Hvis du for eksempel holder musepekeren over den totale «Assistanseskade», vises den totale oppdagede skaden og sporingsskaden separat.{/BODY}
+betterBattleResults.richTooltip.description: Vis mer detaljerte sammendragsverktøytips i kampresultatvinduet. Hvis du for eksempel holder musepekeren over den totale «Assistanseskade», vises den totale oppdagede skaden og sporingsskaden separat.
 betterBattleResults.tooltipOverride.assist.total: Total skade forårsaket av allierte på fiendtlige kjøretøy
 betterBattleResults.tooltipOverride.crits.total: Totalt antall kritiske treff
 
 betterStyleSelection.modname: Bedre stilsortering
 betterStyleSelection.styleSortingEnabled.title: Fiks gruppering av 2D- og 3D-stiler
-betterStyleSelection.styleSortingEnabled.description: {HEADER}Fiks gruppering av 2D- og 3D-stiler{/HEADER}{BODY}Merker alle 3D-stiler og kjøretøyspesifikke 2D-stiler som "Unike", slik at de er lettere å finne.{/BODY}
+betterStyleSelection.styleSortingEnabled.description: Merker alle 3D-stiler og kjøretøyspesifikke 2D-stiler som "Unike", slik at de er lettere å finne.
 
 jakLib.commonSettings: Modpack-innstillinger
 jakLib.modname: Påloggingsmelding
 jakLib.language.title: Språk
-jakLib.language.description: {HEADER}Språk{/HEADER}{BODY}Angi modpack-språket{/BODY}
+jakLib.language.description: Angi modpack-språket
 jakLib.loginNotificationEnabled.title: Påloggingsmelding
-jakLib.loginNotificationEnabled.description: {HEADER}Påloggingsvarsel{/HEADER}{BODY}Aktiver eller deaktiver et varsel etter pålogging som viser hvilke mods som kjører.{/BODY}
+jakLib.loginNotificationEnabled.description: Aktiver eller deaktiver et varsel etter pålogging som viser hvilke mods som kjører.
 jakLib.errorNotificationEnabled.title: Feilmelding
-jakLib.errorNotificationEnabled.description: {HEADER}Feilmelding{/HEADER}{BODY}Aktiver eller deaktiver et varsel etter pålogging som viser hvilke mods som ikke ble lastet inn.{/BODY}
+jakLib.errorNotificationEnabled.description: Aktiver eller deaktiver et varsel etter pålogging som viser hvilke mods som ikke ble lastet inn.

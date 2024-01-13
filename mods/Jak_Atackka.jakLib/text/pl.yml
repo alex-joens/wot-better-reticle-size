@@ -1,36 +1,36 @@
 betterReticleSize.modname: Lepszy rozmiar celownika
 betterReticleSize.gunMarkerMinimumSize.title: Minimalny rozmiar celownika
-betterReticleSize.gunMarkerMinimumSize.description: {HEADER}Minimalny rozmiar celownika{/HEADER}{BODY}Ogranicza wielkość widocznego kurczenia się krzyża nitkowego. Ustawienie tej opcji na 0 oznacza, że rozmiar celownika jest zawsze dokładny, ale może być trudniejszy do zobaczenia.{/BODY}
+betterReticleSize.gunMarkerMinimumSize.description: Ogranicza wielkość widocznego kurczenia się krzyża nitkowego. Ustawienie tej opcji na 0 oznacza, że rozmiar celownika jest zawsze dokładny, ale może być trudniejszy do zobaczenia.
 betterReticleSize.percentCorrection.title: Procent korekty
-betterReticleSize.percentCorrection.description: {HEADER}Procent korekty{/HEADER}{BODY}Jak bardzo należy poprawić rozmiar celownika. 0% to domyślne ustawienie powiększenia gry, 100% to prawidłowy rozmiar.{/BODY}
+betterReticleSize.percentCorrection.description: Jak bardzo należy poprawić rozmiar celownika. 0% to domyślne ustawienie powiększenia gry, 100% to prawidłowy rozmiar.
 betterReticleSize.showClientAndServerReticle.title: Włącz siatkę klienta i serwera
-betterReticleSize.showClientAndServerReticle.description: {HEADER}Włącz celownik klienta i serwera{/HEADER}{BODY}Pokaż jednocześnie celownik klienta i serwera. Celownik klienta wydaje się bardziej responsywny, ale celownik serwera jest dokładniejszy, ponieważ uwzględnia opóźnienia.{/BODY}
+betterReticleSize.showClientAndServerReticle.description: Pokaż jednocześnie celownik klienta i serwera. Celownik klienta wydaje się bardziej responsywny, ale celownik serwera jest dokładniejszy, ponieważ uwzględnia opóźnienia.
 betterReticleSize.showServerSpgStrategicReticle.title: Celownik klienta i serwera w strategicznym widoku artylerii
-betterReticleSize.showServerSpgStrategicReticle.description: {HEADER}Celownik klienta i serwera w strategicznym widoku artylerii{/HEADER}{BODY}Obecny dodatkowy celownik artylerii napowietrznej jest rozpraszająco brzydki, więc jest domyślnie wyłączony.{/BODY}
+betterReticleSize.showServerSpgStrategicReticle.description: Obecny dodatkowy celownik artylerii napowietrznej jest rozpraszająco brzydki, więc jest domyślnie wyłączony.
 betterReticleSize.serverReticleAimingCircleShape.title: Koło celowania
-betterReticleSize.serverReticleAimingCircleShape.description: {HEADER}Okrąg celowania{/HEADER}{BODY}Okrąg celowania celownika serwera. Możesz zobaczyć, jak one wyglądają, zaglądając do głównego menu Ustawienia, klikając kartę Siatka i zaznaczając opcje „Celowanie”.{/BODY}
+betterReticleSize.serverReticleAimingCircleShape.description: Okrąg celowania celownika serwera. Możesz zobaczyć, jak one wyglądają, zaglądając do głównego menu Ustawienia, klikając kartę Siatka i zaznaczając opcje „Celowanie”.
 betterReticleSize.serverReticleAimingCircleOpacity.title: Nieprzezroczystość koła celowania
-betterReticleSize.serverReticleAimingCircleOpacity.description: {HEADER}Nieprzezroczystość okręgu celowania{/HEADER}{BODY}Ustaw nieprzezroczystość, czyli przezroczystość, okręgu celowania serwera.{/BODY}
+betterReticleSize.serverReticleAimingCircleOpacity.description: Ustaw nieprzezroczystość, czyli przezroczystość, okręgu celowania serwera.
 betterReticleSize.serverReticleGunMarkerShape.title: Znacznik broni
-betterReticleSize.serverReticleGunMarkerShape.description: {HEADER}Znacznik działa{/HEADER}{BODY}Znacznik działa dla celownika serwera. Możesz zobaczyć, jak one wyglądają, zaglądając do głównego menu Ustawienia, klikając kartę Celownik i zaznaczając opcje „Znacznik broni”.{/BODY}
+betterReticleSize.serverReticleGunMarkerShape.description: Znacznik działa dla celownika serwera. Możesz zobaczyć, jak one wyglądają, zaglądając do głównego menu Ustawienia, klikając kartę Celownik i zaznaczając opcje „Znacznik broni”.
 betterReticleSize.serverReticleGunMarkerOpacity.title: Nieprzezroczystość znacznika pistoletu
-betterReticleSize.serverReticleGunMarkerOpacity.description: {HEADER}Nieprzezroczystość znacznika pistoletu{/HEADER}{BODY}Ustaw przezroczystość, czyli przezroczystość znacznika pistoletu serwera.{/BODY}
+betterReticleSize.serverReticleGunMarkerOpacity.description: Ustaw przezroczystość, czyli przezroczystość znacznika pistoletu serwera.
 
 betterBattleResults.modname: Lepsze wyniki bitew
 betterBattleResults.richTooltip.title: Bardziej szczegółowe podpowiedzi podsumowujące wyniki bitwy
-betterBattleResults.richTooltip.description: {HEADER}Bardziej szczegółowe podpowiedzi podsumowujące wyniki bitwy{/HEADER}{BODY}Pokaż bardziej szczegółowe podpowiedzi podsumowujące w oknie Wyniki bitwy. Na przykład najechanie kursorem na łączne „Obrażenia wspomagające” spowoduje wyświetlenie całkowitych wykrytych obrażeń i osobne śledzenie uszkodzeń.{/BODY}
+betterBattleResults.richTooltip.description: Pokaż bardziej szczegółowe podpowiedzi podsumowujące w oknie Wyniki bitwy. Na przykład najechanie kursorem na łączne „Obrażenia wspomagające” spowoduje wyświetlenie całkowitych wykrytych obrażeń i osobne śledzenie uszkodzeń.
 betterBattleResults.tooltipOverride.assist.total: Całkowite uszkodzenia zadane przez sojuszników pojazdom wroga
 betterBattleResults.tooltipOverride.crits.total: Całkowita liczba trafień krytycznych
 
 betterStyleSelection.modname: Lepsze sortowanie stylów
 betterStyleSelection.styleSortingEnabled.title: Napraw grupowanie stylów 2D i 3D
-betterStyleSelection.styleSortingEnabled.description: {HEADER}Napraw grupowanie stylów 2D i 3D{/HEADER}{BODY}Oznacza wszystkie style 3D i style 2D specyficzne dla pojazdu jako „Unikalne”, dzięki czemu łatwiej je znaleźć.{/BODY}
+betterStyleSelection.styleSortingEnabled.description: Oznacza wszystkie style 3D i style 2D specyficzne dla pojazdu jako „Unikalne”, dzięki czemu łatwiej je znaleźć.
 
 jakLib.commonSettings: Ustawienia pakietu modów
 jakLib.modname: Powiadomienie o logowaniu
 jakLib.language.title: Język
-jakLib.language.description: {HEADER}Język{/HEADER}{BODY}Ustaw język pakietu modów{/BODY}
+jakLib.language.description: Ustaw język pakietu modów
 jakLib.loginNotificationEnabled.title: Powiadomienie o logowaniu
-jakLib.loginNotificationEnabled.description: {HEADER}Powiadomienie o logowaniu{/HEADER}{BODY}Włącz lub wyłącz powiadomienie po zalogowaniu, które informuje, które mody są uruchomione.{/BODY}
+jakLib.loginNotificationEnabled.description: Włącz lub wyłącz powiadomienie po zalogowaniu, które informuje, które mody są uruchomione.
 jakLib.errorNotificationEnabled.title: Powiadomienie o błędzie
-jakLib.errorNotificationEnabled.description: {HEADER}Powiadomienie o błędzie{/HEADER}{BODY}Włącz lub wyłącz powiadomienie po zalogowaniu, które pokazuje, które mody nie zostały załadowane.{/BODY}
+jakLib.errorNotificationEnabled.description: Włącz lub wyłącz powiadomienie po zalogowaniu, które pokazuje, które mody nie zostały załadowane.

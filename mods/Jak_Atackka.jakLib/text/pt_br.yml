@@ -1,36 +1,36 @@
 betterReticleSize.modname: Melhor tamanho de mira
 betterReticleSize.gunMarkerMinimumSize.title: Tamanho mínimo da mira
-betterReticleSize.gunMarkerMinimumSize.description: {HEADER}Tamanho mínimo da mira{/HEADER}{BODY}Limita o quanto a mira pode diminuir visivelmente. Definir esse valor como 0 significa que o tamanho da mira será sempre preciso, mas pode ser mais difícil de ver.{/BODY}
+betterReticleSize.gunMarkerMinimumSize.description: Limita o quanto a mira pode diminuir visivelmente. Definir esse valor como 0 significa que o tamanho da mira será sempre preciso, mas pode ser mais difícil de ver.
 betterReticleSize.percentCorrection.title: Porcentagem de correção
-betterReticleSize.percentCorrection.description: {HEADER}Porcentagem de correção{/HEADER}{BODY}Quanto corrigir o tamanho da mira. 0% é a configuração padrão de tamanho grande do jogo, 100% é o tamanho correto.{/BODY}
+betterReticleSize.percentCorrection.description: Quanto corrigir o tamanho da mira. 0% é a configuração padrão de tamanho grande do jogo, 100% é o tamanho correto.
 betterReticleSize.showClientAndServerReticle.title: Habilitar retícula de cliente e servidor
-betterReticleSize.showClientAndServerReticle.description: {HEADER}Ativar a retícula do cliente e do servidor{/HEADER}{BODY}Mostra a retícula do cliente e do servidor ao mesmo tempo. A retícula do cliente parece mais responsiva, mas a retícula do servidor é mais precisa porque leva em conta o atraso.{/BODY}
+betterReticleSize.showClientAndServerReticle.description: Mostra a retícula do cliente e do servidor ao mesmo tempo. A retícula do cliente parece mais responsiva, mas a retícula do servidor é mais precisa porque leva em conta o atraso.
 betterReticleSize.showServerSpgStrategicReticle.title: Retículo cliente e servidor na visão estratégica da artilharia
-betterReticleSize.showServerSpgStrategicReticle.description: {HEADER}Retículo do cliente e do servidor na visão estratégica da artilharia{/HEADER}{BODY}O atual retículo secundário da artilharia suspensa é muito feio, por isso está desativado por padrão.{/BODY}
+betterReticleSize.showServerSpgStrategicReticle.description: O atual retículo secundário da artilharia suspensa é muito feio, por isso está desativado por padrão.
 betterReticleSize.serverReticleAimingCircleShape.title: Círculo de mira
-betterReticleSize.serverReticleAimingCircleShape.description: {HEADER}Círculo de mira{/HEADER}{BODY}O círculo de mira do retículo do servidor. Você pode ver como eles se parecem verificando o menu principal de Configurações, clicando na guia Retículo e marcando as opções de "Mira".{/BODY}
+betterReticleSize.serverReticleAimingCircleShape.description: O círculo de mira do retículo do servidor. Você pode ver como eles se parecem verificando o menu principal de Configurações, clicando na guia Retículo e marcando as opções de "Mira".
 betterReticleSize.serverReticleAimingCircleOpacity.title: Visando a opacidade do círculo
-betterReticleSize.serverReticleAimingCircleOpacity.description: {HEADER}Opacidade do círculo de mira{/HEADER}{BODY}Defina a opacidade, também conhecida como transparência, do círculo de mira do servidor.{/BODY}
+betterReticleSize.serverReticleAimingCircleOpacity.description: Defina a opacidade, também conhecida como transparência, do círculo de mira do servidor.
 betterReticleSize.serverReticleGunMarkerShape.title: Marcador de arma
-betterReticleSize.serverReticleGunMarkerShape.description: {HEADER}Marcador de arma{/HEADER}{BODY}O marcador de arma para o retículo do servidor. Você pode ver como eles são verificando o menu principal de configurações, clicando na guia Retículo e marcando as opções "Marcador de arma".{/BODY}
+betterReticleSize.serverReticleGunMarkerShape.description: O marcador de arma para o retículo do servidor. Você pode ver como eles são verificando o menu principal de configurações, clicando na guia Retículo e marcando as opções "Marcador de arma".
 betterReticleSize.serverReticleGunMarkerOpacity.title: Opacidade do marcador de arma
-betterReticleSize.serverReticleGunMarkerOpacity.description: {HEADER}Opacidade do marcador de arma{/HEADER}{BODY}Defina a opacidade, também conhecida como transparência, do marcador de arma do servidor.{/BODY}
+betterReticleSize.serverReticleGunMarkerOpacity.description: Defina a opacidade, também conhecida como transparência, do marcador de arma do servidor.
 
 betterBattleResults.modname: Melhores resultados de batalha
 betterBattleResults.richTooltip.title: Dicas de resumo mais detalhadas dos resultados da batalha
-betterBattleResults.richTooltip.description: {HEADER}Dicas de resumo mais detalhadas dos resultados da batalha{/HEADER}{BODY}Mostra dicas de resumo mais detalhadas na janela Resultados da batalha. Por exemplo, passar o mouse sobre o total de "Dano de Assistência" mostrará o total de danos detectados e o dano de rastreamento separadamente.{/BODY}
+betterBattleResults.richTooltip.description: Mostra dicas de resumo mais detalhadas na janela Resultados da batalha. Por exemplo, passar o mouse sobre o total de "Dano de Assistência" mostrará o total de danos detectados e o dano de rastreamento separadamente.
 betterBattleResults.tooltipOverride.assist.total: Dano total causado por aliados a veículos inimigos
 betterBattleResults.tooltipOverride.crits.total: Número total de acertos críticos
 
 betterStyleSelection.modname: Melhor classificação de estilo
 betterStyleSelection.styleSortingEnabled.title: Corrige o agrupamento de estilos 2D e 3
-betterStyleSelection.styleSortingEnabled.description: {HEADER}Corrige o agrupamento de estilos 2D e 3D{/HEADER}{BODY}Marca todos os estilos 3D e estilos 2D específicos de veículos como "Únicos" para que sejam mais fáceis de encontrar.{/BODY}
+betterStyleSelection.styleSortingEnabled.description: Marca todos os estilos 3D e estilos 2D específicos de veículos como "Únicos" para que sejam mais fáceis de encontrar.
 
 jakLib.commonSettings: Configurações do modpack
 jakLib.modname: Notificação de login
 jakLib.language.title: Idioma
-jakLib.language.description: {HEADER}Idioma{/HEADER}{BODY}Definir o idioma do modpack{/BODY}
+jakLib.language.description: Definir o idioma do modpack
 jakLib.loginNotificationEnabled.title: Notificação de login
-jakLib.loginNotificationEnabled.description: {HEADER}Notificação de login{/HEADER}{BODY}Ative ou desative uma notificação após fazer login que mostra quais mods estão em execução.{/BODY}
+jakLib.loginNotificationEnabled.description: Ative ou desative uma notificação após fazer login que mostra quais mods estão em execução.
 jakLib.errorNotificationEnabled.title: Notificação de erro
-jakLib.errorNotificationEnabled.description: {HEADER}Notificação de erro{/HEADER}{BODY}Ative ou desative uma notificação após fazer login que mostra quais mods falharam ao carregar.{/BODY}
+jakLib.errorNotificationEnabled.description: Ative ou desative uma notificação após fazer login que mostra quais mods falharam ao carregar.
