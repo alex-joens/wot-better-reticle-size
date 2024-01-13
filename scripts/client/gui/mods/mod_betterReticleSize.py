@@ -75,7 +75,7 @@ _RETICLE_CONFIG = ConfigSection(
             )
         ),
         ConfigParameter(
-            'showClientAndServerReticle_2', 
+            'showClientAndServerReticle_beta', 
             isBool, 
             False, 
             ParameterSettings(
@@ -263,7 +263,7 @@ def new_ControlMarkersFactory_getMarkerType(origFunc, self):
 
 
 @SafeOverride(VehicleGunRotator.VehicleGunRotator, 'clientMode', (lambda self: self._VehicleGunRotator__clientMode))
-def new_VehicleGunRotator_clientMode_setter(origFunc, self, value):
+def new_VehicleGunRotator_clientMode_setter(origProp, self, value):
     if STATE.showClientAndServerReticle is True:
         if self.clientMode == value:
             return
@@ -274,7 +274,7 @@ def new_VehicleGunRotator_clientMode_setter(origFunc, self, value):
             self._VehicleGunRotator__time = BigWorld.time()
             self.stopTrackingOnServer()
     else:
-        origFunc(self, value)
+        origProp.fset(self, value)
 
 
 @SafeOverride(VehicleGunRotator.VehicleGunRotator, 'setShotPosition')
@@ -337,7 +337,7 @@ def onModSettingsChanged(updatedConfig):
         aih_constants.GUN_MARKER_MIN_SIZE = updatedConfig.gunMarkerMinimumSize
         correctionFactor = updatedConfig.percentCorrection / 100
         STATE.reticleScaleFactor = CORRECT_RETICLE_SCALE_FACTOR * correctionFactor + (DEFAULT_RETICLE_SCALE_FACTOR - correctionFactor)
-        STATE.showClientAndServerReticle = updatedConfig.showClientAndServerReticle_2
+        STATE.showClientAndServerReticle = updatedConfig.showClientAndServerReticle_beta
     if STATE.showClientAndServerReticle is True:
         gm_factory._GUN_MARKER_LINKAGES = CUSTOM_GUN_MARKER_LINKAGES
     else:

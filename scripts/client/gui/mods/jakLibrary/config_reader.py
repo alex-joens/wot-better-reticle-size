@@ -3,7 +3,7 @@ from debug_utils import LOG_ERROR, LOG_WARNING
 from .lang import getLanguageCodeFromIndex, getLanguageIndexFromCode
 from .util import dotdict
 from ..safeloader.decorators import ModLibrary
-CONFIG_FILE_DIR = './mods/configs/jak_atackka'
+CONFIG_FILE_DIR = os.path.join('mods', 'configs', 'jak_atackka')
 CONFIG_FILE_NAME = 'config.json'
 CONFIG_FILE_PATH = os.path.join(CONFIG_FILE_DIR, CONFIG_FILE_NAME)
 
