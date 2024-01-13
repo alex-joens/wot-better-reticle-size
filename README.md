@@ -1,0 +1,1 @@
+You can download the latest version from **[Releases](https://github.com/alex-joens/wot-better-reticle-size/releases)**, the **[official mod portal](https://wgmods.net/6349/)**, or from any popular modpack.
