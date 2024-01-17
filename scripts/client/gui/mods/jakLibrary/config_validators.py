@@ -2,6 +2,10 @@ def isBool(value):
     return value is not None and isinstance(value, bool)
 
 
+def isNumber(value):
+    return value is not None and isinstance(value, (int, float))
+
+
 def isNumberBetween(min, max):
     def isNumberBetween(value):
         if value is None or not isinstance(value, (int, float)):

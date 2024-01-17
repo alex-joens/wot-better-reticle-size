@@ -1,5 +1,6 @@
 from . import CUSTOM_ARCADE_GUN_MARKER_NAME, CUSTOM_SNIPER_GUN_MARKER_NAME, CUSTOM_DUAL_GUN_ARCADE_MARKER_NAME, CUSTOM_DUAL_GUN_SNIPER_MARKER_NAME, CUSTOM_SPG_MARKER_NAME
 from .customCrosshairContainer import CustomCrosshairContainer
+
 from aih_constants import GUN_MARKER_TYPE
 from gui.Scaleform.daapi.view.battle.shared.crosshair.gm_components import GunMarkersComponents
 from gui.Scaleform.daapi.view.battle.shared.crosshair.gm_components import DefaultGunMarkerComponent, SPGGunMarkerComponent

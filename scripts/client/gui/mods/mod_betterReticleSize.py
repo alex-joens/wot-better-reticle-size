@@ -3,7 +3,7 @@ from .betterReticleSize.customServerCrosshair import GetCustomServerCrosshair
 from .betterReticleSize.strings import CUSTOM_AIMING_CIRCLE_SHAPE_OPTIONS, CUSTOM_CROSSHAIR_SHAPE_OPTIONS
 from .jakLibrary import JakLib
 from .jakLibrary.config_parameters import ConfigParameter, ConfigSection, ParameterSettings
-from .jakLibrary.config_validators import isBool, isNumberBetween
+from .jakLibrary.config_validators import isBool, isNumber, isNumberBetween
 from .safeloader.decorators import SafeInit, SafeOverride
 
 import AvatarInputHandler, aih_constants, BattleReplay, BigWorld, Math, VehicleGunRotator
@@ -102,7 +102,7 @@ _RETICLE_CONFIG = ConfigSection(
         ),
         ConfigParameter(
             'serverReticleAimingCircleShape', 
-            isNumberBetween(0, len(CUSTOM_AIMING_CIRCLE_SHAPE_OPTIONS) - 1), 
+            isNumber,
             0, 
             ParameterSettings(
                 2, 
@@ -133,7 +133,7 @@ _RETICLE_CONFIG = ConfigSection(
         ),
         ConfigParameter(
             'serverReticleGunMarkerShape', 
-            isNumberBetween(0, len(CUSTOM_CROSSHAIR_SHAPE_OPTIONS) - 1), 
+            isNumber,
             0, 
             ParameterSettings(
                 2, 
