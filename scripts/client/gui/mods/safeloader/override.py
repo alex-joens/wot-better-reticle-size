@@ -1,4 +1,4 @@
-import traceback, types
+import inspect, traceback, types
 from debug_utils import LOG_ERROR
 
 def overrideIsSuccessful(target, holder, name, getter=None):
@@ -7,6 +7,16 @@ def overrideIsSuccessful(target, holder, name, getter=None):
     else:
         original = getattr(holder, name)
         overridden = lambda *args, **kwargs: target(original, *args, **kwargs)
+
+        if isinstance(original, types.MethodType):
+            numberOfArgsInOriginalMethod = len(inspect.getargspec(original).args)
+            # Target has one extra arg because we pass in the original method as the first argument
+            numberOfArgsInTargetMethod = len(inspect.getargspec(target).args) - 1
+            if (numberOfArgsInOriginalMethod != numberOfArgsInTargetMethod):
+                LOG_ERROR('[SAFELOADER] Unable to override method ' + str(holder) + '.' + str(name))
+                LOG_ERROR('[SAFELOADER] Expected number of args: ' + str(numberOfArgsInTargetMethod) + ', actual number of args: ' + str(numberOfArgsInOriginalMethod))
+                return False
+
         try:
             if not isinstance(holder, types.ModuleType) and isinstance(original, types.FunctionType):
                 setattr(holder, name, staticmethod(overridden))

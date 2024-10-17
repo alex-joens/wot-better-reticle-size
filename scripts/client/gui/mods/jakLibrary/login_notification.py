@@ -6,7 +6,7 @@ from gui import SystemMessages
 from helpers import dependency
 from skeletons.gui.app_loader import IAppLoader, GuiGlobalSpaceID
 _DEFAULT_LOADED_COLOR = '#008000'
-_FAILED_TO_LOAD_COLOR = '#080000'
+_FAILED_TO_LOAD_COLOR = '#666666'
 
 @ModLibrary
 class LoginNotificationManager(object):
@@ -66,7 +66,7 @@ class LoginNotificationManager(object):
         SystemMessages.pushMessage(msg, type)
 
     def __notifyOnLoginIfModsFailedToLoad(self):
-        msg = _joinMods(self._modsThatFailedToLoad, '', ' failed to load', ' failed to load')
+        msg = _joinMods(self._modsThatFailedToLoad, '', ' mod failed to load', ' mods failed to load')
         type = SystemMessages.SM_TYPE.Error
         SystemMessages.pushMessage(msg, type)
 

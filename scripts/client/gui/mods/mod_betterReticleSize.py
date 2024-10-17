@@ -166,24 +166,24 @@ _RETICLE_CONFIG = ConfigSection(
 )
 
 @SafeOverride(AvatarInputHandler.AvatarInputHandler, 'updateClientGunMarker')
-def new_AvatarInputHandler_updateClientGunMarker(_, self, pos, direction, size, relaxTime, collData):
+def new_AvatarInputHandler_updateClientGunMarker(_, self, pos, direction, size, sizeOffset, relaxTime, collData):
     if self.ctrlModeName in (CTRL_MODE_NAME.ARCADE, CTRL_MODE_NAME.STRATEGIC, CTRL_MODE_NAME.SNIPER):
-        size = tuple(i / STATE.reticleScaleFactor for i in size)
-    self.ctrl.updateGunMarker(GUN_MARKER_TYPE.CLIENT, pos, direction, size, relaxTime, collData)
+        size /= STATE.reticleScaleFactor
+    self.ctrl.updateGunMarker(GUN_MARKER_TYPE.CLIENT, pos, direction, size, sizeOffset, relaxTime, collData)
 
 
 @SafeOverride(AvatarInputHandler.AvatarInputHandler, 'updateServerGunMarker')
-def new_AvatarInputHandler_updateServerGunMarker(_, self, pos, direction, size, relaxTime, collData):
+def new_AvatarInputHandler_updateServerGunMarker(_, self, pos, direction, size, sizeOffset, relaxTime, collData):
     if self.ctrlModeName in (CTRL_MODE_NAME.ARCADE, CTRL_MODE_NAME.STRATEGIC, CTRL_MODE_NAME.SNIPER):
-        size = tuple(i / STATE.reticleScaleFactor for i in size)
-    self.ctrl.updateGunMarker(GUN_MARKER_TYPE.SERVER, pos, direction, size, relaxTime, collData)
+        size /= STATE.reticleScaleFactor
+    self.ctrl.updateGunMarker(GUN_MARKER_TYPE.SERVER, pos, direction, size, sizeOffset, relaxTime, collData)
 
 
 @SafeOverride(AvatarInputHandler.AvatarInputHandler, 'updateDualAccGunMarker')
-def new_AvatarInputHandler_updateDualAccGunMarker(origFunc, self, pos, direction, size, relaxTime, collData):
+def new_AvatarInputHandler_updateDualAccGunMarker(origFunc, self, pos, direction, size, sizeOffset, relaxTime, collData):
     if self.ctrlModeName in (CTRL_MODE_NAME.ARCADE, CTRL_MODE_NAME.STRATEGIC, CTRL_MODE_NAME.SNIPER):
-        size = tuple(i / STATE.reticleScaleFactor for i in size)
-    origFunc(self, pos, direction, size, relaxTime, collData)
+        size /= STATE.reticleScaleFactor
+    origFunc(self, pos, direction, size, sizeOffset, relaxTime, collData)
 
 
 @SafeOverride(SharedPage, '__init__')
@@ -298,9 +298,9 @@ def new_VehicleGunRotator_setShotPosition(origFunc, self, vehicleID, shotPos, sh
                     if shotDir.dot(dirToTarget) > 0.0:
                         return
             markerPosition = self._VehicleGunRotator__getGunMarkerPosition(shotPos, shotVec, dispersionAngles)
-            mPos, mDir, mSize, mIdealSize, _, _, collData = markerPosition
+            mPos, mDir, mSize, _, mSizeOffset, collData = markerPosition
             if self.clientMode and self.showServerMarker:
-                self._avatar.inputHandler.updateServerGunMarker(mPos, mDir, (mSize, mIdealSize), SERVER_TICK_LENGTH, collData)
+                self._avatar.inputHandler.updateServerGunMarker(mPos, mDir, mSize, mSizeOffset, SERVER_TICK_LENGTH, collData)
             return
 
     else:
@@ -314,11 +314,11 @@ def new_VehicleGunRotator_updateRotationAndGunMarker(origFunc, self, shotPoint, 
     if STATE.showClientAndServerReticle and not self.clientMode:
         shotPos, shotVec = self.getCurShotPosition()
         markerPosition = self._VehicleGunRotator__getGunMarkerPosition(shotPos, shotVec, self._VehicleGunRotator__dispersionAngles)
-        mPos, mDir, mSize, mIdealSize, _, _, collData = markerPosition
+        mPos, mDir, mSize, _, mSizeOffset, collData = markerPosition
         relaxTime = 0.001
         if not (BattleReplay.g_replayCtrl.isPlaying and BattleReplay.g_replayCtrl.isUpdateGunOnTimeWarp):
             relaxTime = self._VehicleGunRotator__ROTATION_TICK_LENGTH
-        self._avatar.inputHandler.updateServerGunMarker(mPos, mDir, (mSize, mIdealSize), relaxTime, collData)
+        self._avatar.inputHandler.updateServerGunMarker(mPos, mDir, mSize, mSizeOffset, relaxTime, collData)
 
 
 @SafeInit
