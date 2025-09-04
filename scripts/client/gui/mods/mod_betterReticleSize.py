@@ -165,25 +165,28 @@ _RETICLE_CONFIG = ConfigSection(
     ], __mod_name_key__, 'betterReticleSize', True
 )
 
+def updateGunMarker(origFunc, self, gunMarkerInfo, supportMarkersInfo, relaxTime):
+    updatedGunMarkerInfo = gunMarkerInfo
+    if self.ctrlModeName in (CTRL_MODE_NAME.ARCADE, CTRL_MODE_NAME.STRATEGIC, CTRL_MODE_NAME.SNIPER, CTRL_MODE_NAME.DUAL_GUN, CTRL_MODE_NAME.TWIN_GUN):
+        updatedGunMarkerInfo = gunMarkerInfo._replace(
+            size = gunMarkerInfo.size / STATE.reticleScaleFactor,
+            sizeOffset = gunMarkerInfo.sizeOffset / STATE.reticleScaleFactor
+        )
+    origFunc(self, updatedGunMarkerInfo, supportMarkersInfo, relaxTime)
+
 @SafeOverride(AvatarInputHandler.AvatarInputHandler, 'updateClientGunMarker')
-def new_AvatarInputHandler_updateClientGunMarker(_, self, pos, direction, size, sizeOffset, relaxTime, collData):
-    if self.ctrlModeName in (CTRL_MODE_NAME.ARCADE, CTRL_MODE_NAME.STRATEGIC, CTRL_MODE_NAME.SNIPER):
-        size /= STATE.reticleScaleFactor
-    self.ctrl.updateGunMarker(GUN_MARKER_TYPE.CLIENT, pos, direction, size, sizeOffset, relaxTime, collData)
+def new_AvatarInputHandler_updateClientGunMarker(origFunc, self, gunMarkerInfo, supportMarkersInfo, relaxTime):
+    updateGunMarker(origFunc, self, gunMarkerInfo, supportMarkersInfo, relaxTime)
 
 
 @SafeOverride(AvatarInputHandler.AvatarInputHandler, 'updateServerGunMarker')
-def new_AvatarInputHandler_updateServerGunMarker(_, self, pos, direction, size, sizeOffset, relaxTime, collData):
-    if self.ctrlModeName in (CTRL_MODE_NAME.ARCADE, CTRL_MODE_NAME.STRATEGIC, CTRL_MODE_NAME.SNIPER):
-        size /= STATE.reticleScaleFactor
-    self.ctrl.updateGunMarker(GUN_MARKER_TYPE.SERVER, pos, direction, size, sizeOffset, relaxTime, collData)
+def new_AvatarInputHandler_updateServerGunMarker(origFunc, self, gunMarkerInfo, supportMarkersInfo, relaxTime):
+    updateGunMarker(origFunc, self, gunMarkerInfo, supportMarkersInfo, relaxTime)
 
 
 @SafeOverride(AvatarInputHandler.AvatarInputHandler, 'updateDualAccGunMarker')
-def new_AvatarInputHandler_updateDualAccGunMarker(origFunc, self, pos, direction, size, sizeOffset, relaxTime, collData):
-    if self.ctrlModeName in (CTRL_MODE_NAME.ARCADE, CTRL_MODE_NAME.STRATEGIC, CTRL_MODE_NAME.SNIPER):
-        size /= STATE.reticleScaleFactor
-    origFunc(self, pos, direction, size, sizeOffset, relaxTime, collData)
+def new_AvatarInputHandler_updateDualAccGunMarker(origFunc, self, gunMarkerInfo, supportMarkersInfo, relaxTime):
+    updateGunMarker(origFunc, self, gunMarkerInfo, supportMarkersInfo, relaxTime)
 
 
 @SafeOverride(SharedPage, '__init__')
@@ -297,10 +300,10 @@ def new_VehicleGunRotator_setShotPosition(origFunc, self, vehicleID, shotPos, sh
                     shotDir.normalise()
                     if shotDir.dot(dirToTarget) > 0.0:
                         return
-            markerPosition = self._VehicleGunRotator__getGunMarkerPosition(shotPos, shotVec, dispersionAngles)
-            mPos, mDir, mSize, _, mSizeOffset, collData = markerPosition
+            gunMarkerInfo = self._VehicleGunRotator__getGunMarkerInfo(shotPos, shotVec, dispersionAngles, self._VehicleGunRotator__gunIndex)
+            supportMarkersInfo = self._VehicleGunRotator__getSupportMarkersInfo()
             if self.clientMode and self.showServerMarker:
-                self._avatar.inputHandler.updateServerGunMarker(mPos, mDir, mSize, mSizeOffset, SERVER_TICK_LENGTH, collData)
+                self._avatar.inputHandler.updateServerGunMarker(gunMarkerInfo, supportMarkersInfo, SERVER_TICK_LENGTH)
             return
 
     else:
@@ -313,12 +316,12 @@ def new_VehicleGunRotator_updateRotationAndGunMarker(origFunc, self, shotPoint, 
     origFunc(self, shotPoint, timeDiff)
     if STATE.showClientAndServerReticle and not self.clientMode:
         shotPos, shotVec = self.getCurShotPosition()
-        markerPosition = self._VehicleGunRotator__getGunMarkerPosition(shotPos, shotVec, self._VehicleGunRotator__dispersionAngles)
-        mPos, mDir, mSize, _, mSizeOffset, collData = markerPosition
+        gunMarkerInfo = self._VehicleGunRotator__getGunMarkerInfo(shotPos, shotVec, self._VehicleGunRotator__dispersionAngles, self._VehicleGunRotator__gunIndex)
+        supportMarkersInfo = self._VehicleGunRotator__getSupportMarkersInfo()
         relaxTime = 0.001
         if not (BattleReplay.g_replayCtrl.isPlaying and BattleReplay.g_replayCtrl.isUpdateGunOnTimeWarp):
             relaxTime = self._VehicleGunRotator__ROTATION_TICK_LENGTH
-        self._avatar.inputHandler.updateServerGunMarker(mPos, mDir, mSize, mSizeOffset, relaxTime, collData)
+        self._avatar.inputHandler.updateServerGunMarker(gunMarkerInfo, supportMarkersInfo, relaxTime)
 
 
 @SafeInit

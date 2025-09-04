@@ -19,6 +19,8 @@ class CustomCrosshairContainer(CrosshairPanelContainer):
         self._CrosshairPanelContainer__viewID = CROSSHAIR_VIEW_ID.UNDEFINED
         self._CrosshairPanelContainer__zoomFactor = 0.0
         self._CrosshairPanelContainer__scale = 1.0
+        self._CrosshairPanelContainer__width = 0.0
+        self._CrosshairPanelContainer__height = 0.0
         self._CrosshairPanelContainer__distance = 0
         self._CrosshairPanelContainer__hasAmmo = True
         self._CrosshairPanelContainer__callbackDelayer = None

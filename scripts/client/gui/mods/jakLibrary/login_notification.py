@@ -27,12 +27,8 @@ class LoginNotificationManager(object):
         removeNotifySafeloadSuccessCallback(self.__safeloadSuccessCallback)
 
     def onModSettingsChanged(self, newSettings):
-        if not newSettings.enabled:
-            self._loginNotificationEnabled = False
-            self._errorNotificationEnabled = False
-        else:
-            self._loginNotificationEnabled = newSettings.loginNotificationEnabled
-            self._errorNotificationEnabled = newSettings.errorNotificationEnabled
+        self._loginNotificationEnabled = newSettings.loginNotificationEnabled
+        self._errorNotificationEnabled = newSettings.errorNotificationEnabled
 
     def __safeloadSuccessCallback(self, modInfo, status):
         modNameKey = getattr(modInfo, '__mod_name_key__')
