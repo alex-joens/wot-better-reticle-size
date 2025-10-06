@@ -15,16 +15,8 @@ betterReticleSize.serverReticleGunMarkerShape.title: Serveri võrkrelva marker
 betterReticleSize.serverReticleGunMarkerShape.description: Püssimarker serverivõrku jaoks. Näete, kuidas need välja näevad, kui kontrollite põhimenüüd Seaded, klõpsate vahekaardil Reticle ja kontrollite suvandeid "Püssimarker".
 betterReticleSize.serverReticleGunMarkerOpacity.title: Läbipaistmatus
 betterReticleSize.serverReticleGunMarkerOpacity.description: Määrake serveripüstoli markeri läbipaistmatus ehk läbipaistvus.
-
-betterBattleResults.modname: Paremad lahingutulemused
-betterBattleResults.richTooltip.title: Üksikasjalikumad lahingutulemuste kokkuvõtte tööriistanäpunäited
-betterBattleResults.richTooltip.description: Kuva lahingutulemuste aknas üksikasjalikumad kokkuvõtte tööriistavihjed. Näiteks kui hõljute kursorit „abistada kahju” kogusumma kohal, kuvatakse eraldi kahjustuste kogusumma ja jälgimiskahjustused.
-betterBattleResults.tooltipOverride.assist.total: Liitlaste poolt vaenlase sõidukitele tekitatud kogukahju
-betterBattleResults.tooltipOverride.crits.total: Kriitiliste tabamuste koguarv
-
-betterStyleSelection.modname: Parem stiilide sorteerimine
-betterStyleSelection.styleSortingEnabled.title: 2D- ja 3D-stiilide rühmituse parandamine
-betterStyleSelection.styleSortingEnabled.description: Märgib kõik 3D-stiilid ja sõidukispetsiifilised 2D-stiilid kui „Unikaalsed”, et neid oleks lihtsam leida.
+betterReticleSize.fixArmorFlashlightSize.title: Säilita soomuslambi algne suurus
+betterReticleSize.fixArmorFlashlightSize.description: Hoiab soomuslambi algse sihtimissuuruse juures, selle asemel, et seda uue sihtimissuurusega vastavusse viia.
 
 jakLib.commonSettings: Modpacki seaded
 jakLib.modname: Sisselogimisteade

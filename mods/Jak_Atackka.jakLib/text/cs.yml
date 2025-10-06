@@ -15,16 +15,8 @@ betterReticleSize.serverReticleGunMarkerShape.title: Serverový značkovač zam�
 betterReticleSize.serverReticleGunMarkerShape.description: Značka zbraně pro nitkový kříž serveru. Jak vypadají, můžete vidět v hlavní nabídce Nastavení, kliknutím na záložku Zaměřovač a zaškrtnutím možností „Značkovač zbraní“.
 betterReticleSize.serverReticleGunMarkerOpacity.title: Neprůhlednost
 betterReticleSize.serverReticleGunMarkerOpacity.description: Nastavte neprůhlednost, neboli průhlednost, značky serverové pistole.
-
-betterBattleResults.modname: Lepší výsledky bitvy
-betterBattleResults.richTooltip.title: Podrobnější popisky souhrnu výsledků bitvy
-betterBattleResults.richTooltip.description: V okně Výsledky bitvy zobrazit podrobnější souhrnné popisy. Pokud například umístíte kurzor myši na celkovou hodnotu „napomáhat poškození“, zobrazí se celkové poškození při sledování a poškození při sledování zvlášť.
-betterBattleResults.tooltipOverride.assist.total: Celkové poškození způsobené spojenci nepřátelským vozidlům
-betterBattleResults.tooltipOverride.crits.total: Celkový počet kritických zásahů
-
-betterStyleSelection.modname: Lepší stylové třídění
-betterStyleSelection.styleSortingEnabled.title: Opravit seskupování 2D a 3D stylů
-betterStyleSelection.styleSortingEnabled.description: Všechny 3D styly a 2D styly specifické pro vozidla jsou označeny jako „Unikátní“, takže je snáze najdete.
+betterReticleSize.fixArmorFlashlightSize.title: Zachovejte původní velikost zbrojní svítilny
+betterReticleSize.fixArmorFlashlightSize.description: Udržuje svítilnu brnění v původní velikosti nitkového kříže, místo aby ji zmenšovala, aby odpovídala nové velikosti nitkového kříže.
 
 jakLib.commonSettings: Nastavení Modpacku
 jakLib.modname: Oznámení o přihlášení

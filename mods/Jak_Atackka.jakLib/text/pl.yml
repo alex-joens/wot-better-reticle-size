@@ -15,16 +15,8 @@ betterReticleSize.serverReticleGunMarkerShape.title: Marker celowniczy serwera
 betterReticleSize.serverReticleGunMarkerShape.description: Znacznik działa dla celownika serwera. Możesz zobaczyć, jak one wyglądają, sprawdzając główne menu Ustawienia, klikając zakładkę Celownik i zaznaczając opcje „Znacznik broni”.
 betterReticleSize.serverReticleGunMarkerOpacity.title: Nieprzezroczystość
 betterReticleSize.serverReticleGunMarkerOpacity.description: Ustaw nieprzezroczystość, czyli przezroczystość znacznika pistoletu serwera.
-
-betterBattleResults.modname: Lepsze wyniki bitew
-betterBattleResults.richTooltip.title: Bardziej szczegółowe podpowiedzi podsumowujące wyniki bitwy
-betterBattleResults.richTooltip.description: Pokaż bardziej szczegółowe podpowiedzi podsumowujące w oknie Wyniki bitwy. Na przykład najechanie kursorem na łączne „Obrażenia wspomagające” spowoduje wyświetlenie całkowitych wykrytych obrażeń i osobne śledzenie uszkodzeń.
-betterBattleResults.tooltipOverride.assist.total: Całkowite uszkodzenia zadane przez sojuszników pojazdom wroga
-betterBattleResults.tooltipOverride.crits.total: Całkowita liczba trafień krytycznych
-
-betterStyleSelection.modname: Lepsze sortowanie stylów
-betterStyleSelection.styleSortingEnabled.title: Napraw grupowanie stylów 2D i 3D
-betterStyleSelection.styleSortingEnabled.description: Oznacza wszystkie style 3D i style 2D specyficzne dla pojazdu jako „Unikalne”, dzięki czemu łatwiej je znaleźć.
+betterReticleSize.fixArmorFlashlightSize.title: Zachowaj oryginalny rozmiar latarki Armor
+betterReticleSize.fixArmorFlashlightSize.description: Zachowuje oryginalny rozmiar siatki celowniczej latarki Armor, zamiast zmniejszać ją, aby dopasować ją do nowego rozmiaru siatki.
 
 jakLib.commonSettings: Ustawienia pakietu modów
 jakLib.modname: Powiadomienie o logowaniu

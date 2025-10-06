@@ -15,16 +15,8 @@ betterReticleSize.serverReticleGunMarkerShape.title: Marker pentru pistol pentru
 betterReticleSize.serverReticleGunMarkerShape.description: Marcatorul pistolului pentru reticulul serverului. Puteți vedea cum arată acestea verificând meniul principal Setări, făcând clic pe fila Reticulă și bifând opțiunile „Marcator pistol”.
 betterReticleSize.serverReticleGunMarkerOpacity.title: Opacitate
 betterReticleSize.serverReticleGunMarkerOpacity.description: Setați opacitatea, adică transparența, a marcatorului de pistol server.
-
-betterBattleResults.modname: Rezultate mai bune de luptă
-betterBattleResults.richTooltip.title: Sfaturi instrumente rezumative mai detaliate pentru Rezultatele luptei
-betterBattleResults.richTooltip.description: Afișați sfaturi explicative rezumative mai detaliate în fereastra Rezultatele luptei. De exemplu, trecerea cu mouse-ul peste „Daune de asistare” totală va afișa separat daunele totale detectate și daune de urmărire.
-betterBattleResults.tooltipOverride.assist.total: Daune totale cauzate de aliați vehiculelor inamice
-betterBattleResults.tooltipOverride.crits.total: Numărul total de lovituri critice
-
-betterStyleSelection.modname: O mai bună sortare a stilurilor
-betterStyleSelection.styleSortingEnabled.title: Corectați gruparea stilurilor 2D și 3D
-betterStyleSelection.styleSortingEnabled.description: Marchează toate stilurile 3D și stilurile 2D specifice vehiculului ca „Unice”, astfel încât să fie mai ușor de găsit.
+betterReticleSize.fixArmorFlashlightSize.title: Păstrează dimensiunea originală a lanternei Armor
+betterReticleSize.fixArmorFlashlightSize.description: Menține lanterna Armor la dimensiunea originală a reticulului, în loc să o micșoreze pentru a se potrivi cu noua dimensiune a reticulului.
 
 jakLib.commonSettings: Setări Modpack
 jakLib.modname: Notificare de conectare

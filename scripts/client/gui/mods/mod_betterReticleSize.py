@@ -9,6 +9,7 @@ from .safeloader.decorators import SafeInit, SafeOverride
 import AvatarInputHandler, aih_constants, BattleReplay, BigWorld, Math, VehicleGunRotator
 from aih_constants import CTRL_MODE_NAME, GUN_MARKER_FLAG, GUN_MARKER_TYPE
 from constants import AIMING_MODE, ARENA_PERIOD, SERVER_TICK_LENGTH
+from gui.armor_flashlight.battle_controller import ArmorFlashlightBattleController
 from gui.Scaleform.daapi.view.battle.shared import SharedPage
 from gui.Scaleform.daapi.view.battle.shared.crosshair import CrosshairPanelContainer, gm_factory
 from helpers import dependency
@@ -35,6 +36,7 @@ class State:
             'mixingType': 0
         }
         self.enableSpgStrategicReticle = False
+        self.fixArmorFlashlightSize = True
 
 STATE = State()
 
@@ -71,6 +73,19 @@ _RETICLE_CONFIG = ConfigSection(
                     'snapInterval': 1, 
                     'format': '{{value}}%', 
                     'tooltip': 'betterReticleSize.percentCorrection.description'
+                }
+            )
+        ),
+        ConfigParameter(
+            'fixArmorFlashlightSize',
+            isBool,
+            True,
+            ParameterSettings(
+                1,
+                {
+                    'type': 'CheckBox', 
+                    'text': 'betterReticleSize.fixArmorFlashlightSize.title', 
+                    'tooltip': 'betterReticleSize.fixArmorFlashlightSize.description'
                 }
             )
         ),
@@ -324,6 +339,15 @@ def new_VehicleGunRotator_updateRotationAndGunMarker(origFunc, self, shotPoint, 
         self._avatar.inputHandler.updateServerGunMarker(gunMarkerInfo, supportMarkersInfo, relaxTime)
 
 
+# Keep the armor flashlight size the original size, instead of shrinking it to the new reticle size
+@SafeOverride(ArmorFlashlightBattleController, 'updateVisibilityState')
+def new_ArmorFlashlightBattleController_updateVisibilityState(origFunc, self, markerType, hitPoint, direction, collision, gunAimingCircleSize):
+    if STATE.fixArmorFlashlightSize is True:
+        origFunc(self, markerType, hitPoint, direction, collision, gunAimingCircleSize * STATE.reticleScaleFactor)
+    else:
+        origFunc(self, markerType, hitPoint, direction, collision, gunAimingCircleSize)
+
+
 @SafeInit
 def init():
     if STATE.initialized is False:
@@ -350,6 +374,7 @@ def onModSettingsChanged(updatedConfig):
     STATE.customServerReticleSettings['mixing'] = updatedConfig.serverReticleAimingCircleOpacity
     STATE.customServerReticleSettings['mixingType'] = updatedConfig.serverReticleAimingCircleShape
     STATE.enableSpgStrategicReticle = updatedConfig.showServerSpgStrategicReticle
+    STATE.fixArmorFlashlightSize = updatedConfig.fixArmorFlashlightSize
 
 
 def fini():

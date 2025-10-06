@@ -15,16 +15,8 @@ betterReticleSize.serverReticleGunMarkerShape.title: Server sigtekors pistol mar
 betterReticleSize.serverReticleGunMarkerShape.description: Pistolmarkøren til serverkorset. Du kan se, hvordan disse ser ud, ved at kontrollere hovedmenuen Indstillinger, klikke på fanen Sigtråd og kontrollere mulighederne for "Gun Marker".
 betterReticleSize.serverReticleGunMarkerOpacity.title: Gennemsigtighed
 betterReticleSize.serverReticleGunMarkerOpacity.description: Indstil opaciteten, også kendt som gennemsigtigheden, for serverpistolmarkøren.
-
-betterBattleResults.modname: Bedre kampresultater
-betterBattleResults.richTooltip.title: Mere detaljerede værktøjstip til kampresultater
-betterBattleResults.richTooltip.description: Vis mere detaljerede oversigtsværktøjstip i vinduet Kampresultater. Hvis du f.eks. holder musemarkøren over den samlede "Assisterende skade", vises den samlede registrerede skade og sporingsskader separat.
-betterBattleResults.tooltipOverride.assist.total: Total skade forårsaget af allierede på fjendens køretøjer
-betterBattleResults.tooltipOverride.crits.total: Samlet antal kritiske hits
-
-betterStyleSelection.modname: Bedre stilsortering
-betterStyleSelection.styleSortingEnabled.title: Ret gruppering af 2D- og 3D-stile
-betterStyleSelection.styleSortingEnabled.description: Markerer alle 3D-stile og køretøjsspecifikke 2D-stile som "Unikke", så de er nemmere at finde.
+betterReticleSize.fixArmorFlashlightSize.title: Behold den originale størrelse på panserlommelygten
+betterReticleSize.fixArmorFlashlightSize.description: Beholder den originale størrelse på panserlommelygten i stedet for at krympe den, så den passer til den nye størrelse på sigtekornet.
 
 jakLib.commonSettings: Modpack indstillinger
 jakLib.modname: Login notifikation

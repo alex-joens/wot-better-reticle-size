@@ -15,16 +15,8 @@ betterReticleSize.serverReticleGunMarkerShape.title: Server reticle gun marker
 betterReticleSize.serverReticleGunMarkerShape.description: The gun marker for the server reticle. You can see what these look like by checking the main Settings menu, clicking on the Reticle tab, and checking the "Gun Marker" options.
 betterReticleSize.serverReticleGunMarkerOpacity.title: Opacity
 betterReticleSize.serverReticleGunMarkerOpacity.description: Set the opacity, aka the transparency, of the server gun marker.
-
-betterBattleResults.modname: Better Battle Results
-betterBattleResults.richTooltip.title: More detailed Battle Results summary tooltips
-betterBattleResults.richTooltip.description: Show more detailed summary tooltips in the Battle Results window. For example, hovering over the total "Assist Damage" will show the total spotting damage and tracking damage separately.
-betterBattleResults.tooltipOverride.assist.total: Total damage caused by allies to enemy vehicles
-betterBattleResults.tooltipOverride.crits.total: Total number of critical hits
-
-betterStyleSelection.modname: Better Style Sorting
-betterStyleSelection.styleSortingEnabled.title: Fix grouping of 2D and 3D styles by marking them "Unique"
-betterStyleSelection.styleSortingEnabled.description: Categorizes all 3D styles and vehicle-specific 2D styles as "Unique", so they are easier to find.
+betterReticleSize.fixArmorFlashlightSize.title: Keep original armor flashlight size
+betterReticleSize.fixArmorFlashlightSize.description: Keeps the armor flashlight at the original reticle size, instead of shrinking it to match the new reticle size.
 
 jakLib.commonSettings: Modpack settings
 jakLib.modname: Login notification

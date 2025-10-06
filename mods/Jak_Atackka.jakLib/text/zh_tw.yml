@@ -15,16 +15,8 @@ betterReticleSize.serverReticleGunMarkerShape.title: 伺服器標線槍標記
 betterReticleSize.serverReticleGunMarkerShape.description: 伺服器十字線的槍標記。 您可以透過檢查主「設定」選單，點擊「十字線」選項卡，然後檢查「槍標記」選項來查看它們的外觀。
 betterReticleSize.serverReticleGunMarkerOpacity.title: 不透明度
 betterReticleSize.serverReticleGunMarkerOpacity.description: 設定伺服器槍標記的不透明度，也稱為透明度。
-
-betterBattleResults.modname: 更好的戰鬥結果
-betterBattleResults.richTooltip.title: 更詳細的戰鬥結果摘要工具提示
-betterBattleResults.richTooltip.description: 在「戰鬥結果」視窗中顯示更詳細的摘要工具提示。 例如，將滑鼠懸停在“輔助傷害”總額上將分別顯示檢測到的總傷害和追蹤傷害。
-betterBattleResults.tooltipOverride.assist.total: 盟友對敵方車輛造成的總傷害
-betterBattleResults.tooltipOverride.crits.total: 暴擊總數
-
-betterStyleSelection.modname: 更好的風格排序
-betterStyleSelection.styleSortingEnabled.title: 修復了 2D 和 3D 樣式的分組
-betterStyleSelection.styleSortingEnabled.description: 將所有 3D 樣式和車輛特定的 2D 樣式標記為“唯​​一”，以便更容易找到。
+betterReticleSize.fixArmorFlashlightSize.title: 保持裝甲手電筒原有尺寸
+betterReticleSize.fixArmorFlashlightSize.description: 保持裝甲手電筒原有的準星尺寸，而不是縮小以適應新的準星尺寸。
 
 jakLib.commonSettings: 模組包設定
 jakLib.modname: 登入通知

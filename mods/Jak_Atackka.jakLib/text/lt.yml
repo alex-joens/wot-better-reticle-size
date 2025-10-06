@@ -15,16 +15,8 @@ betterReticleSize.serverReticleGunMarkerShape.title: Serverio tinklinio ginklo �
 betterReticleSize.serverReticleGunMarkerShape.description: Pistoleto žymeklis serverio tinkleliui. Galite pamatyti, kaip jie atrodo, patikrinę pagrindinį nustatymų meniu, spustelėję skirtuką Tinklelis ir pažymėję parinktis „Gun Marker“.
 betterReticleSize.serverReticleGunMarkerOpacity.title: Neskaidrumas
 betterReticleSize.serverReticleGunMarkerOpacity.description: Nustatykite serverio ginklo žymeklio neskaidrumą, dar žinomą kaip skaidrumas.
-
-betterBattleResults.modname: Geresni mūšio rezultatai
-betterBattleResults.richTooltip.title: Išsamesni mūšio rezultatų suvestinės patarimai
-betterBattleResults.richTooltip.description: Rodyti išsamesnius mūšio rezultatų suvestinės patarimus lange Mūšio rezultatai. Pavyzdžiui, užvedus pelės žymeklį virš bendros „Pagalbinės žalos“ vertės, atskirai bus rodoma visa aptikta žala ir stebėjimas.
-betterBattleResults.tooltipOverride.assist.total: Bendra sąjungininkų padaryta žala priešo transporto priemonėms
-betterBattleResults.tooltipOverride.crits.total: Bendras kritinių įvykių skaičius
-
-betterStyleSelection.modname: Geresnis stiliaus rūšiavimas
-betterStyleSelection.styleSortingEnabled.title: Pataisyti 2D ir 3D stilių grupavimą
-betterStyleSelection.styleSortingEnabled.description: Visi 3D stiliai ir konkrečiai transporto priemonei būdingi 2D stiliai pažymimi kaip „unikalūs“, kad būtų lengviau juos rasti.
+betterReticleSize.fixArmorFlashlightSize.title: Išsaugokite originalų šarvuoto žibintuvėlio dydį
+betterReticleSize.fixArmorFlashlightSize.description: Išsaugo originalų šarvuoto žibintuvėlio tinklelio dydį, o ne sumažina jį, kad atitiktų naują tinklelio dydį.
 
 jakLib.commonSettings: Modpack nustatymai
 jakLib.modname: Prisijungimo pranešimas

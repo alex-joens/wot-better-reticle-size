@@ -15,16 +15,8 @@ betterReticleSize.serverReticleGunMarkerShape.title: サーバーレチクルガ
 betterReticleSize.serverReticleGunMarkerShape.description: サーバーレティクルのガンマーカー。 これらがどのようなものであるかを確認するには、メインの設定メニューを確認し、「レティクル」タブをクリックし、「ガン マーカー」オプションを確認します。
 betterReticleSize.serverReticleGunMarkerOpacity.title: 不透明度
 betterReticleSize.serverReticleGunMarkerOpacity.description: サーバーガンマーカーの不透明度、つまり透明度を設定します。
-
-betterBattleResults.modname: より良い戦闘結果
-betterBattleResults.richTooltip.title: 詳細な戦闘結果概要ツールチップ
-betterBattleResults.richTooltip.description: 戦闘結果ウィンドウに詳細な概要ツールチップを表示します。 たとえば、「アシスト ダメージ」の合計にカーソルを合わせると、検出されたダメージの合計と追跡ダメージが個別に表示されます。
-betterBattleResults.tooltipOverride.assist.total: 味方が敵車両に与えた合計ダメージ
-betterBattleResults.tooltipOverride.crits.total: クリティカルヒットの総数
-
-betterStyleSelection.modname: より良いスタイルの並べ替え
-betterStyleSelection.styleSortingEnabled.title: 2D スタイルと 3D スタイルのグループ化を修正
-betterStyleSelection.styleSortingEnabled.description: すべての 3D スタイルと車両固有の 2D スタイルを「固有」としてマークし、見つけやすくします。
+betterReticleSize.fixArmorFlashlightSize.title: アーマーフラッシュライトの元のレチクルサイズを維持
+betterReticleSize.fixArmorFlashlightSize.description: アーマーフラッシュライトを新しいレチクルサイズに合わせて縮小するのではなく、元のレチクルサイズを維持します。
 
 jakLib.commonSettings: モッドパックの設定
 jakLib.modname: ログイン通知

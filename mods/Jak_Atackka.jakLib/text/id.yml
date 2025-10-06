@@ -15,16 +15,8 @@ betterReticleSize.serverReticleGunMarkerShape.title: Penanda senjata reticle ser
 betterReticleSize.serverReticleGunMarkerShape.description: Penanda senjata untuk reticle server. Anda dapat melihat tampilannya dengan memeriksa menu Pengaturan utama, mengklik tab Reticle, dan memeriksa opsi "Gun Marker".
 betterReticleSize.serverReticleGunMarkerOpacity.title: Kegelapan
 betterReticleSize.serverReticleGunMarkerOpacity.description: Atur opacity alias transparansi penanda senjata server.
-
-betterBattleResults.modname: Hasil Pertempuran Lebih Baik
-betterBattleResults.richTooltip.title: Tooltip ringkasan Hasil Pertempuran yang lebih detail
-betterBattleResults.richTooltip.description: Tampilkan tooltip ringkasan yang lebih detail di jendela Hasil Pertempuran. Misalnya, mengarahkan kursor ke total "Assist Damage" akan menampilkan total kerusakan yang terdeteksi dan pelacakan kerusakan secara terpisah.
-betterBattleResults.tooltipOverride.assist.total: Total kerusakan yang ditimbulkan sekutu pada kendaraan musuh
-betterBattleResults.tooltipOverride.crits.total: Jumlah total serangan kritis
-
-betterStyleSelection.modname: Penyortiran Gaya Lebih Baik
-betterStyleSelection.styleSortingEnabled.title: Memperbaiki pengelompokan gaya 2D dan 3D
-betterStyleSelection.styleSortingEnabled.description: Menandai semua gaya 3D dan gaya 2D khusus kendaraan sebagai "Unik", sehingga lebih mudah ditemukan.
+betterReticleSize.fixArmorFlashlightSize.title: Pertahankan ukuran senter armor asli
+betterReticleSize.fixArmorFlashlightSize.description: Mempertahankan senter armor pada ukuran reticle asli, alih-alih mengecilkannya agar sesuai dengan ukuran reticle yang baru.
 
 jakLib.commonSettings: Pengaturan modpack
 jakLib.modname: Notifikasi masuk

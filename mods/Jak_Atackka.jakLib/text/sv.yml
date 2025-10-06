@@ -15,16 +15,8 @@ betterReticleSize.serverReticleGunMarkerShape.title: Oznaka strelnega križa str
 betterReticleSize.serverReticleGunMarkerShape.description: Marker pištole za namerilni križ strežnika. Kako izgledajo, si lahko ogledate tako, da preverite glavni meni z nastavitvami, kliknete zavihek Namerilni križ in preverite možnosti »Označevalnik pištole«.
 betterReticleSize.serverReticleGunMarkerOpacity.title: Motnost
 betterReticleSize.serverReticleGunMarkerOpacity.description: Nastavite motnost ali prosojnost označevalca pištole strežnika.
-
-betterBattleResults.modname: Bättre kampresultat
-betterBattleResults.richTooltip.title: Mer detaljerade verktygstips för kampresultatsammanfattningar
-betterBattleResults.richTooltip.description: Visa mer detaljerade sammanfattningsverktygstips i fönstret för kampresultat. Om du till exempel håller muspekaren över den totala "Assisterande skadan" visas den totala upptäckta skadan och spårningsskador separat.
-betterBattleResults.tooltipOverride.assist.total: Total skada orsakad av allierade på fiendens fordon
-betterBattleResults.tooltipOverride.crits.total: Totalt antal kritiska träffar
-
-betterStyleSelection.modname: Bättre stilsortering
-betterStyleSelection.styleSortingEnabled.title: Åtgärda gruppering av 2D- och 3D-stilar
-betterStyleSelection.styleSortingEnabled.description: Markerar alla 3D-stilar och fordonsspecifika 2D-stilar som "Unika", så att de är lättare att hitta.
+betterReticleSize.fixArmorFlashlightSize.title: Behåll originalstorleken på pansarficklampan
+betterReticleSize.fixArmorFlashlightSize.description: Behåller pansarficklampans ursprungliga siktstorlek, istället för att krympa den för att matcha den nya siktstorleken.
 
 jakLib.commonSettings: Modpack-inställningar
 jakLib.modname: Inloggningsmeddelande

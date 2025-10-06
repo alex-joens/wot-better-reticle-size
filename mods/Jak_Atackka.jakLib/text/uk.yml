@@ -15,16 +15,8 @@ betterReticleSize.serverReticleGunMarkerShape.title: Маркер гарматн
 betterReticleSize.serverReticleGunMarkerShape.description: Маркер гармати для серверної сітки. Ви можете побачити, як вони виглядають, перевіривши головне меню налаштувань, клацнувши вкладку Сітка та перевіривши параметри «Маркер пістолета».
 betterReticleSize.serverReticleGunMarkerOpacity.title: Непрозорість
 betterReticleSize.serverReticleGunMarkerOpacity.description: Встановіть непрозорість, або прозорість, маркера гармати сервера.
-
-betterBattleResults.modname: Кращі результати битв
-betterBattleResults.richTooltip.title: Більш докладні підсумкові підказки щодо результатів битви
-betterBattleResults.richTooltip.description: Показати докладніші підсумкові підказки у вікні «Результати битви». Наприклад, якщо навести курсор на загальний «Допоміжний збиток», відобразиться окремо загальний виявлений збиток і збиток, що відстежується.
-betterBattleResults.tooltipOverride.assist.total: Загальний збиток, завданий союзниками ворожій техніці
-betterBattleResults.tooltipOverride.crits.total: Загальна кількість критичних ударів
-
-betterStyleSelection.modname: Краще сортування за стилем
-betterStyleSelection.styleSortingEnabled.title: Виправити групування 2D- і 3D-стилів
-betterStyleSelection.styleSortingEnabled.description: Позначає всі 3D-стилі та 2D-стилі, що стосуються транспортних засобів, як "Унікальні", щоб їх було легше знайти.
+betterReticleSize.fixArmorFlashlightSize.title: Зберегти оригінальний розмір ліхтарика броні
+betterReticleSize.fixArmorFlashlightSize.description: Зберігає оригінальний розмір сітки ліхтарика броні, замість того, щоб зменшувати його відповідно до нового розміру сітки.
 
 jakLib.commonSettings: Налаштування пакета мод
 jakLib.modname: Сповіщення про вхід

@@ -15,16 +15,8 @@ betterReticleSize.serverReticleGunMarkerShape.title: Marqueur de pistolet à ré
 betterReticleSize.serverReticleGunMarkerShape.description: Le marqueur d'arme pour le réticule du serveur. Vous pouvez voir à quoi cela ressemble en consultant le menu principal Paramètres, en cliquant sur l'onglet Réticule et en cochant les options « Marqueur d'arme ».
 betterReticleSize.serverReticleGunMarkerOpacity.title: Opacité
 betterReticleSize.serverReticleGunMarkerOpacity.description: Définissez l'opacité, c'est-à-dire la transparence, du marqueur du pistolet du serveur.
-
-betterBattleResults.modname: De meilleurs résultats de bataille
-betterBattleResults.richTooltip.title: Info-bulles récapitulatives des résultats de bataille plus détaillées
-betterBattleResults.richTooltip.description: Afficher des info-bulles récapitulatives plus détaillées dans la fenêtre Résultats de la bataille. Par exemple, en survolant le total des "Dégâts d'assistance", le total des dégâts détectés et le suivi des dégâts s'afficheront séparément.
-betterBattleResults.tooltipOverride.assist.total: Dégâts totaux causés par les alliés aux véhicules ennemis
-betterBattleResults.tooltipOverride.crits.total: Nombre total de coups critiques
-
-betterStyleSelection.modname: Meilleur tri des styles
-betterStyleSelection.styleSortingEnabled.title: Correction du regroupement des styles 2D et 3D
-betterStyleSelection.styleSortingEnabled.description: Marque tous les styles 3D et les styles 2D spécifiques au véhicule comme "Uniques", afin qu'ils soient plus faciles à trouver.
+betterReticleSize.fixArmorFlashlightSize.title: Conserve la taille d'origine du réticule de la lampe de poche Armor
+betterReticleSize.fixArmorFlashlightSize.description: La lampe de poche Armor conserve sa taille d'origine, au lieu de la réduire pour l'adapter à la nouvelle taille.
 
 jakLib.commonSettings: Paramètres du pack de modules
 jakLib.modname: Notification de connexion

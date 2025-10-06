@@ -15,16 +15,8 @@ betterReticleSize.serverReticleGunMarkerShape.title: Сервердің торл
 betterReticleSize.serverReticleGunMarkerShape.description: Сервер торына арналған қару маркері. Негізгі Параметрлер мәзірін тексеру, Тор қойындысын басу және «Мылтық маркері» опцияларын тексеру арқылы олардың қалай көрінетінін көруге болады.
 betterReticleSize.serverReticleGunMarkerOpacity.title: Мөлдірлік
 betterReticleSize.serverReticleGunMarkerOpacity.description: Сервер қаруының маркерінің мөлдірлігін, яғни мөлдірлігін орнатыңыз.
-
-betterBattleResults.modname: Жақсырақ шайқас нәтижелері
-betterBattleResults.richTooltip.title: Толығырақ шайқас нәтижелерінің жиынтық кеңестері
-betterBattleResults.richTooltip.description: Шайқас нәтижелері терезесінде егжей-тегжейлі жиынтық кеңестерді көрсетіңіз. Мысалы, меңзерді жалпы "Көмекші залалдың" үстіне апарсаңыз, жалпы анықталған залал мен бақылау зақымдары бөлек көрсетіледі.
-betterBattleResults.tooltipOverride.assist.total: Одақтастардың қарсылас көліктеріне келтірген жалпы зияны
-betterBattleResults.tooltipOverride.crits.total: Сыни соққылардың жалпы саны
-
-betterStyleSelection.modname: Жақсырақ стильді сұрыптау
-betterStyleSelection.styleSortingEnabled.title: 2D және 3D стильдерінің топтастырылуын түзетіңіз
-betterStyleSelection.styleSortingEnabled.description: Барлық 3D мәнерлері мен көлікке арналған 2D мәнерлерін "Бірегей" деп белгілейді, сондықтан оларды табу оңайырақ.
+betterReticleSize.fixArmorFlashlightSize.title: Түпнұсқа бронь шамының өлшемін сақтаңыз
+betterReticleSize.fixArmorFlashlightSize.description: Құрыш шамын жаңа тор өлшеміне сәйкестендіру үшін кішірейтудің орнына, бастапқы тор өлшемінде сақтайды.
 
 jakLib.commonSettings: Modpack параметрлері
 jakLib.modname: Жүйеге кіру туралы хабарландыру

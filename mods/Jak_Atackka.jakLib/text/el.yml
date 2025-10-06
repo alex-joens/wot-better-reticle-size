@@ -15,16 +15,8 @@ betterReticleSize.serverReticleGunMarkerShape.title: Μαρκαδόρος πυρ
 betterReticleSize.serverReticleGunMarkerShape.description: Ο δείκτης όπλου για το πλέγμα διακομιστή. Μπορείτε να δείτε πώς φαίνονται ελέγχοντας το κύριο μενού Ρυθμίσεις, κάνοντας κλικ στην καρτέλα Reticle και ελέγχοντας τις επιλογές "Gun Marker".
 betterReticleSize.serverReticleGunMarkerOpacity.title: Αδιαφάνεια
 betterReticleSize.serverReticleGunMarkerOpacity.description: Ρυθμίστε την αδιαφάνεια, γνωστή και ως διαφάνεια, του δείκτη πιστολιού διακομιστή.
-
-betterBattleResults.modname: Καλύτερα αποτελέσματα μάχης
-betterBattleResults.richTooltip.title: Πιο λεπτομερείς συμβουλές εργαλείων σύνοψης αποτελεσμάτων μάχης
-betterBattleResults.richTooltip.description: Εμφάνιση λεπτομερέστερων συμβουλών σύνοψης εργαλείων στο παράθυρο αποτελέσματα μάχης. Για παράδειγμα, αν τοποθετήσετε το δείκτη του ποντικιού πάνω από τη συνολική "Ζημιά υποβοήθησης" θα εμφανιστεί η συνολική ζημιά που εντοπίστηκε και η ζημιά παρακολούθησης χωριστά.
-betterBattleResults.tooltipOverride.assist.total: Συνολική ζημιά που προκλήθηκε από συμμάχους σε εχθρικά οχήματα
-betterBattleResults.tooltipOverride.crits.total: Συνολικός αριθμός κρίσιμων επισκέψεων
-
-betterStyleSelection.modname: Καλύτερη ταξινόμηση στυλ
-betterStyleSelection.styleSortingEnabled.title: Διόρθωση ομαδοποίησης στυλ 2D και 3D
-betterStyleSelection.styleSortingEnabled.description: πισημαίνει όλα τα τρισδιάστατα στυλ και τα στυλ 2D για συγκεκριμένα οχήματα ως "Μοναδικά", ώστε να είναι πιο εύκολο να τα βρείτε.
+betterReticleSize.fixArmorFlashlightSize.title: Διατήρηση του αρχικού μεγέθους του φακού θωράκισης
+betterReticleSize.fixArmorFlashlightSize.description: Διατηρεί τον φακό θωράκισης στο αρχικό μέγεθος του σταυρονήματος, αντί να τον συρρικνώνει ώστε να ταιριάζει με το νέο μέγεθος του σταυρονήματος.
 
 jakLib.commonSettings: Ρυθμίσεις Modpack
 jakLib.modname: Ειδοποίηση σύνδεσης

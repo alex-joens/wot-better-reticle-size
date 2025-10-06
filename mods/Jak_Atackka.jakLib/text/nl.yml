@@ -15,16 +15,8 @@ betterReticleSize.serverReticleGunMarkerShape.title: Server richtkruispistoolmar
 betterReticleSize.serverReticleGunMarkerShape.description: De pistoolmarkering voor het dradenkruis van de server. Je kunt zien hoe deze eruit zien door het hoofdmenu Instellingen te raadplegen, op het tabblad Dradenkruis te klikken en de opties voor "Gun Marker" aan te vinken.
 betterReticleSize.serverReticleGunMarkerOpacity.title: Dekking
 betterReticleSize.serverReticleGunMarkerOpacity.description: Stel de dekking, oftewel de transparantie, van de serverpistoolmarkering in.
-
-betterBattleResults.modname: Betere gevechtsresultaten
-betterBattleResults.richTooltip.title: Meer gedetailleerde tooltips met samenvatting van gevechtsresultaten
-betterBattleResults.richTooltip.description: Toon meer gedetailleerde samenvattingstooltips in het venster Gevechtsresultaten. Als u bijvoorbeeld met de muis over het totaal 'schade helpen' beweegt, wordt de totaal gedetecteerde schade weergegeven en wordt de schade afzonderlijk bijgehouden.
-betterBattleResults.tooltipOverride.assist.total: Totale schade veroorzaakt door bondgenoten aan vijandelijke voertuigen
-betterBattleResults.tooltipOverride.crits.total: Totaal aantal kritieke treffers
-
-betterStyleSelection.modname: Betere stijlsortering
-betterStyleSelection.styleSortingEnabled.title: Groepering van 2D- en 3D-stijlen opgelost
-betterStyleSelection.styleSortingEnabled.description: Markeert alle 3D-stijlen en voertuigspecifieke 2D-stijlen als 'Uniek', zodat ze gemakkelijker te vinden zijn.
+betterReticleSize.fixArmorFlashlightSize.title: Behoud de originele afmetingen van de pantserzaklamp
+betterReticleSize.fixArmorFlashlightSize.description: Houdt de oorspronkelijke richtkruisgrootte van de pantserzaklamp aan, in plaats van deze te verkleinen om deze aan te passen aan de nieuwe richtkruisgrootte.
 
 jakLib.commonSettings: Modpack-instellingen
 jakLib.modname: Inlogmelding

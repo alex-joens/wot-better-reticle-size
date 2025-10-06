@@ -15,16 +15,8 @@ betterReticleSize.serverReticleGunMarkerShape.title: Сървърна решет
 betterReticleSize.serverReticleGunMarkerShape.description: Маркерът на пистолета за сървърната мрежа. Можете да видите как изглеждат те, като проверите главното меню Настройки, щракнете върху раздела Решетка и проверете опциите „Маркер за пистолет“.
 betterReticleSize.serverReticleGunMarkerOpacity.title: Непрозрачност
 betterReticleSize.serverReticleGunMarkerOpacity.description: Задайте непрозрачността, известна още като прозрачност, на маркера за оръжие на сървъра.
-
-betterBattleResults.modname: По-добри резултати от битката
-betterBattleResults.richTooltip.title: По-подробни обобщени подсказки за резултатите от битката
-betterBattleResults.richTooltip.description: Показване на по-подробни обобщени подсказки в прозореца с резултати от битката. Например, задържането на курсора на мишката над общата „Помощна щета“ ще покаже поотделно общата щета при забелязване и щета при проследяване.
-betterBattleResults.tooltipOverride.assist.total: Общи щети, причинени от съюзници на вражески превозни средства
-betterBattleResults.tooltipOverride.crits.total: Общ брой критични удари
-
-betterStyleSelection.modname: По-добро сортиране по стил
-betterStyleSelection.styleSortingEnabled.title: Коригирайте групирането на 2D и 3D стилове
-betterStyleSelection.styleSortingEnabled.description: Маркира всички 3D стилове и специфични за автомобила 2D стилове като „Уникални“, така че да се намират по-лесно.
+betterReticleSize.fixArmorFlashlightSize.title: Запазете оригиналния размер на фенерчето на бронята
+betterReticleSize.fixArmorFlashlightSize.description: Запазва бронираното фенерче с оригиналния размер на мерната мрежа, вместо да го свива, за да съответства на новия размер на мерната мрежа.
 
 jakLib.commonSettings: Настройки на Modpack
 jakLib.modname: Известие за влизане

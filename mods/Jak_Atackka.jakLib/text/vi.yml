@@ -15,16 +15,8 @@ betterReticleSize.serverReticleGunMarkerShape.title: Điểm đánh dấu súng 
 betterReticleSize.serverReticleGunMarkerShape.description: Điểm đánh dấu súng cho tâm ngắm máy chủ. Bạn có thể xem chúng trông như thế nào bằng cách kiểm tra menu Cài đặt chính, nhấp vào tab Kẻ ô và chọn tùy chọn "Gun Marker".
 betterReticleSize.serverReticleGunMarkerOpacity.title: Độ mờ
 betterReticleSize.serverReticleGunMarkerOpacity.description: Đặt độ mờ, hay còn gọi là độ trong suốt, của điểm đánh dấu súng máy chủ.
-
-betterBattleResults.modname: Kết quả trận chiến tốt hơn
-betterBattleResults.richTooltip.title: Các chú giải công cụ tóm tắt Kết quả Trận chiến chi tiết hơn
-betterBattleResults.richTooltip.description: Hiển thị các chú giải công cụ tóm tắt chi tiết hơn trong cửa sổ Kết quả Trận chiến. Ví dụ: khi di chuột qua tổng "Sát thương hỗ trợ" sẽ hiển thị riêng tổng số thiệt hại được phát hiện và theo dõi thiệt hại.
-betterBattleResults.tooltipOverride.assist.total: Tổng thiệt hại do đồng minh gây ra cho xe địch
-betterBattleResults.tooltipOverride.crits.total: Tổng số đòn chí mạng
-
-betterStyleSelection.modname: Sắp xếp phong cách tốt hơn
-betterStyleSelection.styleSortingEnabled.title: Sửa lỗi nhóm các kiểu 2D và 3D
-betterStyleSelection.styleSortingEnabled.description: Đánh dấu tất cả các kiểu 3D và kiểu 2D dành riêng cho xe là "Duy nhất" để dễ tìm hơn.
+betterReticleSize.fixArmorFlashlightSize.title: Giữ nguyên kích thước đèn pin áo giáp ban đầu
+betterReticleSize.fixArmorFlashlightSize.description: Giữ nguyên kích thước đèn pin áo giáp ban đầu, thay vì thu nhỏ lại để phù hợp với kích thước đèn pin mới.
 
 jakLib.commonSettings: Cài đặt modpack
 jakLib.modname: Thông báo đăng nhập

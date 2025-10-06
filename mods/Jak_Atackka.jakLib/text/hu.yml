@@ -15,16 +15,8 @@ betterReticleSize.serverReticleGunMarkerShape.title: Szerver irányzékos fegyve
 betterReticleSize.serverReticleGunMarkerShape.description: A kiszolgáló irányzékának fegyverjelzője. Megtekintheti, hogyan néznek ki ezek, ha megnézi a fő Beállítások menüt, kattintson a Reticle fülre, és bejelöli a "Gun Marker" opciókat.
 betterReticleSize.serverReticleGunMarkerOpacity.title: Átlátszatlanság
 betterReticleSize.serverReticleGunMarkerOpacity.description: Állítsa be a kiszolgálópisztolyjelző átlátszatlanságát, más néven átlátszóságát.
-
-betterBattleResults.modname: Jobb csataeredmény
-betterBattleResults.richTooltip.title: Részletesebb csateredmény segéd
-betterBattleResults.richTooltip.description: Részletesebb összefoglalása a csatában szerzett felderítési sebzésnek. Például, ha a kurzort az "Sebzés felderítéssel" fölé viszi, akkor a felderítési és a megsemmisült lánctalpért járó felderítési sebzés külön-külön mutatja.
-betterBattleResults.tooltipOverride.assist.total: A szövetségesek által az ellenséges járművekben okozott teljes kár
-betterBattleResults.tooltipOverride.crits.total: A kritikus találatok teljes száma
-
-betterStyleSelection.modname: Jobb stílus szerinti rendezés
-betterStyleSelection.styleSortingEnabled.title: A 2D és 3D stílusok csoportosításának javítása
-betterStyleSelection.styleSortingEnabled.description: Az összes 3D stílust és járműspecifikus 2D stílust „Egyediként” jelöli meg, így könnyebben megtalálhatóak.
+betterReticleSize.fixArmorFlashlightSize.title: Eredeti páncélos zseblámpa méretének megtartása
+betterReticleSize.fixArmorFlashlightSize.description: A páncélos zseblámpa eredeti szálkereszt méretét megtartja, ahelyett, hogy az új szálkereszt méretéhez igazítaná.
 
 jakLib.commonSettings: Modpack beállítások
 jakLib.modname: Bejelentkezési értesítés

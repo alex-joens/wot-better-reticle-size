@@ -15,16 +15,8 @@ betterReticleSize.serverReticleGunMarkerShape.title: Server-Fadenkreuz-Waffenmar
 betterReticleSize.serverReticleGunMarkerShape.description: Der Waffenmarker für das Server-Fadenkreuz. Sie können sehen, wie diese aussehen, indem Sie im Hauptmenü „Einstellungen“ auf die Registerkarte „Absehen“ klicken und die Optionen „Waffenmarkierung“ aktivieren.
 betterReticleSize.serverReticleGunMarkerOpacity.title: Opazität
 betterReticleSize.serverReticleGunMarkerOpacity.description: Legen Sie die Deckkraft bzw. Transparenz der Server-Waffenmarkierung fest.
-
-betterBattleResults.modname: Bessere Schlachtergebnisse
-betterBattleResults.richTooltip.title: Detailliertere Kurzinfos zu den Kampfergebnissen
-betterBattleResults.richTooltip.description: Zeigen Sie ausführlichere zusammenfassende Kurzinfos im Fenster „Schlachtergebnisse“ an. Wenn Sie beispielsweise mit der Maus über den gesamten „Schaden unterstützen“ fahren, werden der gesamte Aufklärungsschaden und der Verfolgungsschaden separat angezeigt.
-betterBattleResults.tooltipOverride.assist.total: Gesamtschaden, den Verbündete feindlichen Fahrzeugen zufügen
-betterBattleResults.tooltipOverride.crits.total: Gesamtzahl der kritischen Treffer
-
-betterStyleSelection.modname: Bessere Stilsortierung
-betterStyleSelection.styleSortingEnabled.title: Gruppierung von 2D- und 3D-Stilen korrigieren
-betterStyleSelection.styleSortingEnabled.description: Markiert alle 3D-Stile und fahrzeugspezifischen 2D-Stile als „Einzigartig“, damit sie leichter zu finden sind.
+betterReticleSize.fixArmorFlashlightSize.title: Originalgröße der Panzertaschenlampe beibehalten
+betterReticleSize.fixArmorFlashlightSize.description: Die ursprüngliche Fadenkreuzgröße der Panzertaschenlampe bleibt erhalten, anstatt sie an die neue Fadenkreuzgröße anzupassen.
 
 jakLib.commonSettings: Modpack-Einstellungen
 jakLib.modname: Anmeldebenachrichtigung

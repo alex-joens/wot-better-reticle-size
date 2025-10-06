@@ -15,16 +15,8 @@ betterReticleSize.serverReticleGunMarkerShape.title: Marcador de pistola de ret�
 betterReticleSize.serverReticleGunMarkerShape.description: El marcador de pistola para la retícula del servidor. Puede ver cómo se ven consultando el menú principal de Configuración, haciendo clic en la pestaña Retícula y marcando las opciones de "Marcador de pistola".
 betterReticleSize.serverReticleGunMarkerOpacity.title: Opacidad
 betterReticleSize.serverReticleGunMarkerOpacity.description: Establece la opacidad, también conocida como transparencia, del marcador de pistola del servidor.
-
-betterBattleResults.modname: Mejores resultados de batalla
-betterBattleResults.richTooltip.title: Información sobre herramientas de resumen de resultados de batalla más detallada
-betterBattleResults.richTooltip.description: Muestra información sobre herramientas de resumen más detallada en la ventana de Resultados de batalla. Por ejemplo, al pasar el cursor sobre "Daño de asistencia" total, se mostrará el daño total detectado y el seguimiento de los daños por separado.
-betterBattleResults.tooltipOverride.assist.total: Daño total causado por los aliados a vehículos enemigos
-betterBattleResults.tooltipOverride.crits.total: Número total de golpes críticos
-
-betterStyleSelection.modname: Mejor clasificación de estilos
-betterStyleSelection.styleSortingEnabled.title: Corregir agrupación de estilos 2D y 3D
-betterStyleSelection.styleSortingEnabled.description: Marca todos los estilos 3D y los estilos 2D específicos del vehículo como "Únicos" para que sean más fáciles de encontrar.
+betterReticleSize.fixArmorFlashlightSize.title: Mantiene el tamaño original de la linterna de armadura
+betterReticleSize.fixArmorFlashlightSize.description: Mantiene la linterna de armadura con el tamaño original de la retícula, en lugar de reducirla para que coincida con el nuevo tamaño.
 
 jakLib.commonSettings: Configuración del paquete de modificaciones
 jakLib.modname: Notificación de inicio de sesión

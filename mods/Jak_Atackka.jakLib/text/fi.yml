@@ -15,16 +15,8 @@ betterReticleSize.serverReticleGunMarkerShape.title: Palvelimen ristikkoasemerkk
 betterReticleSize.serverReticleGunMarkerShape.description: Asemerkki palvelinhiusristikkoa varten. Voit nähdä, miltä nämä näyttävät tarkistamalla Asetukset-päävalikosta, napsauttamalla Reticle-välilehteä ja tarkistamalla "Gun Marker" -vaihtoehdot.
 betterReticleSize.serverReticleGunMarkerOpacity.title: Peittävyys
 betterReticleSize.serverReticleGunMarkerOpacity.description: Aseta palvelinpistoolimerkin peittävyys, eli läpinäkyvyys.
-
-betterBattleResults.modname: Parempia taistelutuloksia
-betterBattleResults.richTooltip.title: Yksityiskohtaisemmat taistelutulosten yhteenvetotyökaluvinkit
-betterBattleResults.richTooltip.description: Näytä yksityiskohtaisempia yhteenvetotyökaluvinkkejä Taistelutulokset-ikkunassa. Esimerkiksi, kun siirrät hiiren osoittimen "auttaa vahinkoa" -kokonaisvaurion päälle, näet havaitun kokonaisvahingon ja seurannan vahingot erikseen.
-betterBattleResults.tooltipOverride.assist.total: Liittolaisten vihollisen ajoneuvoille aiheuttamat kokonaisvahingot
-betterBattleResults.tooltipOverride.crits.total: Kriittisten osumien kokonaismäärä
-
-betterStyleSelection.modname: Parempi tyylilajittelu
-betterStyleSelection.styleSortingEnabled.title: Korjaa 2D- ja 3D-tyylien ryhmittely
-betterStyleSelection.styleSortingEnabled.description: Merkitsee kaikki 3D-tyylit ja ajoneuvokohtaiset 2D-tyylit "ainutlaatuisiksi", jotta ne on helpompi löytää.
+betterReticleSize.fixArmorFlashlightSize.title: Säilytä panssaroidun taskulampun alkuperäinen koko
+betterReticleSize.fixArmorFlashlightSize.description: Pitää panssaroidun taskulampun alkuperäisessä hiusristikkokoossa sen sijaan, että se pienentäisi sitä vastaamaan uutta ristikkokokoa.
 
 jakLib.commonSettings: Modpackin asetukset
 jakLib.modname: Kirjautumisilmoitus

@@ -15,16 +15,8 @@ betterReticleSize.serverReticleGunMarkerShape.title: เครื่องหม
 betterReticleSize.serverReticleGunMarkerShape.description: เครื่องหมายปืนสำหรับเส้นเล็งเซิร์ฟเวอร์ คุณสามารถดูได้ว่าสิ่งเหล่านี้มีลักษณะอย่างไรโดยตรวจสอบเมนูการตั้งค่าหลัก คลิกที่แท็บ Reticle และเลือกตัวเลือก "Gun Marker"
 betterReticleSize.serverReticleGunMarkerOpacity.title: ความทึบ
 betterReticleSize.serverReticleGunMarkerOpacity.description: ตั้งค่าความทึบหรือที่เรียกว่าความโปร่งใสของเครื่องหมายปืนเซิร์ฟเวอร์
-
-betterBattleResults.modname: ผลการต่อสู้ที่ดีขึ้น
-betterBattleResults.richTooltip.title: คำแนะนำเครื่องมือสรุปผลการรบโดยละเอียดเพิ่มเติม
-betterBattleResults.richTooltip.description: แสดงคำแนะนำเครื่องมือสรุปผลการรบโดยละเอียดเพิ่มเติมในหน้าต่างผลการรบ ตัวอย่างเช่น การวางเมาส์เหนือ "ความเสียหายจากการช่วยเหลือ" ทั้งหมดจะแสดงความเสียหายทั้งหมดที่ตรวจพบและการติดตามความเสียหายแยกกัน
-betterBattleResults.tooltipOverride.assist.total: ความเสียหายทั้งหมดที่เกิดจากพันธมิตรต่อรถถังศัตรู
-betterBattleResults.tooltipOverride.crits.total: จำนวนการโจมตีคริติคอลทั้งหมด
-
-betterStyleSelection.modname: การเรียงลำดับสไตล์ที่ดีขึ้น
-betterStyleSelection.styleSortingEnabled.title: แก้ไขการจัดกลุ่มสไตล์ 2 มิติและ 3 มิติ
-betterStyleSelection.styleSortingEnabled.description: ทำเครื่องหมายสไตล์ 3 มิติและสไตล์ 2 มิติเฉพาะยานพาหนะเป็น "ไม่ซ้ำกัน" เพื่อให้ค้นหาได้ง่ายขึ้น
+betterReticleSize.fixArmorFlashlightSize.title: คงขนาดไฟฉายเกราะเดิมไว้
+betterReticleSize.fixArmorFlashlightSize.description: คงขนาดไฟฉายเกราะไว้ที่ขนาดเรติเคิลเดิม แทนที่จะย่อขนาดให้เท่ากับขนาดเรติเคิลใหม่
 
 jakLib.commonSettings: การตั้งค่าม็อดแพ็ก
 jakLib.modname: การแจ้งเตือนการเข้าสู่ระบบ

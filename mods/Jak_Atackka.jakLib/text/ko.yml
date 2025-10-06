@@ -15,16 +15,8 @@ betterReticleSize.serverReticleGunMarkerShape.title: 서버 레티클 건 마커
 betterReticleSize.serverReticleGunMarkerShape.description: 서버 조준선의 총 마커입니다. 기본 설정 메뉴를 확인하고 조준선 탭을 클릭한 후 "총 마커" 옵션을 확인하면 이러한 모습을 확인할 수 있습니다.
 betterReticleSize.serverReticleGunMarkerOpacity.title: 불투명
 betterReticleSize.serverReticleGunMarkerOpacity.description: 서버 총 마커의 불투명도, 즉 투명도를 설정합니다.
-
-betterBattleResults.modname: 더 나은 전투 결과
-betterBattleResults.richTooltip.title: 더 자세한 전투 결과 요약 툴팁
-betterBattleResults.richTooltip.description: 전투 결과 창에 더 자세한 요약 툴팁을 표시합니다. 예를 들어 총 '지원 피해' 위로 마우스를 가져가면 감지된 총 피해와 추적 피해가 별도로 표시됩니다.
-betterBattleResults.tooltipOverride.assist.total: 아군이 적 차량에 입힌 총 피해
-betterBattleResults.tooltipOverride.crits.total: 총 크리티컬 히트 수
-
-betterStyleSelection.modname: 더 나은 스타일 정렬
-betterStyleSelection.styleSortingEnabled.title: 2D 및 3D 스타일 그룹화 수정
-betterStyleSelection.styleSortingEnabled.description: 모든 3D 스타일과 차량별 2D 스타일을 '고유'로 표시하여 쉽게 찾을 수 있도록 합니다.
+betterReticleSize.fixArmorFlashlightSize.title: 원래 갑옷 손전등 크기 유지
+betterReticleSize.fixArmorFlashlightSize.description: 새로운 조준선 크기에 맞춰 갑옷 손전등 크기를 줄이는 대신, 원래 조준선 크기를 유지합니다.
 
 jakLib.commonSettings: 모드팩 설정
 jakLib.modname: 로그인 알림

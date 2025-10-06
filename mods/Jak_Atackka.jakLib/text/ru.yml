@@ -15,16 +15,8 @@ betterReticleSize.serverReticleGunMarkerShape.title: Серверный приц
 betterReticleSize.serverReticleGunMarkerShape.description: Маркер оружия для серверной сетки. Вы можете увидеть, как они выглядят, зайдя в главное меню настроек, щелкнув вкладку «Сетка» и отметив параметры «Маркер оружия».
 betterReticleSize.serverReticleGunMarkerOpacity.title: Непрозрачность
 betterReticleSize.serverReticleGunMarkerOpacity.description: Установите непрозрачность, или прозрачность, маркера серверного пистолета.
-
-betterBattleResults.modname: Лучшие результаты боя
-betterBattleResults.richTooltip.title: Более подробные подсказки по итогам боя.
-betterBattleResults.richTooltip.description: Показ более подробных подсказок в окне "Результаты боя". Например, при наведении курсора на общий «Вспомогательный урон» будет показан общий обнаруженный урон и отдельно отслеживаемый урон.
-betterBattleResults.tooltipOverride.assist.total: Суммарный урон, нанесенный союзниками технике противника
-betterBattleResults.tooltipOverride.crits.total: Общее количество критических ударов
-
-betterStyleSelection.modname: Лучшая сортировка стилей
-betterStyleSelection.styleSortingEnabled.title: Исправить группировку 2D- и 3D-стилей.
-betterStyleSelection.styleSortingEnabled.description: Все 3D-стили и 2D-стили для конкретного автомобиля помечаются как «уникальные», чтобы их было легче найти.
+betterReticleSize.fixArmorFlashlightSize.title: Сохраняет оригинальный размер прицельной сетки бронефонаря
+betterReticleSize.fixArmorFlashlightSize.description: Сохраняет оригинальный размер прицельной сетки бронефонаря, а не уменьшает его до нового размера.
 
 jakLib.commonSettings: Настройки модпака
 jakLib.modname: Уведомление о входе

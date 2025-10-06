@@ -15,16 +15,8 @@ betterReticleSize.serverReticleGunMarkerShape.title: Končanica poslužitelja ma
 betterReticleSize.serverReticleGunMarkerShape.description: Marker pištolja za končanicu poslužitelja. Možete vidjeti kako to izgleda tako da provjerite glavni izbornik postavki, kliknete na karticu Končanica i označite opcije "Gun Marker".
 betterReticleSize.serverReticleGunMarkerOpacity.title: Neprozirnost
 betterReticleSize.serverReticleGunMarkerOpacity.description: Postavite neprozirnost, tj. prozirnost, markera pištolja poslužitelja.
-
-betterBattleResults.modname: Bolji rezultati borbe
-betterBattleResults.richTooltip.title: Detaljniji opisi sažetka rezultata bitke
-betterBattleResults.richTooltip.description: Prikažite detaljnije opise sažetka alata u prozoru rezultata bitke. Na primjer, ako zadržite pokazivač miša iznad ukupne "pomoći oštećenje" zasebno će se prikazati ukupna otkrivena šteta i šteta za praćenje.
-betterBattleResults.tooltipOverride.assist.total: Ukupna šteta koju su saveznici prouzročili neprijateljskim vozilima
-betterBattleResults.tooltipOverride.crits.total: Ukupan broj kritičnih pogodaka
-
-betterStyleSelection.modname: Bolje stilsko sortiranje
-betterStyleSelection.styleSortingEnabled.title: Popravite grupiranje 2D i 3D stilova
-betterStyleSelection.styleSortingEnabled.description: Označava sve 3D stilove i 2D stilove specifične za vozila kao "Jedinstvene", tako da ih je lakše pronaći.
+betterReticleSize.fixArmorFlashlightSize.title: Zadrži originalnu veličinu oklopne svjetiljke
+betterReticleSize.fixArmorFlashlightSize.description: Zadržava oklopnu svjetiljku na originalnoj veličini končanice, umjesto da je smanjuje kako bi odgovarala novoj veličini končanice.
 
 jakLib.commonSettings: Modpack postavke
 jakLib.modname: Obavijest o prijavi

@@ -15,16 +15,8 @@ betterReticleSize.serverReticleGunMarkerShape.title: Маркер пістале
 betterReticleSize.serverReticleGunMarkerShape.description: Маркер пісталета для сервера прыцэльнай сеткі. Вы можаце ўбачыць, як яны выглядаюць, прагледзеўшы галоўнае меню налад, націснуўшы на ўкладку «Сетка» і адзначыўшы параметры «Маркер стрэльбы».
 betterReticleSize.serverReticleGunMarkerOpacity.title: Непразрыстасць
 betterReticleSize.serverReticleGunMarkerOpacity.description: Усталюйце непразрыстасць, яна ж празрыстасць, маркера стрэльбы сервера.
-
-betterBattleResults.modname: Лепшыя вынікі бітвы
-betterBattleResults.richTooltip.title: Больш падрабязныя зводныя ўсплывальныя падказкі вынікаў бітвы
-betterBattleResults.richTooltip.description: Паказваць больш падрабязныя зводныя ўсплывальныя падказкі ў акне вынікаў бітвы. Напрыклад, пры навядзенні курсора мышы на агульны "Дапаможны ўрон" можна будзе паказаць агульны ўрон ад назірання і адсочвання асобна.
-betterBattleResults.tooltipOverride.assist.total: Агульны ўрон, нанесены саюзнікамі варожай тэхніцы
-betterBattleResults.tooltipOverride.crits.total: Агульная колькасць крытычных удараў
-
-betterStyleSelection.modname: Лепшае сартаванне па стылі
-betterStyleSelection.styleSortingEnabled.title: Выправіць групоўку 2D і 3D стыляў
-betterStyleSelection.styleSortingEnabled.description: Пазначае ўсе 3D-стылі і 2D-стылі для аўтамабіляў як "Унікальныя", каб іх было прасцей знайсці.
+betterReticleSize.fixArmorFlashlightSize.title: Захаваць арыгінальны памер брані ліхтарыка
+betterReticleSize.fixArmorFlashlightSize.description: Захоўвае бранявы ліхтарык зыходнага памеру прыцэльнай сеткі, а не памяншае яе да новага памеру прыцэльнай сеткі.
 
 jakLib.commonSettings: Налады Modpack
 jakLib.modname: Апавяшчэнне аб уваходзе

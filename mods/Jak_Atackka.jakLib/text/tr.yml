@@ -15,16 +15,8 @@ betterReticleSize.serverReticleGunMarkerShape.title: Sunucu retikül tabancası 
 betterReticleSize.serverReticleGunMarkerShape.description: Sunucu nişangahı için silah işareti. Ana Ayarlar menüsünü kontrol edip, Nişangâh sekmesine tıklayarak ve "Silah İşaretleyicisi" seçeneklerini kontrol ederek bunların neye benzediğini görebilirsiniz.
 betterReticleSize.serverReticleGunMarkerOpacity.title: Opaklık
 betterReticleSize.serverReticleGunMarkerOpacity.description: Sunucu silahı işaretçisinin opaklığını, diğer bir deyişle şeffaflığını ayarlayın.
-
-betterBattleResults.modname: Daha İyi Savaş Sonuçları
-betterBattleResults.richTooltip.title: Daha ayrıntılı Savaş Sonuçları özeti araç ipuçları
-betterBattleResults.richTooltip.description: Savaş Sonuçları penceresinde daha ayrıntılı özet araç ipuçlarını gösterin. Örneğin, toplam "Destek Hasarı"nın üzerine geldiğinizde, tespit edilen toplam hasar ve takip hasarı ayrı ayrı gösterilir.
-betterBattleResults.tooltipOverride.assist.total: Müttefiklerin düşman araçlarına verdiği toplam hasar
-betterBattleResults.tooltipOverride.crits.total: Toplam kritik vuruş sayısı
-
-betterStyleSelection.modname: Daha İyi Stil Sıralaması
-betterStyleSelection.styleSortingEnabled.title: 2D ve 3D stillerin gruplandırılmasını düzeltin
-betterStyleSelection.styleSortingEnabled.description: Tüm 3D stilleri ve araca özel 2D stilleri "Benzersiz" olarak işaretler, böylece daha kolay bulunabilirler.
+betterReticleSize.fixArmorFlashlightSize.title: Orijinal zırh el feneri boyutunu koru
+betterReticleSize.fixArmorFlashlightSize.description: Zırh el fenerini yeni nişangah boyutuna uyacak şekilde küçültmek yerine, orijinal nişangah boyutunda tutar.
 
 jakLib.commonSettings: Mod paketi ayarları
 jakLib.modname: Giriş bildirimi

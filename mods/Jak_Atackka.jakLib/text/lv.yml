@@ -15,16 +15,8 @@ betterReticleSize.serverReticleGunMarkerShape.title: Servera tīklveida pistoles
 betterReticleSize.serverReticleGunMarkerShape.description: Ieroču marķieris servera tīkliņam. Jūs varat redzēt, kā tie izskatās, pārbaudot galveno iestatījumu izvēlni, noklikšķinot uz cilnes Reticle un atzīmējot opcijas "Ieroču marķieris".
 betterReticleSize.serverReticleGunMarkerOpacity.title: Necaurredzamība
 betterReticleSize.serverReticleGunMarkerOpacity.description: Iestatiet servera pistoles marķiera necaurredzamību jeb caurspīdīgumu.
-
-betterBattleResults.modname: Labāki kaujas rezultāti
-betterBattleResults.richTooltip.title: Detalizētāki kaujas rezultātu kopsavilkuma rīka padomi
-betterBattleResults.richTooltip.description: Rādīt detalizētākus kopsavilkuma rīka padomus kaujas rezultātu logā. Piemēram, virzot kursoru virs kopējā “palīdzēt bojājumiem”, tiks atsevišķi parādīts kopējais konstatētais bojājums un izsekošana.
-betterBattleResults.tooltipOverride.assist.total: Kopējie sabiedroto nodarītie zaudējumi ienaidnieka transportlīdzekļiem
-betterBattleResults.tooltipOverride.crits.total: Kopējais kritisko trāpījumu skaits
-
-betterStyleSelection.modname: Labāka stila šķirošana
-betterStyleSelection.styleSortingEnabled.title: Labot 2D un 3D stilu grupēšanu
-betterStyleSelection.styleSortingEnabled.description: Visi 3D stili un transportlīdzekļiem raksturīgie 2D stili tiek atzīmēti kā “Unikāli”, lai tos būtu vieglāk atrast.
+betterReticleSize.fixArmorFlashlightSize.title: Saglabāt sākotnējo bruņu lukturīša izmēru
+betterReticleSize.fixArmorFlashlightSize.description: Saglabā bruņu lukturīti sākotnējā tīkliņa izmērā, nevis samazina to, lai tas atbilstu jaunajam tīkliņa izmēram.
 
 jakLib.commonSettings: Modpack iestatījumi
 jakLib.modname: Pieteikšanās paziņojums
