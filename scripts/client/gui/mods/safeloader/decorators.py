@@ -36,7 +36,7 @@ def SafeInit(*modulesWithOverrides):
                     break
 
             if anyFailed:
-                _rollback(appliedOverrides)
+                _rollback(appliedOverrides, modModule)
                 _notifyFailure(modModule)
                 return
             notifyOfSafeloadingStatus(modModule, MOD_SAFELOAD_STATUS.Success)
@@ -121,10 +121,18 @@ def _getOverrides(modModule, *modulesWithOverrides):
     return allOverrides
 
 
-def _rollback(appliedOverrides):
-    for appliedOverride in appliedOverrides:
-        holder, name = appliedOverride
-        resetOverride(holder, name)
+def _rollback(appliedOverrides, modModule):
+    try:
+        for appliedOverride in appliedOverrides:
+            holder, name = appliedOverride
+            resetOverride(holder, name)
+    except:
+        modName = modModule.__name__.partition('gui.mods.')[2]
+        if len(modName) == 0:
+            modName = modModule.__name__
+        LOG_ERROR('[SAFELOADER] Unable to initialize ' + modName + ' and unable to safely uninstall it, which means something went horribly wrong.')
+        LOG_ERROR('[SAFELOADER] Check if there is a newer version of ' + modName + '. If not, please contact the mod creator and send them your python.log file so they can fix this.')
+        raise Exception('Mod loading failure')
 
 
 def _notifyFailure(modModule):

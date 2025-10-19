@@ -340,12 +340,12 @@ def new_VehicleGunRotator_updateRotationAndGunMarker(origFunc, self, shotPoint, 
 
 
 # Keep the armor flashlight size the original size, instead of shrinking it to the new reticle size
-@SafeOverride(ArmorFlashlightBattleController, 'updateVisibilityState')
-def new_ArmorFlashlightBattleController_updateVisibilityState(origFunc, self, markerType, hitPoint, direction, collision, gunAimingCircleSize):
+@SafeOverride(ArmorFlashlightBattleController, '_setShootingParams')
+def new_ArmorFlashlightBattleController_setShootingParams(origFunc, self, hitPoint, direction, gunAimingCircleSize):
     if STATE.fixArmorFlashlightSize is True:
-        origFunc(self, markerType, hitPoint, direction, collision, gunAimingCircleSize * STATE.reticleScaleFactor)
+        origFunc(self, hitPoint, direction, gunAimingCircleSize * STATE.reticleScaleFactor)
     else:
-        origFunc(self, markerType, hitPoint, direction, collision, gunAimingCircleSize)
+        origFunc(self, hitPoint, direction, gunAimingCircleSize)
 
 
 @SafeInit
