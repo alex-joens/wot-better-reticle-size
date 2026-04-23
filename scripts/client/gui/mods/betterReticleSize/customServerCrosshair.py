@@ -1,4 +1,4 @@
-from . import CUSTOM_ARCADE_GUN_MARKER_NAME, CUSTOM_SNIPER_GUN_MARKER_NAME, CUSTOM_DUAL_GUN_ARCADE_MARKER_NAME, CUSTOM_DUAL_GUN_SNIPER_MARKER_NAME, CUSTOM_SPG_MARKER_NAME
+from . import CUSTOM_ARCADE_GUN_MARKER_NAME, CUSTOM_SNIPER_GUN_MARKER_NAME, CUSTOM_DUAL_GUN_ARCADE_MARKER_NAME, CUSTOM_DUAL_GUN_SNIPER_MARKER_NAME, CUSTOM_TWIN_GUN_ARCADE_MARKER_NAME, CUSTOM_TWIN_GUN_SNIPER_MARKER_NAME, CUSTOM_SPG_MARKER_NAME
 from .customCrosshairContainer import CustomCrosshairContainer
 
 from aih_constants import GUN_MARKER_TYPE
@@ -14,6 +14,8 @@ class _CustomServerControlMarkersFactory(_GunMarkersFactory):
             markers = self._createSPGMarkers(enableSpgStrategicReticle)
         elif self._vehicleInfo.isDualGunVehicle():
             markers = self._createDualGunMarkers()
+        elif self._vehicleInfo.isTwinGunVehicle():
+            markers = self._createTwinGunMarkers()
         else:
             markers = self._createDefaultMarkers()
         return markers
@@ -22,6 +24,11 @@ class _CustomServerControlMarkersFactory(_GunMarkersFactory):
         return (
          self._createArcadeMarker(CUSTOM_DUAL_GUN_ARCADE_MARKER_NAME),
          self._createSniperMarker(CUSTOM_DUAL_GUN_SNIPER_MARKER_NAME))
+
+    def _createTwinGunMarkers(self):
+        return (
+         self._createArcadeMarker(CUSTOM_TWIN_GUN_ARCADE_MARKER_NAME),
+         self._createSniperMarker(CUSTOM_TWIN_GUN_SNIPER_MARKER_NAME))
 
     def _createDefaultMarkers(self):
         return (
