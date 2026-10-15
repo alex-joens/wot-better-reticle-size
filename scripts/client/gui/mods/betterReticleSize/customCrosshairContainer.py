@@ -85,4 +85,3 @@ class CustomCrosshairContainer(CrosshairPanelContainer):
             })
 
         return data
-# okay decompiling C:\dev\wot-mods\betterReticleSize-src\scripts\client\gui\mods\betterReticleSize\customCrosshairContainer.pyc

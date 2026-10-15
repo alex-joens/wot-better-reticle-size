@@ -379,4 +379,3 @@ def onModSettingsChanged(updatedConfig):
 
 def fini():
     STATE.initialized = False
-# okay decompiling C:\dev\wot-mods\betterReticleSize-src\scripts\client\gui\mods\mod_betterReticleSize.pyc

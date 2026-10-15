@@ -1,4 +1,4 @@
-from . import CUSTOM_ARCADE_GUN_MARKER_NAME, CUSTOM_SNIPER_GUN_MARKER_NAME, CUSTOM_DUAL_GUN_ARCADE_MARKER_NAME, CUSTOM_DUAL_GUN_SNIPER_MARKER_NAME, CUSTOM_SPG_MARKER_NAME
+from . import CUSTOM_GUN_MARKER_VIEW_CONSTANTS
 from .customCrosshairContainer import CustomCrosshairContainer
 
 from aih_constants import GUN_MARKER_TYPE
@@ -6,6 +6,7 @@ from gui.Scaleform.daapi.view.battle.shared.crosshair.gm_components import GunMa
 from gui.Scaleform.daapi.view.battle.shared.crosshair.gm_components import DefaultGunMarkerComponent, SPGGunMarkerComponent
 from gui.Scaleform.daapi.view.battle.shared.crosshair.gm_factory import _GunMarkersFactory
 from gui.battle_control.battle_constants import CROSSHAIR_VIEW_ID as _VIEW_ID
+from vehicles.mechanics.mechanic_constants import VehicleMechanic
 
 class _CustomServerControlMarkersFactory(_GunMarkersFactory):
 
@@ -14,29 +15,41 @@ class _CustomServerControlMarkersFactory(_GunMarkersFactory):
             markers = self._createSPGMarkers(enableSpgStrategicReticle)
         elif self._vehicleInfo.isDualGunVehicle():
             markers = self._createDualGunMarkers()
+        elif self._vehicleInfo.isTwinGunVehicle():
+            markers = self._createTwinGunMarkers()
+        # Dual-accuracy gun markers are not required, because the inner marker is exclusively client-side
+        # The default reticle works fine for the various gun mechanics
         else:
             markers = self._createDefaultMarkers()
         return markers
 
     def _createDualGunMarkers(self):
         return (
-         self._createArcadeMarker(CUSTOM_DUAL_GUN_ARCADE_MARKER_NAME),
-         self._createSniperMarker(CUSTOM_DUAL_GUN_SNIPER_MARKER_NAME))
+            self._createArcadeMarker(CUSTOM_GUN_MARKER_VIEW_CONSTANTS.DUAL_GUN_ARCADE_MARKER_NAME),
+            self._createSniperMarker(CUSTOM_GUN_MARKER_VIEW_CONSTANTS.DUAL_GUN_SNIPER_MARKER_NAME),
+        )
+
+    def _createTwinGunMarkers(self):
+        return (
+            self._createArcadeMarker(CUSTOM_GUN_MARKER_VIEW_CONSTANTS.TWIN_GUN_ARCADE_MARKER_NAME),
+            self._createSniperMarker(CUSTOM_GUN_MARKER_VIEW_CONSTANTS.TWIN_GUN_SNIPER_MARKER_NAME),
+        )
 
     def _createDefaultMarkers(self):
         return (
-         self._createArcadeMarker(CUSTOM_ARCADE_GUN_MARKER_NAME),
-         self._createSniperMarker(CUSTOM_SNIPER_GUN_MARKER_NAME))
+            self._createArcadeMarker(CUSTOM_GUN_MARKER_VIEW_CONSTANTS.ARCADE_GUN_MARKER_NAME),
+            self._createSniperMarker(CUSTOM_GUN_MARKER_VIEW_CONSTANTS.SNIPER_GUN_MARKER_NAME),
+        )
 
     def _createSPGMarkers(self, enableSpgStrategicReticle):
         if enableSpgStrategicReticle:
             return (
-                self._createArcadeMarker(CUSTOM_ARCADE_GUN_MARKER_NAME),
-                self._createSPGMarker(CUSTOM_SPG_MARKER_NAME)
+                self._createArcadeMarker(CUSTOM_GUN_MARKER_VIEW_CONSTANTS.ARCADE_GUN_MARKER_NAME),
+                self._createSPGMarker(CUSTOM_GUN_MARKER_VIEW_CONSTANTS.SPG_GUN_MARKER_NAME),
             )
         else:
             return (
-                self._createArcadeMarker(CUSTOM_ARCADE_GUN_MARKER_NAME),
+                self._createArcadeMarker(CUSTOM_GUN_MARKER_VIEW_CONSTANTS.ARCADE_GUN_MARKER_NAME),
             )
 
     def _createArcadeMarker(self, name):
